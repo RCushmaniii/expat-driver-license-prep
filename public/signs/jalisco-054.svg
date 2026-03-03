@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <title>Agricultural machinery prohibited — prohibitive sign</title>
+  <!-- White circle with red border -->
+  <circle cx="60" cy="60" r="50" fill="white" stroke="#CC0000" stroke-width="5"/>
+  <!-- Tractor silhouette -->
+  <g fill="#333">
+    <!-- Tractor body -->
+    <rect x="35" y="45" width="35" height="18" rx="3"/>
+    <!-- Cab -->
+    <rect x="55" y="35" width="15" height="15" rx="2"/>
+    <!-- Exhaust -->
+    <rect x="37" y="38" width="4" height="10" rx="1"/>
+    <!-- Large rear wheel -->
+    <circle cx="45" cy="72" r="12" fill="none" stroke="#333" stroke-width="4"/>
+    <circle cx="45" cy="72" r="4" fill="#333"/>
+    <!-- Small front wheel -->
+    <circle cx="72" cy="72" r="7" fill="none" stroke="#333" stroke-width="3"/>
+    <circle cx="72" cy="72" r="2.5" fill="#333"/>
+  </g>
+  <!-- Red diagonal slash -->
+  <line x1="25" y1="25" x2="95" y2="95" stroke="#CC0000" stroke-width="5" stroke-linecap="round"/>
+</svg>

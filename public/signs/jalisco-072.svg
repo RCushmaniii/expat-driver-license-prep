@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <title>Free width (clearance) — informative sign</title>
+  <!-- Blue rectangle -->
+  <rect x="8" y="10" width="104" height="100" rx="6" fill="#1565C0" stroke="#0D47A1" stroke-width="2"/>
+  <!-- White inner border -->
+  <rect x="14" y="16" width="92" height="88" rx="4" fill="none" stroke="white" stroke-width="1.5"/>
+  <!-- Double-headed horizontal arrow -->
+  <line x1="30" y1="55" x2="90" y2="55" stroke="white" stroke-width="3"/>
+  <!-- Left arrowhead -->
+  <polygon points="34,47 24,55 34,63" fill="white"/>
+  <!-- Right arrowhead -->
+  <polygon points="86,47 96,55 86,63" fill="white"/>
+  <!-- Left boundary -->
+  <line x1="24" y1="35" x2="24" y2="75" stroke="white" stroke-width="2.5"/>
+  <!-- Right boundary -->
+  <line x1="96" y1="35" x2="96" y2="75" stroke="white" stroke-width="2.5"/>
+  <!-- Width text -->
+  <text x="60" y="88" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="white">4.20 m</text>
+</svg>

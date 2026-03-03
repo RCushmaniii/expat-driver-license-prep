@@ -9,6 +9,8 @@ import type { RegionMeta } from "@lib/types";
 
 import meta from "../../../../../content/countries/mexico/jalisco/meta.json";
 import processMarkdown from "../../../../../content/countries/mexico/jalisco/process.md?raw";
+import insuranceMarkdown from "../../../../../content/countries/mexico/jalisco/insurance-guide.md?raw";
+import rentalMarkdown from "../../../../../content/countries/mexico/jalisco/rental-guide.md?raw";
 
 const regionMeta = meta as RegionMeta;
 
@@ -103,8 +105,18 @@ const breadcrumbs = [
     </div>
 
     <!-- Process Guide -->
-    <div class="card">
+    <div class="card mb-8">
       <ProcessGuide markdown={processMarkdown} />
+    </div>
+
+    <!-- Insurance Guide -->
+    <div class="card mb-8">
+      <ProcessGuide markdown={insuranceMarkdown} />
+    </div>
+
+    <!-- Car Rental Guide -->
+    <div class="card">
+      <ProcessGuide markdown={rentalMarkdown} />
     </div>
   </div>
 </MainLayout>

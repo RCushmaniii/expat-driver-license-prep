@@ -33,6 +33,9 @@ export default function ExamSimulator({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [reviewIndex, setReviewIndex] = useState<number | null>(null);
+  const [aiExplanation, setAiExplanation] = useState<string | null>(null);
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiError, setAiError] = useState<string | null>(null);
 
   useEffect(() => {
     loadQuestions()
@@ -105,12 +108,46 @@ export default function ExamSimulator({
     setReviewIndex(index);
     setCurrentIndex(index);
     setShowAnswer(true);
+    setAiExplanation(null);
+    setAiError(null);
     setState("review");
   };
 
   const backToResults = () => {
     setReviewIndex(null);
+    setAiExplanation(null);
+    setAiError(null);
     setState("complete");
+  };
+
+  const handleAiExplain = async (q: Question, userAnswer: string) => {
+    setAiLoading(true);
+    setAiError(null);
+    try {
+      const correctOpt = q.options.find((o) => o.is_correct);
+      const res = await fetch("/api/ai/explain", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          questionText: q.question_translated,
+          options: q.options.map((o) => ({
+            key: o.key,
+            text: o.text_translated,
+            isCorrect: o.is_correct,
+          })),
+          userAnswer,
+          correctAnswer: correctOpt?.key || "",
+          existingExplanation: q.explanation_en,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Request failed");
+      setAiExplanation(data.explanation);
+    } catch (err) {
+      setAiError(err instanceof Error ? err.message : "AI explanation unavailable.");
+    } finally {
+      setAiLoading(false);
+    }
   };
 
   if (loading) {
@@ -159,6 +196,8 @@ export default function ExamSimulator({
   // Review a specific missed question
   if (state === "review" && reviewIndex !== null) {
     const q = examQuestions[reviewIndex];
+    const userAnswer = answers[reviewIndex] || "";
+    const wasWrong = userAnswer !== q.options.find((o) => o.is_correct)?.key;
     return (
       <div className="max-w-4xl mx-auto">
         <div className="mb-4">
@@ -175,12 +214,48 @@ export default function ExamSimulator({
         <QuestionCard
           question={q}
           displayMode={displayMode}
-          selectedKey={answers[reviewIndex] || null}
+          selectedKey={userAnswer}
           showAnswer={true}
           onSelect={() => {}}
           questionNumber={reviewIndex + 1}
           totalQuestions={questionsPerExam}
         />
+
+        {/* AI Explain — only for missed questions */}
+        {wasWrong && (
+          <div className="mt-4">
+            {aiExplanation ? (
+              <div className="card p-4 bg-navy/5 border-navy/10">
+                <h4 className="text-xs font-semibold text-navy uppercase tracking-wider mb-2">
+                  AI Study Coach
+                </h4>
+                <p className="text-sm text-text-primary leading-relaxed">
+                  {aiExplanation}
+                </p>
+              </div>
+            ) : (
+              <div className="text-center">
+                <button
+                  onClick={() => handleAiExplain(q, userAnswer)}
+                  disabled={aiLoading}
+                  className="btn-secondary text-sm py-2 px-4"
+                >
+                  {aiLoading ? (
+                    <span className="flex items-center gap-2">
+                      <span className="inline-block w-4 h-4 border-2 border-navy/30 border-t-navy rounded-full animate-spin" />
+                      Explaining...
+                    </span>
+                  ) : (
+                    "Explain with AI"
+                  )}
+                </button>
+                {aiError && (
+                  <p className="text-xs text-error mt-2">{aiError}</p>
+                )}
+              </div>
+            )}
+          </div>
+        )}
       </div>
     );
   }

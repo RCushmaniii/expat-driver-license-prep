@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <title>No parking — prohibitive sign with E crossed out</title>
+  <!-- White circle with red border -->
+  <circle cx="60" cy="60" r="50" fill="white" stroke="#CC0000" stroke-width="5"/>
+  <!-- Letter E (Estacionamiento = Parking) -->
+  <text x="60" y="73" text-anchor="middle" font-family="sans-serif" font-size="48" font-weight="bold" fill="#333">E</text>
+  <!-- Red diagonal slash -->
+  <line x1="25" y1="25" x2="95" y2="95" stroke="#CC0000" stroke-width="5" stroke-linecap="round"/>
+</svg>

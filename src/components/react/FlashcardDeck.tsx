@@ -166,6 +166,16 @@ export default function FlashcardDeck() {
             <div className="text-xs text-text-muted uppercase tracking-wider mb-4">
               Question
             </div>
+            {currentQuestion.has_image && currentQuestion.image_ref && (
+              <div className="flex justify-center mb-4">
+                <img
+                  src={`/${currentQuestion.image_ref}`}
+                  alt="Road sign"
+                  className="w-32 h-32 sm:w-40 sm:h-40"
+                  loading="lazy"
+                />
+              </div>
+            )}
             <p className="bilingual-spanish text-lg leading-relaxed mb-3">
               {currentQuestion.question_original}
             </p>
@@ -202,6 +212,16 @@ export default function FlashcardDeck() {
             <div className="text-xs text-text-muted uppercase tracking-wider mb-4 text-center">
               Answer
             </div>
+            {currentQuestion.has_image && currentQuestion.image_ref && (
+              <div className="flex justify-center mb-4">
+                <img
+                  src={`/${currentQuestion.image_ref}`}
+                  alt="Road sign"
+                  className="w-32 h-32 sm:w-40 sm:h-40"
+                  loading="lazy"
+                />
+              </div>
+            )}
 
             {/* Highlight correct answer */}
             <div className="space-y-2 mb-6">

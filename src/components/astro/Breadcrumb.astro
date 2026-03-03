@@ -9,6 +9,27 @@ interface Props {
 }
 
 const { items } = Astro.props;
+
+const siteUrl = "https://expat-driver-license-prep.vercel.app";
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: siteUrl,
+    },
+    ...items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 2,
+      name: item.label,
+      ...(item.href ? { item: `${siteUrl}${item.href}` } : {}),
+    })),
+  ],
+};
 ---
 
 <nav aria-label="Breadcrumb" class="text-sm text-text-muted mb-6">
@@ -28,3 +49,5 @@ const { items } = Astro.props;
     ))}
   </ol>
 </nav>
+
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} />

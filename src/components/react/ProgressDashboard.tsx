@@ -11,6 +11,9 @@ export default function ProgressDashboard() {
   const [totalVocab, setTotalVocab] = useState(0);
   const [readiness, setReadiness] = useState<ReadinessAssessment | null>(null);
   const [showClearConfirm, setShowClearConfirm] = useState(false);
+  const [aiAnalysis, setAiAnalysis] = useState<string | null>(null);
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiError, setAiError] = useState<string | null>(null);
 
   useEffect(() => {
     const prog = getProgress();
@@ -65,6 +68,37 @@ export default function ProgressDashboard() {
     );
   }
 
+  const handleAiAnalysis = async () => {
+    if (!readiness) return;
+    setAiLoading(true);
+    setAiError(null);
+    try {
+      const res = await fetch("/api/ai/readiness", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          readinessScore: readiness.overallScore,
+          confidenceLevel: readiness.confidenceLevel,
+          categoryBreakdown: readiness.categoryScores.map((c) => ({
+            category: c.displayName,
+            accuracy: c.accuracy,
+            questionsSeen: c.questionsSeen,
+          })),
+          examCount: stats.totalExams,
+          passRate: stats.passRate,
+          weakestCategory: readiness.weakestCategory,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Request failed");
+      setAiAnalysis(data.analysis);
+    } catch (err) {
+      setAiError(err instanceof Error ? err.message : "AI analysis unavailable.");
+    } finally {
+      setAiLoading(false);
+    }
+  };
+
   const handleClear = () => {
     clearProgress();
     setProgress(getProgress());
@@ -75,7 +109,15 @@ export default function ProgressDashboard() {
   return (
     <div className="space-y-6">
       {/* Readiness Assessment */}
-      {readiness && <ReadinessCard assessment={readiness} />}
+      {readiness && (
+        <ReadinessCard
+          assessment={readiness}
+          aiAnalysis={aiAnalysis}
+          aiLoading={aiLoading}
+          aiError={aiError}
+          onRequestAi={handleAiAnalysis}
+        />
+      )}
 
       {/* Overview stats */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -240,8 +282,16 @@ export default function ProgressDashboard() {
 
 function ReadinessCard({
   assessment,
+  aiAnalysis,
+  aiLoading,
+  aiError,
+  onRequestAi,
 }: {
   assessment: ReadinessAssessment;
+  aiAnalysis: string | null;
+  aiLoading: boolean;
+  aiError: string | null;
+  onRequestAi: () => void;
 }) {
   const { overallScore, confidenceLevel, confidenceLabel, confidenceDetail, factors, weakestCategory, recommendation } =
     assessment;
@@ -320,6 +370,47 @@ function ReadinessCard({
           <FactorBar label="Flashcard mastery" value={factors.srMastery} weight={10} />
           <FactorBar label="Vocab" value={factors.vocabMastery} weight={10} />
         </div>
+      </div>
+
+      {/* AI Analysis */}
+      <div className="mt-6 pt-6 border-t border-border">
+        {aiAnalysis ? (
+          <div className="p-4 rounded-lg bg-navy/5 border border-navy/10">
+            <h4 className="text-xs font-semibold text-navy uppercase tracking-wider mb-2">
+              AI Study Coach
+            </h4>
+            <p className="text-sm text-text-primary leading-relaxed">
+              {aiAnalysis}
+            </p>
+            <button
+              onClick={onRequestAi}
+              disabled={aiLoading}
+              className="mt-3 text-xs text-text-muted hover:text-navy transition-colors"
+            >
+              Refresh analysis
+            </button>
+          </div>
+        ) : (
+          <div className="text-center">
+            <button
+              onClick={onRequestAi}
+              disabled={aiLoading}
+              className="btn-secondary text-sm py-2 px-4"
+            >
+              {aiLoading ? (
+                <span className="flex items-center gap-2">
+                  <span className="inline-block w-4 h-4 border-2 border-navy/30 border-t-navy rounded-full animate-spin" />
+                  Analyzing...
+                </span>
+              ) : (
+                "AI Analysis"
+              )}
+            </button>
+            {aiError && (
+              <p className="text-xs text-error mt-2">{aiError}</p>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

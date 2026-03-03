@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <title>Narrow bridge ahead — preventive sign</title>
+  <!-- Yellow diamond -->
+  <polygon points="60,8 112,60 60,112 8,60" fill="#FFD600" stroke="#333" stroke-width="2.5"/>
+  <!-- Bridge symbol -->
+  <g stroke="#333" stroke-width="4" fill="none" stroke-linecap="round">
+    <!-- Bridge deck -->
+    <line x1="30" y1="55" x2="90" y2="55"/>
+    <!-- Left railing -->
+    <line x1="35" y1="45" x2="35" y2="55"/>
+    <!-- Right railing -->
+    <line x1="85" y1="45" x2="85" y2="55"/>
+    <!-- Top rail -->
+    <line x1="35" y1="45" x2="85" y2="45"/>
+    <!-- Left abutment -->
+    <line x1="30" y1="55" x2="30" y2="75"/>
+    <!-- Right abutment -->
+    <line x1="90" y1="55" x2="90" y2="75"/>
+    <!-- Arch underneath -->
+    <path d="M38,75 Q60,58 82,75"/>
+  </g>
+</svg>

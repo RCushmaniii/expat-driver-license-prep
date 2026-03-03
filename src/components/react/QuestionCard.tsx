@@ -54,6 +54,18 @@ export default function QuestionCard({
         </div>
       )}
 
+      {/* Sign image */}
+      {question.has_image && question.image_ref && (
+        <div className="flex justify-center mb-4">
+          <img
+            src={`/${question.image_ref}`}
+            alt="Road sign"
+            className="w-32 h-32 sm:w-40 sm:h-40"
+            loading="lazy"
+          />
+        </div>
+      )}
+
       {/* Question text */}
       <div className="mb-6">
         {displayMode === "spanish" ? (

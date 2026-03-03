@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <title>Continuous right turn permitted — permissive sign</title>
+  <!-- Green circle -->
+  <circle cx="60" cy="60" r="50" fill="white" stroke="#2E7D32" stroke-width="5"/>
+  <!-- Right turn arrow -->
+  <path d="M50,35 L50,65 Q50,80 65,80 L75,80" fill="none" stroke="#2E7D32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Arrow head -->
+  <polygon points="73,72 85,80 73,88" fill="#2E7D32"/>
+</svg>

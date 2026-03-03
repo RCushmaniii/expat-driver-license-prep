@@ -14,7 +14,7 @@ const {
   canonical,
   noindex = false,
   jsonLd,
-  ogImage = "/favicon.svg",
+  ogImage = "/og-image.png",
 } = Astro.props;
 
 const siteUrl = "https://expat-driver-license-prep.vercel.app";
@@ -32,6 +32,8 @@ const ogImageUrl = ogImage.startsWith("http") ? ogImage : `${siteUrl}${ogImage}`
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={ogImageUrl} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta property="og:site_name" content="ExpatDrive" />
 <meta property="og:locale" content="en_US" />
 
