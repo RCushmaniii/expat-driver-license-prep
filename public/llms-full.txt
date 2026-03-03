@@ -1,0 +1,167 @@
+# ExpatDrive — Complete Site Content for AI Search
+
+> Bilingual study companion for English-speaking expats preparing for foreign driver's license exams.
+
+Website: https://getexpatdrive.com
+Built by: CushLabs AI Services (https://cushlabs.ai)
+
+---
+
+## What is ExpatDrive?
+
+ExpatDrive is a free online study tool for English-speaking expats who need to pass a driver's license written exam in a foreign country. It provides official government question banks with high-quality bilingual translations, multiple study modes, and step-by-step process guides.
+
+Current coverage: Jalisco, Mexico (103 official exam questions).
+
+---
+
+## Jalisco Driver's License Exam — Key Facts
+
+- Exam type: Written (multiple choice) + Driving simulator
+- Written exam: 20 questions randomly selected from a bank of 103, 80% to pass (16/20)
+- Time limit: 30 minutes
+- Language: Spanish on computer; English paper version available on request
+- Interpreter: Allowed — you can bring your own
+- If you fail: 15-day wait before retaking
+- License validity: Up to 5 years (Automovilista / standard license)
+- Cost: ~800-1,200 MXN depending on license type and duration (~$45-70 USD)
+
+## Required Documents for Jalisco Driver's License
+
+1. Official photo ID — passport, INE/IFE, or immigration document (Residente Temporal or Permanente card)
+2. Proof of address — utility bill, bank statement, or property tax receipt dated within last 3 months, showing a Jalisco address
+3. CURP (Clave Unica de Registro de Poblacion) — foreigners with residency can obtain one at gob.mx/curp
+4. Blood type certificate — available at any clinical laboratory or Red Cross (Cruz Roja), ~100-200 MXN
+5. 2 passport-size photographs — color, white background
+6. Payment receipt for license fee
+
+### Notes for Foreign Residents
+- Your immigration document (Residente Temporal or Permanente card) serves as your official ID
+- If proof of address is in someone else's name, bring a carta de domicilio (notarized letter preferred)
+- RFC is not required but some offices may ask
+- Mexico does not require you to surrender your foreign license
+
+## Step-by-Step Process on Exam Day
+
+1. Arrive early at the Secretaria de Transporte office (Av. Alcalde #1351, Col. Miraflores, Guadalajara). Hours: 8 AM - 3 PM, Monday-Friday. Arrive by 7:30 AM.
+2. Document review at reception window
+3. Pay the fee at payment window or nearby bank
+4. Eye exam (basic vision test on-site)
+5. Written exam — 20 multiple choice questions, 3 options each, 30 minutes, 80% to pass
+6. Driving simulator test (new as of 2025) — replaces on-road test at most locations
+7. Photo and fingerprint capture
+8. Receive your license (usually same day)
+
+## Frequently Asked Questions
+
+### Can I drive in Mexico with my US/Canadian/foreign license?
+Tourists can drive with a valid foreign license. Residents (Residente Temporal or Permanente) should get a Mexican license. In practice, traffic officers may not accept a foreign license from a resident.
+
+### Do I need to surrender my foreign license?
+No. Mexico does not require you to give up your foreign license.
+
+### Can I bring someone to translate during the exam?
+Yes. An interpreter is allowed during the written exam. They can read and translate questions but cannot answer for you.
+
+### What if I don't have a CURP?
+Foreigners with residency status can obtain a CURP at gob.mx/curp or at their nearest immigration office.
+
+### Is the exam the same every time?
+No. Questions are randomly selected from the 103-question bank. Each attempt has a different set of 20 questions.
+
+### Can I take the exam in English?
+The computer exam is in Spanish only. You can request a paper English version. The translations are official government translations — sometimes awkward but usable.
+
+### What about the driving simulator — can it be in English?
+The simulator instructions are in Spanish. The actual driving portion is visual/physical, so language is less of a barrier.
+
+### Is the Jalisco license valid in other Mexican states?
+Yes. A Jalisco driver's license is valid throughout Mexico.
+
+### Is the license valid for driving in the US or internationally?
+A Mexican driver's license is valid for driving in most US states (varies by state). For international use, you can obtain an International Driving Permit (IDP) through Mexican automobile associations.
+
+## Driving Simulator Test (New 2025)
+
+Jalisco introduced a driving simulator test in 2025, replacing the on-road test at most locations.
+
+What to expect:
+- Simulator pod with steering wheel, pedals, turn signals, and mirrors
+- Virtual city driving scenarios
+- Scenarios include: parallel parking, navigating intersections, responding to traffic signals, yielding to pedestrians, emergency situations
+
+Tips for passing:
+- Exaggerate head movements when checking mirrors (the simulator tracks head position)
+- Come to a dead stop at every stop sign and red light
+- Use turn signals for everything
+- Drive slightly under the speed limit
+- Brake gradually, never sharply (unless emergency)
+
+## Auto Insurance in Mexico
+
+Liability insurance (seguro de responsabilidad civil) is mandatory for all vehicles on federal highways since 2019. Jalisco state law also requires liability coverage on local roads. US/Canadian auto insurance policies almost certainly do not cover you in Mexico.
+
+Types of coverage:
+- Liability only (Responsabilidad Civil): covers damage to others, starting ~2,000-4,000 MXN/year
+- Full coverage (Cobertura Amplia): includes theft, collision, natural disasters, ~8,000-20,000 MXN/year
+- Tourist auto insurance: 1 day to 6 months, $15-50 USD/day
+
+Top providers for residents: Qualitas, GNP Seguros, AXA Mexico, HDI Seguros
+Top providers for visitors: Baja Bound, MexInsurance, Lewis & Lewis
+
+After an accident in Mexico: Do NOT move vehicles. Call 911. Call your insurance emergency line. Wait for transit police (policia vial). Do not sign anything you don't understand.
+
+Angeles Verdes (Green Angels): Free government roadside assistance on federal highways. Call 078 or 800-987-8224.
+
+## Car Rental in Jalisco
+
+Rental insurance types:
+- CDW (Collision Damage Waiver): covers rental vehicle damage, deductible typically 10-20% of car value
+- SLI (Supplemental Liability Insurance): covers third-party damage, usually included in base price
+- PAI (Personal Accident Insurance): covers your medical costs, optional
+- Theft Protection: covers vehicle theft, often included in full packages
+
+Mexico-specific rental gotchas:
+- Credit card holds of 10,000-30,000 MXN ($550-$1,650 USD)
+- Must use credit card (not debit)
+- Toll roads (autopistas de cuota) add up quickly
+- IAVE/TAG electronic toll transponders may or may not be included
+- Topes (speed bumps) are everywhere, sometimes unmarked
+- Avoid driving rural roads at night (livestock hazard)
+
+Budget rental companies: Mex Rent a Car, America Car Rental, Firefly, NU Car Rental (30-50% cheaper than international brands)
+
+## Cost Breakdown
+
+| Item | Cost |
+|------|------|
+| Standard license (3 years) | ~800 MXN |
+| Standard license (5 years) | ~1,100 MXN |
+| Commercial license (3 years) | ~1,000 MXN |
+| Blood type certificate | ~100-200 MXN |
+| Passport photos | ~50-80 MXN |
+| Total budget (all-in) | ~1,200-1,500 MXN (~$70-85 USD) |
+
+## Study Tools on ExpatDrive
+
+### Practice Exams
+Simulate the real exam with 20 randomized questions from the 103-question bank. Timed at 30 minutes with 80% passing score. Review missed questions with detailed bilingual explanations.
+
+### Spaced Repetition Flashcards
+SM-2 algorithm tracks mastery per question. Cards you miss come back sooner. Cards you know space out over days and weeks. 3-tier rating: Got it / Not sure / Missed it.
+
+### Vocabulary Drills
+Key driving terms in Spanish and English. Drill translations in both directions with multiple choice quizzes. Terms like "prelacion de paso" (right of way), "placas sobrepuestas" (fraudulent plates), "caseta de cobro" (toll booth).
+
+### AI Study Coaching
+Powered by Claude AI. Get personalized readiness assessments based on your study data. Get conversational explanations for questions you miss — why the wrong answer is wrong and memorable tips for the correct answer.
+
+## Official Resources
+
+- Jalisco Transport Secretary: https://www.jalisco.gob.mx/es/gobierno/funcionarios/secretaria-de-transporte
+- License appointment/info: https://www.jalisco.gob.mx/es/tramites/18166
+- CURP lookup: https://www.gob.mx/curp/
+
+---
+
+Last updated: 2026-03-03

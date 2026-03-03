@@ -32,6 +32,93 @@ const jsonLd = {
   },
 };
 
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Can I drive in Mexico with my US or Canadian driver's license?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Tourists can legally drive in Mexico with a valid foreign license. However, if you are a resident (Residente Temporal or Permanente), you should get a Mexican driver's license. In practice, traffic officers may or may not accept a foreign license from a resident — having a Mexican license avoids the hassle and potential fines.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What documents do I need to get a driver's license in Jalisco, Mexico?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "You need: (1) Official photo ID — passport or immigration document (Residente Temporal/Permanente card), (2) Proof of address — utility bill or bank statement less than 3 months old with a Jalisco address, (3) CURP — foreigners with residency can obtain one at gob.mx/curp, (4) Blood type certificate from any lab or Red Cross (~100-200 MXN), (5) Two passport-size photos (color, white background), and (6) Payment receipt for the license fee (~800-1,200 MXN).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I take the Jalisco driver's license exam in English?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The computer-based exam is in Spanish only. However, you can request a paper English version of the exam — ask for it at the exam window before starting. You can also bring an interpreter who can read and translate questions, but they cannot answer for you.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How many questions are on the Jalisco driver's license exam?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The exam has 20 multiple-choice questions randomly selected from a bank of 103 official questions. Each question has 3 options (A, B, C). You need to score 80% (16 out of 20) to pass. The time limit is 30 minutes.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What happens if I fail the Jalisco driver's license exam?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "If you fail, you must wait 15 calendar days before retaking the exam. You pay the exam fee again. Only the failed portion needs to be retaken (written or simulator). There is no limit on retake attempts.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does a driver's license cost in Jalisco, Mexico?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The license fee is approximately 800 MXN for a 3-year standard license or 1,100 MXN for a 5-year license. Including blood type certificate (~100-200 MXN) and passport photos (~50-80 MXN), budget about 1,200-1,500 MXN total (~$70-85 USD).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the Jalisco driving simulator test?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Jalisco introduced a driving simulator test in 2025, replacing the on-road driving test at most locations. You sit in a simulator pod with a steering wheel, pedals, and mirrors, and complete scenarios including parallel parking, navigating intersections, yielding to pedestrians, and emergency situations. Tips: exaggerate head movements for mirror checks, come to a dead stop at stop signs, and use turn signals for everything.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do I need to surrender my foreign driver's license to get a Mexican license?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No. Mexico does not require you to surrender your foreign driver's license. You can hold both a Mexican license and your home country license simultaneously.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is car insurance mandatory in Mexico?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Since 2019, liability insurance (seguro de responsabilidad civil) is mandatory for all vehicles on federal highways in Mexico. Jalisco state law also requires liability coverage on local roads. US and Canadian auto insurance policies almost certainly do not cover you in Mexico — you need a Mexican-issued policy. Basic liability starts around 2,000-4,000 MXN per year.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Where is the driver's license office in Guadalajara, Jalisco?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The main office is the Direccion General de Transporte at Av. Alcalde #1351, Col. Miraflores, Guadalajara, Jalisco. Office hours are typically 8:00 AM to 3:00 PM, Monday through Friday. Arrive by 7:30 AM as lines form early.",
+      },
+    },
+  ],
+};
+
 const breadcrumbs = [
   { label: "Mexico", href: "#" },
   { label: "Jalisco" },
@@ -119,4 +206,7 @@ const breadcrumbs = [
       <ProcessGuide markdown={rentalMarkdown} />
     </div>
   </div>
+
+  <!-- FAQPage JSON-LD for AI search -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
 </MainLayout>

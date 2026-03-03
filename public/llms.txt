@@ -1,0 +1,33 @@
+# ExpatDrive
+
+> Bilingual study companion for English-speaking expats preparing for foreign driver's license exams.
+
+## About
+
+ExpatDrive helps English-speaking expats pass driver's license written exams in foreign countries. The platform provides official question banks with quality bilingual translations, spaced repetition flashcards, vocabulary drills, and comprehensive process guides. Built by CushLabs AI Services (https://cushlabs.ai).
+
+## Current Coverage
+
+- Jalisco, Mexico — 103 official questions from the Secretaría de Vialidad y Transporte
+
+## Study Tools
+
+- Practice Exams: 20 randomized questions simulating the real exam format (80% passing score)
+- Flashcards: SM-2 spaced repetition algorithm that adapts to your knowledge level
+- Vocabulary Drills: Key driving terms in Spanish and English with bidirectional quizzing
+- AI Study Coaching: Personalized readiness assessments and conversational question explanations
+
+## Key Pages
+
+- Home: https://getexpatdrive.com/
+- Jalisco Guide: https://getexpatdrive.com/countries/mexico/jalisco/
+- Practice Exam: https://getexpatdrive.com/countries/mexico/jalisco/exam
+- Flashcards: https://getexpatdrive.com/countries/mexico/jalisco/study
+- Vocabulary: https://getexpatdrive.com/countries/mexico/jalisco/vocabulary
+- About: https://getexpatdrive.com/about
+- Contact: https://getexpatdrive.com/contact
+
+## Contact
+
+- Website: https://getexpatdrive.com/contact
+- Built by: CushLabs AI Services — https://cushlabs.ai

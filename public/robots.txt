@@ -1,4 +1,30 @@
 User-agent: *
 Allow: /
 
+# AI Search Crawlers — explicitly allowed
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
 Sitemap: https://getexpatdrive.com/sitemap-index.xml
+
+# LLM content files
+# https://getexpatdrive.com/llms.txt
+# https://getexpatdrive.com/llms-full.txt
