@@ -149,7 +149,7 @@ export default function FlashcardDeck() {
 
       {/* Flashcard */}
       <div
-        className="card cursor-pointer select-none min-h-[300px] flex flex-col justify-center"
+        className="card cursor-pointer select-none min-h-[300px] flex flex-col justify-center hover:shadow-md hover:border-navy-light/30 transition-all duration-200"
         onClick={() => !isFlipped && setIsFlipped(true)}
         role="button"
         tabIndex={0}

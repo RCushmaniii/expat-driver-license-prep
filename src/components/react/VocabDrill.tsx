@@ -3,7 +3,7 @@ import type { VocabTerm } from "@lib/types";
 import { saveVocabProgress, getVocabProgress } from "@lib/progress-store";
 
 type DrillMode = "es-to-en" | "en-to-es" | "multiple-choice";
-type DrillState = "loading" | "drilling" | "revealed" | "session-complete";
+type DrillState = "loading" | "ready" | "drilling" | "revealed" | "session-complete";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -29,7 +29,7 @@ export default function VocabDrill() {
       .then((r) => r.json())
       .then((data: VocabTerm[]) => {
         setVocab(data);
-        setState("drilling");
+        setState("ready");
       })
       .catch(() => setState("loading"));
   }, []);
@@ -119,6 +119,47 @@ export default function VocabDrill() {
     );
   }
 
+  if (state === "ready") {
+    const categories = [...new Set(vocab.map((v) => v.category))];
+    return (
+      <div className="card text-center py-10">
+        <h2 className="text-2xl font-bold text-navy mb-2">Vocabulary Drill</h2>
+        <p className="text-text-secondary mb-8 max-w-md mx-auto">
+          {vocab.length} key Spanish driving terms from the question bank.
+          Choose a drill mode to get started.
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-lg mx-auto mb-8">
+          <button
+            onClick={() => startDrill("es-to-en")}
+            className="p-5 rounded-xl border-2 border-border bg-surface-white text-center hover:border-navy hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group"
+          >
+            <div className="text-lg font-bold text-navy group-hover:text-navy-light mb-1">ES → EN</div>
+            <div className="text-xs text-text-muted">See Spanish, recall English</div>
+          </button>
+          <button
+            onClick={() => startDrill("en-to-es")}
+            className="p-5 rounded-xl border-2 border-border bg-surface-white text-center hover:border-navy hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group"
+          >
+            <div className="text-lg font-bold text-navy group-hover:text-navy-light mb-1">EN → ES</div>
+            <div className="text-xs text-text-muted">See English, recall Spanish</div>
+          </button>
+          <button
+            onClick={() => startDrill("multiple-choice")}
+            className="p-5 rounded-xl border-2 border-border bg-surface-white text-center hover:border-navy hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group"
+          >
+            <div className="text-lg font-bold text-navy group-hover:text-navy-light mb-1">Quiz</div>
+            <div className="text-xs text-text-muted">Multiple choice</div>
+          </button>
+        </div>
+
+        <p className="text-xs text-text-muted">
+          Terms are sourced from the 103 official exam questions
+        </p>
+      </div>
+    );
+  }
+
   if (state === "session-complete") {
     const { correct, incorrect } = sessionStats;
     const total = correct + incorrect;
@@ -203,7 +244,7 @@ export default function VocabDrill() {
             {mcOptions.map((option) => {
               const isSelected = selectedOption === option;
               const isCorrect = option === currentTerm.term_en;
-              let classes = "border-border hover:border-navy-light cursor-pointer";
+              let classes = "border-border hover:border-navy-light hover:shadow-sm hover:-translate-y-px cursor-pointer";
 
               if (selectedOption) {
                 if (isCorrect) {
@@ -239,7 +280,7 @@ export default function VocabDrill() {
       ) : (
         /* Flashcard mode (ES→EN or EN→ES) */
         <div
-          className="card min-h-[300px] flex flex-col justify-center cursor-pointer select-none"
+          className="card min-h-[300px] flex flex-col justify-center cursor-pointer select-none hover:shadow-md hover:border-navy-light/30 transition-all duration-200"
           onClick={() => state === "drilling" && revealAnswer()}
           role="button"
           tabIndex={0}

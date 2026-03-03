@@ -107,8 +107,8 @@ export default function QuestionCard({
               key={opt.key}
               onClick={() => !showAnswer && onSelect(opt.key)}
               disabled={showAnswer}
-              className={`w-full text-left p-4 rounded-lg border-2 transition-colors touch-target ${borderClass} ${bgClass} ${
-                !showAnswer ? "hover:border-navy-light cursor-pointer" : "cursor-default"
+              className={`w-full text-left p-4 rounded-lg border-2 transition-all duration-200 touch-target ${borderClass} ${bgClass} ${
+                !showAnswer ? "hover:border-navy-light hover:shadow-sm hover:-translate-y-px cursor-pointer" : "cursor-default"
               }`}
             >
               <div className="flex items-start gap-3">

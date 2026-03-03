@@ -81,7 +81,15 @@ body {
 
 /* Card base */
 .card {
-  @apply bg-surface-white rounded-lg border border-border p-6 shadow-sm;
+  @apply bg-surface-white rounded-lg border border-border p-6 shadow-sm transition-all duration-200;
+}
+
+/* Interactive card hover — use on clickable cards */
+a.card:hover,
+button.card:hover,
+.card-interactive:hover {
+  @apply shadow-md border-border-light;
+  transform: translateY(-1px);
 }
 
 /* Button base styles */
@@ -92,19 +100,19 @@ body {
 }
 
 .btn-primary {
-  @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors duration-150 px-6 py-3 bg-navy text-white hover:bg-navy-light;
+  @apply inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 px-6 py-3 bg-navy text-white hover:bg-navy-light hover:shadow-md hover:-translate-y-px;
   min-height: 48px;
   min-width: 48px;
 }
 
 .btn-secondary {
-  @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors duration-150 px-6 py-3 bg-surface-white text-navy border border-navy hover:bg-surface;
+  @apply inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 px-6 py-3 bg-surface-white text-navy border border-navy hover:bg-surface hover:shadow-md hover:-translate-y-px;
   min-height: 48px;
   min-width: 48px;
 }
 
 .btn-ghost {
-  @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors duration-150 px-6 py-3 text-text-secondary hover:text-navy hover:bg-surface;
+  @apply inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 px-6 py-3 text-text-secondary hover:text-navy hover:bg-surface;
   min-height: 48px;
   min-width: 48px;
 }
