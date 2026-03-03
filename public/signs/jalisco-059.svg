@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <title>Continuous right turn permitted — permissive sign</title>
-  <!-- Green circle -->
-  <circle cx="60" cy="60" r="50" fill="white" stroke="#2E7D32" stroke-width="5"/>
-  <!-- Right turn arrow -->
-  <path d="M50,35 L50,65 Q50,80 65,80 L75,80" fill="none" stroke="#2E7D32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Arrow head -->
-  <polygon points="73,72 85,80 73,88" fill="#2E7D32"/>
+  <title>Continuous right turn permitted — vuelta continua a la derecha</title>
+  <!-- White circle with red border (NOM-034-SCT regulatory sign) -->
+  <circle cx="60" cy="60" r="50" fill="white" stroke="#CC0000" stroke-width="5"/>
+  <!-- Right turn arrow shaft: goes up then curves right -->
+  <path d="M48,88 L48,52 C48,38 58,32 72,32" fill="none" stroke="#333" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Arrowhead pointing right -->
+  <polygon points="69,23 86,32 69,41" fill="#333"/>
 </svg>
