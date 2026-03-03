@@ -5,7 +5,7 @@ import vercel from "@astrojs/vercel";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  site: "https://expat-driver-license-prep.vercel.app",
+  site: "https://getexpatdrive.com",
   output: "static",
   adapter: vercel(),
   integrations: [

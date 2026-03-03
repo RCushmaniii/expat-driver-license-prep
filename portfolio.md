@@ -27,8 +27,8 @@ thumbnail: ""
 hero_images: []
 demo_video_url: ""
 
-live_url: "https://expat-driver-license-prep.vercel.app"
-demo_url: "https://expat-driver-license-prep.vercel.app/countries/mexico/jalisco/"
+live_url: "https://getexpatdrive.com"
+demo_url: "https://getexpatdrive.com/countries/mexico/jalisco/"
 case_study_url: ""
 
 problem_solved: |

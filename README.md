@@ -48,11 +48,11 @@ The multi-region content architecture means adding a new country or state is a c
 
 ## Live Demo
 
-**[Try it live](https://expat-driver-license-prep.vercel.app)**
+**[Try it live](https://getexpatdrive.com)**
 
-- Take a [practice exam](https://expat-driver-license-prep.vercel.app/countries/mexico/jalisco/exam) with 20 randomized questions
-- Study with [spaced repetition flashcards](https://expat-driver-license-prep.vercel.app/countries/mexico/jalisco/study) that adapt to your knowledge
-- Drill [driving vocabulary](https://expat-driver-license-prep.vercel.app/countries/mexico/jalisco/vocabulary) in Spanish and English
+- Take a [practice exam](https://getexpatdrive.com/countries/mexico/jalisco/exam) with 20 randomized questions
+- Study with [spaced repetition flashcards](https://getexpatdrive.com/countries/mexico/jalisco/study) that adapt to your knowledge
+- Drill [driving vocabulary](https://getexpatdrive.com/countries/mexico/jalisco/vocabulary) in Spanish and English
 
 ## Getting Started
 
@@ -113,8 +113,7 @@ Phase 2 will require Supabase credentials (documented when that migration happen
 Business Solution Architect & Full-Stack Developer
 Guadalajara, Mexico
 
-📧 info@cushlabs.ai
-🔗 [GitHub](https://github.com/RCushmaniii) • [LinkedIn](https://linkedin.com/in/robertcushman) • [Portfolio](https://cushlabs.ai)
+🔗 [GitHub](https://github.com/RCushmaniii) • [LinkedIn](https://linkedin.com/in/robertcushman) • [Portfolio](https://cushlabs.ai) • [Contact](https://getexpatdrive.com/contact)
 
 ## License
 

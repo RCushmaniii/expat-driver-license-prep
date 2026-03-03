@@ -17,7 +17,7 @@ const {
   ogImage = "/og-image.png",
 } = Astro.props;
 
-const siteUrl = "https://expat-driver-license-prep.vercel.app";
+const siteUrl = "https://getexpatdrive.com";
 const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
 const ogImageUrl = ogImage.startsWith("http") ? ogImage : `${siteUrl}${ogImage}`;
 ---

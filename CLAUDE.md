@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-ExpatDrive is a bilingual study companion for English-speaking expats preparing for foreign driver's license exams. Phase 1 targets the Jalisco, Mexico written exam with 103 official questions. The app provides practice exams, flashcards with spaced repetition, vocabulary drills, process guide, insurance/rental guides, and AI-powered study coaching. Live at https://expat-driver-license-prep.vercel.app
+ExpatDrive is a bilingual study companion for English-speaking expats preparing for foreign driver's license exams. Phase 1 targets the Jalisco, Mexico written exam with 103 official questions. The app provides practice exams, flashcards with spaced repetition, vocabulary drills, process guide, insurance/rental guides, and AI-powered study coaching. Live at https://getexpatdrive.com
 
 ## Tech Stack
 

@@ -56,7 +56,7 @@ const svgImage = `
 
   <!-- Subtle bottom bar -->
   <rect x="0" y="610" width="1200" height="20" fill="${navyLight}" opacity="0.3"/>
-  <text x="600" y="624" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="${white}" opacity="0.5">expat-driver-license-prep.vercel.app</text>
+  <text x="600" y="624" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="${white}" opacity="0.5">getexpatdrive.com</text>
 </svg>
 `;
 
