@@ -1,6 +1,8 @@
 import { useState, useEffect, useCallback } from "react";
 import type { VocabTerm } from "@lib/types";
 import { saveVocabProgress, getVocabProgress } from "@lib/progress-store";
+import { usePronounce } from "@lib/use-pronounce";
+import SpeakerButton from "./SpeakerButton";
 
 type DrillMode = "es-to-en" | "en-to-es" | "multiple-choice";
 type DrillState = "loading" | "ready" | "drilling" | "revealed" | "session-complete";
@@ -15,6 +17,7 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export default function VocabDrill() {
+  const { speak, isSpeaking, isSupported } = usePronounce();
   const [vocab, setVocab] = useState<VocabTerm[]>([]);
   const [drillMode, setDrillMode] = useState<DrillMode>("es-to-en");
   const [state, setState] = useState<DrillState>("loading");
@@ -236,7 +239,10 @@ export default function VocabDrill() {
             <div className="text-xs text-text-muted uppercase tracking-wider mb-2">
               What does this mean in English?
             </div>
-            <p className="text-2xl font-bold text-spanish">{currentTerm.term_es}</p>
+            <p className="text-2xl font-bold text-spanish inline-flex items-center gap-2 justify-center">
+              {currentTerm.term_es}
+              <SpeakerButton text={currentTerm.term_es} speak={speak} isSpeaking={isSpeaking} isSupported={isSupported} size="md" />
+            </p>
             <p className="text-sm text-text-muted mt-1">{currentTerm.context}</p>
           </div>
 
@@ -295,8 +301,11 @@ export default function VocabDrill() {
             <div className="text-xs text-text-muted uppercase tracking-wider mb-2">
               {drillMode === "es-to-en" ? "Spanish" : "English"}
             </div>
-            <p className="text-2xl font-bold text-navy mb-2">
+            <p className="text-2xl font-bold text-navy mb-2 inline-flex items-center gap-2 justify-center">
               {drillMode === "es-to-en" ? currentTerm.term_es : currentTerm.term_en}
+              {drillMode === "es-to-en" && (
+                <SpeakerButton text={currentTerm.term_es} speak={speak} isSpeaking={isSpeaking} isSupported={isSupported} size="md" />
+              )}
             </p>
             <p className="text-sm text-text-muted">{currentTerm.context}</p>
 
@@ -306,8 +315,11 @@ export default function VocabDrill() {
                   <div className="text-xs text-text-muted uppercase tracking-wider mb-2">
                     {drillMode === "es-to-en" ? "English" : "Spanish"}
                   </div>
-                  <p className="text-2xl font-bold text-navy-light">
+                  <p className="text-2xl font-bold text-navy-light inline-flex items-center gap-2 justify-center">
                     {drillMode === "es-to-en" ? currentTerm.term_en : currentTerm.term_es}
+                    {drillMode === "en-to-es" && (
+                      <SpeakerButton text={currentTerm.term_es} speak={speak} isSpeaking={isSpeaking} isSupported={isSupported} size="md" />
+                    )}
                   </p>
                 </div>
 

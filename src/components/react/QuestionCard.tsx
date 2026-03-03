@@ -1,4 +1,6 @@
 import type { Question, DisplayMode } from "@lib/types";
+import { usePronounce } from "@lib/use-pronounce";
+import SpeakerButton from "./SpeakerButton";
 
 interface Props {
   question: Question;
@@ -45,6 +47,7 @@ export default function QuestionCard({
   totalQuestions,
 }: Props) {
   const correctKey = question.options.find((o) => o.is_correct)?.key;
+  const { speak, isSpeaking, isSupported } = usePronounce();
 
   return (
     <div className="card">
@@ -174,10 +177,11 @@ export default function QuestionCard({
                 {question.vocabulary.map((v) => (
                   <span
                     key={v.es}
-                    className="inline-block text-xs bg-surface-white border border-border rounded px-2 py-1"
+                    className="inline-flex items-center gap-1 text-xs bg-surface-white border border-border rounded px-2 py-1"
                   >
                     <span className="font-medium text-spanish">{v.es}</span>
-                    <span className="text-text-muted mx-1">—</span>
+                    <SpeakerButton text={v.es} speak={speak} isSpeaking={isSpeaking} isSupported={isSupported} size="sm" />
+                    <span className="text-text-muted">—</span>
                     <span className="text-english">{v.en}</span>
                   </span>
                 ))}

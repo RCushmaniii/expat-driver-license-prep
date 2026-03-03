@@ -3,11 +3,14 @@ import type { Question, DisplayMode, SRCard, SRRating } from "@lib/types";
 import { loadQuestions } from "@lib/question-bank";
 import { createCard, reviewCard, isDue, sortByPriority } from "@lib/spaced-repetition";
 import { getAllSRCards, saveSRCard } from "@lib/progress-store";
+import { usePronounce } from "@lib/use-pronounce";
+import SpeakerButton from "./SpeakerButton";
 import BilingualToggle from "./BilingualToggle";
 
 type DeckState = "loading" | "studying" | "session-complete" | "all-done";
 
 export default function FlashcardDeck() {
+  const { speak, isSpeaking, isSupported } = usePronounce();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [deckState, setDeckState] = useState<DeckState>("loading");
   const [dueCards, setDueCards] = useState<SRCard[]>([]);
@@ -176,8 +179,9 @@ export default function FlashcardDeck() {
                 />
               </div>
             )}
-            <p className="bilingual-spanish text-lg leading-relaxed mb-3">
-              {currentQuestion.question_original}
+            <p className="bilingual-spanish text-lg leading-relaxed mb-3 inline-flex items-start gap-2 justify-center text-center">
+              <span>{currentQuestion.question_original}</span>
+              <SpeakerButton text={currentQuestion.question_original} speak={speak} isSpeaking={isSpeaking} isSupported={isSupported} size="md" />
             </p>
             {displayMode !== "spanish" && (
               <p className={displayMode === "official" ? "bilingual-official" : "bilingual-english text-base"}>
@@ -190,9 +194,12 @@ export default function FlashcardDeck() {
             <div className="mt-6 space-y-2">
               {currentQuestion.options.map((opt) => (
                 <div key={opt.key} className="text-left p-3 rounded-lg border border-border">
-                  <span className="font-bold text-navy mr-2">{opt.key}.</span>
-                  <span className="bilingual-spanish text-sm">
-                    {opt.text_original}
+                  <span className="inline-flex items-center gap-1">
+                    <span className="font-bold text-navy mr-2">{opt.key}.</span>
+                    <span className="bilingual-spanish text-sm">
+                      {opt.text_original}
+                    </span>
+                    <SpeakerButton text={opt.text_original} speak={speak} isSpeaking={isSpeaking} isSupported={isSupported} size="sm" />
                   </span>
                   {displayMode !== "spanish" && (
                     <p className={`mt-1 ml-6 text-sm ${displayMode === "official" ? "bilingual-official" : "bilingual-english"}`}>
@@ -234,9 +241,12 @@ export default function FlashcardDeck() {
                       : "border-border"
                   }`}
                 >
-                  <span className="font-bold text-navy mr-2">{opt.key}.</span>
-                  <span className="bilingual-spanish text-sm">
-                    {opt.text_original}
+                  <span className="inline-flex items-center gap-1">
+                    <span className="font-bold text-navy mr-2">{opt.key}.</span>
+                    <span className="bilingual-spanish text-sm">
+                      {opt.text_original}
+                    </span>
+                    <SpeakerButton text={opt.text_original} speak={speak} isSpeaking={isSpeaking} isSupported={isSupported} size="sm" />
                   </span>
                   {displayMode !== "spanish" && (
                     <p className={`mt-1 ml-6 text-sm ${displayMode === "official" ? "bilingual-official" : "bilingual-english"}`}>
