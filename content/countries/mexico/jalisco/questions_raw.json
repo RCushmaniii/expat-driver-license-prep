@@ -1,0 +1,3195 @@
+[
+  {
+    "id": "jalisco-001",
+    "question_number": 1,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "medium",
+    "question_original": "SE PROCEDERÁ COMO MEDIDA DE SEGURIDAD A RETIRAR DE LA CIRCULACIÓN UN VEHÍCULO CUANDO:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Exceda en más de 20 Km/h la velocidad permitida en la vía por la que circule",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Porte placas sobrepuestas",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Dé vuelta a la derecha con semáforo en rojo",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-002",
+    "question_number": 2,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "SI USTED Y SUS ACOMPAÑANTES UTILIZAN EL CINTURÓN DE SEGURIDAD AL CONDUCIR:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Se disminuye la posibilidad de lesiones y/o muerte en caso de accidentes y se evita ser multado",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Se tienen más riesgos en caso de accidente por no poder salir rápido del vehículo",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Se evita la multa correspondiente solamente en carreteras federales",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-003",
+    "question_number": 3,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "hard",
+    "question_original": "DE ACUERDO CON LA LEY, A QUIEN POR PRIMERA OCASIÓN CONDUZCA VEHÍCULO AUTOMOTOR EN TERCER GRADO DE EBRIEDAD SE LE SANCIONARÁ CON:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Cancelación definitiva de su licencia, además de las multas correspondientes",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Suspensión de licencia por quince días, además de las multas correspondientes",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Arresto administrativo inconmutable de 36 horas, además de las multas correspondientes",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-004",
+    "question_number": 4,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "SI PAGA UNA INFRACCIÓN DENTRO DE LOS PRIMEROS 5 DÍAS HÁBILES USTED TIENE DERECHO:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Al 75% de descuento",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Al 50% de descuento",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Al 25 % de descuento",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-005",
+    "question_number": 5,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "LA LEY DE TRÁNSITO PROHIBE EL USO DE CRISTALES U OTROS ELEMENTOS QUE IMPIDAN TOTALMENTE LA VISIBILIDAD HACIA EL INTERIOR DEL VEHÍCULO:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Cierto",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Falso",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Sólo al transporte público",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-006",
+    "question_number": 6,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "medium",
+    "question_original": "¿HASTA CUÁNTAS PERSONAS SE PERMITE TRANSPORTAR EN “PICK UP” SEGÚN LA LEY DE LOS SERVICIOS DE VIALIDAD, TRÁNSITO Y TRANSPORTE?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Solamente el número de personas que cuenten con el equipo de protección adecuado",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Las que vayan sentadas",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Solamente las especificadas en la tarjeta de circulación",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-007",
+    "question_number": 7,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "hard",
+    "question_original": "LA LEY DE LOS SERVICIOS DE VIALIDAD, TRÁNSITO Y TRANSPORTE DEL ESTADO DE JALISCO Y SU REGLAMENTO, TIENEN POR OBJETO:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Expedir licencias para conducir",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Infraccionar a los malos conductores",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Regir el tránsito en las vías públicas del Estado de Jalisco, abiertas a la circulación, que no sean de competencia federal",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-008",
+    "question_number": 8,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "medium",
+    "question_original": "SI CONDUCE SU VEHÍCULO A UNA VELOCIDAD DE 71 Km/h Y EL SEÑALAMIENTO LE MARCA 60 Km/h COMO LÍMITE MÁXIMO DE VELOCIDAD, SE HACE ACREEDOR A:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Multa",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Detención del vehículo",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Suspensión de la licencia",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-009",
+    "question_number": 9,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "medium",
+    "question_original": "ES INFRACCIÓN A LA LEY DE TRÁNSITO:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Circular por la extrema derecha",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Tener el vehículo su parabrisas estrellado de tal manera que dificulte la visibilidad",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Dar vuelta a la derecha con semáforo en rojo con precaución, previo alto total y otorgando preferencia al peatón",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-010",
+    "question_number": 10,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "¿CUÁL ES LA DISTANCIA MÁXIMA PERMITIDA PARA CIRCULAR EN REVERSA?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "10 metros",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "25 metros",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "50 metros",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-011",
+    "question_number": 11,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "medium",
+    "question_original": "UN AGENTE VIAL ¿PUEDE INTERRUMPIR LA CIRCULACIÓN DE UN VEHÍCULO SOLO PARA VERIFICAR SI EL CONDUCTOR TRAE CONSIGO LOS DOCUMENTOS NECESARIOS PARA CIRCULAR?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Cierto",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Sí, cuando porten placas de otro estado",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Falso",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-012",
+    "question_number": 12,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "medium",
+    "question_original": "LOS VEHÍCULOS NO REGISTRADOS, QUE CAREZCAN DE PLACAS, HOLOGRAMA O TARJETA DE CIRCULACIÓN DEBERÁN:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Esperar el canje anual",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Obtener el permiso correspondiente para circular en tanto concluyen los trámites para la obtención de dicha documentación",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Transitar con permiso para circular por tiempo indefinido",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-013",
+    "question_number": 13,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "¿ES MOTIVO DE MULTA LA FALTA DE LIMPIABRISAS EN SU VEHÍCULO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Cierto, porque así lo dispone la ley de tránsito",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Sólo para los vehículos públicos",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Sólo en época de lluvias, en caso de emergencia o en vehículos oficiales",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-014",
+    "question_number": 14,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "hard",
+    "question_original": "SI USTED CONDUCE UN VEHÍCULO DE MOTOR EN ESTADO DE EBRIEDAD O BAJO EL INFLUJO DE ESTUPEFACIENTES O PSICOTRÓPICOS, ESTÁ COMETIENDO:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Infracción y delito",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Abuso de autoridad",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Infracción y falta administrativa",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-015",
+    "question_number": 15,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "medium",
+    "question_original": "SE CONSIDERA MOTIVO DE INFRACCIÓN:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Circular con placas ocultas, total o parcialmente",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Circular con placas de otro estado",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Circular con los hologramas de años anteriores",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-016",
+    "question_number": 16,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "ESTÁ PROHIBIDO CONDUCIR UN VEHÍCULO DE MOTOR EN EL ESTADO DE JALISCO, HACIENDO USO DE APARATOS DE TELEFONÍA CELULAR:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Sí",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "No",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Salvo que se utilicen aditamentos para manos libres",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-017",
+    "question_number": 17,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "hard",
+    "question_original": "EN JALISCO SE PERMITE TRANSPORTAR UN MENOR DE TRES AÑOS EN LOS ASIENTOS DELANTEROS",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Sólo cuando vaya en brazos de un adulto",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Sólo cuando un adulto, llevando puesto el cinturón de seguridad, lo sujete con los brazos",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Sólo en los vehículos que no cuenten con asientos traseros, siempre y cuando vaya en asiento de seguridad adecuado",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-018",
+    "question_number": 18,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "easy",
+    "question_original": "SON LAS 12:00 DE LA NOCHE Y USTED SE ENCUENTRA CIRCULANDO EN SU VEHÍCULO, LLEGA A UN CRUCERO Y LE TOCA LA LUZ ROJA DEL SEMÁFORO, NO HAY NADIE MÁS EN ESE CRUCE Y NO CORRE PELIGRO ALGUNO ¿ESTÁ USTED OBLIGADO A ESPERAR LA LUZ VERDE DEL SEMÁFORO PARA AVANZAR?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Sí, estoy obligado a respetar el semáforo sin importar la hora del día",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "No, nadie me está observando, así que puedo pasarme la luz roja del semáforo",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "No, la Ley de Vialidad me otorga el beneficio de pasarme las luces rojas después de las 12:00 de la noche",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-019",
+    "question_number": 19,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "medium",
+    "question_original": "CUANDO CIRCULA UN VEHÍCULO DE EMERGENCIA EN SERVICIO, LLEVANDO ENCENDIDOS CÓDIGOS Y SIRENA ¿QUÉ SE DEBE HACER?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Bajar la velocidad",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Acelerar y pasar primero",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Permitirle el paso, colocarse en el extremo de la vialidad y hacer alto",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-020",
+    "question_number": 20,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "officer-signals",
+    "difficulty": "medium",
+    "question_original": "SI AL LLEGAR A UN CRUCERO DONDE LA CIRCULACIÓN SEA REGULADA POR UN AGENTE VIAL, LA POSICIÓN DE ÉSTE ES DE FRENTE O ESPALDA A LA ARTERIA POR LA QUE USTED TRANSITA, CON LOS BRAZOS HACIA ABAJO, ¿QUÉ LE INDICA?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Siga",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Preventiva",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Alto",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-021",
+    "question_number": 21,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "hard",
+    "question_original": "PARA CONDUCIR UN VEHÍCULO EN CUALQUIERA DE LAS MODALIDADES DEL TRANSPORTE DE CARGA, CUYA CAPACIDAD DE CARGA NO EXCEDA A LOS TRES MIL QUINIENTOS KILOGRAMOS Y AUTOMÓVILES DE SERVICIO PÚBLICO, ES INDISPENSABLE TENER LICENCIA DE:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Automovilista",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Chofer",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Conductor de Servicios de Transporte Público",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-022",
+    "question_number": 22,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "hard",
+    "question_original": "¿ES PERMITIDA LA VUELTA A LA IZQUIERDA CON LA LUZ DEL SEMÁFORO EN ROJO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Sí, siempre y cuando se provenga e ingrese a calles de un solo sentido de circulación, previo alto total, respetando la prelación de paso del peatón, sin que exista señalamiento que lo prohíba y que no sea vehículo de servicio colectivo público de pasajeros",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "No, porque la ley y reglamento de tránsito solamente lo permiten a la derecha",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Sí, siempre y cuando se provenga de una Avenida o Calzada con doble sentido de circulación, se ingrese a una calle de un solo sentido, previo alto total, respetando la prelación de paso del peatón, y que no sea vehículo de servicio colectivo público de pasajeros",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-023",
+    "question_number": 23,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "LAS PLACAS, EL ENGOMADO Y LA TARJETA DE CIRCULACIÓN SON DOCUMENTOS:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Intransferibles que identifican al vehículo",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Necesarios para efectuar el refrendo",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Que se requieren para la obtención de la licencia",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-024",
+    "question_number": 24,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "easy",
+    "question_original": "CUANDO NOS ENCONTRAMOS UNA PATRULLA ESCOLAR Y NOS INDICA ALTO PARA CEDER EL PASO DE ESCOLARES ¿ESTAMOS OBLIGADOS A HACER ALTO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Sí estamos obligados",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "No, porque no son Autoridades de Vialidad",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Sólo cuando los acompaña un agente vial",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-025",
+    "question_number": 25,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "medium",
+    "question_original": "¿CUÁLES SON LOS VEHÍCULOS QUE TIENEN PRELACIÓN DE PASO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Vehículos de emergencia en servicio con códigos y sirena encendidos",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Vehículos oficiales de los",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Vehículos de traslado de valores. ayuntamientos y policía federal",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-026",
+    "question_number": 26,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "medium",
+    "question_original": "EN CRUCES DE ARTERIAS DE IGUAL IMPORTANCIA CARENTES DE SEÑALAMIENTO DE LA PRELACIÓN DE PASO, ¿QUÉ DEBERÁ USTED HACER SEGÚN EL REGLAMENTO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Hacer alto total y ceder el paso al de la derecha",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Seguir avanzando a velocidad constante si la calle es de norte a sur",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Disminuir la velocidad al acercarme al, crucero sin hacer alto total, para cruzar más rápido",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-027",
+    "question_number": 27,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "officer-signals",
+    "difficulty": "hard",
+    "question_original": "CUANDO EL AGENTE VIAL SE ENCUENTRA EN POSICIÓN PREVENTIVA ADELANTANDO LIGERAMENTE LOS BRAZOS Y ABANICANDO LAS MANOS EN UN CRUCERO DE ARTERIA DOBLE, ¿QUÉ INDICA?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Siga",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Vuelta a la izquierda",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Preventiva simple",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-028",
+    "question_number": 28,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "hard",
+    "question_original": "CUANDO OCURRE UN ACCIDENTE Y SOLO HAY DAÑOS MATERIALES, ¿CUÁL ES EL PROCEDIMIENTO CORRESPONDIENTE SEGÚN EL REGLAMENTO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Esperar la intervención de las autoridades de Vialidad para que testifiquen el Intercambio de documentos con la contra parte",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Si los conductores cuentan con todos sus documentos en regla, celebran convenio y firman desistimiento no se incautarán los vehículos",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Esperar la intervención de las autoridades de Vialidad para levantar el inventario del vehículo antes de que se lo lleven al corralón",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-029",
+    "question_number": 29,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "parking",
+    "difficulty": "easy",
+    "question_original": "¿BAJO QUÉ CONDICIONES PUEDE ESTACIONARSE EN LUGARES RESERVADOS PARA DISCAPACITADOS?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Si es o transporta a un discapacitado y el vehículo cuenta con el engomado correspondiente",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Si es el único espacio disponible en el estacionamiento",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Si se estaciona sólo por unos cuantos minutos",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-030",
+    "question_number": 30,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "parking",
+    "difficulty": "easy",
+    "question_original": "¿ESTÁ PERMITIDO ESTACIONARSE A MENOS DE 5 METROS DE LAS BOCACALLES?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "No está permitido bajo ninguna circunstancia",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Sí está permitido",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Si no está pintado de color amarillo sí se puede estacionar",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-031",
+    "question_number": 31,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "officer-signals",
+    "difficulty": "hard",
+    "question_original": "SI UN CONDUCTOR ANUNCIA QUE VA A DAR VUELTA A LA IZQUIERDA CON UN SEÑALAMIENTO HUMANO, LA FORMA CORRECTA PARA HACERLO ES:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Brazo horizontal, antebrazo hacia abajo y mano extendida con la palma hacia atrás",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Brazo, antebrazo y mano extendidos horizontalmente",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Brazo horizontalmente, antebrazo hacia arriba y mano con los dedos extendidos hacia la derecha",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-032",
+    "question_number": 32,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ PRECAUCIONES DEBE TOMAR AL SALIR DE UN ESTACIONAMIENTO, CENTRO COMERCIAL, COCHERA, GASOLINERA, ETC., SEGÚN EL REGLAMENTO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Ceder el paso únicamente a los peatones e incorporarse rápidamente a la calle porque tiene la preferencia de paso",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Ceder el paso a peatones, y otorgar la prelación de paso a los vehículos en circulación",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Incorporarse a velocidad regular sin importar que obligue al conductor que se cruza a que frene bruscamente ya que el reglamento le da la preferencia de paso",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-033",
+    "question_number": 33,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "medium",
+    "question_original": "SI USTED CIRCULA POR UNA CALLE DE DOBLE SENTIDO Y NECESITA DAR VUELTA A LA IZQUIERDA PARA INGRESAR A OTRA CALLE, (ESTANDO ESO PERMITIDO) ¿QUIÉN TIENE PREFERENCIA DE PASO SI NO HAY SEMÁFORO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Los conductores de la calle que va a cruzar",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "El que siga de frente sobre el que da vuelta a la izquierda",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Usted que va a girar a la izquierda",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-034",
+    "question_number": 34,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "medium",
+    "question_original": "AL CIRCULAR EN LA VÍA PÚBLICA, UN AGENTE VIAL EN SU PATRULLA ME INDICA QUE ME DETENGA ¿QUIÉN SE DEBE DE BAJAR DEL VEHÍCULO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Sólo yo con licencia y tarjeta de circulación",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Los dos debemos de bajarnos",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "El agente vial y se acercará por el lado del conductor portando casco y gafete de identificación",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-035",
+    "question_number": 35,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "ESTÁ PROHIBIDO A VEHÍCULOS DIFERENTES A LOS DE EMERGENCIA, EL USO DE TORRETAS, SIRENAS Y DEMÁS ACCESORIOS RESERVADOS A ÉSTOS.",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Cierto",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Solo en carreteras federales",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Falso",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-036",
+    "question_number": 36,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "¿CUÁL ES LA VELOCIDAD MÁXIMA PERMITIDA PARA CIRCULAR EN VIALIDADES QUE LIMITEN CON UN CENTRO ESCOLAR EN HORARIOS DE ENTRADA O SALIDA?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "50 km./h",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "15 km./h",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "25 km./h",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-037",
+    "question_number": 37,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "¿CUÁL ES LA VELOCIDAD MÁXIMA EN LAS ARTERIAS DE LAS CIUDADES EN DONDE NO SE ENCUENTRE SEÑALAMIENTO ALGUNO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "40 Km/h",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "50Km/h",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "60 Km/h",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-038",
+    "question_number": 38,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "officer-signals",
+    "difficulty": "hard",
+    "question_original": "¿QUÉ ESTÁ INDICANDO EL AGENTE VIAL CUANDO SE ENCUENTRA EN POSICIÓN LATERAL O DE COSTADO CON LOS BRAZOS HACIA ABAJO EN RELACIÓN A LA ARTERIA POR LA QUE TRANSITAMOS?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Siga",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Preventiva",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Alto general",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-039",
+    "question_number": 39,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "parking",
+    "difficulty": "hard",
+    "question_original": "EN CALLES DE UN SOLO SENTIDO EL VEHÍCULO SE ESTACIONARÁ:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "A la derecha, salvo prohibición expresa",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "A la izquierda, en cualquier dirección respecto a la corriente circulatoria",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "A la izquierda en dirección a la corriente circulatoria, salvo prohibición expresa o que se autorice en su caso en ambas aceras en cordón o en batería",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-040",
+    "question_number": 40,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿DE QUÉ CATEGORÍA SON LAS SEÑALES EN COLOR NEGRO SOBRE FONDO COLOR AMARILLO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Informativas de Destino",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Preventivas",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Restrictivas",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-041",
+    "question_number": 41,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "medium",
+    "question_original": "¿CUÁNDO PROCEDE EL ASEGURAMIENTO DE LOS VEHÍCULOS Y SU ENVÍO A UN DEPÓSITO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Cuando haya lesionados en un accidente, alguno de los conductores se encuentre en estado de ebriedad, o existan daños a bienes propiedad del Municipio, Estado o Federación",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Cuando, como resultado de un accidente vial, sólo existan daños materiales en bienes inmuebles propiedad de particulares",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Solamente cuando no tengan seguro vigente los involucrados en un accidente vial",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-042",
+    "question_number": 42,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "hard",
+    "question_original": "LOS VEHÍCULOS QUE TRANSITEN POR LAS VÍAS PÚBLICAS DEL ESTADO, QUE NO SEAN DE TRANSPORTE PÚBLICO, DEBERÁN TENER:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Póliza de seguro con cobertura amplia",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Póliza de seguro para garantizar daños a terceros en sus bienes y sus personas por una suma asegurada de cuando menos 6000 días de salario mínimo",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Póliza de seguro que garantice daños a terceros en sus bienes y sus personas por cuando menos 1000 días de salario mínimo",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-043",
+    "question_number": 43,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "hard",
+    "question_original": "DE ACUERDO A LA PRELACIÓN DE PASO QUE SE CONTEMPLA EN EL REGLAMENTO DE TRÁNSITO, ¿CUÁLES SON LAS MEDIDAS DE SEGURIDAD QUE DEBEN OBSERVAR LOS CONDUCTORES QUE ARRIBAN A UNA GLORIETA?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Incorporarse a la glorieta a baja velocidad y alerta a los demás conductores",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Incorporarse a la glorieta circulando a 40 km/h, tocando previamente el claxon para llamar la atención y evitar un accidente",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Hacer alto total antes de mezclarse con la circulación, dando preferencia a los que ya transitan en ella",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-044",
+    "question_number": 44,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "SI AL CONDUCIR SU VEHÍCULO USTED LLEGA A UN CRUCE Y LA LUZ ROJA DEL SEMÁFORO ES INTERMITENTE ¿QUÉ DEBE HACER?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Acelerar y cruzar rápidamente la calle",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Hacer alto total y continuar la circulación después de cerciorarse que no se aproximen otros vehículos por la arteria transversal",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Disminuir la velocidad antes de entrar en la intersección y continuar con las precauciones necesarias",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-045",
+    "question_number": 45,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "EN EL SEMÁFORO, ¿CUÁL ES EL SIGNIFICADO DE LA LUZ ÁMBAR O AMARILLA CONOCIDA TAMBIÉN COMO PREVENTIVA?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "El lapso que existe para despejar la intersección cuando algún vehículo haya entrado a ella o se encuentre muy próximo y no le sea posible detenerse inmediatamente por el riesgo de producirse un impacto por alcance",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Que usted debe aumentar la velocidad para prevenir un accidente",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Que usted debe de utilizar el claxon y avanzar",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-046",
+    "question_number": 46,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "officer-signals",
+    "difficulty": "easy",
+    "question_original": "SI EN UN CRUCERO EL SEMÁFORO LE INDICA “SIGA” PERO EL AGENTE VIAL LE INDICA A USTED “ALTO” ¿A QUIÉN DEBE DE OBEDECER?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Al agente vial",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Al semáforo",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "A los demás conductores",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-047",
+    "question_number": 47,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "hard",
+    "question_original": "¿CUÁL ES LA DIFERENCIA ENTRE LAS SEÑALES DE TRÁNSITO RESTRICTIVAS Y LAS PREVENTIVAS?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Además de sus colores, las señales restrictivas indican cierto tipo de limitaciones o prohibiciones con relación al tránsito vehicular y al uso de las vías públicas, mientras que las preventivas advierten la existencia o la naturaleza de algún peligro, o el cambio de situación en una vía pública",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "No existe diferencia alguna",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "La diferencia es su tamaño y también que las señales Restrictivas son de color azul con blanco y las preventivas verdes con blanco",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-048",
+    "question_number": 48,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "right-of-way",
+    "difficulty": "hard",
+    "question_original": "SEGÚN EL REGLAMENTO, TIENEN PRELACIÓN DE PASO EN VIALIDADES PRIMARIAS:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Las calles y calzadas",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Las calles, caminos y calzadas",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Avenidas, calzadas, viaductos y pares viales de primera magnitud, sobre todas las demás arterias",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-049",
+    "question_number": 49,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "officer-signals",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ NOS INDICA UN CONDUCTOR CUANDO REALIZA ESTA SEÑAL HUMANA?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Alto",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Siga",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Vuelta a la izquierda",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-049.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-050",
+    "question_number": 50,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "officer-signals",
+    "difficulty": "easy",
+    "question_original": "LOS AGENTES DE VIALIDAD Y TRÁNSITO HACEN SEÑALES SONORAS CON SU SILBATO, ¿QUÉ SIGNIFICAN DOS SILBATAZOS CORTOS?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Siga",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Precaución",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Acelerar",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-051",
+    "question_number": 51,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "easy",
+    "question_original": "CUANDO LAS GUARNICIONES U ORILLAS DE LA ACERA SE ENCUENTRAN PINTADAS DE COLOR AMARILLO, ¿QUÉ INDICAN?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Que el lugar está reservado",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Exclusivo para vehículos oficiales",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Que el estacionamiento en ese lugar está prohibido",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-052",
+    "question_number": 52,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ INDICAN DOS LÍNEAS CONTINUAS AL CENTRO DE UNA VÍA DE CIRCULACIÓN?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Permite rebasar con precaución",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Zona peatonal",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Que por cada sentido de circulación hay más de un carril y se prohíbe rebasar",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-053",
+    "question_number": 53,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ NOS INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Puente",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Estrechamiento asimétrico",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Incorporación al tránsito",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-053.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-054",
+    "question_number": 54,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ NOS INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Prohibido circular maquinaria agrícola",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Se autoriza circular con tractor",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Puede circular a baja velocidad",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-054.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-055",
+    "question_number": 55,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ NOS INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Vuelta continua",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Curva",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Curva inversa",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-055.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-056",
+    "question_number": 56,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "easy",
+    "question_original": "CUANDO USTED LLEGA A UN CRUCERO Y SE ENCUENTRA CON UNA SEÑAL DE “ALTO” MARCADA EN EL PAVIMENTO, DEBERÁ DETENER SU VEHÍCULO:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Sobre la señal de “alto”",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Antes de la línea blanca marcada para “alto”",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "En un lugar cerca de la intersección siempre que haga alto total",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-057",
+    "question_number": 57,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "hard",
+    "question_original": "¿QUÉ INDICAN UNA LÍNEA CONTINUA Y OTRA DISCONTINUA JUNTAS AL CENTRO DE UNA ARTERIA DE CIRCULACIÓN?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "A quien circula por la línea continua se le prohíbe rebasar y a quien circula por la línea discontinua se le permite rebasar",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Indica a los conductores el lugar donde deben estacionarse",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Son áreas neutrales",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-058",
+    "question_number": 58,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ NOS INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Peso restringido",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Altura libre restringida",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Estrechamiento simétrico",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-058.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-059",
+    "question_number": 59,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ NOS INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Vuelta continua a la derecha",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Codo inverso",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Entronque lateral derecho",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-059.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-060",
+    "question_number": 60,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ NOS INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Desviación",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Puente angosto",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Circulación al centro",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-060.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-061",
+    "question_number": 61,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ NOS INDICAN LAS LÍNEAS CONTINUAS A LA ORILLA DEL CAMINO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Delimitan el espacio para el cruce de peatones",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Sirven para separar carriles",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Delimitan el espacio del acotamiento para circular con seguridad",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-062",
+    "question_number": 62,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "vehicle-maintenance",
+    "difficulty": "medium",
+    "question_original": "¿CUÁL DISPOSITIVO MECANICO TIENE LA FUNCIÓN DE ENVIAR CARGA A LA BATERIA?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "El alternador",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Los faros delanteros",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "La bobina",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-063",
+    "question_number": 63,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "vehicle-maintenance",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ CAUSA PUEDE OCASIONAR QUE SU MOTOR SUFRA SOBRECALENTAMIENTO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Falta de agua y banda floja",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Odómetro en mal estado",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Falta de aceite en el diferencial",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-064",
+    "question_number": 64,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Prohibido estacionarse",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Zona de estacionamiento",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Prohibido seguir de frente",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-064.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-065",
+    "question_number": 65,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Estrechamiento asimétrico",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Circulación al centro",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Anchura restringida",
+        "is_correct": true
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-065.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-066",
+    "question_number": 66,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "vehicle-maintenance",
+    "difficulty": "medium",
+    "question_original": "¿CUÁLES SON LAS HERRAMIENTAS BÁSICAS QUE DEBE TRAER EN SU VEHÍCULO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Tabla, Martillo, Clavos, Pijas, Lijas, Navaja, Pegamento líquido",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Trapos, Focos, Bandas, Mangueras, Cinta aislante, Bobina y Liquido para frenos",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Cables para pasar corriente, Lámpara, Gato, Llave de cruz, Pinzas, Franela, Desarmadores de cruz y planos. Manómetro para llantas",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-067",
+    "question_number": 67,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "No parar",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Cruce de ferrocarril",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Cruce de caminos",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-067.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-068",
+    "question_number": 68,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Cruce de ferrocarril",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Cruce de caminos",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "No parar",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-068.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-069",
+    "question_number": 69,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Glorieta",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Prohibida la vuelta",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Prohibido el retorno",
+        "is_correct": true
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-069.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-070",
+    "question_number": 70,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Le ceden a usted el paso",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Usted debe ceder el paso",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Los dos tienen el paso",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-070.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-071",
+    "question_number": 71,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Salida",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Entronque lateral derecho",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Incorporación de tránsito",
+        "is_correct": false
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-071.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-072",
+    "question_number": 72,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-signs",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ INDICA ESTA SEÑAL?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Un solo carril",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Circular al centro",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Anchura libre",
+        "is_correct": true
+      }
+    ],
+    "has_image": true,
+    "image_ref": "signs/jalisco-072.svg",
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-073",
+    "question_number": 73,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ MEDIDAS DE SEGURIDAD DEBE TOMAR SI SU VEHÍCULO SUFRE ALGUNA FALLA MECÁNICA DURANTE SU RECORRIDO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Encender luces de emergencia, buscar cuál es la falla y repararla rápidamente en el lugar",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Encender luces de emergencia, mover el vehículo a la extrema derecha de manera que no obstruya la circulación y colocar las señales preventivas correspondientes",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Encender luces de emergencia y esperar en el lugar a que llegue la ayuda del mecánico",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-074",
+    "question_number": 74,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "easy",
+    "question_original": "LOS ESPEJOS RETROVISORES DEBEN OBSERVARSE CADA:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "1 a 2 minutos",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "2 a 5 segundos",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "30 a 40 segundos",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-075",
+    "question_number": 75,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "vehicle-maintenance",
+    "difficulty": "medium",
+    "question_original": "ANTES DE INICIAR LA CONDUCCIÓN DE SU VEHÍCULO ¿QUE PUNTOS BÁSICOS DE SEGURIDAD ES CONVENIENTE REVISAR?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Llantas, luces, tarjeta de circulación y licencia",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Amortiguadores, extinguidor y refacción",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Aceite, agua, llantas, luces, espejos y combustible",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-076",
+    "question_number": 76,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "easy",
+    "question_original": "CUANDO UN VEHÍCULO LO ESTÁ REBASANDO, ¿QUÉ DEBE HACER?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Aumentar la velocidad",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Disminuir la velocidad",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Activar intermitentes",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-077",
+    "question_number": 77,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "hard",
+    "question_original": "SI AL CONDUCIR SU VEHÍCULO UNA DE LAS LLANTAS REVIENTA, INMEDIATAMENTE USTED DEBE DE:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Aplicar el pedal de los frenos para reducir la velocidad",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Sujetar con fuerza el volante, quitar el pie del acelerador y dejar que el vehículo vaya perdiendo velocidad antes que lo dirija al borde derecho del camino",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Rápidamente dirigir el vehículo al lado derecho del camino",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-078",
+    "question_number": 78,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "EL CHOQUE MÁS PELIGROSO EN UN ACCIDENTE, CONSIDERANDO VELOCIDADES SIMILARES ES:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "El de costado",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Por alcance",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "El de frente",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-079",
+    "question_number": 79,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ DEBE HACER SI AL CONDUCIR SE LEVANTA LA TAPA DEL COFRE DE SU VEHÍCULO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Frenar rápidamente",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Dirigirse directamente a la derecha",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Sacar la cabeza por la ventanilla, bajar la velocidad y orillarse a la derecha",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-080",
+    "question_number": 80,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "pedestrian-safety",
+    "difficulty": "easy",
+    "question_original": "¿QUÉ PRECAUCIONES DEBE USTED TOMAR PARA NO INVADIR LA ZONA PEATONAL?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Acelerar para cruzar rápidamente la zona",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Disminuir la velocidad si el semáforo cambió a preventiva y frenar antes de la línea blanca",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Frenar después de haber pasado la zona peatonal",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-081",
+    "question_number": 81,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "ES FRECUENTE AL CIRCULAR EN LAS CALLES, ENCONTRARSE ALGÚN CONDUCTOR QUE NOS SIGUE DEMASIADO CERCA, PRESIONÁNDONOS YA SEA CON LUCES O CLAXON. ¿CUÁL DEBE DE SER NUESTRA ACTITUD ANTE ESTA SITUACIÓN?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Acelerar para evitar que pase",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Cambiar cuidadosamente de carril, previo encendido de las direccionales correspondientes",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Continuar manejando por mi carril y dejar que el otro conductor me rebase",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-082",
+    "question_number": 82,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "hard",
+    "question_original": "¿QUÉ DEBEMOS HACER COMO MEDIDA DE SEGURIDAD AL APROXIMARNOS A UN CRUCERO EN EL QUE LAS VÍAS SON DE IGUAL IMPORTANCIA Y NO EXISTE SEMÁFORO NI SEÑAL DE ALTO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Disminuir la velocidad, quitar el pie del acelerador, posarlo suavemente en el freno, detenerse, ver hacia los lados y avanzar con cuidado",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Observar hacia los lados y continuar la marcha a la misma velocidad",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Acelerar para que me cedan el paso ya que llegué primero",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-083",
+    "question_number": 83,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "ALGUNOS EXPERTOS EN LA SEGURIDAD VIAL CLASIFICAN VARIOS TIPOS DE CONDUCTORES SEGÚN SU ACTITUD PELIGROSA AL CONDUCIR, LOS MÁS COMUNES SON:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Alegres, simpáticos y amables",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Tranquilos y descuidados",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Agresivos, Ofensivos, Defensivos",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-084",
+    "question_number": 84,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "CUANDO ESTAMOS CANSADOS Y CONDUCIMOS UN VEHÍCULO, SE RECOMIENDA POR SEGURIDAD:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Tomar dos tazas de café bien cargado sin azúcar",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Disminuir la velocidad, bajar un poco el cristal del lado del conductor de tal forma que permita entrada de aire y encender el radio a alto volumen",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Detenernos a descansar durante al menos 20 minutos y hacer algunos ejercicios físicos antes de continuar nuestro viaje",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-085",
+    "question_number": 85,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "hard",
+    "question_original": "¿CUÁLES SON LAS CONDICIONES POTENCIALMENTE ADVERSAS EN LA CONDUCCIÓN?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "El tiempo, el tráfico, el vehículo, el camino y la iluminación",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Conducir con precaución, Respetar las zonas peatonales, conducir en sus cinco sentidos",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Un conductor responsable, un peatón precavido y un pasajero atento",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-086",
+    "question_number": 86,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "hard",
+    "question_original": "¿CUÁL ES LA FORMA MÁS SEGURA PARA TOMAR UNA CURVA?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Antes de entrar, disminuir la velocidad y acelerar paulatinamente dentro de la curva",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Disminuir la velocidad dentro de la curva",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Tomar con suavidad el volante y continuar con la velocidad normal",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-087",
+    "question_number": 87,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "easy",
+    "question_original": "¿QUÉ DEBE USTED HACER SI SE EMPIEZA A INCENDIAR SU VEHÍCULO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Llamar a los bomberos y pedir auxilio a los transeúntes",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Abrir las puertas y echarle agua para apagarlo",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Apagar el fuego con el extinguidor de incendios de su auto",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-088",
+    "question_number": 88,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "¿CÓMO DEBEMOS PROCEDER POR SEGURIDAD SI EL PISO POR DONDE VAMOS TRANSITANDO ESTÁ MOJADO?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Debemos disminuir la velocidad de circulación y darle mayor distancia al vehículo que nos antecede",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Podemos mantener nuestra velocidad normal si están en buen estado los frenos y las llantas",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Debemos disminuir la velocidad solamente en las inmediaciones de los cruceros",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-089",
+    "question_number": 89,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "HAY PERSONAS QUE CONDUCEN SUS VEHÍCULOS EN FORMA INADECUADA Y PELIGROSA, ¿QUÉ DEBE USTED HACER SI EN SU CAMINO SE ENCUENTRA CON ALGUNO DE ELLOS?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Guardar la calma, ceder un poco, alejarse y pensar que su seguridad es lo más importante",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Darles alcance para indicarles los errores que van cometiendo al conducir",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Ubicarse en el mismo carril a unos 7 metros adelante o atrás y cometer los mismos errores para que el otro conductor aprenda",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-090",
+    "question_number": 90,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ DEBE HACER SI AL LLEGAR A UN CRUCERO EL SEMÁFORO LE MARCA LA LUZ ÁMBAR?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Frenar rápidamente para no pasarse el alto",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Disminuir la velocidad frenando moderadamente para evitar el accidente con el vehículo que le sigue",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Sonar tres veces la bocina para que el conductor que le sigue lo escuche",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-091",
+    "question_number": 91,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "¿CUÁL ES EL COMPORTAMIENTO DE UN CONDUCTOR PROFESIONAL ANTE UN CONGESTIONAMIENTO VIAL?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Circula entre los vehículos aprovechando los espacios, procurando tener pocos incidentes viales",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Toca el claxon insistentemente y cambia de carril intempestivamente",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Espera su turno indicado por el semáforo, no se desespera y busca vías alternas",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-092",
+    "question_number": 92,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "vehicle-maintenance",
+    "difficulty": "easy",
+    "question_original": "¿CUÁNDO SE CONSIDERA QUE LAS LLANTAS DE LOS VEHÍCULOS NO SON SEGURAS?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Cuando el dibujo de las llantas es menor de 1mm de profundidad",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Cuando el dibujo de las llantas está muy profundo",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Cuando las llantas están calientes por el sol y transitamos a 80 Km/h",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-093",
+    "question_number": 93,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "hard",
+    "question_original": "SI AL CONDUCIR SU VEHÍCULO EN CARRETERA, LA LLANTA DELANTERA DERECHA LLEGARA A SALIR DEL PAVIMENTO ¿QUÉ DEBE USTED HACER?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Aplicar inmediatamente los frenos y volver al pavimento",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Sujetar con firmeza el volante, quitar el pie del acelerador y volver al pavimento",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Volver rápidamente al pavimento a su velocidad normal",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-094",
+    "question_number": 94,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "¿QUÉ ENTENDEMOS POR MANEJO DEFENSIVO?:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Conducir a muy baja velocidad",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Conducir un vehículo respetando las normas de vialidad para prevenir accidentes a pesar de los errores de los demás",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Conducir a baja velocidad a pesar de los retrasos en los horarios",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-095",
+    "question_number": 95,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "hard",
+    "question_original": "SI AL APROXIMARSE A UN CRUCERO EL COLOR DE LA LUZ DEL SEMÁFORO NO SE OBSERVA CLARO DEBIDO A LA ILUMINACIÓN DEL SOL, ¿QUÉ MEDIDAS DE SEGURIDAD DEBE DE REALIZAR?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Ceder el paso a los vehículos que transitan de Oriente a Poniente y esperar mi turno para cruzar",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Disminuir la velocidad, observar la circulación de la calle que cruzaré además de su semáforo y, si me corresponde el siga, cruzar con precaución",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Pasar lo más rápido que se pueda, evitando chocar con los demás vehículos",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-096",
+    "question_number": 96,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "vehicle-maintenance",
+    "difficulty": "medium",
+    "question_original": "¿CUÁLES SON LAS VENTAJAS DE REVISAR LLANTAS, BANDAS, LUCES Y NIVELES DE FLUIDOS CON LA PERIODICIDAD RECOMENDADA POR EL FABRICANTE?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Evitar los accidentes con peatones",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Anticiparse a imprevistos, sobrecalentamiento y daño del motor, así como accidentes viales",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Se previenen conflictos viales y conductores arrollados",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-097",
+    "question_number": 97,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "easy",
+    "question_original": "¿CUÁLES SON LAS OBLIGACIONES DE UN CONDUCTOR RESPONSABLE?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Respetar los derechos y obligaciones de los demás usuarios de las vías públicas, así como las señales de tránsito e indicaciones de los Agente viales",
+        "is_correct": true
+      },
+      {
+        "key": "B",
+        "text_original": "Conducir con precaución, excediendo la velocidad solo cuando necesite hacerlo",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Evitar accidentes al conducir, respetando el señalamiento vial a menos que por necesidad personal requiera no respetar los que considere menos importantes",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-098",
+    "question_number": 98,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "vehicle-maintenance",
+    "difficulty": "hard",
+    "question_original": "DE LAS SIGUIENTES OPCIONES ¿CUÁL ES LA FORMA MÁS SEGURA PARA CAMBIAR UNA LLANTA PONCHADA?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Estacionar el vehículo en una superficie plana, asegurar las llantas con un bloque de madera y cambiar la llanta como mejor se pueda",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Evitar que el vehículo estorbe a los demás conductores, poner el freno de mano, asegurar las llantas con un bloque de madera después colocar en forma segura el gato, aflojar las tuercas de la llanta sólo media vuelta, subir el gato de tal forma que la llanta se eleve 3 cm, cambiar la llanta, bajar el gato y apretar fuerte las tuercas, quitar bloques de madera",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Subir el vehículo preferentemente a la banqueta colocar el gato en cualquier punto del vehículo y subirlo lo más alto posible luego aflojar las tuercas deteniendo la llanta con los pies para evitar que de vueltas, cambiar la llanta, quitar gato y circular con seguridad",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-099",
+    "question_number": 99,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "vehicle-maintenance",
+    "difficulty": "easy",
+    "question_original": "SI CUANDO NOS SUBIMOS A NUESTRO VEHÍCULO EL PARABRISAS ESTÁ SUCIO, ES RECOMENDABLE:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Circular a alta velocidad para limpiarlo y así conduciremos más seguros",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Limpiarlo de preferencia con agua corriente y un poco de jabón",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Utilizar los limpiabrisas en seco ya que evitamos que se haga lodo con la tierra o el polvo",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-100",
+    "question_number": 100,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "vehicle-maintenance",
+    "difficulty": "easy",
+    "question_original": "¿ES NECESARIO AJUSTAR LOS ESPEJOS RETROVISORES DEL VEHICULO A NUESTRA ALTURA SI VAMOS A CIRCULAR SOLAMENTE 1 KM?",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "No es necesarios en tramos cortos",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Realmente no es importante",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Sí es necesario por seguridad sin importar la distancia",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-101",
+    "question_number": 101,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "SI AL APROXIMARNOS A UN CRUCERO NO SE VE CLARAMENTE EL SEMÁFORO YA QUE ANUNCIOS, ÁRBOLES U OTROS OBJETOS ME IMPIDEN VERLO CON CLARIDAD, SE RECOMIENDA POR SEGURIDAD HACER LO SIGUIENTE:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Acelerar y tocar el claxon para que los otros conductores me cedan el paso",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Dejar de acelerar y pasar despacio",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Disminuir velocidad, llegar con precaución al cruce procurando ver el semáforo de más cerca y observar detenidamente hacia ambos lados evitando cualquier problema",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-102",
+    "question_number": 102,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "defensive-driving",
+    "difficulty": "medium",
+    "question_original": "AL CIRCULAR DURANTE LA NOCHE EN CONDICIONES OPTIMAS DE CLIMA:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Podemos distinguir a un peatón con ropa obscura a 100 metros de distancia",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Es difícil ver a los peatones a más de 20 metros, por eso se debe de extremar precauciones al circular por zonas urbanas y/o donde haya concentraciones de peatones",
+        "is_correct": true
+      },
+      {
+        "key": "C",
+        "text_original": "Podemos ver a un peatón vestido con ropa amarilla desde una distancia de 80 m",
+        "is_correct": false
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  },
+  {
+    "id": "jalisco-103",
+    "question_number": 103,
+    "country": "mexico",
+    "region": "jalisco",
+    "category": "traffic-law",
+    "difficulty": "easy",
+    "question_original": "EL USAR AUDÍFONOS PARA ESCUCHAR MÚSICA MIENTRAS CONDUCE ES:",
+    "options": [
+      {
+        "key": "A",
+        "text_original": "Peligroso solamente para quien los usa",
+        "is_correct": false
+      },
+      {
+        "key": "B",
+        "text_original": "Peligroso sólo para los peatones",
+        "is_correct": false
+      },
+      {
+        "key": "C",
+        "text_original": "Peligroso para todos los usuarios de la vía pública cercanos a quien los usa",
+        "is_correct": true
+      }
+    ],
+    "has_image": false,
+    "image_ref": null,
+    "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
+    "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
+    "last_verified": "2026-03-03"
+  }
+]

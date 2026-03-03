@@ -52,6 +52,7 @@ pnpm preview
 
 - **Content-as-data**: Question banks, vocabulary, and metadata stored as JSON in `content/` directory
 - **Bilingual-first**: Every user-facing string has both Spanish original and English translation
+- **Dual translations**: Improved English as primary display + "Official Test Version" toggle showing government phrasing (what users see on test day)
 - **Islands architecture**: Static Astro pages with React islands for interactive features (exam, flashcards, progress)
 - **SM-2 spaced repetition**: Modified SM-2 algorithm with 3-tier rating (Got it / Not sure / Missed it)
 - **Multi-region scaling**: Adding a new country/state requires only content files — no code changes
@@ -59,9 +60,24 @@ pnpm preview
 
 ## Content Schema
 
-Questions follow a structured JSON format with fields: `id`, `country`, `region`, `category`, `difficulty`, `question_original` (Spanish), `question_translated` (English), `options` array with bilingual text and `is_correct` flag, `explanation_en`, `explanation_es`, `vocabulary` array, and `source` attribution.
+Questions follow a structured JSON format with fields: `id`, `country`, `region`, `category`, `difficulty`, `question_original` (Spanish), `question_translated` (improved English), `question_official_en` (government English translation — what appears on test day), `options` array with bilingual text (`text_original`, `text_translated`, `text_official_en`) and `is_correct` flag, `explanation_en`, `explanation_es`, `vocabulary` array, and `source` attribution.
 
 Region metadata in `meta.json` captures exam parameters (questions per exam, passing score, time limit, answer format).
+
+## Product Decisions (Locked)
+
+- **Translation strategy**: Improved English as primary + official government English toggle. MVP feature.
+- **Simulator section**: Content-only "What to Expect in the Jalisco Simulator Exam" section. MVP feature.
+- **PWA/offline**: MVP+ (add immediately after MVP core). Service worker for offline study.
+- **AI features (Claude API)**: Phase 2. Wait for user data on confusion points before adding.
+- **Community features**: Phase 3. Curated "Student Tips" only — no open comments. Manual approval.
+
+## Roadmap
+
+- **MVP**: Improved + official translations, structured explanations, practice quiz engine, simulator expectations section
+- **MVP+**: PWA offline mode
+- **Phase 2**: AI explanations, adaptive difficulty, generate similar questions, Supabase multi-user
+- **Phase 3**: Curated student tips, premium tier, international expansion
 
 ## Current Focus
 

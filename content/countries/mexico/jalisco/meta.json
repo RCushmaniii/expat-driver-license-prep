@@ -1,0 +1,71 @@
+{
+  "country": "mexico",
+  "country_name": "Mexico",
+  "country_name_es": "México",
+  "region": "jalisco",
+  "region_name": "Jalisco",
+  "language": "es",
+  "language_name": "Spanish",
+  "flag_emoji": "\ud83c\uddf2\ud83c\uddfd",
+  "exam_format": {
+    "total_questions_in_bank": 103,
+    "questions_per_exam": 20,
+    "passing_score": 16,
+    "passing_percentage": 80,
+    "time_limit_minutes": 30,
+    "answer_format": "multiple_choice_abc",
+    "options_per_question": 3,
+    "negative_scoring": false
+  },
+  "exam_delivery": {
+    "computer_based": true,
+    "paper_available": true,
+    "paper_language": "en",
+    "computer_language": "es",
+    "notes": "Computer exam is in Spanish. Paper English version available on request."
+  },
+  "english_available_at_exam": true,
+  "interpreter_allowed": true,
+  "interpreter_notes": "You may bring your own interpreter. Some offices also provide one if requested in advance.",
+  "practical_test_required": true,
+  "practical_test_type": "simulator",
+  "practical_test_notes": "Jalisco introduced a driving simulator test in 2025. This replaces the previous on-road driving test at most locations.",
+  "license_types": [
+    {
+      "type": "Automovilista",
+      "description": "Standard driver's license for personal vehicles",
+      "validity_years": 5,
+      "min_age": 18
+    },
+    {
+      "type": "Chofer",
+      "description": "Commercial license for cargo up to 3,500 kg and public service vehicles",
+      "validity_years": 3,
+      "min_age": 21
+    }
+  ],
+  "retake_policy": {
+    "wait_period_days": 15,
+    "max_attempts": null,
+    "fee_per_retake": true
+  },
+  "costs": {
+    "currency": "MXN",
+    "license_fee_range": "800-1200",
+    "exam_fee_included": true,
+    "notes": "Fees vary by license type and validity period. Check current rates at the Secretaría de Transporte."
+  },
+  "required_documents": [
+    "Official photo ID (INE/IFE, passport, or FM2/FM3 immigration document)",
+    "Proof of address (utility bill, bank statement — less than 3 months old)",
+    "CURP (Clave Única de Registro de Población) — foreigners can obtain this",
+    "RFC (optional but sometimes requested)",
+    "Blood type certificate (from any lab or Red Cross)",
+    "2 passport-size photographs (color, white background)",
+    "Payment receipt for license fee"
+  ],
+  "official_source_url": "https://www.jalisco.gob.mx/es/gobierno/funcionarios/secretaria-de-transporte",
+  "appointment_url": "https://www.jalisco.gob.mx/es/tramites/18166",
+  "last_content_update": "2026-03-03",
+  "content_version": "1.0.0"
+}

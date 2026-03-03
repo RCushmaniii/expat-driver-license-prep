@@ -36,6 +36,9 @@ Desktop.ini
 *.swo
 *~
 
+# Source/working files (PDF, parser scripts, intermediate JSON)
+source/
+
 # Misc
 *.tsbuildinfo
 .vercel
