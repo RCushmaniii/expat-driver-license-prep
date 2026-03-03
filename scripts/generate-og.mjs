@@ -29,34 +29,33 @@ const svgImage = `
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <!-- Subtle road lines pattern -->
-  <line x1="540" y1="630" x2="580" y2="400" stroke="${navyLight}" stroke-width="1.5" opacity="0.15"/>
-  <line x1="660" y1="630" x2="620" y2="400" stroke="${navyLight}" stroke-width="1.5" opacity="0.15"/>
+  <line x1="480" y1="630" x2="550" y2="340" stroke="${navyLight}" stroke-width="2" opacity="0.12"/>
+  <line x1="720" y1="630" x2="650" y2="340" stroke="${navyLight}" stroke-width="2" opacity="0.12"/>
   <!-- Center dashes -->
-  <line x1="600" y1="630" x2="600" y2="600" stroke="${navyLight}" stroke-width="1" opacity="0.1"/>
-  <line x1="600" y1="580" x2="600" y2="555" stroke="${navyLight}" stroke-width="1" opacity="0.1"/>
-  <line x1="600" y1="535" x2="600" y2="515" stroke="${navyLight}" stroke-width="0.8" opacity="0.08"/>
+  <line x1="600" y1="630" x2="600" y2="590" stroke="${navyLight}" stroke-width="1.5" opacity="0.08"/>
+  <line x1="600" y1="565" x2="600" y2="530" stroke="${navyLight}" stroke-width="1.5" opacity="0.08"/>
+  <line x1="600" y1="505" x2="600" y2="475" stroke="${navyLight}" stroke-width="1" opacity="0.06"/>
 
   <!-- Steering wheel icon (centered, upper area) -->
-  <g transform="translate(600, 220)">
+  <g transform="translate(600, 195)">
     <!-- Outer ring -->
-    <circle cx="0" cy="0" r="65" fill="none" stroke="${white}" stroke-width="6" opacity="0.95"/>
+    <circle cx="0" cy="0" r="105" fill="none" stroke="${white}" stroke-width="9" opacity="0.95"/>
     <!-- Center hub -->
-    <circle cx="0" cy="0" r="16" fill="${white}" opacity="0.95"/>
+    <circle cx="0" cy="0" r="26" fill="${white}" opacity="0.95"/>
     <!-- Spokes -->
-    <line x1="0" y1="-16" x2="0" y2="-65" stroke="${white}" stroke-width="5" stroke-linecap="round" opacity="0.95"/>
-    <line x1="-14" y1="8" x2="-56" y2="34" stroke="${white}" stroke-width="5" stroke-linecap="round" opacity="0.95"/>
-    <line x1="14" y1="8" x2="56" y2="34" stroke="${white}" stroke-width="5" stroke-linecap="round" opacity="0.95"/>
+    <line x1="0" y1="-26" x2="0" y2="-105" stroke="${white}" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+    <line x1="-22" y1="13" x2="-91" y2="55" stroke="${white}" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+    <line x1="22" y1="13" x2="91" y2="55" stroke="${white}" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
   </g>
 
   <!-- Brand name -->
-  <text x="600" y="370" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="64" font-weight="700" fill="${white}" letter-spacing="-1">ExpatDrive</text>
+  <text x="600" y="400" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="96" font-weight="700" fill="${white}" letter-spacing="-2">ExpatDrive</text>
 
   <!-- Tagline -->
-  <text x="600" y="420" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="${white}" opacity="0.7">Study smart. Drive legal.</text>
+  <text x="600" y="470" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="36" font-weight="400" fill="${white}" opacity="0.75">Study smart. Drive legal.</text>
 
-  <!-- Subtle bottom bar -->
-  <rect x="0" y="610" width="1200" height="20" fill="${navyLight}" opacity="0.3"/>
-  <text x="600" y="624" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="12" fill="${white}" opacity="0.5">getexpatdrive.com</text>
+  <!-- Domain -->
+  <text x="600" y="560" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="500" fill="${white}" opacity="0.4">getexpatdrive.com</text>
 </svg>
 `;
 
