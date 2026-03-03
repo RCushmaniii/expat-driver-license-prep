@@ -1,4 +1,6 @@
 ---
+import Icon from "./Icon.astro";
+
 interface Props {
   icon: string;
   title: string;
@@ -9,7 +11,9 @@ const { icon, title, description } = Astro.props;
 ---
 
 <div class="card text-center sm:text-left">
-  <div class="text-3xl mb-3" aria-hidden="true">{icon}</div>
+  <div class="mb-3 inline-flex items-center justify-center w-10 h-10 rounded-lg bg-navy/5">
+    <Icon name={icon} size="w-5 h-5" class="text-navy" />
+  </div>
   <h3 class="text-lg font-semibold text-navy">{title}</h3>
   <p class="mt-2 text-sm text-text-secondary leading-relaxed">{description}</p>
 </div>

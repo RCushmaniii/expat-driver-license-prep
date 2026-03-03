@@ -4,6 +4,7 @@ import Breadcrumb from "@components/astro/Breadcrumb.astro";
 import ExamInfo from "@components/astro/ExamInfo.astro";
 import DocumentChecklist from "@components/astro/DocumentChecklist.astro";
 import ProcessGuide from "@components/astro/ProcessGuide.astro";
+import Icon from "@components/astro/Icon.astro";
 import type { RegionMeta } from "@lib/types";
 
 import meta from "../../../../../content/countries/mexico/jalisco/meta.json";
@@ -43,8 +44,10 @@ const breadcrumbs = [
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <Breadcrumb items={breadcrumbs} />
 
-    <div class="flex items-center gap-3 mb-8">
-      <span class="text-4xl">🇲🇽</span>
+    <div class="flex items-center gap-4 mb-8">
+      <div class="w-12 h-12 rounded-xl bg-navy/5 flex items-center justify-center shrink-0">
+        <Icon name="flag-mx" size="w-6 h-6" class="text-navy" />
+      </div>
       <div>
         <h1 class="text-2xl sm:text-3xl font-bold text-navy">
           Jalisco Driver's License Guide
@@ -61,7 +64,9 @@ const breadcrumbs = [
         href="/countries/mexico/jalisco/exam"
         class="card hover:border-navy hover:shadow-md transition-all text-center group"
       >
-        <div class="text-2xl mb-2">📝</div>
+        <div class="mb-2 inline-flex items-center justify-center w-10 h-10 rounded-lg bg-navy/5 group-hover:bg-navy/10 transition-colors">
+          <Icon name="exam" size="w-5 h-5" class="text-navy" />
+        </div>
         <h3 class="font-semibold text-navy group-hover:text-navy-light">Practice Exam</h3>
         <p class="text-xs text-text-muted mt-1">20 random questions</p>
       </a>
@@ -69,7 +74,9 @@ const breadcrumbs = [
         href="/countries/mexico/jalisco/study"
         class="card hover:border-navy hover:shadow-md transition-all text-center group"
       >
-        <div class="text-2xl mb-2">🔄</div>
+        <div class="mb-2 inline-flex items-center justify-center w-10 h-10 rounded-lg bg-navy/5 group-hover:bg-navy/10 transition-colors">
+          <Icon name="flashcards" size="w-5 h-5" class="text-navy" />
+        </div>
         <h3 class="font-semibold text-navy group-hover:text-navy-light">Flashcards</h3>
         <p class="text-xs text-text-muted mt-1">Spaced repetition study</p>
       </a>
@@ -77,7 +84,9 @@ const breadcrumbs = [
         href="/countries/mexico/jalisco/vocabulary"
         class="card hover:border-navy hover:shadow-md transition-all text-center group"
       >
-        <div class="text-2xl mb-2">🗣️</div>
+        <div class="mb-2 inline-flex items-center justify-center w-10 h-10 rounded-lg bg-navy/5 group-hover:bg-navy/10 transition-colors">
+          <Icon name="vocabulary" size="w-5 h-5" class="text-navy" />
+        </div>
         <h3 class="font-semibold text-navy group-hover:text-navy-light">Vocabulary</h3>
         <p class="text-xs text-text-muted mt-1">Key driving terms</p>
       </a>

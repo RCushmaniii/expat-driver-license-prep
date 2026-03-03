@@ -1,0 +1,47 @@
+---
+interface Props {
+  name: string;
+  size?: string;
+  class?: string;
+}
+
+const { name, size = "w-6 h-6", class: className = "" } = Astro.props;
+const classes = `${size} ${className}`.trim();
+
+const icons: Record<string, string> = {
+  // Practice exam — clipboard with checkmark
+  exam: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />`,
+
+  // Flashcards — stacked rectangles
+  flashcards: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />`,
+
+  // Vocabulary — language/translate A with lines
+  vocabulary: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />`,
+
+  // Bilingual — globe with meridians
+  bilingual: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9 9 0 100-18 9 9 0 000 18zM3.6 9h16.8M3.6 15h16.8" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3a15.3 15.3 0 014 9 15.3 15.3 0 01-4 9 15.3 15.3 0 01-4-9 15.3 15.3 0 014-9z" />`,
+
+  // Mexico — clean rounded rectangle with vertical tricolor bands
+  "flag-mx": `<rect x="3" y="5" width="18" height="14" rx="2" stroke-width="1.5" fill="none" /><line x1="9" y1="5" x2="9" y2="19" stroke-width="1.5" /><line x1="15" y1="5" x2="15" y2="19" stroke-width="1.5" /><circle cx="12" cy="12" r="1.5" stroke-width="1" />`,
+
+  // Costa Rica — rounded rectangle with horizontal bands
+  "flag-cr": `<rect x="3" y="5" width="18" height="14" rx="2" stroke-width="1.5" fill="none" /><line x1="3" y1="9.5" x2="21" y2="9.5" stroke-width="1.5" /><line x1="3" y1="14.5" x2="21" y2="14.5" stroke-width="1.5" />`,
+
+  // Chevron right
+  "chevron-right": `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />`,
+
+  // Progress — bar chart
+  progress: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 8v8m-4-5v5m-4-2v2m-2 4h16a2 2 0 002-2V4a2 2 0 00-2-2H6a2 2 0 00-2 2v14a2 2 0 002 2z" />`,
+};
+
+const svgContent = icons[name] || "";
+---
+
+<svg
+  class={classes}
+  fill="none"
+  stroke="currentColor"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+  set:html={svgContent}
+/>
