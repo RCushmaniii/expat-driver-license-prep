@@ -1,0 +1,86 @@
+---
+const currentPath = Astro.url.pathname;
+
+const navLinks = [
+  { href: "/countries/mexico/jalisco/", label: "Jalisco Guide" },
+  { href: "/countries/mexico/jalisco/exam", label: "Practice Exam" },
+  { href: "/countries/mexico/jalisco/study", label: "Flashcards" },
+  { href: "/countries/mexico/jalisco/vocabulary", label: "Vocabulary" },
+  { href: "/progress", label: "Progress" },
+];
+---
+
+<header class="sticky top-0 z-50 bg-surface-white/95 backdrop-blur border-b border-border">
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Brand -->
+      <a href="/" class="flex items-center gap-2 text-navy font-bold text-xl hover:text-navy-light transition-colors">
+        <img src="/favicon.svg" alt="" class="w-7 h-7" aria-hidden="true" />
+        ExpatDrive
+      </a>
+
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex items-center gap-1">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              "px-3 py-2 rounded-lg text-sm font-medium transition-colors",
+              currentPath === link.href || currentPath === link.href + "/"
+                ? "bg-navy text-white"
+                : "text-text-secondary hover:text-navy hover:bg-surface",
+            ]}
+          >
+            {link.label}
+          </a>
+        ))}
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button
+        id="mobile-menu-btn"
+        class="md:hidden touch-target flex items-center justify-center text-navy"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path id="hamburger-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobile-menu" class="hidden md:hidden pb-4">
+      <div class="flex flex-col gap-1">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              "px-3 py-3 rounded-lg text-sm font-medium transition-colors touch-target",
+              currentPath === link.href || currentPath === link.href + "/"
+                ? "bg-navy text-white"
+                : "text-text-secondary hover:text-navy hover:bg-surface",
+            ]}
+          >
+            {link.label}
+          </a>
+        ))}
+      </div>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const btn = document.getElementById("mobile-menu-btn");
+  const menu = document.getElementById("mobile-menu");
+  const hamburger = document.getElementById("hamburger-icon");
+  const close = document.getElementById("close-icon");
+
+  btn?.addEventListener("click", () => {
+    const isOpen = menu?.classList.toggle("hidden") === false;
+    btn.setAttribute("aria-expanded", String(isOpen));
+    hamburger?.classList.toggle("hidden", isOpen);
+    close?.classList.toggle("hidden", !isOpen);
+  });
+</script>

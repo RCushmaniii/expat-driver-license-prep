@@ -1,0 +1,60 @@
+---
+import type { RegionMeta } from "@lib/types";
+
+interface Props {
+  meta: RegionMeta;
+}
+
+const { meta } = Astro.props;
+const { exam_format, exam_delivery } = meta;
+---
+
+<section class="card">
+  <h2 class="text-xl font-bold text-navy mb-4">Exam Format</h2>
+
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+    <div class="text-center p-3 bg-surface rounded-lg">
+      <div class="text-2xl font-bold text-navy">{exam_format.questions_per_exam}</div>
+      <div class="text-xs text-text-muted mt-1">Questions</div>
+    </div>
+    <div class="text-center p-3 bg-surface rounded-lg">
+      <div class="text-2xl font-bold text-navy">{exam_format.passing_percentage}%</div>
+      <div class="text-xs text-text-muted mt-1">To Pass</div>
+    </div>
+    <div class="text-center p-3 bg-surface rounded-lg">
+      <div class="text-2xl font-bold text-navy">{exam_format.time_limit_minutes}</div>
+      <div class="text-xs text-text-muted mt-1">Minutes</div>
+    </div>
+    <div class="text-center p-3 bg-surface rounded-lg">
+      <div class="text-2xl font-bold text-navy">{exam_format.options_per_question}</div>
+      <div class="text-xs text-text-muted mt-1">Options (A/B/C)</div>
+    </div>
+  </div>
+
+  <div class="space-y-3 text-sm">
+    <div class="flex items-start gap-2">
+      <span class="text-success mt-0.5">&#10003;</span>
+      <span>
+        <strong>English paper version available</strong> — request it at the exam window before starting
+      </span>
+    </div>
+    <div class="flex items-start gap-2">
+      <span class="text-success mt-0.5">&#10003;</span>
+      <span>
+        <strong>Interpreter allowed</strong> — {meta.interpreter_notes}
+      </span>
+    </div>
+    <div class="flex items-start gap-2">
+      <span class="text-warning mt-0.5">&#9888;</span>
+      <span>
+        <strong>Computer exam is in Spanish only</strong> — {exam_delivery.notes}
+      </span>
+    </div>
+    {!exam_format.negative_scoring && (
+      <div class="flex items-start gap-2">
+        <span class="text-success mt-0.5">&#10003;</span>
+        <span><strong>No negative scoring</strong> — always answer every question</span>
+      </div>
+    )}
+  </div>
+</section>

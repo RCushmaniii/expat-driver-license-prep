@@ -1,0 +1,45 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import ExamSimulator from "@components/react/ExamSimulator";
+import type { RegionMeta } from "@lib/types";
+
+import meta from "../../../../../content/countries/mexico/jalisco/meta.json";
+
+const regionMeta = meta as RegionMeta;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  name: "Jalisco Practice Exam",
+  description:
+    "Practice the Jalisco driver's license written exam with randomized questions from the official 103-question bank.",
+  educationalLevel: "beginner",
+  learningResourceType: "Practice exam",
+  inLanguage: ["es", "en"],
+};
+
+const breadcrumbs = [
+  { label: "Mexico", href: "#" },
+  { label: "Jalisco", href: "/countries/mexico/jalisco/" },
+  { label: "Practice Exam" },
+];
+---
+
+<MainLayout
+  title="Practice Exam - Jalisco | ExpatDrive"
+  description="Practice the Jalisco driver's license written exam. 20 randomized questions from the official 103-question bank with bilingual translations."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumb items={breadcrumbs} />
+
+    <ExamSimulator
+      client:load
+      questionsPerExam={regionMeta.exam_format.questions_per_exam}
+      passingScore={regionMeta.exam_format.passing_score}
+      timeLimitMinutes={regionMeta.exam_format.time_limit_minutes}
+      region="jalisco"
+    />
+  </div>
+</MainLayout>

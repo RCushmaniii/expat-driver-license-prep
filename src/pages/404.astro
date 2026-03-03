@@ -1,0 +1,27 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+---
+
+<MainLayout
+  title="Page Not Found | ExpatDrive"
+  description="The page you're looking for doesn't exist."
+  noindex={true}
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+    <div class="text-6xl font-bold text-navy/20 mb-4">404</div>
+    <h1 class="text-2xl sm:text-3xl font-bold text-navy mb-4">
+      Wrong turn
+    </h1>
+    <p class="text-text-secondary mb-8 max-w-md mx-auto">
+      This page doesn't exist. Unlike a wrong turn on the road, this one's easy to fix — just head back to a page that does.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="/" class="btn-primary">
+        Go Home
+      </a>
+      <a href="/countries/mexico/jalisco/" class="btn-secondary">
+        Jalisco Study Guide
+      </a>
+    </div>
+  </div>
+</MainLayout>

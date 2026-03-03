@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-navy: #0F2A44;
+  --color-navy-light: #1E4E79;
+  --color-navy-dark: #0A1D30;
+
+  /* Background */
+  --color-surface: #F8FAFC;
+  --color-surface-white: #FFFFFF;
+
+  /* Text */
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94A3B8;
+
+  /* Status */
+  --color-success: #15803D;
+  --color-success-bg: #F0FDF4;
+  --color-warning: #D97706;
+  --color-warning-bg: #FFFBEB;
+  --color-error: #B91C1C;
+  --color-error-bg: #FEF2F2;
+
+  /* Bilingual */
+  --color-spanish: #0F2A44;
+  --color-english: #475569;
+  --color-official: #92400E;
+
+  /* Borders */
+  --color-border: #E2E8F0;
+  --color-border-light: #F1F5F9;
+
+  /* Font */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-surface text-text-primary font-sans antialiased;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-navy;
+}
+
+/* Touch target minimum */
+.touch-target {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+/* Bilingual text patterns */
+.bilingual-spanish {
+  @apply text-spanish font-medium;
+}
+
+.bilingual-english {
+  @apply text-english border-l-2 border-navy-light/30 pl-3;
+}
+
+.bilingual-official {
+  @apply text-official italic text-sm;
+}
+
+/* Anti-gamification progress bars */
+.progress-bar {
+  @apply h-2 rounded-full bg-border;
+}
+
+.progress-bar-fill {
+  @apply h-full rounded-full transition-all duration-300;
+}
+
+/* Card base */
+.card {
+  @apply bg-surface-white rounded-lg border border-border p-6 shadow-sm;
+}
+
+/* Button base styles */
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors duration-150 px-6 py-3;
+  min-height: 48px;
+  min-width: 48px;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors duration-150 px-6 py-3 bg-navy text-white hover:bg-navy-light;
+  min-height: 48px;
+  min-width: 48px;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors duration-150 px-6 py-3 bg-surface-white text-navy border border-navy hover:bg-surface;
+  min-height: 48px;
+  min-width: 48px;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors duration-150 px-6 py-3 text-text-secondary hover:text-navy hover:bg-surface;
+  min-height: 48px;
+  min-width: 48px;
+}

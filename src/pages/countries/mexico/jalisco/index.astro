@@ -1,0 +1,101 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import ExamInfo from "@components/astro/ExamInfo.astro";
+import DocumentChecklist from "@components/astro/DocumentChecklist.astro";
+import ProcessGuide from "@components/astro/ProcessGuide.astro";
+import type { RegionMeta } from "@lib/types";
+
+import meta from "../../../../../content/countries/mexico/jalisco/meta.json";
+import processMarkdown from "../../../../../content/countries/mexico/jalisco/process.md?raw";
+
+const regionMeta = meta as RegionMeta;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: "Jalisco Driver's License Exam Preparation",
+  description:
+    "Complete guide and study materials for the Jalisco, Mexico driver's license written exam. 103 official questions with bilingual translations.",
+  provider: {
+    "@type": "Organization",
+    name: "ExpatDrive",
+    url: "https://expat-driver-license-prep.vercel.app",
+  },
+  hasCourseInstance: {
+    "@type": "CourseInstance",
+    courseMode: "Online",
+    courseWorkload: "PT5H",
+  },
+};
+
+const breadcrumbs = [
+  { label: "Mexico", href: "#" },
+  { label: "Jalisco" },
+];
+---
+
+<MainLayout
+  title="Jalisco Driver's License Guide | ExpatDrive"
+  description="Complete guide for getting your driver's license in Jalisco, Mexico. 103 official questions, bilingual translations, process guide, and study tools."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumb items={breadcrumbs} />
+
+    <div class="flex items-center gap-3 mb-8">
+      <span class="text-4xl">🇲🇽</span>
+      <div>
+        <h1 class="text-2xl sm:text-3xl font-bold text-navy">
+          Jalisco Driver's License Guide
+        </h1>
+        <p class="text-text-secondary mt-1">
+          Everything you need to know to get your license in Jalisco, Mexico
+        </p>
+      </div>
+    </div>
+
+    <!-- Study CTAs -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+      <a
+        href="/countries/mexico/jalisco/exam"
+        class="card hover:border-navy hover:shadow-md transition-all text-center group"
+      >
+        <div class="text-2xl mb-2">📝</div>
+        <h3 class="font-semibold text-navy group-hover:text-navy-light">Practice Exam</h3>
+        <p class="text-xs text-text-muted mt-1">20 random questions</p>
+      </a>
+      <a
+        href="/countries/mexico/jalisco/study"
+        class="card hover:border-navy hover:shadow-md transition-all text-center group"
+      >
+        <div class="text-2xl mb-2">🔄</div>
+        <h3 class="font-semibold text-navy group-hover:text-navy-light">Flashcards</h3>
+        <p class="text-xs text-text-muted mt-1">Spaced repetition study</p>
+      </a>
+      <a
+        href="/countries/mexico/jalisco/vocabulary"
+        class="card hover:border-navy hover:shadow-md transition-all text-center group"
+      >
+        <div class="text-2xl mb-2">🗣️</div>
+        <h3 class="font-semibold text-navy group-hover:text-navy-light">Vocabulary</h3>
+        <p class="text-xs text-text-muted mt-1">Key driving terms</p>
+      </a>
+    </div>
+
+    <!-- Exam Info -->
+    <div class="mb-8">
+      <ExamInfo meta={regionMeta} />
+    </div>
+
+    <!-- Document Checklist -->
+    <div class="mb-8">
+      <DocumentChecklist documents={regionMeta.required_documents} />
+    </div>
+
+    <!-- Process Guide -->
+    <div class="card">
+      <ProcessGuide markdown={processMarkdown} />
+    </div>
+  </div>
+</MainLayout>

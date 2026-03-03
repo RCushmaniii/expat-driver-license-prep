@@ -1,0 +1,125 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Hero from "@components/astro/Hero.astro";
+import FeatureCard from "@components/astro/FeatureCard.astro";
+import CountryCard from "@components/astro/CountryCard.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "ExpatDrive",
+  url: "https://expat-driver-license-prep.vercel.app",
+  description:
+    "Bilingual study companion for English-speaking expats preparing for foreign driver's license exams.",
+  publisher: {
+    "@type": "Organization",
+    name: "CushLabs AI Services",
+    url: "https://cushlabs.ai",
+  },
+};
+
+const features = [
+  {
+    icon: "📝",
+    title: "Practice Exams",
+    description:
+      "Simulate the real exam with randomized questions from the official question bank. Track your score and review missed answers.",
+  },
+  {
+    icon: "🔄",
+    title: "Spaced Repetition Flashcards",
+    description:
+      "Study with smart flashcards that adapt to what you know. Cards you miss come back sooner, cards you know space out over time.",
+  },
+  {
+    icon: "🗣️",
+    title: "Vocabulary Drills",
+    description:
+      "Master key driving terms in Spanish and English. Drill translations in both directions with multiple choice quizzes.",
+  },
+  {
+    icon: "🌐",
+    title: "Bilingual by Design",
+    description:
+      "Every question shows Spanish and English side by side. Toggle between improved translations and official government English.",
+  },
+];
+---
+
+<MainLayout
+  title="Home | ExpatDrive"
+  description="Study smart. Drive legal. Bilingual study companion for English-speaking expats preparing for foreign driver's license exams."
+  jsonLd={jsonLd}
+>
+  <Hero
+    title="Study smart. Drive legal."
+    subtitle="The bilingual study companion for English-speaking expats preparing for foreign driver's license exams. Practice with real questions, smart flashcards, and vocabulary drills."
+    ctaText="Start Studying — Jalisco"
+    ctaHref="/countries/mexico/jalisco/"
+    secondaryText="Learn More"
+    secondaryHref="/about"
+  />
+
+  <!-- Features -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h2 class="text-2xl sm:text-3xl font-bold text-navy text-center mb-10">
+      Everything you need to pass
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {features.map((f) => (
+        <FeatureCard icon={f.icon} title={f.title} description={f.description} />
+      ))}
+    </div>
+  </section>
+
+  <!-- Country Selector -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <h2 class="text-2xl sm:text-3xl font-bold text-navy text-center mb-10">
+      Choose your region
+    </h2>
+    <div class="max-w-xl mx-auto space-y-4">
+      <CountryCard
+        flag="🇲🇽"
+        country="Mexico"
+        region="Jalisco"
+        href="/countries/mexico/jalisco/"
+        questionCount={103}
+        active={true}
+      />
+      <CountryCard
+        flag="🇲🇽"
+        country="Mexico"
+        region="CDMX"
+        href="#"
+        questionCount={0}
+        active={false}
+      />
+      <CountryCard
+        flag="🇨🇷"
+        country="Costa Rica"
+        region="National"
+        href="#"
+        questionCount={0}
+        active={false}
+      />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-navy text-white py-16">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-2xl sm:text-3xl font-bold mb-4">
+        Ready to pass your exam?
+      </h2>
+      <p class="text-white/80 mb-8 text-lg">
+        103 official Jalisco questions with bilingual translations, detailed explanations, and spaced repetition study tools.
+      </p>
+      <a
+        href="/countries/mexico/jalisco/exam"
+        class="inline-flex items-center justify-center rounded-lg bg-white text-navy font-semibold px-8 py-4 text-lg hover:bg-surface transition-colors touch-target"
+      >
+        Take a Practice Exam
+      </a>
+    </div>
+  </section>
+</MainLayout>

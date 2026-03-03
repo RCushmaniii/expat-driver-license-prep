@@ -1,0 +1,65 @@
+---
+import { marked } from "marked";
+
+interface Props {
+  markdown: string;
+}
+
+const { markdown } = Astro.props;
+const html = await marked.parse(markdown);
+---
+
+<article class="prose max-w-none">
+  <div set:html={html} />
+</article>
+
+<style>
+  @reference "../../styles/global.css";
+
+  .prose {
+    @apply text-text-primary leading-relaxed;
+  }
+  .prose :global(h1) {
+    @apply text-2xl sm:text-3xl font-bold text-navy mt-8 mb-4;
+  }
+  .prose :global(h2) {
+    @apply text-xl sm:text-2xl font-bold text-navy mt-8 mb-3;
+  }
+  .prose :global(h3) {
+    @apply text-lg sm:text-xl font-semibold text-text-primary mt-6 mb-2;
+  }
+  .prose :global(p) {
+    @apply mb-4 text-text-primary;
+  }
+  .prose :global(ul),
+  .prose :global(ol) {
+    @apply mb-4 pl-6;
+  }
+  .prose :global(li) {
+    @apply mb-2;
+  }
+  .prose :global(strong) {
+    @apply font-semibold;
+  }
+  .prose :global(a) {
+    @apply text-navy-light underline hover:text-navy;
+  }
+  .prose :global(table) {
+    @apply w-full border-collapse mb-6 text-sm;
+  }
+  .prose :global(th) {
+    @apply bg-surface text-left px-3 py-2 border border-border font-semibold text-navy;
+  }
+  .prose :global(td) {
+    @apply px-3 py-2 border border-border;
+  }
+  .prose :global(hr) {
+    @apply border-border my-8;
+  }
+  .prose :global(blockquote) {
+    @apply border-l-4 border-navy-light pl-4 italic text-text-secondary my-4;
+  }
+  .prose :global(code) {
+    @apply bg-surface px-1.5 py-0.5 rounded text-sm;
+  }
+</style>

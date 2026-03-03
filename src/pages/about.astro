@@ -1,0 +1,74 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "About ExpatDrive",
+  description: "Learn about ExpatDrive — the bilingual study companion for expats preparing for driver's license exams abroad.",
+  publisher: {
+    "@type": "Organization",
+    name: "CushLabs AI Services",
+    url: "https://cushlabs.ai",
+  },
+};
+---
+
+<MainLayout
+  title="About | ExpatDrive"
+  description="Learn about ExpatDrive — the bilingual study companion for expats preparing for driver's license exams abroad."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl sm:text-4xl font-bold text-navy mb-6">About ExpatDrive</h1>
+
+    <div class="space-y-6 text-text-primary leading-relaxed">
+      <p>
+        ExpatDrive exists because getting a driver's license in a foreign country shouldn't feel like guesswork.
+      </p>
+
+      <p>
+        When you move abroad, one of the first practical hurdles is getting legal to drive. The written exam
+        is often in a language you're still learning, the official English translations can be confusing, and
+        study materials are scattered or outdated. ExpatDrive fixes that.
+      </p>
+
+      <h2 class="text-2xl font-bold text-navy mt-8">What we do</h2>
+
+      <p>
+        We take the official question banks from driver's license exams around the world and build
+        proper study tools around them. Every question is presented bilingually — the original language
+        side-by-side with clear English translations. Where official government English translations exist,
+        we include those too so you know exactly what you'll see on test day.
+      </p>
+
+      <p>
+        Our study tools use spaced repetition, the most effective memorization technique known to science.
+        Questions you miss come back more frequently. Questions you know well space out over days and weeks.
+        It's the same method used by medical students and language learners worldwide.
+      </p>
+
+      <h2 class="text-2xl font-bold text-navy mt-8">Why this matters</h2>
+
+      <p>
+        Driving without a local license puts you at risk — legally, financially, and in terms of insurance.
+        For most expats, it's not a matter of driving skill but of studying unfamiliar rules in an unfamiliar
+        language. ExpatDrive removes that barrier.
+      </p>
+
+      <h2 class="text-2xl font-bold text-navy mt-8">Who we are</h2>
+
+      <p>
+        ExpatDrive is built by <a href="https://cushlabs.ai" class="text-navy-light underline hover:text-navy" target="_blank" rel="noopener noreferrer">CushLabs AI Services</a>,
+        a technology company focused on building practical tools that solve real problems. We're expats ourselves — we built the tool we wished existed.
+      </p>
+
+      <h2 class="text-2xl font-bold text-navy mt-8">Your data</h2>
+
+      <p>
+        ExpatDrive stores all your study progress locally in your browser. We don't collect personal data,
+        don't require an account, and don't track your behavior. Your study data stays on your device.
+      </p>
+    </div>
+  </div>
+</MainLayout>

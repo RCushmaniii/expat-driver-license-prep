@@ -1,0 +1,21 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import ProgressDashboard from "@components/react/ProgressDashboard";
+---
+
+<MainLayout
+  title="Study Progress | ExpatDrive"
+  description="Track your study progress for the driver's license exam."
+  noindex={true}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="mb-6">
+      <h1 class="text-2xl sm:text-3xl font-bold text-navy">Study Progress</h1>
+      <p class="text-text-secondary mt-1">
+        All data is stored locally in your browser.
+      </p>
+    </div>
+
+    <ProgressDashboard client:load />
+  </div>
+</MainLayout>

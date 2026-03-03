@@ -1,0 +1,42 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import VocabDrill from "@components/react/VocabDrill";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  name: "Jalisco Driving Vocabulary",
+  description:
+    "Master key Spanish driving vocabulary for the Jalisco driver's license exam.",
+  educationalLevel: "beginner",
+  learningResourceType: "Vocabulary drill",
+  inLanguage: ["es", "en"],
+};
+
+const breadcrumbs = [
+  { label: "Mexico", href: "#" },
+  { label: "Jalisco", href: "/countries/mexico/jalisco/" },
+  { label: "Vocabulary" },
+];
+---
+
+<MainLayout
+  title="Driving Vocabulary - Jalisco | ExpatDrive"
+  description="Master key Spanish driving vocabulary for the Jalisco driver's license exam. Drill terms in both directions."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumb items={breadcrumbs} />
+
+    <div class="mb-6">
+      <h1 class="text-2xl sm:text-3xl font-bold text-navy">Driving Vocabulary</h1>
+      <p class="text-text-secondary mt-1">
+        Key Spanish driving terms you'll encounter on the exam.
+        Drill them in both directions to build recognition and recall.
+      </p>
+    </div>
+
+    <VocabDrill client:load />
+  </div>
+</MainLayout>

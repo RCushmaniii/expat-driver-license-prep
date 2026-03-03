@@ -1,0 +1,2986 @@
+[
+  {
+    "term_es": "crucero",
+    "term_en": "intersection / crossing",
+    "category": "driving-technique",
+    "frequency": 6,
+    "question_ids": [
+      "jalisco-018",
+      "jalisco-044",
+      "jalisco-046",
+      "jalisco-056",
+      "jalisco-082",
+      "jalisco-095"
+    ],
+    "context": "Intersection rules and procedures"
+  },
+  {
+    "term_es": "prelacion de paso",
+    "term_en": "right of way/priority of passage",
+    "category": "right-of-way",
+    "frequency": 6,
+    "question_ids": [
+      "jalisco-022",
+      "jalisco-025",
+      "jalisco-026",
+      "jalisco-032",
+      "jalisco-043",
+      "jalisco-048"
+    ],
+    "context": "Right-of-way rules at intersections and roundabouts"
+  },
+  {
+    "term_es": "agente vial",
+    "term_en": "traffic officer",
+    "category": "law-terms",
+    "frequency": 5,
+    "question_ids": [
+      "jalisco-011",
+      "jalisco-020",
+      "jalisco-034",
+      "jalisco-038",
+      "jalisco-046"
+    ],
+    "context": "Traffic officer interactions and authority"
+  },
+  {
+    "term_es": "alto total",
+    "term_en": "full/complete stop",
+    "category": "law-terms",
+    "frequency": 5,
+    "question_ids": [
+      "jalisco-009",
+      "jalisco-022",
+      "jalisco-026",
+      "jalisco-043",
+      "jalisco-044"
+    ],
+    "context": "Stop requirements and stop signs"
+  },
+  {
+    "term_es": "vuelta a la izquierda",
+    "term_en": "left turn",
+    "category": "right-of-way",
+    "frequency": 5,
+    "question_ids": [
+      "jalisco-022",
+      "jalisco-027",
+      "jalisco-031",
+      "jalisco-033",
+      "jalisco-049"
+    ],
+    "context": "Turn rules including turns on red"
+  },
+  {
+    "term_es": "ceder el paso",
+    "term_en": "to yield the right of way",
+    "category": "driving-technique",
+    "frequency": 3,
+    "question_ids": [
+      "jalisco-024",
+      "jalisco-026",
+      "jalisco-082"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "disminuir la velocidad",
+    "term_en": "to reduce speed",
+    "category": "driving-technique",
+    "frequency": 3,
+    "question_ids": [
+      "jalisco-076",
+      "jalisco-086",
+      "jalisco-088"
+    ],
+    "context": "Speed limits and speed-related rules"
+  },
+  {
+    "term_es": "multa",
+    "term_en": "fine/ticket",
+    "category": "law-terms",
+    "frequency": 3,
+    "question_ids": [
+      "jalisco-002",
+      "jalisco-008",
+      "jalisco-013"
+    ],
+    "context": "Fines and traffic violations"
+  },
+  {
+    "term_es": "precaucion",
+    "term_en": "caution",
+    "category": "driving-technique",
+    "frequency": 3,
+    "question_ids": [
+      "jalisco-050",
+      "jalisco-095",
+      "jalisco-101"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "rebasar",
+    "term_en": "to pass / to overtake",
+    "category": "driving-technique",
+    "frequency": 3,
+    "question_ids": [
+      "jalisco-052",
+      "jalisco-057",
+      "jalisco-076"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "semaforo",
+    "term_en": "traffic light",
+    "category": "driving-technique",
+    "frequency": 3,
+    "question_ids": [
+      "jalisco-018",
+      "jalisco-046",
+      "jalisco-095"
+    ],
+    "context": "Traffic signals and signal-related questions"
+  },
+  {
+    "term_es": "senales preventivas",
+    "term_en": "warning / preventive signs",
+    "category": "driving-technique",
+    "frequency": 3,
+    "question_ids": [
+      "jalisco-040",
+      "jalisco-047",
+      "jalisco-073"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "acelerador",
+    "term_en": "accelerator / gas pedal",
+    "category": "driving-technique",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-077",
+      "jalisco-093"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "alto",
+    "term_en": "stop",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-049",
+      "jalisco-056"
+    ],
+    "context": "Stop requirements and stop signs"
+  },
+  {
+    "term_es": "bocacalle",
+    "term_en": "intersection/cross street",
+    "category": "right-of-way",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-026",
+      "jalisco-030"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "carril",
+    "term_en": "lane",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-052",
+      "jalisco-072"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "circulacion al centro",
+    "term_en": "traffic to center",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-060",
+      "jalisco-065"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "circular",
+    "term_en": "to drive / to circulate",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-010",
+      "jalisco-072"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "cruce de caminos",
+    "term_en": "crossroads / road crossing",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-067",
+      "jalisco-068"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "cruce de ferrocarril",
+    "term_en": "railroad crossing",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-067",
+      "jalisco-068"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "curva",
+    "term_en": "curve",
+    "category": "driving-technique",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-055",
+      "jalisco-086"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "de frente",
+    "term_en": "straight ahead/oncoming",
+    "category": "right-of-way",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-020",
+      "jalisco-033"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "engomado",
+    "term_en": "registration sticker",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-023",
+      "jalisco-029"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "espejos retrovisores",
+    "term_en": "rearview mirrors",
+    "category": "driving-technique",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-074",
+      "jalisco-100"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "estacionamiento",
+    "term_en": "parking/parking space",
+    "category": "right-of-way",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-029",
+      "jalisco-032"
+    ],
+    "context": "Parking rules and restrictions"
+  },
+  {
+    "term_es": "estado de ebriedad",
+    "term_en": "state of intoxication/drunk",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-014",
+      "jalisco-041"
+    ],
+    "context": "DUI laws and penalties"
+  },
+  {
+    "term_es": "estrechamiento asimetrico",
+    "term_en": "asymmetric narrowing",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-053",
+      "jalisco-065"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "extrema derecha",
+    "term_en": "far right lane",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-009",
+      "jalisco-073"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "gato",
+    "term_en": "jack (for lifting)",
+    "category": "vehicle-parts",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-066",
+      "jalisco-098"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "glorieta",
+    "term_en": "roundabout / traffic circle",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-043",
+      "jalisco-069"
+    ],
+    "context": "Roundabout rules and right-of-way"
+  },
+  {
+    "term_es": "incorporarse",
+    "term_en": "to merge/enter traffic",
+    "category": "right-of-way",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-032",
+      "jalisco-043"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "infraccion",
+    "term_en": "infraction/traffic ticket",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-004",
+      "jalisco-015"
+    ],
+    "context": "Traffic violations and penalties"
+  },
+  {
+    "term_es": "limpiabrisas",
+    "term_en": "windshield wipers",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-013",
+      "jalisco-099"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "linea blanca",
+    "term_en": "white line",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-056",
+      "jalisco-080"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "lineas continuas",
+    "term_en": "solid / continuous lines",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-052",
+      "jalisco-061"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "obligado",
+    "term_en": "obligated/required",
+    "category": "right-of-way",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-018",
+      "jalisco-024"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "observar",
+    "term_en": "to observe / to check",
+    "category": "driving-technique",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-074",
+      "jalisco-101"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "pavimento",
+    "term_en": "pavement",
+    "category": "driving-technique",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-056",
+      "jalisco-093"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "peatones",
+    "term_en": "pedestrians",
+    "category": "driving-technique",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-032",
+      "jalisco-102"
+    ],
+    "context": "Pedestrian safety and right-of-way"
+  },
+  {
+    "term_es": "placas",
+    "term_en": "license plates",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-012",
+      "jalisco-023"
+    ],
+    "context": "License plates and vehicle registration"
+  },
+  {
+    "term_es": "preferencia de paso",
+    "term_en": "right of way/priority",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-033",
+      "jalisco-070"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "prohibido",
+    "term_en": "prohibited",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-016",
+      "jalisco-035"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "senalamiento",
+    "term_en": "signage / road sign",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-008",
+      "jalisco-037"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "senales restrictivas",
+    "term_en": "regulatory / restrictive signs",
+    "category": "signs-markings",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-040",
+      "jalisco-047"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "siga",
+    "term_en": "proceed / go",
+    "category": "officer-signals",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-038",
+      "jalisco-050"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "sobrecalentamiento",
+    "term_en": "overheating",
+    "category": "vehicle-parts",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-063",
+      "jalisco-096"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "tarjeta de circulacion",
+    "term_en": "circulation/registration card",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-006",
+      "jalisco-023"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "vehiculos de emergencia",
+    "term_en": "emergency vehicles",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-025",
+      "jalisco-035"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "velocidad maxima",
+    "term_en": "maximum speed",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-036",
+      "jalisco-037"
+    ],
+    "context": "Speed limits and speed-related rules"
+  },
+  {
+    "term_es": "visibilidad",
+    "term_en": "visibility",
+    "category": "law-terms",
+    "frequency": 2,
+    "question_ids": [
+      "jalisco-005",
+      "jalisco-009"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "abanicando las manos",
+    "term_en": "fanning/waving the hands",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-027"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "accidente",
+    "term_en": "accident",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-002"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "aceite",
+    "term_en": "oil",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-075"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "acelerar paulatinamente",
+    "term_en": "to accelerate gradually",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-086"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "acera",
+    "term_en": "sidewalk",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-051"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "acotamiento",
+    "term_en": "road shoulder",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-061"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "aditamentos",
+    "term_en": "accessories/devices",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-016"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "agente de vialidad y transito",
+    "term_en": "traffic officer",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-050"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "agentes viales",
+    "term_en": "traffic officers",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-097"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "agresivo",
+    "term_en": "aggressive",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-083"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "agua corriente",
+    "term_en": "running water",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-099"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "ajustar",
+    "term_en": "to adjust",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-100"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "alejarse",
+    "term_en": "to distance yourself",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-089"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "alternador",
+    "term_en": "alternator",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-062"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "alto general",
+    "term_en": "general stop",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-038"
+    ],
+    "context": "Stop requirements and stop signs"
+  },
+  {
+    "term_es": "altura libre restringida",
+    "term_en": "restricted clearance height",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-058"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "anchura libre",
+    "term_en": "free width / clearance",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-072"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "anchura restringida",
+    "term_en": "restricted width",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-065"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "antebrazo",
+    "term_en": "forearm",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-031"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "arresto inconmutable",
+    "term_en": "unconvertible arrest",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-003"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "arteria doble",
+    "term_en": "double-lane road",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-027"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "arteria transversal",
+    "term_en": "cross street",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-044"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "arterias de la ciudad",
+    "term_en": "city arterial roads",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-037"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "aseguramiento de vehiculos",
+    "term_en": "vehicle impoundment",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-041"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "asiento de seguridad",
+    "term_en": "car seat/safety seat",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-017"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "asientos delanteros",
+    "term_en": "front seats",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-017"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "asientos traseros",
+    "term_en": "rear seats",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-017"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "audifonos",
+    "term_en": "earphones / headphones",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-103"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "avenida",
+    "term_en": "avenue",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-048"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "bajo ninguna circunstancia",
+    "term_en": "under no circumstances",
+    "category": "parking-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-030"
+    ],
+    "context": "Parking rules and regulations"
+  },
+  {
+    "term_es": "banda floja",
+    "term_en": "loose belt",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-063"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "bandas",
+    "term_en": "belts",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-096"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "bateria",
+    "term_en": "battery",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-062"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "bobina",
+    "term_en": "ignition coil",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-062"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "bomberos",
+    "term_en": "firefighters",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-087"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "borde del camino",
+    "term_en": "road shoulder",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-077"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "brazo",
+    "term_en": "arm",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-031"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "brazos hacia abajo",
+    "term_en": "arms down",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-020"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "cables para pasar corriente",
+    "term_en": "jumper cables",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-066"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "calle de un solo sentido",
+    "term_en": "one-way street",
+    "category": "parking-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-039"
+    ],
+    "context": "Parking rules and regulations"
+  },
+  {
+    "term_es": "calzada",
+    "term_en": "causeway / boulevard",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-048"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "cambiar de carril",
+    "term_en": "to change lanes",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-081"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "camino",
+    "term_en": "road",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-085"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "cansado",
+    "term_en": "tired / fatigued",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-084"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "capacidad de carga",
+    "term_en": "cargo capacity",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-021"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "casco",
+    "term_en": "helmet",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-034"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "ceda el paso",
+    "term_en": "yield / give way",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-070"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "ceder",
+    "term_en": "to yield",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-089"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "centro escolar",
+    "term_en": "school",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-036"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "choque de costado",
+    "term_en": "side collision",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-078"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "choque de frente",
+    "term_en": "head-on collision",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-078"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "choque por alcance",
+    "term_en": "rear-end collision",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-090"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "cinturon de seguridad",
+    "term_en": "seatbelt",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-002"
+    ],
+    "context": "Seatbelt requirements and safety"
+  },
+  {
+    "term_es": "circulacion",
+    "term_en": "circulation/traffic flow",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-007"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "codigos",
+    "term_en": "emergency lights",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-025"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "codigos y sirena",
+    "term_en": "lights and siren",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-019"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "codo inverso",
+    "term_en": "reverse elbow curve",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-059"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "cofre / tapa del cofre",
+    "term_en": "hood",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-079"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "combustible",
+    "term_en": "fuel",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-075"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "competencia federal",
+    "term_en": "federal jurisdiction",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-007"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "condiciones adversas",
+    "term_en": "adverse conditions",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-085"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "conducir de noche",
+    "term_en": "to drive at night",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-102"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "conductor responsable",
+    "term_en": "responsible driver",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-097"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "congestionamiento vial",
+    "term_en": "traffic jam",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-091"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "convenio",
+    "term_en": "agreement/settlement",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-028"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "corralon",
+    "term_en": "impound lot",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-028"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "corriente circulatoria",
+    "term_en": "traffic flow",
+    "category": "parking-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-039"
+    ],
+    "context": "Parking rules and regulations"
+  },
+  {
+    "term_es": "cristales",
+    "term_en": "window glass/tinting",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-005"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "crucero / cruce",
+    "term_en": "intersection",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-101"
+    ],
+    "context": "Intersection rules and procedures"
+  },
+  {
+    "term_es": "curva inversa",
+    "term_en": "reverse curve / S-curve",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-055"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "danos a terceros",
+    "term_en": "third-party damages / liability",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-042"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "danos materiales",
+    "term_en": "property/material damage",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-028"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "de espalda",
+    "term_en": "from the back",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-020"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "defensivo",
+    "term_en": "defensive",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-083"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "delito",
+    "term_en": "crime/criminal offense",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-014"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "deposito",
+    "term_en": "impound lot / storage lot",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-041"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "descansar",
+    "term_en": "to rest",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-084"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "descuento",
+    "term_en": "discount",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-004"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "desesperarse",
+    "term_en": "to get frustrated",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-091"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "desgaste",
+    "term_en": "wear",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-092"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "desistimiento",
+    "term_en": "waiver/release",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-028"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "despejar la interseccion",
+    "term_en": "clear the intersection",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-045"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "desviacion",
+    "term_en": "detour",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-060"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "detencion del vehiculo",
+    "term_en": "vehicle detention/impoundment",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-008"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "detenerse",
+    "term_en": "to stop",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-082"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "dias habiles",
+    "term_en": "business days",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-004"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "dibujo de las llantas",
+    "term_en": "tire tread",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-092"
+    ],
+    "context": "Tire safety, maintenance, and blowout procedures"
+  },
+  {
+    "term_es": "direccionales",
+    "term_en": "turn signals",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-081"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "discapacitados",
+    "term_en": "disabled persons",
+    "category": "parking-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-029"
+    ],
+    "context": "Parking rules and regulations"
+  },
+  {
+    "term_es": "distancia de seguimiento",
+    "term_en": "following distance",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-088"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "distancia maxima",
+    "term_en": "maximum distance",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-010"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "doble sentido",
+    "term_en": "two-way (street)",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-033"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "documentos",
+    "term_en": "documents",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-011"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "ejercicios fisicos",
+    "term_en": "physical exercises",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-084"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "en bateria",
+    "term_en": "angle parking",
+    "category": "parking-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-039"
+    ],
+    "context": "Parking rules and regulations"
+  },
+  {
+    "term_es": "en cordon",
+    "term_en": "parallel parking",
+    "category": "parking-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-039"
+    ],
+    "context": "Parking rules and regulations"
+  },
+  {
+    "term_es": "en servicio",
+    "term_en": "on duty/in service",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-025"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "entronque",
+    "term_en": "junction",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-071"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "entronque lateral",
+    "term_en": "road junction / lateral junction",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-059"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "escolares",
+    "term_en": "students/schoolchildren",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-024"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "espejos",
+    "term_en": "mirrors",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-075"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "estacionamiento prohibido",
+    "term_en": "no parking",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-051"
+    ],
+    "context": "Parking rules and restrictions"
+  },
+  {
+    "term_es": "estacionarse",
+    "term_en": "to park",
+    "category": "parking-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-030"
+    ],
+    "context": "Parking rules and regulations"
+  },
+  {
+    "term_es": "estrechamiento simetrico",
+    "term_en": "symmetric narrowing",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-058"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "estupefacientes",
+    "term_en": "narcotics/drugs",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-014"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "extinguidor de incendios",
+    "term_en": "fire extinguisher",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-087"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "extremo de la vialidad",
+    "term_en": "far edge of the road",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-019"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "falla mecanica",
+    "term_en": "mechanical failure",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-073"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "falta administrativa",
+    "term_en": "administrative offense",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-014"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "falta de agua",
+    "term_en": "lack of water / low coolant",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-063"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "faros delanteros",
+    "term_en": "headlights",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-062"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "frenar moderadamente",
+    "term_en": "to brake moderately",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-090"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "freno de mano",
+    "term_en": "parking brake",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-098"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "gafete de identificacion",
+    "term_en": "identification badge",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-034"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "guardar la calma",
+    "term_en": "to stay calm",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-089"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "guarnicion",
+    "term_en": "curb",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-051"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "holograma",
+    "term_en": "hologram sticker",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-012"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "horarios de entrada o salida",
+    "term_en": "arrival or dismissal hours",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-036"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "iluminacion",
+    "term_en": "lighting",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-085"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "iluminacion del sol",
+    "term_en": "sun glare / sunlight",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-095"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "impacto por alcance",
+    "term_en": "rear-end collision",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-045"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "incendiar",
+    "term_en": "to catch fire",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-087"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "incorporacion al transito",
+    "term_en": "traffic merge",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-053"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "interior del vehiculo",
+    "term_en": "vehicle interior",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-005"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "intermitentes",
+    "term_en": "turn signals",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-076"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "interrumpir la circulacion",
+    "term_en": "stop/interrupt traffic",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-011"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "intransferibles",
+    "term_en": "non-transferable",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-023"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "lesionados",
+    "term_en": "injured persons",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-041"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "lesiones",
+    "term_en": "injuries",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-002"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "ley de transito",
+    "term_en": "transit law",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-013"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "licencia de chofer",
+    "term_en": "chofer/commercial license",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-021"
+    ],
+    "context": "License types, requirements, and penalties"
+  },
+  {
+    "term_es": "limite de velocidad",
+    "term_en": "speed limit",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-008"
+    ],
+    "context": "Speed limits and speed-related rules"
+  },
+  {
+    "term_es": "linea continua",
+    "term_en": "solid / continuous line",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-057"
+    ],
+    "context": "Road markings and lane rules"
+  },
+  {
+    "term_es": "linea discontinua",
+    "term_en": "dashed / broken line",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-057"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "llanta ponchada",
+    "term_en": "flat tire",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-098"
+    ],
+    "context": "Tire safety, maintenance, and blowout procedures"
+  },
+  {
+    "term_es": "llanta revienta",
+    "term_en": "tire blowout",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-077"
+    ],
+    "context": "Tire safety, maintenance, and blowout procedures"
+  },
+  {
+    "term_es": "llantas",
+    "term_en": "tires",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-075"
+    ],
+    "context": "Tire safety, maintenance, and blowout procedures"
+  },
+  {
+    "term_es": "llave de cruz",
+    "term_en": "lug wrench / cross wrench",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-066"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "luces de emergencia",
+    "term_en": "hazard lights",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-073"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "luz ambar",
+    "term_en": "amber / yellow light",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-090"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "luz ambar / amarilla",
+    "term_en": "yellow / amber light",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-045"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "luz roja",
+    "term_en": "red light",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-018"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "luz roja intermitente",
+    "term_en": "flashing red light",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-044"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "manejo defensivo",
+    "term_en": "defensive driving",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-094"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "manometro para llantas",
+    "term_en": "tire pressure gauge",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-066"
+    ],
+    "context": "Tire safety, maintenance, and blowout procedures"
+  },
+  {
+    "term_es": "manos libres",
+    "term_en": "hands-free",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-016"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "mantenimiento preventivo",
+    "term_en": "preventive maintenance",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-096"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "maquinaria agricola",
+    "term_en": "agricultural machinery",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-054"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "medida de seguridad",
+    "term_en": "security measure",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-001"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "menor de tres anos",
+    "term_en": "child under three years old",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-017"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "metros",
+    "term_en": "meters",
+    "category": "parking-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-030"
+    ],
+    "context": "Parking rules and regulations"
+  },
+  {
+    "term_es": "niveles de fluidos",
+    "term_en": "fluid levels",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-096"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "no parar",
+    "term_en": "no stopping",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-067"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "normas de vialidad",
+    "term_en": "traffic rules / regulations",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-094"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "odometro",
+    "term_en": "odometer",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-063"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "ofensivo",
+    "term_en": "offensive",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-083"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "orilla del camino",
+    "term_en": "edge of the road",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-061"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "orillarse",
+    "term_en": "to pull over",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-079"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "parabrisas",
+    "term_en": "windshield",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-099"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "parabrisas estrellado",
+    "term_en": "cracked windshield",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-009"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "pares viales",
+    "term_en": "paired one-way roads",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-048"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "patrulla",
+    "term_en": "patrol car",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-034"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "patrulla escolar",
+    "term_en": "school patrol",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-024"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "peligro",
+    "term_en": "danger / hazard",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-047"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "permiso para circular",
+    "term_en": "circulation permit",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-012"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "permitir el paso",
+    "term_en": "yield/allow to pass",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-019"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "peso restringido",
+    "term_en": "weight restriction",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-058"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "pick up",
+    "term_en": "pickup truck",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-006"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "pintadas de color amarillo",
+    "term_en": "painted yellow",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-051"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "piso mojado",
+    "term_en": "wet road surface",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-088"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "placas ocultas",
+    "term_en": "hidden plates",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-015"
+    ],
+    "context": "License plates and vehicle registration"
+  },
+  {
+    "term_es": "placas sobrepuestas",
+    "term_en": "overlapping/fraudulent plates",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-001"
+    ],
+    "context": "License plates and vehicle registration"
+  },
+  {
+    "term_es": "poliza de seguro",
+    "term_en": "insurance policy",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-042"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "por alcance",
+    "term_en": "rear-end collision",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-078"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "posicion lateral / de costado",
+    "term_en": "sideways / lateral position",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-038"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "posicion preventiva",
+    "term_en": "cautionary/preventive position",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-027"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "precauciones",
+    "term_en": "precautions",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-102"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "presionar con luces o claxon",
+    "term_en": "to pressure with lights or horn",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-081"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "prevenir accidentes",
+    "term_en": "to prevent accidents",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-094"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "primera ocasion",
+    "term_en": "first offense",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-003"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "profundidad",
+    "term_en": "depth",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-092"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "prohibiciones",
+    "term_en": "prohibitions",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-047"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "prohibida la vuelta",
+    "term_en": "turn prohibited",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-069"
+    ],
+    "context": "Turn rules including turns on red"
+  },
+  {
+    "term_es": "prohibido circular",
+    "term_en": "prohibited from driving",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-054"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "prohibido el retorno",
+    "term_en": "U-turn prohibited",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-069"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "prohibido estacionarse",
+    "term_en": "no parking",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-064"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "puente",
+    "term_en": "bridge",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-053"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "puente angosto",
+    "term_en": "narrow bridge",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-060"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "reglamento",
+    "term_en": "regulations",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-007"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "reservado",
+    "term_en": "reserved",
+    "category": "parking-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-029"
+    ],
+    "context": "Parking rules and regulations"
+  },
+  {
+    "term_es": "retirar de la circulacion",
+    "term_en": "remove from circulation",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-001"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "retorno",
+    "term_en": "U-turn",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-069"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "reversa",
+    "term_en": "reverse",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-010"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "salario minimo",
+    "term_en": "minimum wage",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-042"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "salida",
+    "term_en": "exit",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-071"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "sancion",
+    "term_en": "sanction/penalty",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-003"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "segundos",
+    "term_en": "seconds",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-074"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "seguridad",
+    "term_en": "safety",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-100"
+    ],
+    "context": "Seatbelt requirements and safety"
+  },
+  {
+    "term_es": "seguridad vial",
+    "term_en": "road safety",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-083"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "semaforo obstruido",
+    "term_en": "obstructed traffic light",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-101"
+    ],
+    "context": "Traffic signals and signal-related questions"
+  },
+  {
+    "term_es": "semaforo preventivo (amarillo)",
+    "term_en": "yellow / caution light",
+    "category": "pedestrian-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-080"
+    ],
+    "context": "Traffic signals and signal-related questions"
+  },
+  {
+    "term_es": "senal",
+    "term_en": "sign",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-071"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "senal humana",
+    "term_en": "hand signal",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-049"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "senal preventiva",
+    "term_en": "warning sign",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-068"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "senal restrictiva",
+    "term_en": "restrictive / regulatory sign",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-064"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "senalamiento humano",
+    "term_en": "hand signal",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-031"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "senales de transito",
+    "term_en": "traffic signs",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-097"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "senales informativas",
+    "term_en": "informational signs",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-040"
+    ],
+    "context": "Road signs and their meanings"
+  },
+  {
+    "term_es": "sentido de circulacion",
+    "term_en": "direction of travel",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-052"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "servicio publico",
+    "term_en": "public service",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-021"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "silbatazo",
+    "term_en": "whistle blast",
+    "category": "officer-signals",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-050"
+    ],
+    "context": "Traffic officer signals and authority"
+  },
+  {
+    "term_es": "sirenas",
+    "term_en": "sirens",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-035"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "sujetar con firmeza",
+    "term_en": "to grip firmly",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-093"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "telefonia celular",
+    "term_en": "cell phone",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-016"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "tercer grado de ebriedad",
+    "term_en": "third-degree intoxication",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-003"
+    ],
+    "context": "DUI laws and penalties"
+  },
+  {
+    "term_es": "torretas",
+    "term_en": "light bars/emergency lights",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-035"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "total o parcialmente",
+    "term_en": "totally or partially",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-015"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "tractor",
+    "term_en": "tractor",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-054"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "trafico",
+    "term_en": "traffic",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-085"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "tramites",
+    "term_en": "paperwork/procedures",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-012"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "transportar",
+    "term_en": "to transport/carry passengers",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-006"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "transporte de carga",
+    "term_en": "cargo transport",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-021"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "transporte publico",
+    "term_en": "public transportation",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-042"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "triangulo invertido",
+    "term_en": "inverted triangle",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-070"
+    ],
+    "context": "Road signs and pavement markings"
+  },
+  {
+    "term_es": "tuercas",
+    "term_en": "lug nuts",
+    "category": "vehicle-parts",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-098"
+    ],
+    "context": "Vehicle components and maintenance"
+  },
+  {
+    "term_es": "un solo sentido",
+    "term_en": "one-way",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-022"
+    ],
+    "context": "Right-of-way and intersection terminology"
+  },
+  {
+    "term_es": "usuarios de la via",
+    "term_en": "road users",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-103"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "vehiculo de emergencia",
+    "term_en": "emergency vehicle",
+    "category": "right-of-way",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-019"
+    ],
+    "context": "Emergency vehicle right-of-way"
+  },
+  {
+    "term_es": "velocidad permitida",
+    "term_en": "permitted speed",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-001"
+    ],
+    "context": "Speed limits and speed-related rules"
+  },
+  {
+    "term_es": "ventanilla",
+    "term_en": "side window",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-079"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "verificar",
+    "term_en": "to verify/check",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-011"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "via publica",
+    "term_en": "public road",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-103"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "vias alternas",
+    "term_en": "alternate routes",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-091"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "vias de igual importancia",
+    "term_en": "roads of equal importance",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-082"
+    ],
+    "context": "Defensive and safe driving techniques"
+  },
+  {
+    "term_es": "vias publicas",
+    "term_en": "public roads",
+    "category": "law-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-007"
+    ],
+    "context": "Legal and regulatory driving terminology"
+  },
+  {
+    "term_es": "volante",
+    "term_en": "steering wheel",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-077"
+    ],
+    "context": "Steering technique and control"
+  },
+  {
+    "term_es": "vuelta continua",
+    "term_en": "continuous turn / free turn",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-055"
+    ],
+    "context": "Turn rules including turns on red"
+  },
+  {
+    "term_es": "vuelta continua a la derecha",
+    "term_en": "continuous right turn / free right on red",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-059"
+    ],
+    "context": "Turn rules including turns on red"
+  },
+  {
+    "term_es": "zona de estacionamiento",
+    "term_en": "parking zone",
+    "category": "signs-markings",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-064"
+    ],
+    "context": "Parking rules and restrictions"
+  },
+  {
+    "term_es": "zona peatonal",
+    "term_en": "pedestrian zone / crosswalk",
+    "category": "pedestrian-terms",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-080"
+    ],
+    "context": "Pedestrian safety and right-of-way"
+  },
+  {
+    "term_es": "zonas urbanas",
+    "term_en": "urban areas",
+    "category": "driving-technique",
+    "frequency": 1,
+    "question_ids": [
+      "jalisco-102"
+    ],
+    "context": "Defensive and safe driving techniques"
+  }
+]

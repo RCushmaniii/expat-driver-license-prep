@@ -1,0 +1,31 @@
+---
+import BaseHead from "@components/astro/BaseHead.astro";
+import SEO from "@components/astro/SEO.astro";
+import Header from "@components/astro/Header.astro";
+import Footer from "@components/astro/Footer.astro";
+import "@/styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  noindex?: boolean;
+  jsonLd?: Record<string, unknown>;
+}
+
+const { title, description, noindex = false, jsonLd } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+    <SEO title={title} description={description} noindex={noindex} jsonLd={jsonLd} />
+  </head>
+  <body class="min-h-dvh flex flex-col bg-surface">
+    <Header />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

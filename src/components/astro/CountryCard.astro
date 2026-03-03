@@ -1,0 +1,42 @@
+---
+interface Props {
+  flag: string;
+  country: string;
+  region: string;
+  href: string;
+  questionCount: number;
+  active?: boolean;
+}
+
+const { flag, country, region, href, questionCount, active = true } = Astro.props;
+---
+
+{active ? (
+  <a
+    href={href}
+    class="card flex items-center gap-4 hover:border-navy hover:shadow-md transition-all group"
+  >
+    <span class="text-4xl" aria-hidden="true">{flag}</span>
+    <div class="flex-1">
+      <h3 class="font-semibold text-navy group-hover:text-navy-light transition-colors">
+        {country} — {region}
+      </h3>
+      <p class="text-sm text-text-secondary mt-1">
+        {questionCount} questions · Written exam + Simulator
+      </p>
+    </div>
+    <svg class="w-5 h-5 text-text-muted group-hover:text-navy transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+    </svg>
+  </a>
+) : (
+  <div class="card flex items-center gap-4 opacity-60 cursor-default">
+    <span class="text-4xl" aria-hidden="true">{flag}</span>
+    <div class="flex-1">
+      <h3 class="font-semibold text-text-secondary">
+        {country} — {region}
+      </h3>
+      <p class="text-sm text-text-muted mt-1">Coming soon</p>
+    </div>
+  </div>
+)}

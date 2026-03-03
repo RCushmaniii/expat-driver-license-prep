@@ -1,0 +1,62 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  name: "Contact ExpatDrive",
+  description: "Get in touch with the ExpatDrive team.",
+  publisher: {
+    "@type": "Organization",
+    name: "CushLabs AI Services",
+    email: "info@cushlabs.ai",
+  },
+};
+---
+
+<MainLayout
+  title="Contact | ExpatDrive"
+  description="Get in touch with the ExpatDrive team for questions, feedback, or content corrections."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl sm:text-4xl font-bold text-navy mb-6">Contact</h1>
+
+    <div class="space-y-6 text-text-primary leading-relaxed">
+      <p>
+        Have a question, found an error in a translation, or want to suggest a new region? We'd like to hear from you.
+      </p>
+
+      <div class="card">
+        <h2 class="text-xl font-bold text-navy mb-3">Email</h2>
+        <a
+          href="mailto:info@cushlabs.ai"
+          class="text-navy-light underline hover:text-navy text-lg"
+        >
+          info@cushlabs.ai
+        </a>
+        <p class="text-sm text-text-secondary mt-2">
+          We typically respond within 1-2 business days.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2 class="text-xl font-bold text-navy mb-3">Content corrections</h2>
+        <p>
+          If you've taken the exam recently and notice that a question, answer, or translation in ExpatDrive
+          doesn't match what you saw on test day, please let us know. Include the question number and what
+          was different so we can verify and update the content.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2 class="text-xl font-bold text-navy mb-3">New regions</h2>
+        <p>
+          Want ExpatDrive for your state or country? Let us know where you're located and we'll prioritize
+          based on demand. If you have access to the official question bank for your region, that helps
+          tremendously.
+        </p>
+      </div>
+    </div>
+  </div>
+</MainLayout>

@@ -1,0 +1,28 @@
+---
+interface Props {
+  documents: string[];
+}
+
+const { documents } = Astro.props;
+---
+
+<section class="card">
+  <h2 class="text-xl font-bold text-navy mb-4">Document Checklist</h2>
+  <p class="text-sm text-text-secondary mb-4">
+    Gather these <strong>before</strong> going to the office. Missing even one means a wasted trip.
+  </p>
+  <ul class="space-y-3">
+    {documents.map((doc, i) => (
+      <li class="flex items-start gap-3">
+        <input
+          type="checkbox"
+          id={`doc-${i}`}
+          class="mt-1 h-5 w-5 rounded border-border text-navy focus:ring-navy accent-navy cursor-pointer"
+        />
+        <label for={`doc-${i}`} class="text-sm text-text-primary leading-relaxed cursor-pointer">
+          {doc}
+        </label>
+      </li>
+    ))}
+  </ul>
+</section>

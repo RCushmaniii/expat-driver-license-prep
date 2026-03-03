@@ -1,0 +1,41 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import FlashcardDeck from "@components/react/FlashcardDeck";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  name: "Jalisco Flashcard Study",
+  description:
+    "Study Jalisco driver's license exam questions with spaced repetition flashcards.",
+  educationalLevel: "beginner",
+  learningResourceType: "Flashcards",
+  inLanguage: ["es", "en"],
+};
+
+const breadcrumbs = [
+  { label: "Mexico", href: "#" },
+  { label: "Jalisco", href: "/countries/mexico/jalisco/" },
+  { label: "Flashcard Study" },
+];
+---
+
+<MainLayout
+  title="Flashcard Study - Jalisco | ExpatDrive"
+  description="Study Jalisco driver's license exam questions with smart spaced repetition flashcards. Cards adapt to what you know."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumb items={breadcrumbs} />
+
+    <div class="mb-6">
+      <h1 class="text-2xl sm:text-3xl font-bold text-navy">Flashcard Study</h1>
+      <p class="text-text-secondary mt-1">
+        Cards you miss come back sooner. Cards you know space out over time.
+      </p>
+    </div>
+
+    <FlashcardDeck client:load />
+  </div>
+</MainLayout>
