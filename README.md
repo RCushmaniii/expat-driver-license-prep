@@ -46,6 +46,14 @@ The multi-region content architecture means adding a new country or state is a c
 - **Bilingual-first design** — Every content interface supports toggling between original language and English translation, with distinct visual treatment for each language
 - **Progressive architecture** — Phase 1 runs fully static with localStorage; the storage layer abstracts behind an interface for Phase 2 migration to Supabase with auth and cross-device sync
 
+## Live Demo
+
+**[Try it live](https://expat-driver-license-prep.vercel.app)**
+
+- Take a [practice exam](https://expat-driver-license-prep.vercel.app/countries/mexico/jalisco/exam) with 20 randomized questions
+- Study with [spaced repetition flashcards](https://expat-driver-license-prep.vercel.app/countries/mexico/jalisco/study) that adapt to your knowledge
+- Drill [driving vocabulary](https://expat-driver-license-prep.vercel.app/countries/mexico/jalisco/vocabulary) in Spanish and English
+
 ## Getting Started
 
 ### Prerequisites

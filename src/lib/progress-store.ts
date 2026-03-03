@@ -16,12 +16,32 @@ function defaultProgress(): StudyProgress {
   };
 }
 
+/** Runtime shape check for parsed localStorage data */
+function isStudyProgress(data: unknown): data is StudyProgress {
+  return (
+    typeof data === "object" &&
+    data !== null &&
+    "srCards" in data &&
+    "examHistory" in data &&
+    "vocabProgress" in data
+  );
+}
+
 /** Safely read from localStorage */
 function read(): StudyProgress {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return defaultProgress();
-    return JSON.parse(raw) as StudyProgress;
+    const parsed = JSON.parse(raw);
+    if (!isStudyProgress(parsed)) return defaultProgress();
+
+    // Cap exam history to prevent unbounded growth
+    if (parsed.examHistory.length > 100) {
+      parsed.examHistory = parsed.examHistory.slice(-100);
+      write(parsed);
+    }
+
+    return parsed;
   } catch {
     return defaultProgress();
   }

@@ -8,7 +8,12 @@ export default defineConfig({
   site: "https://expat-driver-license-prep.vercel.app",
   output: "static",
   adapter: vercel(),
-  integrations: [react(), sitemap()],
+  integrations: [
+    react(),
+    sitemap({
+      filter: (page) => !page.includes("/404") && !page.includes("/progress"),
+    }),
+  ],
   vite: {
     plugins: [tailwindcss()],
   },
