@@ -14,7 +14,6 @@ const jsonLd = {
   publisher: {
     "@type": "Organization",
     name: "CushLabs AI Services",
-    email: "info@cushlabs.ai",
     url: "https://cushlabs.ai",
   },
 };
@@ -143,7 +142,7 @@ const jsonLd = {
               data-d="cushlabs.ai"
               class="text-navy-light underline hover:text-navy font-medium"
             >
-              info@cushlabs.ai
+              <span class="email-user">info</span><span class="email-at">[at]</span><span class="email-domain">cushlabs.ai</span>
             </a>
             <p class="text-xs text-text-muted mt-1">1-2 business day response</p>
           </div>
@@ -203,13 +202,15 @@ const jsonLd = {
 </MainLayout>
 
 <script>
-  // Anti-scraper email assembly
+  // Anti-scraper email assembly — builds mailto href and readable text from data attributes
   const emailLink = document.getElementById("email-link");
   if (emailLink) {
     const u = emailLink.getAttribute("data-u");
     const d = emailLink.getAttribute("data-d");
     if (u && d) {
-      emailLink.setAttribute("href", `mailto:${u}@${d}`);
+      const addr = `${u}@${d}`;
+      emailLink.setAttribute("href", `mailto:${addr}`);
+      emailLink.textContent = addr;
     }
   }
 
