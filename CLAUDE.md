@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-ExpatDrive is a bilingual study companion for English-speaking expats preparing for foreign driver's license exams. Phase 1 targets the Jalisco, Mexico written exam with 103 official questions. The app provides practice exams, flashcards with spaced repetition, vocabulary drills, and a process guide. Pre-development — content preparation and app scaffold are the immediate next steps.
+ExpatDrive is a bilingual study companion for English-speaking expats preparing for foreign driver's license exams. Phase 1 targets the Jalisco, Mexico written exam with 103 official questions. The app provides practice exams, flashcards with spaced repetition, vocabulary drills, and a process guide. Live at https://expat-driver-license-prep.vercel.app
 
 ## Tech Stack
 
@@ -12,7 +12,7 @@ ExpatDrive is a bilingual study companion for English-speaking expats preparing 
 - Tailwind CSS
 - SM-2 spaced repetition algorithm (client-side)
 - localStorage (Phase 1 persistence) → Supabase (Phase 2)
-- Vercel or Netlify (deployment)
+- Vercel (deployment — static output with @astrojs/vercel adapter)
 
 ## Project Structure
 
@@ -29,7 +29,11 @@ expatdrive/
 │   └── styles/               # Tailwind + custom CSS
 ├── content/
 │   └── countries/mexico/jalisco/  # Question bank, vocabulary, process guide, metadata
-└── public/                   # Static assets (sign images, favicon)
+├── public/
+│   ├── data/jalisco/             # Client-side JSON (questions.json, vocabulary.json)
+│   ├── favicon.svg               # Navy steering wheel icon
+│   └── robots.txt
+├── docs/                         # Brand & design system documentation
 ```
 
 ## Development Commands
@@ -81,13 +85,12 @@ Region metadata in `meta.json` captures exam parameters (questions per exam, pas
 
 ## Current Focus
 
-Sprint 1 — Content preparation: parsing 103 Jalisco questions into structured JSON, generating quality English translations, writing explanations, extracting vocabulary, and compiling the process guide.
+Sprint 2 complete — Full Astro app scaffold with brand system deployed. Next: QA, PWA offline mode, and sign image creation.
 
 ## Known Issues
 
-- Pre-development; no code exists yet
 - ~15-20 questions reference road sign images that need to be sourced or created as SVGs
-- Government English translations exist but are rough — improved translations needed
+- Vercel production branch updated to `main` (renamed from `master`)
 
 ## Environment Setup
 
