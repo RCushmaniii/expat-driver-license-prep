@@ -71,6 +71,7 @@ export interface SignMetadata {
   shape: SignShape;
   primaryColor: SignColor;
   description: string;
+  examSign?: boolean;
 }
 
 // Vocabulary types (matches vocabulary.json schema)

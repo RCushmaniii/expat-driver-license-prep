@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <title>Continuous right turn permitted — vuelta continua a la derecha</title>
-  <!-- White circle with red border (NOM-034-SCT regulatory sign) -->
-  <circle cx="60" cy="60" r="50" fill="white" stroke="#CC0000" stroke-width="5"/>
-  <!-- Right turn arrow shaft: goes up then curves right -->
-  <path d="M48,88 L48,52 C48,38 58,32 72,32" fill="none" stroke="#333" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Arrowhead pointing right -->
-  <polygon points="69,23 86,32 69,41" fill="#333"/>
-</svg>

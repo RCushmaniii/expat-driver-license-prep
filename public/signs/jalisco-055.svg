@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <title>Curve ahead — preventive sign</title>
-  <!-- Yellow diamond -->
-  <polygon points="60,8 112,60 60,112 8,60" fill="#FFD600" stroke="#333" stroke-width="2.5"/>
-  <!-- Curve arrow -->
-  <path d="M45,80 L45,50 Q45,35 60,35 L70,35" fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Arrow head -->
-  <polygon points="68,27 80,35 68,43" fill="#333"/>
-</svg>

@@ -24,6 +24,7 @@ export default function RoadSignsStudy() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
   const [expandedSign, setExpandedSign] = useState<string | null>(null);
+  const [filterExam, setFilterExam] = useState(false);
 
   // Quiz state
   const [quizState, setQuizState] = useState<QuizState>("ready");
@@ -43,6 +44,7 @@ export default function RoadSignsStudy() {
   }, []);
 
   const signQuestions = questions.filter((q) => q.has_image && q.image_ref);
+  const displaySigns = filterExam ? signs.filter((s) => s.examSign) : signs;
 
   const getQuestionForSign = (sign: SignMetadata): Question | undefined => {
     if (!sign.questionId) return undefined;
@@ -89,6 +91,8 @@ export default function RoadSignsStudy() {
     );
   }
 
+  const examCount = signs.filter((s) => s.examSign).length;
+
   return (
     <div>
       {/* Tab selector */}
@@ -113,18 +117,22 @@ export default function RoadSignsStudy() {
             </button>
           ))}
         </div>
-        <span className="text-sm text-text-muted">{signs.length} signs</span>
+        <span className="text-sm text-text-muted">{displaySigns.length} signs</span>
       </div>
 
       {tab === "gallery" ? (
         <GalleryTab
-          signs={signs}
+          signs={displaySigns}
           getQuestionForSign={getQuestionForSign}
           expandedSign={expandedSign}
           setExpandedSign={setExpandedSign}
           speak={speak}
           isSpeaking={isSpeaking}
           isSupported={isSupported}
+          filterExam={filterExam}
+          setFilterExam={setFilterExam}
+          examCount={examCount}
+          totalCount={signs.length}
         />
       ) : (
         <QuizTab
@@ -153,6 +161,10 @@ interface GalleryProps {
   speak: (text: string) => void;
   isSpeaking: boolean;
   isSupported: boolean;
+  filterExam: boolean;
+  setFilterExam: (v: boolean) => void;
+  examCount: number;
+  totalCount: number;
 }
 
 function GalleryTab({
@@ -163,9 +175,37 @@ function GalleryTab({
   speak,
   isSpeaking,
   isSupported,
+  filterExam,
+  setFilterExam,
+  examCount,
+  totalCount,
 }: GalleryProps) {
   return (
     <div>
+      {/* Filter toggle */}
+      <div className="flex items-center gap-3 mb-6">
+        <button
+          onClick={() => setFilterExam(false)}
+          className={`px-3 py-1.5 text-sm rounded-full border transition-colors ${
+            !filterExam
+              ? "bg-navy text-white border-navy"
+              : "text-text-secondary border-border hover:border-navy-light"
+          }`}
+        >
+          All Signs ({totalCount})
+        </button>
+        <button
+          onClick={() => setFilterExam(true)}
+          className={`px-3 py-1.5 text-sm rounded-full border transition-colors ${
+            filterExam
+              ? "bg-navy text-white border-navy"
+              : "text-text-secondary border-border hover:border-navy-light"
+          }`}
+        >
+          Exam Signs ({examCount})
+        </button>
+      </div>
+
       {/* Color/Shape Guide */}
       <div className="mb-8">
         <h2 className="text-lg font-semibold text-navy mb-3">Mexican Sign Categories (NOM-034-SCT)</h2>
@@ -185,7 +225,7 @@ function GalleryTab({
 
       {/* Signs by category */}
       {signCategoryOrder.map((cat) => {
-        const catSigns = filterSignsByCategory(signs, cat);
+        const catSigns = signs.filter((s) => s.nomCategory === cat);
         if (catSigns.length === 0) return null;
         const info = signCategoryInfo[cat];
 
@@ -195,7 +235,7 @@ function GalleryTab({
               {info.name}
               <span className="text-text-muted font-normal text-sm ml-2">({catSigns.length})</span>
             </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
               {catSigns.map((sign) => (
                 <SignCard
                   key={sign.id}
@@ -246,12 +286,19 @@ function SignCard({
         className="w-full flex flex-col items-center cursor-pointer group"
         aria-expanded={isExpanded}
       >
-        <img
-          src={`/${sign.signFile}`}
-          alt={sign.nameEn}
-          className="w-20 h-20 sm:w-24 sm:h-24 object-contain mb-2 group-hover:scale-105 transition-transform"
-          loading="lazy"
-        />
+        <div className="relative">
+          <img
+            src={`/${sign.signFile}`}
+            alt={sign.nameEn}
+            className="w-20 h-20 sm:w-24 sm:h-24 object-contain mb-2 group-hover:scale-105 transition-transform"
+            loading="lazy"
+          />
+          {sign.examSign && (
+            <span className="absolute -top-1 -right-1 bg-navy text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none">
+              EXAM
+            </span>
+          )}
+        </div>
         <div className="flex items-center gap-1 justify-center flex-wrap">
           <span className="text-sm font-medium text-navy">{sign.nameEn}</span>
         </div>
@@ -265,6 +312,7 @@ function SignCard({
             size="sm"
           />
         </div>
+        <span className="text-[10px] text-text-muted mt-0.5">{sign.id}</span>
         <svg
           className={`w-4 h-4 text-text-muted mt-1 transition-transform ${isExpanded ? "rotate-180" : ""}`}
           fill="none"
@@ -350,8 +398,8 @@ function QuizTab({
       <div className="card text-center py-10">
         <h2 className="text-2xl font-bold text-navy mb-2">Sign Recognition Quiz</h2>
         <p className="text-text-secondary mb-6 max-w-md mx-auto">
-          Identify {signQuestions.length} Mexican road signs from the official exam.
-          You'll see a sign and pick what it means from 3 options.
+          Identify {signQuestions.length} Mexican road signs from the official Jalisco exam.
+          You'll see a sign and pick what it means from the answer options.
         </p>
         <button onClick={startQuiz} className="btn-primary">
           Start Quiz

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <title>Crossroads ahead — preventive sign</title>
-  <!-- Yellow diamond -->
-  <polygon points="60,8 112,60 60,112 8,60" fill="#FFD600" stroke="#333" stroke-width="2.5"/>
-  <!-- Cross/intersection symbol -->
-  <line x1="60" y1="30" x2="60" y2="90" stroke="#333" stroke-width="7" stroke-linecap="round"/>
-  <line x1="35" y1="60" x2="85" y2="60" stroke="#333" stroke-width="7" stroke-linecap="round"/>
-</svg>
