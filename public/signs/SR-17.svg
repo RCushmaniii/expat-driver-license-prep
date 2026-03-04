@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="710mm"
+   height="710mm"
+   viewBox="0 0 710 710"
+   version="1.1"
+   id="svg33049"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Mexico road sign SR-17 (2023).svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33051"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.76257015"
+     inkscape:cx="1199.8896"
+     inkscape:cy="1339.5489"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs33046" />
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(212.3983,207.19397)">
+    <g
+       id="g22357"
+       transform="translate(-6130.3109,-3600.5946)">
+      <rect
+         style="fill:#000000;stroke-width:3.68415;stroke-opacity:0.578462;paint-order:fill markers stroke"
+         id="rect20798-3-4-9-8"
+         width="710"
+         height="710"
+         x="5917.9126"
+         y="3393.4006"
+         ry="40"
+         rx="40" />
+      <rect
+         style="fill:#ffffff;stroke-width:3.58037;stroke-opacity:0.578462;paint-order:fill markers stroke"
+         id="rect20798-4-77-2-6-2"
+         width="690"
+         height="690"
+         x="5927.9131"
+         y="3403.4006"
+         ry="30"
+         rx="30" />
+      <g
+         id="g25102-4-81-1-2-3"
+         transform="rotate(90,2947.4924,6340.8927)">
+        <circle
+           style="fill:#bd2025;stroke-width:6.548;stroke-opacity:0.578462;paint-order:fill markers stroke"
+           id="path23624-04-2-94-6"
+           cx="3015.4722"
+           cy="-355"
+           r="310"
+           transform="rotate(90)" />
+        <circle
+           style="fill:#ffffff;stroke-width:5.28036;stroke-opacity:0.578462;paint-order:fill markers stroke"
+           id="path23624-1-93-6-2-2"
+           cx="355.00046"
+           cy="3015.4727"
+           r="250" />
+      </g>
+      <g
+         id="g15632-4"
+         transform="matrix(16.794853,0,0,16.794853,-143979.35,-36055.08)">
+        <path
+           d="m 8943.7566,2371.4189 h -2.3161 v -9.4129 h -2.0017 l -0.4135,-1.8528 2.7792,-0.4798 h 1.9521 z"
+           style="-inkscape-font-specification:'MEXICO Serie1 Bold';fill:#000000;stroke-width:3.50137;paint-order:fill markers stroke"
+           id="path15618-4" />
+        <path
+           d="m 8944.9871,2365.6951 q 0,-3.1101 1.0422,-4.6155 1.0422,-1.522 3.2259,-1.522 2.1836,0 3.2259,1.522 1.0422,1.5054 1.0422,4.6155 0,3.1101 -1.0257,4.5824 -1.0091,1.4558 -3.2424,1.4558 -2.2168,0 -3.2425,-1.4558 -1.0256,-1.4723 -1.0256,-4.5824 z m 2.3822,0 q 0,2.2167 0.4632,3.2093 0.4797,0.976 1.4227,0.976 0.9429,0 1.4061,-0.976 0.4798,-0.9926 0.4798,-3.2093 0,-2.2664 -0.4467,-3.2755 -0.4467,-1.0092 -1.4392,-1.0092 -0.9926,0 -1.4393,1.0092 -0.4466,1.0091 -0.4466,3.2755 z"
+           style="-inkscape-font-specification:'MEXICO Serie1 Bold';fill:#000000;stroke-width:3.50137;paint-order:fill markers stroke"
+           id="path15620-3" />
+        <path
+           d="m 8948.2447,2381.7133 q -0.2537,0.1208 -0.5557,0.1571 -0.29,0.024 -0.7249,0.024 -0.5921,0 -1.0149,-0.2658 -0.4229,-0.2658 -0.6524,-0.6886 -0.2175,-0.435 -0.2175,-0.9303 v -3.1534 h -0.7853 v -1.3894 h 0.7853 v -1.4136 l 1.6914,-0.3382 v 1.7518 h 1.4257 v 1.3894 h -1.4257 v 3.0326 q 0,0.6765 0.4833,0.6765 h 0.7733 z"
+           style="-inkscape-font-specification:'MEXICO Serie1 Bold';fill:#000000;stroke-width:2.55714;paint-order:fill markers stroke"
+           id="path15623-1" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,105 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import harvestedSigns from "../../public/data/jalisco/harvested-signs.json";
+
+const breadcrumbs = [{ label: "Attributions" }];
+
+// Group signs by category for organized display
+const categories = new Map<string, typeof harvestedSigns>();
+for (const sign of harvestedSigns) {
+  const cat = sign.nomCategory || "other";
+  if (!categories.has(cat)) categories.set(cat, []);
+  categories.get(cat)!.push(sign);
+}
+
+const categoryNames: Record<string, string> = {
+  warning: "Warning Signs (SP — Preventivas)",
+  restrictive: "Regulatory Signs (SR — Restrictivas)",
+  prohibitive: "Prohibitive Signs (SR — Prohibitivas)",
+  informational: "Informational Signs",
+  other: "Other",
+};
+---
+
+<MainLayout
+  title="Attributions | ExpatDrive"
+  description="Image attributions and licenses for road sign graphics used on ExpatDrive."
+>
+  <!-- Image sources: see /attributions -->
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumb items={breadcrumbs} />
+
+    <h1 class="text-2xl sm:text-3xl font-bold text-navy mb-4">Attributions</h1>
+
+    <div class="card mb-6">
+      <p class="text-text-secondary text-sm">
+        Road sign images on this site are sourced from
+        <a href="https://commons.wikimedia.org/wiki/Category:SVG_road_signs_in_Mexico"
+          class="text-navy hover:underline" target="_blank" rel="noopener noreferrer">
+          Wikimedia Commons
+        </a>
+        and are licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          class="text-navy hover:underline" target="_blank" rel="noopener noreferrer">
+          Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+        </a> license.
+      </p>
+      <p class="text-text-muted text-xs mt-2">
+        This page is auto-generated from sign metadata at build time.
+        Last build: {new Date().toISOString().split("T")[0]}
+      </p>
+    </div>
+
+    {harvestedSigns.length === 0 ? (
+      <p class="text-text-muted">No harvested sign images yet.</p>
+    ) : (
+      [...categories.entries()].map(([cat, signs]) => (
+        <div class="mb-8">
+          <h2 class="text-lg font-semibold text-navy mb-3">
+            {categoryNames[cat] || cat}
+            <span class="text-text-muted font-normal text-sm ml-2">({signs.length})</span>
+          </h2>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm border-collapse">
+              <thead>
+                <tr class="border-b border-border text-left text-text-muted text-xs uppercase tracking-wider">
+                  <th class="py-2 pr-4">Code</th>
+                  <th class="py-2 pr-4">Sign</th>
+                  <th class="py-2 pr-4">Source</th>
+                  <th class="py-2">License</th>
+                </tr>
+              </thead>
+              <tbody>
+                {signs.map((sign: any) => (
+                  <tr class="border-b border-border/50">
+                    <td class="py-2 pr-4 font-mono text-navy">{sign.code}</td>
+                    <td class="py-2 pr-4">
+                      <img
+                        src={`/${sign.localPath}`}
+                        alt={`Sign ${sign.code}`}
+                        class="w-8 h-8 object-contain"
+                        loading="lazy"
+                      />
+                    </td>
+                    <td class="py-2 pr-4">
+                      <a
+                        href={sign.sourceUrl}
+                        class="text-navy hover:underline text-xs"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Wikimedia Commons
+                      </a>
+                    </td>
+                    <td class="py-2 text-text-muted text-xs">{sign.license}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ))
+    )}
+  </div>
+</MainLayout>

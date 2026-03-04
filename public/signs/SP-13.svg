@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 634.89581 634.8958"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="SP-13_30x30.svg"
+   width="634.89581"
+   height="634.89581"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.74491477"
+     inkscape:cx="316.81477"
+     inkscape:cy="538.98783"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #ffca06;
+      }
+
+      .cls-4 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g
+     id="sp_Fondo_del_tablero"
+     data-name="sp_Fondo del tablero"
+     transform="translate(-100.59289,-6.4521186)">
+    <g
+       id="HATCH">
+      <rect
+         class="cls-3"
+         x="197.27"
+         y="103.13"
+         width="441.53"
+         height="441.53"
+         rx="18.66"
+         ry="18.66"
+         transform="rotate(-45,418.03191,323.89551)"
+         id="rect3" />
+    </g>
+  </g>
+  <g
+     id="sp_Pictograma_y_filete"
+     data-name="sp_Pictograma y filete"
+     transform="translate(-100.59289,-6.4521186)">
+    <g
+       id="HATCH-2"
+       data-name="HATCH">
+      <path
+         class="cls-4"
+         d="M 431.23,622.92 717.06,337.09 c 7.29,-7.29 7.29,-19.1 0,-26.38 L 431.23,24.88 c -7.29,-7.29 -19.1,-7.29 -26.38,0 L 119.02,310.71 c -7.29,7.29 -7.29,19.1 0,26.38 l 285.83,285.83 c 7.29,7.29 19.1,7.29 26.38,0 m 8.79,8.79 285.83,-285.83 c 12.14,-12.14 12.14,-31.83 0,-43.97 L 440.02,16.09 C 427.88,3.95 408.19,3.95 396.05,16.09 L 110.22,301.91 c -12.14,12.14 -12.14,31.83 0,43.97 l 285.83,285.83 c 12.14,12.14 31.83,12.14 43.97,0 z"
+         id="path3" />
+    </g>
+    <g
+       id="HATCH-3"
+       data-name="HATCH">
+      <path
+         class="cls-4"
+         d="m 630.96,344.18 h 20.28 v -40.56 h -20.28 c -88.31,0 -170.51,-45.07 -217.99,-119.53 v -37.63 h -81.11 v 354.87 c 0,0 81.11,0 81.11,0 V 463.7 C 460.45,389.24 542.65,344.17 630.96,344.17 m -217.99,-94.3 109.74,74.03 c -41.65,16.17 -79.15,41.47 -109.74,74.03 V 249.88 Z"
+         id="path4" />
+    </g>
+    <g
+       id="LWPOLYLINE">
+      <rect
+         class="cls-2"
+         x="184.83"
+         y="90.699997"
+         width="466.41"
+         height="466.41"
+         rx="31.09"
+         ry="31.09"
+         transform="rotate(-45,418.03191,323.89551)"
+         id="rect4" />
+    </g>
+    <g
+       id="LWPOLYLINE-2"
+       data-name="LWPOLYLINE">
+      <rect
+         class="cls-2"
+         x="197.27"
+         y="103.13"
+         width="441.53"
+         height="441.53"
+         rx="18.66"
+         ry="18.66"
+         transform="rotate(-45,418.03191,323.89551)"
+         id="rect5" />
+    </g>
+    <g
+       id="LWPOLYLINE-3"
+       data-name="LWPOLYLINE">
+      <path
+         class="cls-2"
+         d="m 412.97,249.87 109.74,74.03 c -41.65,16.17 -79.15,41.47 -109.74,74.03 V 249.88 Z"
+         id="path5" />
+    </g>
+    <g
+       id="LWPOLYLINE-4"
+       data-name="LWPOLYLINE">
+      <path
+         class="cls-2"
+         d="m 630.96,344.18 h 20.28 v -40.56 h -20.28 c -88.31,0 -170.51,-45.07 -217.99,-119.53 v -37.63 h -81.11 v 354.87 c 0,0 81.11,0 81.11,0 V 463.7 C 460.45,389.24 542.65,344.17 630.96,344.17 Z"
+         id="path6" />
+    </g>
+  </g>
+</svg>
