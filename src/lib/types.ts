@@ -36,14 +36,42 @@ export interface Question {
 export type QuestionCategory =
   | "traffic-law"
   | "road-signs"
+  | "traffic-signs"
   | "driving-technique"
+  | "defensive-driving"
   | "right-of-way"
   | "safety"
   | "vehicle-maintenance"
   | "sanctions-procedures"
   | "speed-limits"
   | "environmental"
-  | "pedestrians-cyclists";
+  | "pedestrians-cyclists"
+  | "pedestrian-safety"
+  | "officer-signals"
+  | "parking";
+
+// Road sign metadata types
+export type NomSignCategory =
+  | "restrictive"
+  | "prohibitive"
+  | "warning"
+  | "informational"
+  | "officer-signals";
+
+export type SignShape = "circle" | "diamond" | "triangle" | "rectangle" | "octagon" | "other";
+export type SignColor = "red" | "yellow" | "blue" | "green" | "white" | "orange";
+
+export interface SignMetadata {
+  id: string;
+  signFile: string;
+  questionId: string | null;
+  nameEs: string;
+  nameEn: string;
+  nomCategory: NomSignCategory;
+  shape: SignShape;
+  primaryColor: SignColor;
+  description: string;
+}
 
 // Vocabulary types (matches vocabulary.json schema)
 export interface VocabTerm {

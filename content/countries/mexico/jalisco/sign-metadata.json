@@ -1,0 +1,167 @@
+[
+  {
+    "id": "sign-049",
+    "signFile": "signs/jalisco-049.svg",
+    "questionId": "jalisco-049",
+    "nameEs": "Señal humana de alto",
+    "nameEn": "Stop hand signal",
+    "nomCategory": "officer-signals",
+    "shape": "other",
+    "primaryColor": "white",
+    "description": "Driver extending left arm out the window, bent upward at elbow — signals stop to drivers behind."
+  },
+  {
+    "id": "sign-053",
+    "signFile": "signs/jalisco-053.svg",
+    "questionId": "jalisco-053",
+    "nameEs": "Estrechamiento asimétrico",
+    "nameEn": "Asymmetric narrowing",
+    "nomCategory": "warning",
+    "shape": "diamond",
+    "primaryColor": "yellow",
+    "description": "Road narrows on one side only. Reduce speed and adjust lane position."
+  },
+  {
+    "id": "sign-054",
+    "signFile": "signs/jalisco-054.svg",
+    "questionId": "jalisco-054",
+    "nameEs": "Prohibido circular maquinaria agrícola",
+    "nameEn": "Agricultural machinery prohibited",
+    "nomCategory": "prohibitive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "Tractors, combines, and other farm equipment cannot use this road."
+  },
+  {
+    "id": "sign-055",
+    "signFile": "signs/jalisco-055.svg",
+    "questionId": "jalisco-055",
+    "nameEs": "Curva",
+    "nameEn": "Curve ahead",
+    "nomCategory": "warning",
+    "shape": "diamond",
+    "primaryColor": "yellow",
+    "description": "A single curve in the road ahead. Reduce speed before entering the curve."
+  },
+  {
+    "id": "sign-058",
+    "signFile": "signs/jalisco-058.svg",
+    "questionId": "jalisco-058",
+    "nameEs": "Altura libre restringida",
+    "nameEn": "Restricted clearance height",
+    "nomCategory": "restrictive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "Bridge, overpass, or tunnel with limited vertical clearance. Tall vehicles must check height."
+  },
+  {
+    "id": "sign-059",
+    "signFile": "signs/jalisco-059.svg",
+    "questionId": "jalisco-059",
+    "nameEs": "Vuelta continua a la derecha",
+    "nameEn": "Continuous right turn",
+    "nomCategory": "restrictive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "Free right turn on red is permitted. Yield to pedestrians and cross traffic first."
+  },
+  {
+    "id": "sign-060",
+    "signFile": "signs/jalisco-060.svg",
+    "questionId": "jalisco-060",
+    "nameEs": "Puente angosto",
+    "nameEn": "Narrow bridge",
+    "nomCategory": "warning",
+    "shape": "diamond",
+    "primaryColor": "yellow",
+    "description": "Bridge ahead is narrower than the road. Slow down and watch for oncoming traffic."
+  },
+  {
+    "id": "sign-064",
+    "signFile": "signs/jalisco-064.svg",
+    "questionId": "jalisco-064",
+    "nameEs": "Prohibido estacionarse",
+    "nameEn": "No parking",
+    "nomCategory": "prohibitive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "Parking is prohibited in this area at all times. Brief stops may still be allowed."
+  },
+  {
+    "id": "sign-065",
+    "signFile": "signs/jalisco-065.svg",
+    "questionId": "jalisco-065",
+    "nameEs": "Anchura restringida",
+    "nameEn": "Restricted width",
+    "nomCategory": "restrictive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "Road or passage has a maximum width limit. Wide vehicles must check clearance."
+  },
+  {
+    "id": "sign-067",
+    "signFile": "signs/jalisco-067.svg",
+    "questionId": "jalisco-067",
+    "nameEs": "No parar",
+    "nameEn": "No stopping",
+    "nomCategory": "prohibitive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "No stopping at all — not even briefly for passengers. Stricter than no parking."
+  },
+  {
+    "id": "sign-068",
+    "signFile": "signs/jalisco-068.svg",
+    "questionId": "jalisco-068",
+    "nameEs": "Cruce de caminos",
+    "nameEn": "Crossroads",
+    "nomCategory": "warning",
+    "shape": "diamond",
+    "primaryColor": "yellow",
+    "description": "Intersection ahead where another road crosses your path. Be alert for cross traffic."
+  },
+  {
+    "id": "sign-069",
+    "signFile": "signs/jalisco-069.svg",
+    "questionId": "jalisco-069",
+    "nameEs": "Prohibido el retorno",
+    "nameEn": "U-turn prohibited",
+    "nomCategory": "prohibitive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "U-turns are not allowed at this location. Find an alternative route to reverse direction."
+  },
+  {
+    "id": "sign-070",
+    "signFile": "signs/jalisco-070.svg",
+    "questionId": "jalisco-070",
+    "nameEs": "Ceda el paso",
+    "nameEn": "Yield",
+    "nomCategory": "restrictive",
+    "shape": "triangle",
+    "primaryColor": "red",
+    "description": "You must yield the right of way. Slow down and let other traffic pass before proceeding."
+  },
+  {
+    "id": "sign-071",
+    "signFile": "signs/jalisco-071.svg",
+    "questionId": "jalisco-071",
+    "nameEs": "Salida",
+    "nameEn": "Exit / Junction",
+    "nomCategory": "informational",
+    "shape": "rectangle",
+    "primaryColor": "blue",
+    "description": "Highway exit or road junction ahead. Prepare to change lanes if taking the exit."
+  },
+  {
+    "id": "sign-072",
+    "signFile": "signs/jalisco-072.svg",
+    "questionId": "jalisco-072",
+    "nameEs": "Anchura libre",
+    "nameEn": "Free width (clearance)",
+    "nomCategory": "informational",
+    "shape": "rectangle",
+    "primaryColor": "blue",
+    "description": "Shows the available clearance width of a road, bridge, or tunnel for vehicles."
+  }
+]

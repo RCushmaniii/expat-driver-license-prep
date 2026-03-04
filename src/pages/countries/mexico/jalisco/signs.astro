@@ -1,0 +1,42 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import RoadSignsStudy from "@components/react/RoadSignsStudy";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  name: "Mexican Road Signs - Jalisco Exam",
+  description:
+    "Study Mexican road signs for the Jalisco driver's license exam. Visual gallery organized by NOM-034-SCT categories with sign recognition quiz.",
+  educationalLevel: "beginner",
+  learningResourceType: "Visual study guide",
+  inLanguage: ["es", "en"],
+};
+
+const breadcrumbs = [
+  { label: "Mexico", href: "#" },
+  { label: "Jalisco", href: "/countries/mexico/jalisco/" },
+  { label: "Road Signs" },
+];
+---
+
+<MainLayout
+  title="Road Signs - Jalisco | ExpatDrive"
+  description="Study Mexican road signs for the Jalisco driver's license exam. Visual gallery with NOM-034-SCT categories and sign recognition quiz."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumb items={breadcrumbs} />
+
+    <div class="mb-6">
+      <h1 class="text-2xl sm:text-3xl font-bold text-navy">Road Signs</h1>
+      <p class="text-text-secondary mt-1">
+        Learn to recognize the 15 Mexican road signs from the Jalisco exam.
+        Browse the gallery to study or test yourself with the quiz.
+      </p>
+    </div>
+
+    <RoadSignsStudy client:load />
+  </div>
+</MainLayout>

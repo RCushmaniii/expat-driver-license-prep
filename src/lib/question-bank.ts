@@ -54,7 +54,9 @@ export function categoryDisplayName(category: QuestionCategory): string {
   const names: Record<QuestionCategory, string> = {
     "traffic-law": "Traffic Law",
     "road-signs": "Road Signs",
+    "traffic-signs": "Traffic Signs",
     "driving-technique": "Driving Technique",
+    "defensive-driving": "Defensive Driving",
     "right-of-way": "Right of Way",
     "safety": "Safety",
     "vehicle-maintenance": "Vehicle Maintenance",
@@ -62,6 +64,9 @@ export function categoryDisplayName(category: QuestionCategory): string {
     "speed-limits": "Speed Limits",
     "environmental": "Environmental",
     "pedestrians-cyclists": "Pedestrians & Cyclists",
+    "pedestrian-safety": "Pedestrian Safety",
+    "officer-signals": "Officer Signals",
+    "parking": "Parking",
   };
   return names[category] || category;
 }
