@@ -25,6 +25,7 @@ export default function RoadSignsStudy() {
   const [loading, setLoading] = useState(true);
   const [lightboxSignId, setLightboxSignId] = useState<string | null>(null);
   const [filterExam, setFilterExam] = useState(false);
+  const [filterCategory, setFilterCategory] = useState<NomSignCategory | null>(null);
 
   // Quiz state
   const [quizState, setQuizState] = useState<QuizState>("ready");
@@ -44,7 +45,8 @@ export default function RoadSignsStudy() {
   }, []);
 
   const signQuestions = questions.filter((q) => q.has_image && q.image_ref);
-  const displaySigns = filterExam ? signs.filter((s) => s.examSign) : signs;
+  let displaySigns = filterExam ? signs.filter((s) => s.examSign) : signs;
+  if (filterCategory) displaySigns = displaySigns.filter((s) => s.nomCategory === filterCategory);
 
   const getQuestionForSign = (sign: SignMetadata): Question | undefined => {
     if (!sign.questionId) return undefined;
@@ -132,6 +134,8 @@ export default function RoadSignsStudy() {
           isSupported={isSupported}
           filterExam={filterExam}
           setFilterExam={setFilterExam}
+          filterCategory={filterCategory}
+          setFilterCategory={setFilterCategory}
           examCount={examCount}
           totalCount={signs.length}
         />
@@ -165,6 +169,8 @@ interface GalleryProps {
   isSupported: boolean;
   filterExam: boolean;
   setFilterExam: (v: boolean) => void;
+  filterCategory: NomSignCategory | null;
+  setFilterCategory: (v: NomSignCategory | null) => void;
   examCount: number;
   totalCount: number;
 }
@@ -180,6 +186,8 @@ function GalleryTab({
   isSupported,
   filterExam,
   setFilterExam,
+  filterCategory,
+  setFilterCategory,
   examCount,
   totalCount,
 }: GalleryProps) {
@@ -224,18 +232,33 @@ function GalleryTab({
         </button>
       </div>
 
-      {/* Color/Shape Guide */}
+      {/* Category Filters */}
       <div className="mb-8">
         <h2 className="text-lg font-semibold text-navy mb-3">Mexican Sign Categories (NOM-034-SCT)</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {signCategoryOrder.map((cat) => {
             const info = signCategoryInfo[cat];
+            const isActive = filterCategory === cat;
+            const catCount = (filterExam ? allSigns.filter((s) => s.examSign) : allSigns).filter((s) => s.nomCategory === cat).length;
             return (
-              <div key={cat} className={`rounded-lg p-3 border border-border ${info.bgColor}`}>
-                <div className={`font-semibold text-sm ${info.color}`}>{info.name}</div>
+              <button
+                key={cat}
+                onClick={() => setFilterCategory(isActive ? null : cat)}
+                className={`rounded-lg p-3 border-2 text-left transition-all ${
+                  isActive
+                    ? `${info.bgColor} border-current ${info.color} shadow-md ring-1 ring-current/20`
+                    : `${info.bgColor} border-transparent hover:border-border hover:shadow-sm`
+                }`}
+              >
+                <div className="flex items-center justify-between">
+                  <div className={`font-semibold text-sm ${info.color}`}>{info.name}</div>
+                  <span className={`text-xs font-medium px-1.5 py-0.5 rounded-full ${
+                    isActive ? "bg-white/80 text-navy" : "bg-white/60 text-text-muted"
+                  }`}>{catCount}</span>
+                </div>
                 <div className="text-xs text-text-muted mt-0.5">{info.nameEs}</div>
                 <div className="text-xs text-text-secondary mt-1">{info.description}</div>
-              </div>
+              </button>
             );
           })}
         </div>
