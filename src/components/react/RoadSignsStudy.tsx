@@ -23,7 +23,7 @@ export default function RoadSignsStudy() {
   const [signs, setSigns] = useState<SignMetadata[]>([]);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
-  const [expandedSign, setExpandedSign] = useState<string | null>(null);
+  const [lightboxSignId, setLightboxSignId] = useState<string | null>(null);
   const [filterExam, setFilterExam] = useState(false);
 
   // Quiz state
@@ -123,9 +123,10 @@ export default function RoadSignsStudy() {
       {tab === "gallery" ? (
         <GalleryTab
           signs={displaySigns}
+          allSigns={signs}
           getQuestionForSign={getQuestionForSign}
-          expandedSign={expandedSign}
-          setExpandedSign={setExpandedSign}
+          lightboxSignId={lightboxSignId}
+          setLightboxSignId={setLightboxSignId}
           speak={speak}
           isSpeaking={isSpeaking}
           isSupported={isSupported}
@@ -155,9 +156,10 @@ export default function RoadSignsStudy() {
 
 interface GalleryProps {
   signs: SignMetadata[];
+  allSigns: SignMetadata[];
   getQuestionForSign: (sign: SignMetadata) => Question | undefined;
-  expandedSign: string | null;
-  setExpandedSign: (id: string | null) => void;
+  lightboxSignId: string | null;
+  setLightboxSignId: (id: string | null) => void;
   speak: (text: string) => void;
   isSpeaking: boolean;
   isSupported: boolean;
@@ -169,9 +171,10 @@ interface GalleryProps {
 
 function GalleryTab({
   signs,
+  allSigns,
   getQuestionForSign,
-  expandedSign,
-  setExpandedSign,
+  lightboxSignId,
+  setLightboxSignId,
   speak,
   isSpeaking,
   isSupported,
@@ -180,6 +183,21 @@ function GalleryTab({
   examCount,
   totalCount,
 }: GalleryProps) {
+  // Build flat list of displayed signs for prev/next navigation
+  const flatSigns: SignMetadata[] = [];
+  for (const cat of signCategoryOrder) {
+    const catSigns = signs.filter((s) => s.nomCategory === cat);
+    flatSigns.push(...catSigns);
+  }
+
+  const lightboxSign = lightboxSignId
+    ? flatSigns.find((s) => s.id === lightboxSignId) ?? null
+    : null;
+
+  const lightboxIndex = lightboxSign
+    ? flatSigns.findIndex((s) => s.id === lightboxSign.id)
+    : -1;
+
   return (
     <div>
       {/* Filter toggle */}
@@ -240,11 +258,7 @@ function GalleryTab({
                 <SignCard
                   key={sign.id}
                   sign={sign}
-                  question={getQuestionForSign(sign)}
-                  isExpanded={expandedSign === sign.id}
-                  onToggle={() =>
-                    setExpandedSign(expandedSign === sign.id ? null : sign.id)
-                  }
+                  onClick={() => setLightboxSignId(sign.id)}
                   speak={speak}
                   isSpeaking={isSpeaking}
                   isSupported={isSupported}
@@ -254,90 +268,188 @@ function GalleryTab({
           </div>
         );
       })}
+
+      {/* Lightbox Modal */}
+      {lightboxSign && (
+        <LightboxModal
+          sign={lightboxSign}
+          question={getQuestionForSign(lightboxSign)}
+          onClose={() => setLightboxSignId(null)}
+          onPrev={lightboxIndex > 0 ? () => setLightboxSignId(flatSigns[lightboxIndex - 1].id) : undefined}
+          onNext={lightboxIndex < flatSigns.length - 1 ? () => setLightboxSignId(flatSigns[lightboxIndex + 1].id) : undefined}
+          speak={speak}
+          isSpeaking={isSpeaking}
+          isSupported={isSupported}
+          currentIndex={lightboxIndex}
+          totalCount={flatSigns.length}
+        />
+      )}
     </div>
   );
 }
 
-/* ─── Sign Card ─── */
+/* ─── Sign Card (simplified — no accordion) ─── */
 
 interface SignCardProps {
   sign: SignMetadata;
-  question: Question | undefined;
-  isExpanded: boolean;
-  onToggle: () => void;
+  onClick: () => void;
   speak: (text: string) => void;
   isSpeaking: boolean;
   isSupported: boolean;
 }
 
-function SignCard({
+function SignCard({ sign, onClick, speak, isSpeaking, isSupported }: SignCardProps) {
+  return (
+    <button
+      onClick={onClick}
+      className="card p-3 flex flex-col items-center text-center cursor-pointer group hover:shadow-md hover:-translate-y-0.5 transition-all w-full"
+    >
+      <div className="relative">
+        <img
+          src={`/${sign.signFile}`}
+          alt={sign.nameEn}
+          className="w-20 h-20 sm:w-24 sm:h-24 object-contain mb-2 group-hover:scale-105 transition-transform"
+          loading="lazy"
+        />
+        {sign.examSign && (
+          <span className="absolute -top-1 -right-1 bg-navy text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none">
+            EXAM
+          </span>
+        )}
+      </div>
+      <span className="text-sm font-medium text-navy">{sign.nameEn}</span>
+      <div className="flex items-center gap-1 justify-center">
+        <span className="text-xs text-spanish">{sign.nameEs}</span>
+        <SpeakerButton
+          text={sign.nameEs}
+          speak={speak}
+          isSpeaking={isSpeaking}
+          isSupported={isSupported}
+          size="sm"
+        />
+      </div>
+      <span className="text-[10px] text-text-muted mt-0.5">{sign.id}</span>
+    </button>
+  );
+}
+
+/* ─── Lightbox Modal ─── */
+
+interface LightboxProps {
+  sign: SignMetadata;
+  question: Question | undefined;
+  onClose: () => void;
+  onPrev?: () => void;
+  onNext?: () => void;
+  speak: (text: string) => void;
+  isSpeaking: boolean;
+  isSupported: boolean;
+  currentIndex: number;
+  totalCount: number;
+}
+
+function LightboxModal({
   sign,
   question,
-  isExpanded,
-  onToggle,
+  onClose,
+  onPrev,
+  onNext,
   speak,
   isSpeaking,
   isSupported,
-}: SignCardProps) {
+  currentIndex,
+  totalCount,
+}: LightboxProps) {
+  // ESC key handler
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+      if (e.key === "ArrowLeft" && onPrev) onPrev();
+      if (e.key === "ArrowRight" && onNext) onNext();
+    };
+    document.addEventListener("keydown", handleKeyDown);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [onClose, onPrev, onNext]);
+
   return (
-    <div className="card p-3 flex flex-col items-center text-center">
-      <button
-        onClick={onToggle}
-        className="w-full flex flex-col items-center cursor-pointer group"
-        aria-expanded={isExpanded}
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      onClick={onClose}
+      role="dialog"
+      aria-modal="true"
+      aria-label={sign.nameEn}
+    >
+      {/* Backdrop */}
+      <div className="absolute inset-0 bg-black/60 animate-fade-in" />
+
+      {/* Modal card */}
+      <div
+        className="relative bg-white rounded-2xl shadow-2xl max-w-lg w-full max-h-[90vh] overflow-y-auto animate-scale-in"
+        onClick={(e) => e.stopPropagation()}
       >
-        <div className="relative">
+        {/* Close button */}
+        <button
+          onClick={onClose}
+          className="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center rounded-full bg-surface hover:bg-border transition-colors text-text-muted hover:text-navy"
+          aria-label="Close"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        {/* Counter */}
+        <div className="absolute top-4 left-4 text-xs text-text-muted">
+          {currentIndex + 1} / {totalCount}
+        </div>
+
+        {/* Sign image */}
+        <div className="flex justify-center pt-12 pb-4 px-6">
           <img
             src={`/${sign.signFile}`}
             alt={sign.nameEn}
-            className="w-20 h-20 sm:w-24 sm:h-24 object-contain mb-2 group-hover:scale-105 transition-transform"
-            loading="lazy"
-          />
-          {sign.examSign && (
-            <span className="absolute -top-1 -right-1 bg-navy text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none">
-              EXAM
-            </span>
-          )}
-        </div>
-        <div className="flex items-center gap-1 justify-center flex-wrap">
-          <span className="text-sm font-medium text-navy">{sign.nameEn}</span>
-        </div>
-        <div className="flex items-center gap-1 justify-center">
-          <span className="text-xs text-spanish">{sign.nameEs}</span>
-          <SpeakerButton
-            text={sign.nameEs}
-            speak={speak}
-            isSpeaking={isSpeaking}
-            isSupported={isSupported}
-            size="sm"
+            className="w-40 h-40 sm:w-52 sm:h-52 object-contain"
           />
         </div>
-        <span className="text-[10px] text-text-muted mt-0.5">{sign.id}</span>
-        <svg
-          className={`w-4 h-4 text-text-muted mt-1 transition-transform ${isExpanded ? "rotate-180" : ""}`}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-        </svg>
-      </button>
 
-      {isExpanded && (
-        <div className="mt-3 pt-3 border-t border-border w-full text-left text-xs">
-          <p className="text-text-secondary mb-2">{sign.description}</p>
+        {/* Sign info */}
+        <div className="px-6 pb-6">
+          <div className="text-center mb-4">
+            <h3 className="text-xl font-bold text-navy">{sign.nameEn}</h3>
+            <div className="flex items-center justify-center gap-1 mt-1">
+              <span className="text-base text-spanish">{sign.nameEs}</span>
+              <SpeakerButton
+                text={sign.nameEs}
+                speak={speak}
+                isSpeaking={isSpeaking}
+                isSupported={isSupported}
+                size="sm"
+              />
+            </div>
+            <div className="flex items-center justify-center gap-2 mt-2">
+              <span className="text-xs text-text-muted bg-surface px-2 py-0.5 rounded">{sign.id}</span>
+              {sign.examSign && (
+                <span className="text-xs font-bold text-white bg-navy px-2 py-0.5 rounded-full">EXAM</span>
+              )}
+            </div>
+          </div>
+
+          <p className="text-sm text-text-secondary mb-4">{sign.description}</p>
+
           {question && (
-            <>
-              <p className="text-text-secondary mb-1">
-                <span className="font-medium text-navy">Explanation:</span>{" "}
-                {question.explanation_en}
-              </p>
+            <div className="border-t border-border pt-4">
+              <h4 className="text-sm font-semibold text-navy mb-2">Exam Question</h4>
+              <p className="text-sm text-text-secondary mb-2">{question.explanation_en}</p>
               {question.vocabulary.length > 0 && (
-                <div className="mt-2">
-                  <span className="font-medium text-navy">Key vocabulary:</span>
-                  <ul className="mt-1 space-y-0.5">
+                <div className="mt-3">
+                  <span className="text-xs font-semibold text-navy">Key Vocabulary</span>
+                  <ul className="mt-1 space-y-1">
                     {question.vocabulary.map((v) => (
-                      <li key={v.es} className="flex items-center gap-1">
+                      <li key={v.es} className="flex items-center gap-1 text-xs">
                         <span className="text-spanish">{v.es}</span>
                         <SpeakerButton
                           text={v.es}
@@ -352,10 +464,34 @@ function SignCard({
                   </ul>
                 </div>
               )}
-            </>
+            </div>
           )}
         </div>
-      )}
+
+        {/* Prev/Next arrows */}
+        {onPrev && (
+          <button
+            onClick={onPrev}
+            className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center rounded-full bg-white/90 shadow-md hover:bg-white transition-colors text-navy"
+            aria-label="Previous sign"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+        )}
+        {onNext && (
+          <button
+            onClick={onNext}
+            className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center rounded-full bg-white/90 shadow-md hover:bg-white transition-colors text-navy"
+            aria-label="Next sign"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        )}
+      </div>
     </div>
   );
 }

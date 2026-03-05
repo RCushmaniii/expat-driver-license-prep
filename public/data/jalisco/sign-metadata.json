@@ -529,16 +529,38 @@
     "description": "All vehicle occupants must wear seatbelts. Required by law throughout Mexico."
   },
   {
-    "id": "jalisco-049",
-    "signFile": "signs/jalisco-049.svg",
+    "id": "hand-signal-stop",
+    "signFile": "signs/hand-signal-stop.webp",
     "questionId": "jalisco-049",
-    "nameEs": "Señal humana de alto",
-    "nameEn": "Stop hand signal",
+    "nameEs": "Señal de alto",
+    "nameEn": "Slow down or stop",
     "nomCategory": "officer-signals",
     "shape": "other",
     "primaryColor": "white",
-    "description": "Driver extending left arm out the window, bent upward at elbow — signals stop to drivers behind.",
+    "description": "Driver extending left arm out the window, bent upward at elbow — signals slow down or stop to drivers behind.",
     "examSign": true
+  },
+  {
+    "id": "hand-signal-left",
+    "signFile": "signs/hand-signal-left.webp",
+    "questionId": null,
+    "nameEs": "Señal de vuelta a la izquierda",
+    "nameEn": "Left turn signal",
+    "nomCategory": "officer-signals",
+    "shape": "other",
+    "primaryColor": "white",
+    "description": "Driver extending left arm straight out the window — signals a left turn to drivers behind."
+  },
+  {
+    "id": "hand-signal-right",
+    "signFile": "signs/hand-signal-right.webp",
+    "questionId": null,
+    "nameEs": "Señal de vuelta a la derecha",
+    "nameEn": "Right turn signal",
+    "nomCategory": "officer-signals",
+    "shape": "other",
+    "primaryColor": "white",
+    "description": "Driver extending left arm out the window, bent upward at elbow with hand pointing right — signals a right turn to drivers behind."
   },
   {
     "id": "jalisco-071",
