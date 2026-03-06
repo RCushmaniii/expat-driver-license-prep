@@ -340,9 +340,9 @@ function SignCard({ sign, onClick, speak, isSpeaking, isSupported }: SignCardPro
           </span>
         )}
       </div>
-      <span className="text-sm font-medium text-navy">{sign.nameEn}</span>
-      <div className="flex items-center gap-1 justify-center">
-        <span className="text-xs text-spanish">{sign.nameEs}</span>
+      <span className="text-sm font-medium text-navy leading-tight">{sign.nameEn}</span>
+      <div className="flex items-center gap-1 justify-center min-w-0">
+        <span className="text-xs text-spanish leading-tight">{sign.nameEs}</span>
         <SpeakerButton
           text={sign.nameEs}
           speak={speak}
