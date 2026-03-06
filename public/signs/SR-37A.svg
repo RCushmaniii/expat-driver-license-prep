@@ -1,62 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" width="500" height="500" viewBox="0 0 500 500"
+     xmlns="http://www.w3.org/2000/svg">
 
-<svg
-   width="860mm"
-   height="300mm"
-   viewBox="0 0 860 300"
-   version="1.1"
-   id="svg41440"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="Mexico road sign SR-37A (2023).svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview41442"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.76257015"
-     inkscape:cx="1774.9187"
-     inkscape:cy="418.97785"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs41437" />
-  <g
-     inkscape:label="Livello 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(364.42404,40.706891)">
-    <g
-       id="g15895"
-       transform="translate(-2209.9758,-22478.119)">
-      <rect
-         style="fill:#000000;stroke-width:38.4802;stroke-linejoin:round;stroke-opacity:0.630769;paint-order:fill markers stroke"
-         id="rect11375-07-2"
-         width="860"
-         height="300"
-         x="1845.5518"
-         y="22437.412"
-         ry="50"
-         rx="50" />
-      <path
-         id="path11397-7-6-3-8-2-1-5-59-2-0-7-8-2-1-2-9-8-52-6-7-4-5-0-0-7"
-         style="fill:#ffffff;stroke-width:23.9328;stroke-linejoin:bevel;paint-order:fill markers stroke"
-         d="m 1998.786,22458.184 -129.2342,129.237 129.2342,129.219 45.8869,-45.6 -59.0819,-51.438 h 579.926 l -59.0922,51.438 45.8969,45.6 129.2301,-129.219 -129.2301,-129.237 -45.8969,45.887 58.7174,50.859 h -579.1765 l 58.7072,-50.859 z"
-         sodipodi:nodetypes="ccccccccccccccc" />
-    </g>
-  </g>
+  <rect x="10" y="10" width="480" height="480" rx="30" ry="30" fill="#ffffff" stroke="#000" stroke-width="12"/>
+  <circle cx="250" cy="250" r="192" fill="#0055aa" stroke="none"/>
+  <circle cx="250" cy="250" r="158" fill="#ffffff" stroke="none"/>
+  <!-- Left-curve arrow: arc going left then down -->
+  <path d="M 300,340 C 300,240 195,175 195,175" fill="none" stroke="#000" stroke-width="38" stroke-linecap="round"/>
+  <!-- Vertical stem on right -->
+  <rect x="281" y="165" width="38" height="110" fill="#000" transform="scale(-1,1) translate(-500,0)"/>
+  <!-- Stem going down on left -->
+  <rect x="176" y="165" width="38" height="110" fill="#000"/>
+  <!-- Arrowhead pointing left -->
+  <polygon points="210,145 110,195 210,245" fill="#000"/>
+
 </svg>

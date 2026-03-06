@@ -108,9 +108,11 @@ Sprint 3 complete — Self-hosted fonts, new favicon/OG image, BreadcrumbList JS
 ## Environment Setup
 
 Required environment variables (set in Vercel dashboard):
+
 - `ANTHROPIC_API_KEY` — Claude API key for AI study features (set in production + preview)
 
 For local development with AI features, create `.env` from `.env.example`:
+
 ```
 ANTHROPIC_API_KEY=sk-ant-api03-your-key-here
 ```

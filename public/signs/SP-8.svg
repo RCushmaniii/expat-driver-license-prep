@@ -1,83 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   viewBox="0 0 634.78265 634.78263"
-   version="1.1"
-   id="svg56"
-   width="634.78265"
-   height="634.78265"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs4">
-    <style
-       id="style2">.cls-1{fill:#fff;}.cls-1,.cls-2{stroke:#000;stroke-linecap:round;stroke-linejoin:round;}.cls-2{fill:none;}.cls-3{fill:#ffca06;}.cls-4{fill-rule:evenodd;}</style>
-  </defs>
-  <g
-     id="sp_x5F_Fondo_del_tablero"
-     transform="translate(-100.64067,-6.539917)">
-    <g
-       id="HATCH">
-      <rect
-         class="cls-3"
-         x="197.31"
-         y="103.21"
-         width="441.45999"
-         height="441.45999"
-         rx="18.65"
-         ry="18.65"
-         transform="rotate(-45,418.02898,323.93673)"
-         id="rect12" />
-    </g>
-  </g>
-  <g
-     id="sp_x5F_Pictograma_y_filete"
-     transform="translate(-100.64067,-6.539917)">
-    <g
-       id="HATCH-2">
-      <path
-         class="cls-4"
-         d="M 431.22,622.9 717,337.12 c 7.28,-7.28 7.28,-19.09 0,-26.38 L 431.22,24.97 c -7.28,-7.28 -19.09,-7.28 -26.38,0 L 119.07,310.75 c -7.28,7.28 -7.28,19.09 0,26.38 l 285.78,285.78 c 7.28,7.28 19.09,7.28 26.38,0 m 8.79,8.79 285.78,-285.78 c 12.14,-12.14 12.14,-31.82 0,-43.97 L 440.02,16.18 C 427.88,4.04 408.2,4.04 396.05,16.18 L 110.27,301.95 c -12.14,12.14 -12.14,31.82 0,43.97 L 396.05,631.7 c 12.14,12.14 31.82,12.14 43.97,0 z"
-         id="path16" />
-    </g>
-    <g
-       id="HATCH-3">
-      <path
-         class="cls-4"
-         d="m 483.93,204.64 v 68.61 c 0,53.19 -43.12,96.31 -96.31,96.31 -19.6,0 -35.48,15.89 -35.48,35.48 v 55.76 h -60.83 v -55.76 c 0,-53.19 43.12,-96.31 96.31,-96.31 19.6,0 35.48,-15.89 35.48,-35.48 v -68.61 c 0,0 -48.23,55.87 -48.23,55.87 L 331.86,217.5 453.51,95.85 575.16,217.5 532.15,260.51 483.92,204.64 Z"
-         id="path19" />
-    </g>
-    <g
-       id="LWPOLYLINE">
-      <rect
-         class="cls-2"
-         x="184.87"
-         y="90.769997"
-         width="466.32999"
-         height="466.32999"
-         rx="31.09"
-         ry="31.09"
-         transform="rotate(-45,418.02898,323.93673)"
-         id="rect22" />
-    </g>
-    <g
-       id="LWPOLYLINE-2">
-      <rect
-         class="cls-2"
-         x="197.31"
-         y="103.21"
-         width="441.45999"
-         height="441.45999"
-         rx="18.65"
-         ry="18.65"
-         transform="rotate(-45,418.02898,323.93673)"
-         id="rect25" />
-    </g>
-    <g
-       id="LWPOLYLINE-3">
-      <path
-         class="cls-2"
-         d="m 483.93,204.64 v 68.61 c 0,53.19 -43.12,96.31 -96.31,96.31 -19.6,0 -35.48,15.89 -35.48,35.48 v 55.76 h -60.83 v -55.76 c 0,-53.19 43.12,-96.31 96.31,-96.31 19.6,0 35.48,-15.89 35.48,-35.48 V 204.64 L 374.87,260.51 331.86,217.5 453.51,95.85 575.16,217.5 532.15,260.51 483.92,204.64 Z"
-         id="path28" />
-    </g>
-  </g>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="_x30_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	   viewBox="0 0 48.633 48.634" style="enable-background:new 0 0 48.633 48.634;"
+	 xml:space="preserve">
+<g id="HATCH">
+	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFF00;" d="M0.688,22.655L22.685,0.688c0.917-0.917,2.405-0.917,3.323,0
+		l21.94,21.968c0.914,0.917,0.914,2.406,0,3.322l-21.94,21.97c-0.918,0.915-2.406,0.915-3.323,0L0.688,25.978
+		C-0.229,25.062-0.229,23.572,0.688,22.655L0.688,22.655z"/>
+</g>
+<g id="HATCH_1_">
+	<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M1.088,23.084v2.464l21.998,21.996h2.463l21.996-21.996v-2.464L25.548,1.088
+		h-2.463L1.088,23.084z M23.486,1.518h1.662l21.995,21.969v1.661L25.148,47.114h-1.662L1.49,25.147v-1.661L23.486,1.518z"/>
+</g>
+<g id="LWPOLYLINE_1_">
+	<path style="fill:none;stroke:#000000;stroke-width:1.17;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		M1.512,23.487L23.495,1.503c0.458-0.458,1.201-0.458,1.659,0l21.983,21.984c0.459,0.458,0.459,1.201,0,1.659L25.154,47.13
+		c-0.458,0.457-1.202,0.457-1.659,0L1.512,25.146C1.053,24.688,1.053,23.945,1.512,23.487z"/>
+</g>
+<g id="LWPOLYLINE_5_">
+	<path style="fill:none;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		M20.217,34.582h-5.865l-0.001-9.35c-0.165-3.293,2.061-7.188,4.982-8.716l3.139-1.861l-4.436-1.227l1.475-5.768l14.194,3.852
+		l-3.811,14.415l-5.641-1.41l1.26-4.8l-3.243,1.887c-1.224,0.634-2.14,2.253-2.054,3.628V34.582z"/>
+</g>
+<g id="HATCH_3_">
+	<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M20.221,34.57h-5.843v-9.337c-0.171-3.294,2.005-7.189,4.984-8.708
+		l3.093-1.862l-4.411-1.231l1.489-5.785l14.148,3.866L29.903,25.92l-5.671-1.402l1.26-4.812l-3.208,1.89
+		c-1.26,0.63-2.177,2.262-2.063,3.638V34.57L20.221,34.57z"/>
+</g>
 </svg>

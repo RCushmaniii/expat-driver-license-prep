@@ -1,87 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" width="500" height="500" viewBox="0 0 500 500"
+     xmlns="http://www.w3.org/2000/svg">
 
-<svg
-   width="710mm"
-   height="710mm"
-   viewBox="0 0 710 710"
-   version="1.1"
-   id="svg70494"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="Mexico road sign SR-12A (2023).svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview70496"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.76257015"
-     inkscape:cx="1386.7577"
-     inkscape:cy="1250.3768"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs70491" />
-  <g
-     inkscape:label="Livello 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(261.66706,230.78798)">
-    <g
-       id="g55934"
-       transform="translate(5673.3261,-19040.329)">
-      <rect
-         style="fill:#000000;stroke-width:3.68415;stroke-opacity:0.578462;paint-order:fill markers stroke"
-         id="rect20798-0-9-6-22"
-         width="710"
-         height="710"
-         x="-5934.9932"
-         y="18809.541"
-         ry="40"
-         rx="40" />
-      <rect
-         style="fill:#ffffff;stroke-width:3.58037;stroke-opacity:0.578462;paint-order:fill markers stroke"
-         id="rect20798-4-8-37-5"
-         width="690"
-         height="690"
-         x="-5924.9927"
-         y="18819.541"
-         ry="30"
-         rx="30" />
-      <g
-         id="g25102-4-2-35-9"
-         transform="rotate(90,-10687.03,8122.5093)">
-        <circle
-           style="fill:#be0018;stroke-width:6.548;stroke-opacity:0.578462;paint-order:fill markers stroke"
-           id="path23624-0-6-3-7"
-           cx="3015.4722"
-           cy="-355"
-           r="310"
-           transform="rotate(90)" />
-        <circle
-           style="fill:#ffffff;stroke-width:5.28036;stroke-opacity:0.578462;paint-order:fill markers stroke"
-           id="path23624-1-4-4-7"
-           cx="355.00046"
-           cy="3015.4727"
-           r="250" />
-      </g>
-      <path
-         id="path11397-7-6-3-8-2-4-5-1-6-0-6-7"
-         style="fill:#000000;stroke-width:18.489;stroke-linejoin:bevel;paint-order:fill markers stroke"
-         d="m -5498.2756,18979.653 100.998,100.97 -100.9812,100.986 -35.0827,-35.081 48.3596,-42.198 h -123.4482 v 0 h -0.01 a 13.241622,13.241622 0 0 0 -13.2248,13.208 v 0 l 0.01,231.266 h -47.404 v -231.283 -33.651 c 0,-14.032 12.6645,-26.971 27.0048,-26.971 h 33.6492 123.4314 l -48.3428,-42.198 z" />
-    </g>
-  </g>
+  <rect x="10" y="10" width="480" height="480" rx="30" ry="30" fill="#ffffff" stroke="#000" stroke-width="12"/>
+  <circle cx="250" cy="250" r="180" fill="none" stroke="#cc0000" stroke-width="50"/>
+  <!-- Down arrow from top -->  
+  <polygon points="238,155 262,155 250,190" fill="#000"/>
+  <rect x="244" y="120" width="12" height="38" fill="#000"/>
+  <rect x="210" y="118" width="80" height="12" fill="#000"/>
+  <!-- Up arrow from bottom -->
+  <polygon points="238,345 262,345 250,310" fill="#000"/>
+  <rect x="244" y="345" width="12" height="38" fill="#000"/>
+  <rect x="210" y="370" width="80" height="12" fill="#000"/>
+  <!-- Height label -->
+  <text x="250" y="268" font-family="Arial,sans-serif" font-size="64"
+        font-weight="bold" text-anchor="middle" fill="#000">4.20</text>
+  <text x="250" y="320" font-family="Arial,sans-serif" font-size="44"
+        font-weight="bold" text-anchor="middle" fill="#000">m</text>
+
 </svg>

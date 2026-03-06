@@ -1,113 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" width="500" height="500" viewBox="0 0 500 500"
+     xmlns="http://www.w3.org/2000/svg">
 
-<svg
-   width="710mm"
-   height="710mm"
-   viewBox="0 0 710 710"
-   version="1.1"
-   id="svg29129"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="Mexico road sign SR-34.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview29131"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.76257015"
-     inkscape:cx="1451.0141"
-     inkscape:cy="1073.3439"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs29126" />
-  <g
-     inkscape:label="Livello 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(278.66823,277.62654)">
-    <g
-       id="g29162"
-       transform="translate(-178.51466,-24688.729)">
-      <g
-         id="g8059-8-4-0-7-0-8"
-         transform="matrix(1,0,0,-1,-2371.2688,27174.986)">
-        <rect
-           style="fill:#000000;stroke-width:3.68415;stroke-opacity:0.578462;paint-order:fill markers stroke"
-           id="rect20798-0-5-8-1-4-19-5"
-           width="710"
-           height="710"
-           x="2271.1152"
-           y="2053.8835"
-           ry="40"
-           rx="40" />
-        <rect
-           style="fill:#ffffff;stroke-width:3.58037;stroke-opacity:0.578462;paint-order:fill markers stroke"
-           id="rect20798-4-7-7-8-5-1-77-9"
-           width="690"
-           height="690"
-           x="2281.1155"
-           y="2063.8833"
-           ry="30"
-           rx="30" />
-        <g
-           id="g25102-9-5-6-8-7-0-0"
-           transform="rotate(90,1793.8519,3847.7355)">
-          <circle
-             style="fill:#be0018;stroke-width:6.548;stroke-opacity:0.578462;paint-order:fill markers stroke"
-             id="path23624-7-9-1-3-8-1-3"
-             cx="3015.4722"
-             cy="-355"
-             r="310"
-             transform="rotate(90)" />
-          <circle
-             style="fill:#ffffff;stroke-width:5.28036;stroke-opacity:0.578462;paint-order:fill markers stroke"
-             id="path23624-1-9-9-2-9-9-9-0"
-             cx="355.00046"
-             cy="3015.4727"
-             r="250" />
-        </g>
-      </g>
-      <path
-         style="fill:#000000;stroke-width:31.4131;stroke-linejoin:round;stroke-opacity:0.630769;paint-order:fill markers stroke"
-         d="m 253.70327,24655.778 h -50.4292 c -15.5029,0 -23.389,2.692 -32.2426,18.02 l -20.2612,61.598 c -4.2114,10.633 -3.4912,18.104 0,25.137 l 32.4765,45.647 c 0,0 11.1586,13.696 21.5349,5.856 10.3746,-7.858 0.2187,-22.025 0.2187,-22.025 l -27.0873,-40.112 21.6409,-54.548 v 86.062 l 103.0424,-125.635 z"
-         id="path13266"
-         sodipodi:nodetypes="cccccczcccccc" />
-      <path
-         id="path13266-4"
-         style="fill:#000000;stroke-width:31.4131;stroke-linejoin:round;stroke-opacity:0.630769;paint-order:fill markers stroke"
-         d="m 325.29557,24660.136 -26.2931,33.196 -85.6583,107.548 c 0,0 22.7463,-2.019 40.3625,-2.019 17.6162,0 43.1404,1.178 43.1404,1.178 0,-2.187 1.447,-6.545 4.0129,-10.533 l 7.6472,-11.845 v -82.31 l 21.6392,54.548 -27.0924,40.112 c 0,0 -10.1491,14.167 0.2188,22.025 10.3762,7.84 21.5281,-5.856 21.5281,-5.856 l 32.4748,-45.647 c 3.4913,-7.033 4.2114,-14.504 0,-25.137 l -20.2578,-61.598 c -3.8581,-6.68 -7.5294,-10.953 -11.729,-13.662 z"
-         sodipodi:nodetypes="ccczcsccccscccccc" />
-      <path
-         id="rect13293"
-         style="fill:#000000;stroke-width:31.8273;stroke-linejoin:round;stroke-opacity:0.630769;paint-order:fill markers stroke"
-         d="m 325.85077,24808.906 c -7.3224,6.495 -14.7862,11.391 -24.9016,4.459 l -1.06,1.346 c 0,0 -22.7833,-2.154 -46.1875,-2.154 v -0.02 c -23.4059,0 -46.1775,2.154 -46.1775,2.154 v 0 c -8.9965,4.274 -18.5921,1.178 -23.2241,-3.87 l -13.6673,-1.8 -41.5185,45.328 v 12.299 h 17.5204 l 30.1276,-22.748 h 16.2937 l -0.01,-18.441 h 10.1559 l -5.5659,13.848 h -0.01 v 24.43 c 0,0 -0.01,0.169 -0.01,0.337 v 89.562 c 0,13.965 11.2461,25.221 25.2146,25.221 13.9685,0 25.2146,-11.256 25.2146,-25.221 v -38.665 h 0.01 v -75.647 h 11.3033 v 24.396 c 0,0 -0.01,0.169 -0.01,0.337 v 89.562 c 0,13.965 11.2462,25.221 25.2146,25.221 13.9702,0 25.2163,-11.256 25.2163,-25.221 v -38.665 h 0.01 l -0.01,-75.63 h -0.01 l -5.4077,-13.478 c 19.0548,4.089 38.7288,10.87 58.5341,19.131 v -22.748 c -10.4722,-5.603 -23.2898,-10.163 -37.0396,-13.292 z" />
-      <path
-         style="fill:#000000;stroke-width:31.4131;stroke-linejoin:round;stroke-opacity:0.630769;paint-order:fill markers stroke"
-         d="m 303.64627,24656.232 c 10.8894,0 15.1193,1.514 19.5226,4.459 l 39.1158,-47.347 v -10.297 h -14.2949 z"
-         id="path13426"
-         sodipodi:nodetypes="cccccc" />
-      <ellipse
-         style="fill:#000000;stroke-width:32.0757;stroke-linejoin:round;stroke-opacity:0.630769;paint-order:fill markers stroke"
-         id="path13480"
-         cx="254.01083"
-         cy="24607.553"
-         rx="42.17297"
-         ry="42.169724" />
-    </g>
-  </g>
+  <rect x="10" y="10" width="480" height="480" rx="30" ry="30" fill="#ffffff" stroke="#000" stroke-width="12"/>
+  <circle cx="250" cy="250" r="192" fill="#0055aa" stroke="none"/>
+  <circle cx="250" cy="250" r="158" fill="#ffffff" stroke="none"/>
+  <!-- Up arrow shaft -->
+  <rect x="235" y="230" width="30" height="130" fill="#000"/>
+  <!-- Arrowhead -->
+  <polygon points="175,240 325,240 250,130" fill="#000"/>
+
 </svg>

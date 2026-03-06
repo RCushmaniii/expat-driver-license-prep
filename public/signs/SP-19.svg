@@ -1,83 +1,135 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 634.78265 634.78263"
    version="1.1"
-   id="svg58"
-   width="634.78265"
-   height="634.78265"
+   viewBox="0 0 634.78271 634.78271"
+   id="svg6"
+   sodipodi:docname="SP-41_30x30.svg"
+   width="634.78271"
+   height="634.78271"
+   inkscape:version="1.5-dev (b025170, 2024-11-19, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#50505000"
+     bordercolor="#ffffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050ff"
+     inkscape:zoom="0.43333333"
+     inkscape:cx="316.15385"
+     inkscape:cy="534.23077"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
   <defs
-     id="defs4">
+     id="defs1">
     <style
-       id="style2">.cls-1{fill:#fff;}.cls-1,.cls-2{stroke:#000;stroke-linecap:round;stroke-linejoin:round;}.cls-2{fill:none;}.cls-3{fill:#ffca06;}.cls-4{fill-rule:evenodd;}</style>
+       id="style1">
+      .st0 {
+        fill: #fff;
+      }
+
+      .st0, .st1 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st1 {
+        fill: none;
+      }
+
+      .st2 {
+        fill: #ffca06;
+      }
+
+      .st3 {
+        fill-rule: evenodd;
+      }
+
+      .st4 {
+        font-family: ArialMT, Arial;
+        font-size: 131.73px;
+      }
+    </style>
   </defs>
   <g
      id="sp_x5F_Fondo_del_tablero"
-     transform="translate(-100.64067,-6.539917)">
+     transform="translate(-642.58045,-4.9007995)">
     <g
        id="HATCH">
       <rect
-         class="cls-3"
-         x="197.31"
-         y="103.21"
+         class="st2"
+         x="739.23999"
+         y="101.57"
          width="441.45999"
          height="441.45999"
          rx="18.65"
          ry="18.65"
-         transform="rotate(-45,418.02898,323.93673)"
-         id="rect12" />
+         transform="rotate(-45,959.96996,322.29742)"
+         id="rect3" />
     </g>
   </g>
   <g
      id="sp_x5F_Pictograma_y_filete"
-     transform="translate(-100.64067,-6.539917)">
+     transform="translate(-642.58045,-4.9007995)">
     <g
-       id="HATCH-2">
+       id="HATCH1"
+       data-name="HATCH">
       <path
-         class="cls-4"
-         d="M 431.22,622.9 717,337.12 c 7.28,-7.28 7.28,-19.09 0,-26.38 L 431.22,24.97 c -7.28,-7.28 -19.09,-7.28 -26.38,0 L 119.07,310.75 c -7.28,7.28 -7.28,19.09 0,26.38 l 285.78,285.78 c 7.28,7.28 19.09,7.28 26.38,0 m 8.79,8.79 285.78,-285.78 c 12.14,-12.14 12.14,-31.82 0,-43.97 L 440.02,16.18 C 427.88,4.04 408.2,4.04 396.05,16.18 L 110.27,301.95 c -12.14,12.14 -12.14,31.82 0,43.97 L 396.05,631.7 c 12.14,12.14 31.82,12.14 43.97,0 z"
-         id="path16" />
+         class="st3"
+         d="m 973.16,621.26 285.78,-285.78 c 7.28,-7.28 7.28,-19.09 0,-26.38 L 973.16,23.33 c -7.28,-7.28 -19.09,-7.28 -26.38,0 L 661,309.11 c -7.28,7.28 -7.28,19.09 0,26.38 l 285.78,285.78 c 7.28,7.28 19.09,7.28 26.38,0 m 8.79,8.78 285.78,-285.78 c 12.14,-12.14 12.14,-31.82 0,-43.97 L 981.95,14.53 C 969.81,2.39 950.13,2.39 937.98,14.53 L 652.2,300.31 c -12.14,12.14 -12.14,31.82 0,43.97 l 285.78,285.78 c 12.14,12.14 31.82,12.14 43.97,0 z"
+         id="path3" />
     </g>
     <g
-       id="HATCH-3">
+       id="HATCH2"
+       data-name="HATCH">
       <polygon
-         class="cls-4"
-         points="418.04,526.69 357.21,526.69 357.21,121.19 418.04,121.19 418.04,332.84 515.81,235.07 479.01,237.77 479.01,207.35 565.03,207.35 565.03,293.37 534.62,293.37 537.32,256.57 418.04,375.85 "
-         id="polygon19" />
+         class="st3"
+         points="716.67,302.02 716.67,342.57 1203.27,342.57 1203.27,302.02 1091.76,302.02 1030.93,261.47 889.01,261.47 828.18,302.02 "
+         id="polygon3" />
     </g>
     <g
        id="LWPOLYLINE">
       <rect
-         class="cls-2"
-         x="197.31"
-         y="103.21"
-         width="441.45999"
-         height="441.45999"
-         rx="18.65"
-         ry="18.65"
-         transform="rotate(-45,418.02898,323.93673)"
-         id="rect22" />
-    </g>
-    <g
-       id="LWPOLYLINE-2">
-      <rect
-         class="cls-2"
-         x="184.87"
-         y="90.769997"
+         class="st1"
+         x="726.81"
+         y="89.129997"
          width="466.32999"
          height="466.32999"
          rx="31.09"
          ry="31.09"
-         transform="rotate(-45,418.02898,323.93673)"
-         id="rect25" />
+         transform="rotate(-45,959.96996,322.29742)"
+         id="rect4" />
     </g>
     <g
-       id="LWPOLYLINE-3">
+       id="LWPOLYLINE1"
+       data-name="LWPOLYLINE">
+      <rect
+         class="st1"
+         x="739.23999"
+         y="101.57"
+         width="441.45999"
+         height="441.45999"
+         rx="18.65"
+         ry="18.65"
+         transform="rotate(-45,959.96996,322.29742)"
+         id="rect5" />
+    </g>
+    <g
+       id="LWPOLYLINE2"
+       data-name="LWPOLYLINE">
       <polygon
-         class="cls-2"
-         points="418.04,526.69 357.21,526.69 357.21,121.19 418.04,121.19 418.04,332.84 515.81,235.07 479.01,237.77 479.01,207.35 565.03,207.35 565.03,293.37 534.62,293.37 537.32,256.57 418.04,375.85 "
-         id="polygon28" />
+         class="st1"
+         points="716.67,302.02 716.67,342.57 1203.27,342.57 1203.27,302.02 1091.76,302.02 1030.93,261.47 889.01,261.47 828.18,302.02 "
+         id="polygon5" />
     </g>
   </g>
 </svg>
