@@ -434,19 +434,19 @@
     "nomCategory": "prohibitive",
     "shape": "circle",
     "primaryColor": "red",
-    "description": "No stopping at all — not even briefly for passengers. Stricter than no parking.",
+    "description": "No stopping at all — not even briefly for passengers (no estacionarse ni detenerse). Stricter than no parking.",
     "examSign": true
   },
   {
     "id": "SR-25",
     "signFile": "signs/SR-25.svg",
     "questionId": null,
-    "nameEs": "Prohibido el paso de vehículos pesados",
-    "nameEn": "No heavy vehicles",
+    "nameEs": "Prohibido el paso de vehículos de carga",
+    "nameEn": "No freight/heavy vehicles",
     "nomCategory": "prohibitive",
     "shape": "circle",
     "primaryColor": "red",
-    "description": "Heavy vehicles (trucks, buses) are not permitted on this road."
+    "description": "Freight and heavy vehicles (trucks, buses) are not permitted on this road. On the exam, look for 'vehículos de carga' as the keyword."
   },
   {
     "id": "SR-26",
@@ -464,7 +464,7 @@
     "id": "SR-27",
     "signFile": "signs/SR-27.svg",
     "questionId": "jalisco-054",
-    "nameEs": "Prohibido circular maquinaria agrícola",
+    "nameEs": "Prohibido el paso de maquinaria agrícola",
     "nameEn": "No agricultural machinery",
     "nomCategory": "prohibitive",
     "shape": "circle",
