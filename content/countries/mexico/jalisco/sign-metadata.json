@@ -235,6 +235,17 @@
     "description": "Two-way traffic ahead. Stay in your lane and watch for oncoming vehicles."
   },
   {
+    "id": "SP-37",
+    "signFile": "signs/SP-37.png",
+    "questionId": null,
+    "nameEs": "Semáforo",
+    "nameEn": "Traffic light ahead",
+    "nomCategory": "warning",
+    "shape": "diamond",
+    "primaryColor": "yellow",
+    "description": "Traffic signal (semáforo) ahead. Be prepared to stop. Yellow diamond with traffic light symbol alerts drivers approaching a signalized intersection."
+  },
+  {
     "id": "SP-38",
     "signFile": "signs/SP-38.png",
     "questionId": null,

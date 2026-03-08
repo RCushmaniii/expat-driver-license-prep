@@ -255,6 +255,21 @@
     "downloaded": true
   },
   {
+    "id": "SP-37",
+    "code": "SP-37",
+    "nomCategory": "warning",
+    "shape": "diamond",
+    "primaryColor": "yellow",
+    "filename": "SP-37.png",
+    "localPath": "signs/SP-37.png",
+    "wikimediaFile": "MX road sign SP-37.png",
+    "sourceUrl": "",
+    "license": "CC BY-SA 4.0",
+    "is2023Version": false,
+    "fileSize": 0,
+    "downloaded": true
+  },
+  {
     "id": "SP-38",
     "code": "SP-38",
     "nomCategory": "warning",

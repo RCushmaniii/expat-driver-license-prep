@@ -118,6 +118,13 @@
     "descriptionEs": "",
     "examRelevant": false
   },
+  "SP-37": {
+    "nameEs": "Semáforo",
+    "nameEn": "Traffic light ahead",
+    "descriptionEn": "Warns of a traffic signal (semáforo) ahead. Be prepared to stop. Common approaching signalized intersections on highways or high-speed roads.",
+    "descriptionEs": "Advierte de un semáforo adelante. Prepárese para detenerse. Común al acercarse a intersecciones señalizadas en carreteras o vías de alta velocidad.",
+    "examRelevant": true
+  },
   "SP-38": {
     "nameEs": "",
     "nameEn": "",
