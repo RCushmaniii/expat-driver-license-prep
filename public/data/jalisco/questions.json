@@ -3402,8 +3402,8 @@
         "en": "road junction / lateral junction"
       }
     ],
-    "has_image": true,
-    "image_ref": "signs/SR-36.svg",
+    "has_image": false,
+    "image_ref": null,
     "source": "Gobierno Del Estado de Jalisco - Secretaría de Vialidad y Transporte",
     "source_url": "https://www.escuelasdemanejovertiz.com/download/Guia.Examen.Licencia.pdf",
     "last_verified": "2026-03-03"

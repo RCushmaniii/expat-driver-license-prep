@@ -517,18 +517,6 @@
     "description": "You must continue straight. No turns allowed at this intersection."
   },
   {
-    "id": "SR-36",
-    "signFile": "signs/SR-36.svg",
-    "questionId": "jalisco-059",
-    "nameEs": "Vuelta continua a la derecha",
-    "nameEn": "Continuous right turn",
-    "nomCategory": "restrictive",
-    "shape": "circle",
-    "primaryColor": "red",
-    "description": "Free right turn on red is permitted (vuelta continua). The red circle without a diagonal bar marks this as a restrictive (not prohibitive) sign — it regulates how you turn, not a prohibition. Yield to pedestrians and cross traffic first.",
-    "examSign": true
-  },
-  {
     "id": "SR-37A",
     "signFile": "signs/SR-37A.svg",
     "questionId": null,
