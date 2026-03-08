@@ -69,14 +69,14 @@
   },
   {
     "id": "SP-12",
-    "signFile": "signs/SP-12.svg",
+    "signFile": "signs/SP-12.png",
     "questionId": null,
-    "nameEs": "Entronque en T",
-    "nameEn": "T-intersection",
+    "nameEs": "Entronque lateral derecho",
+    "nameEn": "Side road right",
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "T-intersection ahead. The road ends; you must turn left or right."
+    "description": "Side road entering from the right ahead. Watch for traffic merging or turning from the right side."
   },
   {
     "id": "SP-13",

@@ -14,11 +14,11 @@
     "examRelevant": true
   },
   "SP-12": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Entronque lateral derecho",
+    "nameEn": "Side road right",
+    "descriptionEn": "Warns of a side road entering from the right ahead. Watch for traffic merging or turning from the right side.",
+    "descriptionEs": "Advierte de un camino lateral que entra por la derecha adelante. Esté atento al tráfico que se incorpora o gira desde el lado derecho.",
+    "examRelevant": true
   },
   "SP-13": {
     "nameEs": "",
