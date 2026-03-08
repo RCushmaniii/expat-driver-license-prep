@@ -55,11 +55,12 @@ export type NomSignCategory =
   | "restrictive"
   | "prohibitive"
   | "warning"
+  | "construction-warning"
   | "informational"
   | "officer-signals";
 
-export type SignShape = "circle" | "diamond" | "triangle" | "rectangle" | "octagon" | "other";
-export type SignColor = "red" | "yellow" | "blue" | "green" | "white" | "orange";
+export type SignShape = "circle" | "diamond" | "triangle" | "rectangle" | "octagon" | "pentagon" | "other";
+export type SignColor = "red" | "yellow" | "blue" | "green" | "white" | "orange" | "black" | "fluorescent yellow-green";
 
 export interface SignMetadata {
   id: string;

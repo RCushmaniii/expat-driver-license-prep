@@ -7,7 +7,7 @@ let cachedSigns: SignMetadata[] | null = null;
 /** Load sign metadata from public JSON (client-side fetch) */
 export async function loadSignMetadata(): Promise<SignMetadata[]> {
   if (cachedSigns) return cachedSigns;
-  const response = await fetch(DATA_PATH);
+  const response = await fetch(`${DATA_PATH}?v=${Date.now()}`);
   if (!response.ok) throw new Error(`Failed to load sign metadata: ${response.status}`);
   cachedSigns = (await response.json()) as SignMetadata[];
   return cachedSigns;
@@ -61,6 +61,13 @@ export const signCategoryInfo: Record<
     color: "text-navy",
     bgColor: "bg-navy/5",
   },
+  "construction-warning": {
+    name: "Construction / Work Zone",
+    nameEs: "Protección en Obras",
+    description: "Orange diamond — road construction and maintenance zones ahead",
+    color: "text-orange-600",
+    bgColor: "bg-orange-50",
+  },
 };
 
 /** Ordered list of categories for display */
@@ -68,6 +75,7 @@ export const signCategoryOrder: NomSignCategory[] = [
   "restrictive",
   "prohibitive",
   "warning",
+  "construction-warning",
   "informational",
   "officer-signals",
 ];
