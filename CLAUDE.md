@@ -110,7 +110,6 @@ Sprint 3 complete — Self-hosted fonts, new favicon/OG image, BreadcrumbList JS
 
 - Vercel production branch is `main`
 - Local `pnpm build` may fail on Windows at Vercel adapter symlink step (EPERM) — this is a Windows+pnpm issue only; Vercel CI builds successfully on Linux
-- **Road Signs page temporarily hidden** (`_signs.astro`, nav link commented out) — sign images and metadata are correct but Vercel CDN edge cache was serving stale data. Unhide once cache expires.
 - Vercel free tier: 100 deploys/day limit — can't force CDN cache purge when limit is hit
 
 ## Environment Setup
