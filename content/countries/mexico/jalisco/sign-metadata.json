@@ -549,7 +549,7 @@
     "nomCategory": "officer-signals",
     "shape": "other",
     "primaryColor": "white",
-    "description": "Driver extending left arm straight out the window — signals a left turn to drivers behind."
+    "description": "Driver extending left arm straight out the window horizontally — signals a left turn to drivers behind. On exams, distinguish from the right turn signal: horizontal arm = left, L-shaped arm (bent upward) = right."
   },
   {
     "id": "hand-signal-right",
@@ -560,7 +560,7 @@
     "nomCategory": "officer-signals",
     "shape": "other",
     "primaryColor": "white",
-    "description": "Driver extending left arm out the window, bent upward at elbow with hand pointing right — signals a right turn to drivers behind."
+    "description": "Driver extending left arm out the window, bent upward at elbow (L-shape) — signals a right turn to drivers behind. On exams, distinguish from the left turn signal: L-shaped arm (bent upward) = right, horizontal arm = left."
   },
   {
     "id": "jalisco-071",
@@ -578,12 +578,12 @@
     "id": "jalisco-072",
     "signFile": "signs/jalisco-072.svg",
     "questionId": "jalisco-072",
-    "nameEs": "Anchura libre",
+    "nameEs": "Ancho libre",
     "nameEn": "Free width (clearance)",
     "nomCategory": "informational",
     "shape": "rectangle",
     "primaryColor": "blue",
-    "description": "Shows the available clearance width of a road, bridge, or tunnel for vehicles.",
+    "description": "Shows the available clearance width of a road, bridge, or tunnel for vehicles. Also called 'Anchura libre' — exams may use either term.",
     "examSign": true
   }
 ]
