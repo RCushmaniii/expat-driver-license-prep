@@ -496,7 +496,18 @@
   },
   {
     "id": "SR-34",
-    "signFile": "signs/SR-34.svg",
+    "signFile": "signs/SR-34.png",
+    "questionId": null,
+    "nameEs": "Cinturón de seguridad obligatorio",
+    "nameEn": "Seatbelt required",
+    "nomCategory": "restrictive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "All vehicle occupants must wear seatbelts. Required by law throughout Mexico. Designated SR-34 in the 2023 SICT manual."
+  },
+  {
+    "id": "SR-siga-de-frente",
+    "signFile": "signs/SR-siga-de-frente.svg",
     "questionId": null,
     "nameEs": "Siga de frente",
     "nameEn": "Straight ahead only",
@@ -538,17 +549,6 @@
     "shape": "circle",
     "primaryColor": "blue",
     "description": "Stay to the right side of the road. Common near medians and obstacles."
-  },
-  {
-    "id": "SR-46",
-    "signFile": "signs/SR-46.svg",
-    "questionId": null,
-    "nameEs": "Cinturón de seguridad obligatorio",
-    "nameEn": "Seatbelt required",
-    "nomCategory": "restrictive",
-    "shape": "circle",
-    "primaryColor": "blue",
-    "description": "All vehicle occupants must wear seatbelts. Required by law throughout Mexico."
   },
   {
     "id": "hand-signal-stop",
