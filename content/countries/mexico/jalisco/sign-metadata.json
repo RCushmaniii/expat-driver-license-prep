@@ -2,13 +2,14 @@
   {
     "id": "SP-6",
     "signFile": "signs/SP-6.png",
-    "questionId": null,
+    "questionId": "jalisco-055",
     "nameEs": "Curva a la derecha",
     "nameEn": "Curve right",
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "A curve to the right ahead. Reduce speed before entering the curve. Used for moderate curves (lower curvature-deflection product)."
+    "description": "A curve to the right ahead. Reduce speed before entering the curve. Used for moderate curves (lower curvature-deflection product).",
+    "examSign": true
   },
   {
     "id": "SP-7",
@@ -23,15 +24,14 @@
   },
   {
     "id": "SP-8",
-    "signFile": "signs/SP-8.svg",
-    "questionId": "jalisco-055",
-    "nameEs": "Curva a la derecha",
-    "nameEn": "Curve right",
+    "signFile": "signs/SP-8.png",
+    "questionId": null,
+    "nameEs": "Curva inversa a la derecha",
+    "nameEn": "Reverse curves (right)",
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "A moderate curve to the right ahead. Reduce speed before entering the curve.",
-    "examSign": true
+    "description": "Two consecutive curves in opposite directions ahead, starting to the right (S-curve). Reduce speed and be prepared for the road to curve right then left."
   },
   {
     "id": "SP-9",

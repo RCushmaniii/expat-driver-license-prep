@@ -154,11 +154,11 @@
     "examRelevant": true
   },
   "SP-8": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Curva inversa a la derecha",
+    "nameEn": "Reverse curves (right)",
+    "descriptionEn": "Warns of two consecutive curves in opposite directions ahead, starting to the right (S-curve). Reduce speed and be prepared for the road to curve right then left.",
+    "descriptionEs": "Advierte de dos curvas consecutivas en direcciones opuestas, comenzando a la derecha (curva en S). Reduzca la velocidad y prepárese para que el camino curve a la derecha y luego a la izquierda.",
+    "examRelevant": true
   },
   "SP-9": {
     "nameEs": "",
