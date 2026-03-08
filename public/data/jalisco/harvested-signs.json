@@ -315,6 +315,21 @@
     "downloaded": true
   },
   {
+    "id": "SPP-1",
+    "code": "SPP-1",
+    "nomCategory": "construction-warning",
+    "shape": "diamond",
+    "primaryColor": "orange",
+    "filename": "SPP-1.png",
+    "localPath": "signs/SPP-1.png",
+    "wikimediaFile": "MX road sign SPP-1.png",
+    "sourceUrl": "",
+    "license": "CC BY-SA 4.0",
+    "is2023Version": false,
+    "fileSize": 0,
+    "downloaded": true
+  },
+  {
     "id": "SP-6",
     "code": "SP-6",
     "nomCategory": "warning",

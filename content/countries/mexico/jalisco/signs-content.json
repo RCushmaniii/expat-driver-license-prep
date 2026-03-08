@@ -146,6 +146,13 @@
     "descriptionEs": "Zona de cruce de fauna silvestre. Esté atento a venados y otros animales en o cerca de la carretera, especialmente al amanecer y al atardecer.",
     "examRelevant": true
   },
+  "SPP-1": {
+    "nameEs": "Hombres trabajando",
+    "nameEn": "Men working",
+    "descriptionEn": "Road construction or maintenance work ahead. Reduce speed and watch for workers, equipment, and lane changes. Orange diamond distinguishes construction warnings from standard yellow warning signs.",
+    "descriptionEs": "Obra vial o mantenimiento adelante. Reduzca la velocidad y esté atento a trabajadores, equipo y cambios de carril. El diamante naranja distingue las señales de obra de las señales preventivas amarillas.",
+    "examRelevant": true
+  },
   "SP-6": {
     "nameEs": "Curva a la derecha",
     "nameEn": "Curve right",
