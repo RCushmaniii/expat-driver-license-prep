@@ -404,14 +404,14 @@
   },
   {
     "id": "SR-16",
-    "signFile": "signs/SR-16.svg",
+    "signFile": "signs/SR-16.png",
     "questionId": null,
-    "nameEs": "Prohibido rebasar",
-    "nameEn": "No passing",
-    "nomCategory": "prohibitive",
+    "nameEs": "Anchura libre restringida",
+    "nameEn": "Restricted free width",
+    "nomCategory": "restrictive",
     "shape": "circle",
     "primaryColor": "red",
-    "description": "Overtaking or passing other vehicles is prohibited. Stay in your lane."
+    "description": "Restricted free width ahead. Indicates the maximum allowed width (in meters) for vehicles passing through a narrow area where space is too limited for two vehicles to pass simultaneously."
   },
   {
     "id": "SR-17",

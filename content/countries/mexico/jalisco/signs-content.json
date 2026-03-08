@@ -189,11 +189,11 @@
     "examRelevant": false
   },
   "SR-16": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Anchura libre restringida",
+    "nameEn": "Restricted free width",
+    "descriptionEn": "Indicates the maximum allowed width (in meters) for vehicles passing through a narrow area where space is too limited for two vehicles to pass simultaneously.",
+    "descriptionEs": "Indica el ancho máximo permitido (en metros) para vehículos que pasan por una zona estrecha donde el espacio es demasiado limitado para que dos vehículos pasen simultáneamente.",
+    "examRelevant": true
   },
   "SR-17": {
     "nameEs": "",
