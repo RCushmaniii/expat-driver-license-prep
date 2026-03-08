@@ -7,11 +7,11 @@
     "examRelevant": true
   },
   "SP-11": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Cruce de caminos",
+    "nameEn": "Crossroads",
+    "descriptionEn": "Warns of a crossroads intersection ahead on a priority road. Be alert for crossing traffic from both sides.",
+    "descriptionEs": "Advierte de un cruce de caminos adelante en una vía prioritaria. Esté alerta al tráfico cruzando desde ambos lados.",
+    "examRelevant": true
   },
   "SP-12": {
     "nameEs": "",
