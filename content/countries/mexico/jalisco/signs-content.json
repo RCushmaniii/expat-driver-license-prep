@@ -196,11 +196,11 @@
     "examRelevant": true
   },
   "SR-17": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Peso máximo",
+    "nameEn": "Maximum weight",
+    "descriptionEn": "Indicates the maximum gross vehicle weight (in metric tons) allowed on this road or structure. Vehicles exceeding the posted weight are prohibited.",
+    "descriptionEs": "Indica el peso bruto vehicular máximo (en toneladas métricas) permitido en esta vía o estructura. Se prohíbe el paso de vehículos que excedan el peso indicado.",
+    "examRelevant": true
   },
   "SR-20": {
     "nameEs": "",

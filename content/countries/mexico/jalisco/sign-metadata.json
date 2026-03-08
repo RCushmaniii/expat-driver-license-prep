@@ -415,14 +415,14 @@
   },
   {
     "id": "SR-17",
-    "signFile": "signs/SR-17.svg",
+    "signFile": "signs/SR-17.png",
     "questionId": null,
-    "nameEs": "Prohibido el paso de peatones",
-    "nameEn": "No pedestrians",
-    "nomCategory": "prohibitive",
+    "nameEs": "Peso máximo",
+    "nameEn": "Maximum weight",
+    "nomCategory": "restrictive",
     "shape": "circle",
     "primaryColor": "red",
-    "description": "Pedestrians are not allowed on this road. Typically seen on highways and autopistas."
+    "description": "Maximum weight limit. Indicates the maximum gross vehicle weight (in metric tons) allowed on this road or structure. Vehicles exceeding the posted weight are prohibited."
   },
   {
     "id": "SR-20",
