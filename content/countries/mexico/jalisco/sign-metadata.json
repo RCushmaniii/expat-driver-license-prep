@@ -357,8 +357,8 @@
     "description": "Traffic flows in one direction only. Do not drive against the flow."
   },
   {
-    "id": "SR-12",
-    "signFile": "signs/SR-12.svg",
+    "id": "SR-11",
+    "signFile": "signs/SR-11.svg",
     "questionId": "jalisco-058",
     "nameEs": "Altura libre restringida",
     "nameEn": "Restricted clearance height",
@@ -369,8 +369,19 @@
     "examSign": true
   },
   {
-    "id": "SR-14",
-    "signFile": "signs/SR-14.svg",
+    "id": "SR-12",
+    "signFile": "signs/SR-12.png",
+    "questionId": null,
+    "nameEs": "Sólo vuelta izquierda",
+    "nameEn": "Left turn only",
+    "nomCategory": "restrictive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "You must turn left at this location. No other direction of travel is permitted."
+  },
+  {
+    "id": "SR-13",
+    "signFile": "signs/SR-13.svg",
     "questionId": "jalisco-065",
     "nameEs": "Anchura restringida",
     "nameEn": "Restricted width",
@@ -379,6 +390,17 @@
     "primaryColor": "red",
     "description": "Road or passage has a maximum width limit. Wide vehicles must check clearance.",
     "examSign": true
+  },
+  {
+    "id": "SR-14",
+    "signFile": "signs/SR-14.png",
+    "questionId": null,
+    "nameEs": "Doble circulación",
+    "nameEn": "Two-way traffic",
+    "nomCategory": "restrictive",
+    "shape": "circle",
+    "primaryColor": "red",
+    "description": "Two-way traffic ahead. Stay in your lane and watch for oncoming vehicles. This is the restrictive (red circle) version of the warning sign."
   },
   {
     "id": "SR-16",
