@@ -80,7 +80,7 @@
   },
   {
     "id": "SP-13",
-    "signFile": "signs/SP-13.svg",
+    "signFile": "signs/SP-13.png",
     "questionId": null,
     "nameEs": "Incorporación lateral derecha",
     "nameEn": "Side road (right)",
@@ -136,7 +136,7 @@
   },
   {
     "id": "SP-19",
-    "signFile": "signs/SP-19.svg",
+    "signFile": "signs/SP-19.png",
     "questionId": null,
     "nameEs": "Tope",
     "nameEn": "Speed bump",
@@ -147,7 +147,7 @@
   },
   {
     "id": "SP-22",
-    "signFile": "signs/SP-22.svg",
+    "signFile": "signs/SP-22.png",
     "questionId": null,
     "nameEs": "Pendiente peligrosa descendente",
     "nameEn": "Steep downhill grade",
@@ -158,7 +158,7 @@
   },
   {
     "id": "SP-23",
-    "signFile": "signs/SP-23.svg",
+    "signFile": "signs/SP-23.png",
     "questionId": null,
     "nameEs": "Cruce con vía de ferrocarril",
     "nameEn": "Railroad crossing",
@@ -169,7 +169,7 @@
   },
   {
     "id": "SP-25",
-    "signFile": "signs/SP-25.svg",
+    "signFile": "signs/SP-25.png",
     "questionId": "jalisco-060",
     "nameEs": "Puente angosto",
     "nameEn": "Narrow bridge",
@@ -181,7 +181,7 @@
   },
   {
     "id": "SP-26",
-    "signFile": "signs/SP-26.svg",
+    "signFile": "signs/SP-26.png",
     "questionId": null,
     "nameEs": "Zona escolar",
     "nameEn": "School zone",
@@ -192,7 +192,7 @@
   },
   {
     "id": "SP-30",
-    "signFile": "signs/SP-30.svg",
+    "signFile": "signs/SP-30.png",
     "questionId": null,
     "nameEs": "Cruce de ganado",
     "nameEn": "Cattle crossing",
@@ -203,7 +203,7 @@
   },
   {
     "id": "SP-33",
-    "signFile": "signs/SP-33.svg",
+    "signFile": "signs/SP-33.png",
     "questionId": null,
     "nameEs": "Derrumbes",
     "nameEn": "Falling rocks",
@@ -214,7 +214,7 @@
   },
   {
     "id": "SP-34",
-    "signFile": "signs/SP-34.svg",
+    "signFile": "signs/SP-34.png",
     "questionId": null,
     "nameEs": "Superficie derrapante",
     "nameEn": "Slippery road",
@@ -225,7 +225,7 @@
   },
   {
     "id": "SP-36",
-    "signFile": "signs/SP-36.svg",
+    "signFile": "signs/SP-36.png",
     "questionId": null,
     "nameEs": "Doble circulación",
     "nameEn": "Two-way traffic",
@@ -236,7 +236,7 @@
   },
   {
     "id": "SP-38",
-    "signFile": "signs/SP-38.svg",
+    "signFile": "signs/SP-38.png",
     "questionId": null,
     "nameEs": "Glorieta",
     "nameEn": "Traffic circle ahead",
@@ -247,7 +247,7 @@
   },
   {
     "id": "SP-40",
-    "signFile": "signs/SP-40.svg",
+    "signFile": "signs/SP-40.png",
     "questionId": null,
     "nameEs": "Semáforo",
     "nameEn": "Traffic signal ahead",
@@ -258,7 +258,7 @@
   },
   {
     "id": "SP-44",
-    "signFile": "signs/SP-44.svg",
+    "signFile": "signs/SP-44.png",
     "questionId": null,
     "nameEs": "Zona de peatones",
     "nameEn": "Pedestrian crossing",
@@ -358,7 +358,7 @@
   },
   {
     "id": "SR-11",
-    "signFile": "signs/SR-11.svg",
+    "signFile": "signs/SR-11.png",
     "questionId": "jalisco-058",
     "nameEs": "Altura libre restringida",
     "nameEn": "Restricted clearance height",
@@ -381,7 +381,7 @@
   },
   {
     "id": "SR-13",
-    "signFile": "signs/SR-13.svg",
+    "signFile": "signs/SR-13.png",
     "questionId": "jalisco-065",
     "nameEs": "Anchura restringida",
     "nameEn": "Restricted width",
@@ -449,7 +449,7 @@
   },
   {
     "id": "SR-23",
-    "signFile": "signs/SR-23.svg",
+    "signFile": "signs/SR-23.png",
     "questionId": "jalisco-067",
     "nameEs": "No parar",
     "nameEn": "No stopping",
@@ -472,7 +472,7 @@
   },
   {
     "id": "SR-26",
-    "signFile": "signs/SR-26.svg",
+    "signFile": "signs/SR-26.png",
     "questionId": "jalisco-069",
     "nameEs": "Prohibido el retorno",
     "nameEn": "No U-turn",
@@ -484,7 +484,7 @@
   },
   {
     "id": "SR-27",
-    "signFile": "signs/SR-27.svg",
+    "signFile": "signs/SR-27.png",
     "questionId": "jalisco-054",
     "nameEs": "Prohibido el paso de maquinaria agrícola",
     "nameEn": "No agricultural machinery",
