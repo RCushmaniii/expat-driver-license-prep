@@ -266,11 +266,11 @@
     "examRelevant": true
   },
   "SR-38": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Longitud permitida",
+    "nameEn": "Allowed length",
+    "descriptionEn": "Indicates the maximum allowed vehicle length (in meters) on this road or structure. Applies especially to trucks and trailers. Features a truck silhouette with the length measurement below.",
+    "descriptionEs": "Indica la longitud máxima permitida del vehículo (en metros) en esta vía o estructura. Aplica especialmente a camiones y remolques. Muestra la silueta de un camión con la medida de longitud debajo.",
+    "examRelevant": true
   },
   "SR-46": {
     "nameEs": "",

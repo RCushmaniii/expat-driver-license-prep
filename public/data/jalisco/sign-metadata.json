@@ -529,14 +529,14 @@
   },
   {
     "id": "SR-38",
-    "signFile": "signs/SR-38.svg",
+    "signFile": "signs/SR-38.png",
     "questionId": null,
-    "nameEs": "Conserve su derecha",
-    "nameEn": "Keep right",
+    "nameEs": "Longitud permitida",
+    "nameEn": "Allowed length",
     "nomCategory": "restrictive",
     "shape": "circle",
-    "primaryColor": "blue",
-    "description": "Stay to the right side of the road. Common near medians and obstacles."
+    "primaryColor": "red",
+    "description": "Maximum allowed vehicle length. Indicates the maximum length (in meters) permitted for vehicles, including trucks and trailers, on this road or structure. Shows a truck silhouette with the width measurement below."
   },
   {
     "id": "hand-signal-stop",
