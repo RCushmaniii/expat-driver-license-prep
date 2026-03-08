@@ -268,6 +268,17 @@
     "description": "Pedestrian crossing ahead. Yield to pedestrians and be prepared to stop."
   },
   {
+    "id": "SP-48",
+    "signFile": "signs/SP-48.png",
+    "questionId": null,
+    "nameEs": "Cruce de fauna",
+    "nameEn": "Deer crossing",
+    "nomCategory": "warning",
+    "shape": "diamond",
+    "primaryColor": "yellow",
+    "description": "Wildlife crossing area. Watch for deer and other animals on or near the roadway, especially at dawn and dusk."
+  },
+  {
     "id": "SR-6",
     "signFile": "signs/SR-6.svg",
     "questionId": null,

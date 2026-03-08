@@ -300,6 +300,21 @@
     "downloaded": true
   },
   {
+    "id": "SP-48",
+    "code": "SP-48",
+    "nomCategory": "warning",
+    "shape": "diamond",
+    "primaryColor": "yellow",
+    "filename": "SP-48.png",
+    "localPath": "signs/SP-48.png",
+    "wikimediaFile": "MX road sign SP-48.png",
+    "sourceUrl": "",
+    "license": "CC BY-SA 4.0",
+    "is2023Version": false,
+    "fileSize": 0,
+    "downloaded": true
+  },
+  {
     "id": "SP-6",
     "code": "SP-6",
     "nomCategory": "warning",

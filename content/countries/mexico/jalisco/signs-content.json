@@ -139,6 +139,13 @@
     "descriptionEs": "",
     "examRelevant": false
   },
+  "SP-48": {
+    "nameEs": "Cruce de fauna",
+    "nameEn": "Deer crossing",
+    "descriptionEn": "Wildlife crossing area. Watch for deer and other animals on or near the roadway, especially at dawn and dusk. Common on rural highways near forested areas.",
+    "descriptionEs": "Zona de cruce de fauna silvestre. Esté atento a venados y otros animales en o cerca de la carretera, especialmente al amanecer y al atardecer.",
+    "examRelevant": true
+  },
   "SP-6": {
     "nameEs": "Curva a la derecha",
     "nameEn": "Curve right",
