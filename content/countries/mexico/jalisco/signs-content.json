@@ -203,11 +203,11 @@
     "examRelevant": true
   },
   "SR-20": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "No parar",
+    "nameEn": "No stopping",
+    "descriptionEn": "No stopping allowed. Both parking and temporary stopping are prohibited on this roadway. Distinguished from the no parking sign (SR-19) by having two diagonal slashes forming an X instead of one.",
+    "descriptionEs": "Prohibido detenerse. Se prohíbe tanto el estacionamiento como la parada temporal en esta vía. Se distingue de la señal de no estacionarse (SR-19) por tener dos diagonales formando una X en lugar de una.",
+    "examRelevant": true
   },
   "SR-22": {
     "nameEs": "",

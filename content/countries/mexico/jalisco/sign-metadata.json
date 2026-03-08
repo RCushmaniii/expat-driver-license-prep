@@ -426,14 +426,14 @@
   },
   {
     "id": "SR-20",
-    "signFile": "signs/SR-20.svg",
+    "signFile": "signs/SR-20.png",
     "questionId": null,
-    "nameEs": "Prohibido el paso de bicicletas",
-    "nameEn": "No bicycles",
+    "nameEs": "No parar",
+    "nameEn": "No stopping",
     "nomCategory": "prohibitive",
     "shape": "circle",
     "primaryColor": "red",
-    "description": "Bicycles are not allowed on this road."
+    "description": "No stopping allowed. Both parking and temporary stopping are prohibited on this roadway. Red circle with an X cross."
   },
   {
     "id": "SR-22",
