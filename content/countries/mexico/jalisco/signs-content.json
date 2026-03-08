@@ -28,18 +28,18 @@
     "examRelevant": false
   },
   "SP-14": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Intersección lateral oblicua derecha",
+    "nameEn": "Branch junction (right)",
+    "descriptionEn": "A road branches off at an angle from the right ahead. Watch for traffic merging or exiting at the oblique intersection.",
+    "descriptionEs": "Un camino se bifurca en ángulo por la derecha adelante. Esté atento al tráfico que se incorpora o sale en la intersección oblicua.",
+    "examRelevant": true
   },
   "SP-15": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Intersección en Y",
+    "nameEn": "Y-junction",
+    "descriptionEn": "Y-junction ahead where a lower priority road branches to the right. The road splits into two; choose your direction and signal early.",
+    "descriptionEs": "Intersección en Y adelante donde una vía de menor prioridad se bifurca a la derecha. El camino se divide en dos; elija su dirección y señale con anticipación.",
+    "examRelevant": true
   },
   "SP-17": {
     "nameEs": "",
