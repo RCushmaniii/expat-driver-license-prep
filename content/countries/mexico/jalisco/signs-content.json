@@ -224,11 +224,11 @@
     "examRelevant": false
   },
   "SR-25": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Prohibido el retorno",
+    "nameEn": "No U-turn",
+    "descriptionEn": "U-turns are prohibited at this location. Drivers must not reverse direction. Look for the U-turn arrow with a red diagonal slash.",
+    "descriptionEs": "Se prohíbe el retorno en esta ubicación. Los conductores no deben invertir la dirección de marcha.",
+    "examRelevant": true
   },
   "SR-26": {
     "nameEs": "",

@@ -461,14 +461,14 @@
   },
   {
     "id": "SR-25",
-    "signFile": "signs/SR-25.svg",
+    "signFile": "signs/SR-25.png",
     "questionId": null,
-    "nameEs": "Prohibido el paso de vehículos de carga",
-    "nameEn": "No freight/heavy vehicles",
+    "nameEs": "Prohibido el retorno",
+    "nameEn": "No U-turn",
     "nomCategory": "prohibitive",
     "shape": "circle",
     "primaryColor": "red",
-    "description": "Freight and heavy vehicles (trucks, buses) are not permitted on this road. On the exam, look for 'vehículos de carga' as the keyword."
+    "description": "U-turns are prohibited. Drivers must not reverse direction at this location. Red circle with diagonal slash over a U-turn arrow."
   },
   {
     "id": "SR-26",
