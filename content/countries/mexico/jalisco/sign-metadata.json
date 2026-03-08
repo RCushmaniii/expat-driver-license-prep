@@ -1,14 +1,14 @@
 [
   {
     "id": "SP-6",
-    "signFile": "signs/SP-6.svg",
+    "signFile": "signs/SP-6.png",
     "questionId": null,
-    "nameEs": "Curva pronunciada a la derecha",
-    "nameEn": "Sharp curve right",
+    "nameEs": "Curva a la derecha",
+    "nameEn": "Curve right",
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "A sharp curve to the right lies ahead. Reduce speed significantly before entering."
+    "description": "A curve to the right ahead. Reduce speed before entering the curve. Used for moderate curves (lower curvature-deflection product)."
   },
   {
     "id": "SP-7",

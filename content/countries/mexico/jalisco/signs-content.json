@@ -140,11 +140,11 @@
     "examRelevant": false
   },
   "SP-6": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Curva a la derecha",
+    "nameEn": "Curve right",
+    "descriptionEn": "Warns of a curve to the right ahead. Reduce speed before entering. Used for moderate curves where the curvature-deflection product is lower than for sharp curves (SP-8).",
+    "descriptionEs": "Advierte de una curva a la derecha adelante. Reduzca la velocidad antes de entrar. Se utiliza para curvas moderadas donde el producto del grado de curvatura por la deflexión es menor.",
+    "examRelevant": true
   },
   "SP-7": {
     "nameEs": "",
