@@ -147,11 +147,11 @@
     "examRelevant": true
   },
   "SP-7": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Curva peligrosa a la derecha",
+    "nameEn": "Dangerous curve right",
+    "descriptionEn": "Warns of a dangerous sharp curve to the right ahead. Reduce speed significantly before entering. The sharp right-angle arrow distinguishes this from the gentler SP-6 curve sign.",
+    "descriptionEs": "Advierte de una curva peligrosa a la derecha adelante. Reduzca la velocidad significativamente antes de entrar. La flecha en ángulo recto la distingue de la señal SP-6 de curva moderada.",
+    "examRelevant": true
   },
   "SP-8": {
     "nameEs": "",

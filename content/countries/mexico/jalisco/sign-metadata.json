@@ -12,14 +12,14 @@
   },
   {
     "id": "SP-7",
-    "signFile": "signs/SP-7.svg",
+    "signFile": "signs/SP-7.png",
     "questionId": null,
-    "nameEs": "Curva pronunciada a la izquierda",
-    "nameEn": "Sharp curve left",
+    "nameEs": "Curva peligrosa a la derecha",
+    "nameEn": "Dangerous curve right",
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "A sharp curve to the left lies ahead. Reduce speed significantly before entering."
+    "description": "Dangerous sharp curve to the right ahead. Reduce speed significantly before entering. The sharp right-angle arrow distinguishes this from the gentler SP-6 curve sign."
   },
   {
     "id": "SP-8",
