@@ -518,14 +518,14 @@
   },
   {
     "id": "SR-37A",
-    "signFile": "signs/SR-37A.svg",
+    "signFile": "signs/SR-37A.png",
     "questionId": null,
-    "nameEs": "Vuelta a la izquierda",
-    "nameEn": "Left turn only",
+    "nameEs": "Sentido de circulación",
+    "nameEn": "Direction of traffic circulation",
     "nomCategory": "restrictive",
-    "shape": "circle",
-    "primaryColor": "blue",
-    "description": "You must turn left at this intersection. No other directions allowed."
+    "shape": "rectangle",
+    "primaryColor": "black",
+    "description": "Indicates the direction of traffic circulation. Double-headed white arrow on a black rectangular sign showing traffic flows in both directions on the cross street."
   },
   {
     "id": "SR-38",

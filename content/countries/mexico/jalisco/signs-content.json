@@ -259,11 +259,11 @@
     "examRelevant": false
   },
   "SR-37A": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Sentido de circulación",
+    "nameEn": "Direction of traffic circulation",
+    "descriptionEn": "Indicates the direction of traffic circulation on the cross street. The double-headed arrow means traffic flows in both directions. Placed at intersections to inform drivers about the cross street's traffic pattern.",
+    "descriptionEs": "Indica el sentido de circulación en la calle transversal. La flecha de doble sentido significa que el tráfico fluye en ambas direcciones. Se coloca en intersecciones para informar a los conductores sobre el patrón de tráfico de la calle transversal.",
+    "examRelevant": true
   },
   "SR-38": {
     "nameEs": "",
