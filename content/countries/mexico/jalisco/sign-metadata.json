@@ -42,7 +42,7 @@
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "S-shaped double curve starting to the right. Reduce speed and maintain lane position."
+    "description": "S-shaped double curve starting to the right. Reduce speed and maintain lane position. On exams, distinguish from 'Curva doble' — an S-curve has opposing curves that flow continuously."
   },
   {
     "id": "SP-10",
@@ -53,7 +53,7 @@
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "S-shaped double curve starting to the left. Reduce speed and maintain lane position."
+    "description": "S-shaped double curve starting to the left. Reduce speed and maintain lane position. On exams, distinguish from 'Curva doble' — an S-curve has opposing curves that flow continuously."
   },
   {
     "id": "SP-11",
@@ -87,7 +87,7 @@
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "A road joins from the right ahead. Watch for merging traffic."
+    "description": "A road joins from the right ahead. Watch for merging traffic. Also called 'Entronque lateral' on some exams."
   },
   {
     "id": "SP-14",
@@ -98,7 +98,7 @@
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "A road joins from the left ahead. Watch for merging traffic."
+    "description": "A road joins from the left ahead. Watch for merging traffic. Also called 'Entronque lateral' on some exams."
   },
   {
     "id": "SP-15",
@@ -131,7 +131,7 @@
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "Road narrows on one side only. Reduce speed and adjust lane position.",
+    "description": "Road narrows on one side only — check the sign pictogram to see which side. Reduce speed and adjust lane position. Exam questions often ask which side is narrowing.",
     "examSign": true
   },
   {
@@ -422,7 +422,7 @@
     "nomCategory": "prohibitive",
     "shape": "circle",
     "primaryColor": "red",
-    "description": "Parking is prohibited in this area. Brief stops for loading/unloading may still be allowed.",
+    "description": "Parking is prohibited in this area. Brief stops for loading/unloading may still be allowed. On exams, may also appear as 'No estacionarse.'",
     "examSign": true
   },
   {
