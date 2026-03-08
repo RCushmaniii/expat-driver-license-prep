@@ -98,11 +98,11 @@
     "examRelevant": true
   },
   "SP-33": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Zona escolar",
+    "nameEn": "School zone",
+    "descriptionEn": "School zone ahead. Reduce speed and watch for children crossing. Distinctive fluorescent yellow-green pentagon shape makes it easy to spot. One of the most important signs for everyday driving.",
+    "descriptionEs": "Zona escolar adelante. Reduzca la velocidad y esté atento a niños cruzando. La forma de pentágono en amarillo-verde fluorescente la hace fácil de identificar.",
+    "examRelevant": true
   },
   "SP-34": {
     "nameEs": "",

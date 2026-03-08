@@ -205,12 +205,12 @@
     "id": "SP-33",
     "signFile": "signs/SP-33.png",
     "questionId": null,
-    "nameEs": "Derrumbes",
-    "nameEn": "Falling rocks",
+    "nameEs": "Zona escolar",
+    "nameEn": "School zone",
     "nomCategory": "warning",
-    "shape": "diamond",
-    "primaryColor": "yellow",
-    "description": "Risk of rockfalls or landslides. Stay alert and avoid stopping in this zone."
+    "shape": "pentagon",
+    "primaryColor": "fluorescent yellow-green",
+    "description": "School zone ahead. Reduce speed and watch for children crossing. Fluorescent yellow-green pentagon shape with silhouettes of children carrying backpacks. Per 2023 SICT manual."
   },
   {
     "id": "SP-34",
