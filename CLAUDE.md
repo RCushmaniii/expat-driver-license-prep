@@ -100,10 +100,18 @@ Region metadata in `meta.json` captures exam parameters (questions per exam, pas
 
 Sprint 3 complete — Self-hosted fonts, new favicon/OG image, BreadcrumbList JSON-LD, 15 road sign SVGs, insurance + rental guides, and Claude AI integration all deployed. Next: QA, PWA offline mode.
 
+## Reference Links
+
+- **Mexican road signs (NOM-034 catalog)**: https://en.wikipedia.org/wiki/Road_signs_in_Mexico
+- **Wikimedia Commons sign files**: Named `MX road sign {ID}.svg` — use thumbnail API for PNG renders
+- **Wikimedia categories**: `Category:SVG_regulatory_road_signs_of_Mexico` (SR), `Category:SVG_warning_road_signs_of_Mexico` (SP)
+
 ## Known Issues
 
 - Vercel production branch is `main`
 - Local `pnpm build` may fail on Windows at Vercel adapter symlink step (EPERM) — this is a Windows+pnpm issue only; Vercel CI builds successfully on Linux
+- **Road Signs page temporarily hidden** (`_signs.astro`, nav link commented out) — sign images and metadata are correct but Vercel CDN edge cache was serving stale data. Unhide once cache expires.
+- Vercel free tier: 100 deploys/day limit — can't force CDN cache purge when limit is hit
 
 ## Environment Setup
 
