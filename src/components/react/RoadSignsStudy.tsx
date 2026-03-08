@@ -322,18 +322,29 @@ interface SignCardProps {
 }
 
 function SignCard({ sign, onClick, speak, isSpeaking, isSupported }: SignCardProps) {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <button
       onClick={onClick}
-      className="card p-3 flex flex-col items-center text-center cursor-pointer group hover:shadow-md hover:-translate-y-0.5 transition-all w-full"
+      className="card p-3 flex flex-col items-center text-center cursor-pointer group hover:shadow-md hover:-translate-y-0.5 transition-all w-full min-h-[160px]"
     >
-      <div className="relative">
-        <img
-          src={`/${sign.signFile}`}
-          alt={sign.nameEn}
-          className="w-20 h-20 sm:w-24 sm:h-24 object-contain mb-2 group-hover:scale-105 transition-transform"
-          loading="lazy"
-        />
+      <div className="relative w-20 h-20 sm:w-24 sm:h-24 flex-shrink-0 mb-2">
+        {imgError ? (
+          <div className="w-full h-full rounded-lg bg-surface flex items-center justify-center">
+            <svg className="w-10 h-10 text-text-muted/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01M5.07 19H19a2 2 0 001.75-2.96L13.75 4a2 2 0 00-3.5 0L3.32 16.04A2 2 0 005.07 19z" />
+            </svg>
+          </div>
+        ) : (
+          <img
+            src={`/${sign.signFile}`}
+            alt={sign.nameEn}
+            className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+            loading="lazy"
+            onError={() => setImgError(true)}
+          />
+        )}
         {sign.examSign && (
           <span className="absolute -top-1 -right-1 bg-navy text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none">
             EXAM
@@ -436,6 +447,7 @@ function LightboxModal({
             src={`/${sign.signFile}`}
             alt={sign.nameEn}
             className="w-40 h-40 sm:w-52 sm:h-52 object-contain"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
           />
         </div>
 
@@ -622,6 +634,7 @@ function QuizTab({
             src={`/${q.image_ref}`}
             alt="What does this sign indicate?"
             className="w-32 h-32 sm:w-40 sm:h-40 object-contain"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
           />
         </div>
 
