@@ -46,14 +46,14 @@
   },
   {
     "id": "SP-10",
-    "signFile": "signs/SP-10.svg",
+    "signFile": "signs/SP-10.png",
     "questionId": null,
-    "nameEs": "Curva en S a la izquierda",
-    "nameEn": "S-curve (left then right)",
+    "nameEs": "Zona de curvas",
+    "nameEn": "Winding road",
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "S-shaped double curve starting to the left. Reduce speed and maintain lane position. On exams, distinguish from 'Curva doble' — an S-curve has opposing curves that flow continuously."
+    "description": "Winding road ahead with multiple curves. Reduce speed and stay alert. The snaking arrow indicates three or more consecutive curves, unlike SP-8/SP-9 which show only two."
   },
   {
     "id": "SP-11",

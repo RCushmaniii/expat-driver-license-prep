@@ -1,10 +1,10 @@
 {
   "SP-10": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Zona de curvas",
+    "nameEn": "Winding road",
+    "descriptionEn": "Warns of a winding road ahead with multiple consecutive curves. Reduce speed and stay alert. The snaking arrow with three or more bends distinguishes this from SP-8/SP-9 which show only two curves.",
+    "descriptionEs": "Advierte de una zona de curvas adelante con múltiples curvas consecutivas. Reduzca la velocidad y manténgase alerta. La flecha serpenteante con tres o más curvas la distingue de SP-8/SP-9 que muestran solo dos curvas.",
+    "examRelevant": true
   },
   "SP-11": {
     "nameEs": "",
