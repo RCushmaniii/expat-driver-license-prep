@@ -35,14 +35,14 @@
   },
   {
     "id": "SP-9",
-    "signFile": "signs/SP-9.svg",
+    "signFile": "signs/SP-9.png",
     "questionId": null,
-    "nameEs": "Curva en S a la derecha",
-    "nameEn": "S-curve (right then left)",
+    "nameEs": "Curva inversa pronunciada a la derecha",
+    "nameEn": "Sharp reverse curves (right)",
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "S-shaped double curve starting to the right. Reduce speed and maintain lane position. On exams, distinguish from 'Curva doble' — an S-curve has opposing curves that flow continuously."
+    "description": "Two sharp consecutive curves in opposite directions ahead, starting to the right. More severe than SP-8 (gentle reverse curves). The sharp right-angle zigzag arrow distinguishes this from the smoother S-curve of SP-8."
   },
   {
     "id": "SP-10",

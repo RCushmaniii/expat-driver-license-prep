@@ -161,11 +161,11 @@
     "examRelevant": true
   },
   "SP-9": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Curva inversa pronunciada a la derecha",
+    "nameEn": "Sharp reverse curves (right)",
+    "descriptionEn": "Warns of two sharp consecutive curves in opposite directions ahead, starting to the right. More severe than SP-8 (gentle reverse curves). Reduce speed significantly before entering.",
+    "descriptionEs": "Advierte de dos curvas cerradas consecutivas en direcciones opuestas, comenzando a la derecha. Más severa que SP-8 (curvas inversas suaves). Reduzca la velocidad significativamente antes de entrar.",
+    "examRelevant": true
   },
   "SR-10": {
     "nameEs": "",
