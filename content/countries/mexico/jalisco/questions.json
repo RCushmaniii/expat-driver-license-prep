@@ -33,7 +33,7 @@
       }
     ],
     "explanation_en": "In Jalisco, having overlapping (sobrepuestas) or fraudulent plates is treated as a serious security issue, not just a traffic ticket. The vehicle is impounded and removed from circulation as a security measure because fake or altered plates may indicate a stolen vehicle or other criminal activity. Speeding and illegal turns result in fines, not impoundment.",
-    "explanation_es": "En Jalisco, portar placas sobrepuestas o fraudulentas se considera un problema de seguridad grave, no solo una infraccion de transito. El vehiculo es retirado de la circulacion como medida de seguridad porque las placas alteradas o falsas pueden indicar un vehiculo robado u otra actividad delictiva. El exceso de velocidad y las vueltas ilegales resultan en multas, no en el retiro del vehiculo.",
+    "explanation_es": "En Jalisco, portar placas sobrepuestas o fraudulentas se considera un problema de seguridad grave, no solo una infracción de tránsito. El vehículo es retirado de la circulación como medida de seguridad porque las placas alteradas o falsas pueden indicar un vehículo robado u otra actividad delictiva. El exceso de velocidad y las vueltas ilegales resultan en multas, no en el retiro del vehículo.",
     "vocabulary": [
       {
         "es": "placas sobrepuestas",
@@ -92,7 +92,7 @@
       }
     ],
     "explanation_en": "Wearing a seatbelt has two benefits under Jalisco law: it significantly reduces the risk of injury or death in a crash, and it keeps you from getting a fine. The seatbelt requirement applies on all roads in Jalisco, not just federal highways. The idea that seatbelts trap you in a crash is a myth -- they save lives.",
-    "explanation_es": "Usar el cinturon de seguridad tiene dos beneficios segun la ley de Jalisco: reduce significativamente el riesgo de lesiones o muerte en un accidente, y evita que recibas una multa. El requisito del cinturon aplica en todas las vias de Jalisco, no solo en carreteras federales. La idea de que el cinturon te atrapa en un accidente es un mito -- salvan vidas.",
+    "explanation_es": "Usar el cinturon de seguridad tiene dos beneficios según la ley de Jalisco: reduce significativamente el riesgo de lesiones o muerte en un accidente, y evita que recibas una multa. El requisito del cinturon aplica en todas las vias de Jalisco, no solo en carreteras federales. La idea de que el cinturon te atrapa en un accidente es un mito -- salvan vidas.",
     "vocabulary": [
       {
         "es": "cinturon de seguridad",
@@ -151,7 +151,7 @@
       }
     ],
     "explanation_en": "Third-degree intoxication (the highest level) on a first offense in Jalisco results in a mandatory 36-hour administrative arrest that cannot be converted to a fine -- you must serve the full 36 hours in custody, plus pay fines on top of that. This is harsher than a simple license suspension because the state treats severe DUI as a serious public safety threat.",
-    "explanation_es": "La ebriedad en tercer grado (el nivel mas alto) en una primera ocasion en Jalisco resulta en un arresto administrativo obligatorio de 36 horas que no puede ser convertido en multa -- debes cumplir las 36 horas completas detenido, ademas de pagar las multas correspondientes. Esto es mas severo que una simple suspension de licencia porque el estado trata la conduccion en estado de ebriedad grave como una amenaza seria a la seguridad publica.",
+    "explanation_es": "La ebriedad en tercer grado (el nivel más alto) en una primera ocasión en Jalisco resulta en un arresto administrativo obligatorio de 36 horas que no puedes ser convertido en multa -- debes cumplir las 36 horas completas detenido, además de pagar las multas correspondientes. Esto es más severo que una simple suspensión de licencia porque el estado trata la conducción en estado de ebriedad grave como una amenaza seria a la seguridad pública.",
     "vocabulary": [
       {
         "es": "tercer grado de ebriedad",
@@ -210,7 +210,7 @@
       }
     ],
     "explanation_en": "Jalisco offers a 50% early-payment discount if you pay your traffic fine within 5 business days of receiving it. This incentivizes prompt payment and reduces the administrative burden on the system. Don't confuse business days (dias habiles) with calendar days -- weekends and holidays don't count.",
-    "explanation_es": "Jalisco ofrece un descuento del 50% por pronto pago si pagas tu multa de transito dentro de los primeros 5 dias habiles despues de recibirla. Esto incentiva el pago oportuno y reduce la carga administrativa del sistema. No confundas dias habiles con dias naturales -- fines de semana y dias festivos no cuentan.",
+    "explanation_es": "Jalisco ofrece un descuento del 50% por pronto pago si pagas tu multa de tránsito dentro de los primeros 5 días hábiles después de recibirla. Esto incentiva el pago oportuno y reduce la carga administrativa del sistema. No confundas días hábiles con días naturales -- fines de semana y días festivos no cuentan.",
     "vocabulary": [
       {
         "es": "infraccion",
@@ -265,7 +265,7 @@
       }
     ],
     "explanation_en": "This is TRUE for all vehicles, not just public transit. Jalisco law prohibits any tinting or material that completely blocks the view into a vehicle's interior. This is a safety and law enforcement measure -- officers need to be able to see inside vehicles. Partial tinting may be allowed, but total blockage of visibility is always illegal.",
-    "explanation_es": "Esto es CIERTO para todos los vehiculos, no solo para el transporte publico. La ley de Jalisco prohibe cualquier polarizado o material que bloquee completamente la vista al interior de un vehiculo. Esta es una medida de seguridad y aplicacion de la ley -- los oficiales necesitan poder ver dentro de los vehiculos. El polarizado parcial puede ser permitido, pero el bloqueo total de la visibilidad siempre es ilegal.",
+    "explanation_es": "Esto es CIERTO para todos los vehículos, no solo para el transporte público. La ley de Jalisco prohibe cualquier polarizado o material que bloquee completamente la vista al interior de un vehículo. Está es una medida de seguridad y aplicación de la ley -- los oficiales necesitan poder ver dentro de los vehículos. El polarizado parcial puedes ser permitido, pero el bloqueo total de la visibilidad siempre es ilegal.",
     "vocabulary": [
       {
         "es": "cristales",
@@ -320,7 +320,7 @@
       }
     ],
     "explanation_en": "The maximum number of passengers in a pickup truck is determined by the vehicle's circulation card (tarjeta de circulacion), which is your registration document. It's not about how many can fit or who has safety gear -- the legal limit is whatever the official registration document says for that specific vehicle.",
-    "explanation_es": "El numero maximo de pasajeros en una camioneta pickup esta determinado por la tarjeta de circulacion del vehiculo, que es tu documento de registro. No se trata de cuantos caben o quien tenga equipo de seguridad -- el limite legal es lo que indique el documento oficial de registro para ese vehiculo especifico.",
+    "explanation_es": "El número máximo de pasajeros en una camioneta pickup está determinado por la tarjeta de circulación del vehículo, que es tu documento de registro. No se trata de cuantos caben o quien tenga equipo de seguridad -- el límite legal es lo que indique el documento oficial de registro para ese vehículo específico.",
     "vocabulary": [
       {
         "es": "tarjeta de circulacion",
@@ -375,7 +375,7 @@
       }
     ],
     "explanation_en": "The Jalisco transit law governs all public roads within the state that are not federal highways. Federal roads (like major interstate highways) fall under separate federal regulations. The law's purpose is broader than just issuing licenses or writing tickets -- it establishes the entire framework for road safety, vehicle registration, and traffic rules on state and municipal roads.",
-    "explanation_es": "La ley de transito de Jalisco rige todas las vias publicas dentro del estado que no son carreteras federales. Las carreteras federales (como las autopistas interestatales principales) caen bajo regulaciones federales separadas. El proposito de la ley es mas amplio que solo expedir licencias o multar -- establece todo el marco para la seguridad vial, registro vehicular y reglas de transito en vias estatales y municipales.",
+    "explanation_es": "La ley de tránsito de Jalisco rige todas las vias públicas dentro del estado que no son carreteras federales. Las carreteras federales (como las autopistas interestatales principales) caen bajo regulaciones federales separadas. El propósito de la ley es más amplio que solo expedir licencias o multar -- establece todo el marco para la seguridad vial, registro vehicular y reglas de tránsito en vias estatales y municipales.",
     "vocabulary": [
       {
         "es": "vias publicas",
@@ -434,7 +434,7 @@
       }
     ],
     "explanation_en": "Going 11 km/h over the speed limit (71 in a 60 zone) results in a fine, not vehicle detention or license suspension. In Jalisco, vehicle impoundment and license suspension are reserved for more serious violations like exceeding the limit by 20+ km/h. An 11 km/h overage is treated as a standard speeding infraction with a monetary penalty.",
-    "explanation_es": "Ir 11 km/h por encima del limite de velocidad (71 en una zona de 60) resulta en una multa, no en detencion del vehiculo o suspension de licencia. En Jalisco, el retiro del vehiculo y la suspension de licencia estan reservados para infracciones mas graves como exceder el limite por 20+ km/h. Un exceso de 11 km/h se trata como una infraccion estandar de velocidad con sancion monetaria.",
+    "explanation_es": "Ir 11 km/h por encima del límite de velocidad (71 en una zona de 60) resulta en una multa, no en detención del vehículo o suspensión de licencia. En Jalisco, el retiro del vehículo y la suspensión de licencia están reservados para infracciones más graves como exceder el límite por 20+ km/h. Un exceso de 11 km/h se trata como una infracción estándar de velocidad con sanción monetaria.",
     "vocabulary": [
       {
         "es": "senalamiento",
@@ -493,7 +493,7 @@
       }
     ],
     "explanation_en": "A cracked windshield that blocks or impairs the driver's visibility is a traffic infraction in Jalisco. Driving in the far-right lane is actually encouraged (it's the correct lane for slower traffic), and right turns on red are legal in Jalisco as long as you make a complete stop and yield to pedestrians. Only the cracked windshield is a violation here.",
-    "explanation_es": "Un parabrisas estrellado que bloquea o dificulta la visibilidad del conductor es una infraccion de transito en Jalisco. Circular por la extrema derecha es en realidad lo recomendado (es el carril correcto para trafico mas lento), y las vueltas a la derecha en rojo son legales en Jalisco siempre que hagas alto total y cedas el paso a peatones. Solo el parabrisas estrellado es una infraccion aqui.",
+    "explanation_es": "Un parabrisas estrellado que bloquea o dificulta la visibilidad del conductor es una infracción de tránsito en Jalisco. Circular por la extrema derecha es en realidad lo recomendado (es el carril correcto para tráfico más lento), y las vueltas a la derecha en rojo son legales en Jalisco siempre que hagas alto total y cedas el paso a peatones. Solo el parabrisas estrellado es una infracción aquí.",
     "vocabulary": [
       {
         "es": "parabrisas estrellado",
@@ -552,7 +552,7 @@
       }
     ],
     "explanation_en": "The maximum distance you can drive in reverse in Jalisco is 10 meters (about 33 feet). This is roughly the length of a parallel parking space or a short driveway. The law limits reverse driving because it's inherently dangerous -- you have limited visibility, and other drivers and pedestrians don't expect vehicles moving backward on the road.",
-    "explanation_es": "La distancia maxima que puedes circular en reversa en Jalisco es de 10 metros (aproximadamente 33 pies). Esto es aproximadamente el largo de un espacio de estacionamiento en paralelo o una entrada corta. La ley limita la conduccion en reversa porque es inherentemente peligrosa -- tienes visibilidad limitada, y otros conductores y peatones no esperan vehiculos moviendose hacia atras en la via.",
+    "explanation_es": "La distancia máxima que puedes circular en reversa en Jalisco es de 10 metros (aproximadamente 33 pies). Esto es aproximadamente el largo de un espacio de estacionamiento en paralelo o una entrada corta. La ley limita la conducción en reversa porque es inherentemente peligrosa -- tienes visibilidad limitada, y otros conductores y peatones no esperan vehículos moviendose hacia atras en la via.",
     "vocabulary": [
       {
         "es": "reversa",
@@ -607,7 +607,7 @@
       }
     ],
     "explanation_en": "FALSE -- a traffic officer in Jalisco cannot pull you over solely to check your documents. They need an actual reason, such as observing a traffic violation. This protects drivers from arbitrary stops. Even having out-of-state plates is not grounds for a document check stop. This is a civil rights protection built into the transit law.",
-    "explanation_es": "FALSO -- un agente vial en Jalisco no puede detenerte solamente para revisar tus documentos. Necesita una razon real, como haber observado una infraccion de transito. Esto protege a los conductores de paradas arbitrarias. Incluso tener placas de otro estado no es motivo para una detencion de revision de documentos. Esta es una proteccion de derechos civiles incluida en la ley de transito.",
+    "explanation_es": "FALSO -- un agente vial en Jalisco no puedes detenerte solamente para revisar tus documentos. Necesita una razon real, como haber observado una infracción de tránsito. Esto protege a los conductores de paradas arbitrarias. Incluso tener placas de otro estado no es motivo para una detención de revisión de documentos. Está es una protección de derechos civiles incluida en la ley de tránsito.",
     "vocabulary": [
       {
         "es": "agente vial",
@@ -666,7 +666,7 @@
       }
     ],
     "explanation_en": "If your vehicle is unregistered or missing plates, hologram, or registration card, you must obtain a temporary circulation permit while you complete the paperwork. You can't just wait for the next annual exchange period, and there's no such thing as an indefinite permit. The temporary permit has a defined expiration -- it's meant to bridge the gap while your registration is being processed.",
-    "explanation_es": "Si tu vehiculo no esta registrado o le faltan placas, holograma o tarjeta de circulacion, debes obtener un permiso temporal de circulacion mientras completas los tramites. No puedes simplemente esperar al siguiente canje anual, y no existe un permiso indefinido. El permiso temporal tiene una fecha de vencimiento definida -- esta disenado para cubrir el periodo mientras se procesa tu registro.",
+    "explanation_es": "Si tu vehículo no esta registrado o le faltan placas, holograma o tarjeta de circulación, debes obtener un permiso temporal de circulación mientras completas los tramites. No puedes simplemente esperar al siguiente canje anual, y no existe un permiso indefinido. El permiso temporal tiene una fecha de vencimiento definida -- esta disenado para cubrir el período mientras se procesa tu registro.",
     "vocabulary": [
       {
         "es": "permiso para circular",
@@ -725,7 +725,7 @@
       }
     ],
     "explanation_en": "YES, missing windshield wipers are a finable offense for ALL vehicles under Jalisco transit law, not just public or official vehicles. The law requires all vehicles to have functioning windshield wipers at all times, regardless of the season. This makes sense because rain can come unexpectedly, and you need wipers to maintain visibility and drive safely.",
-    "explanation_es": "SI, la falta de limpiabrisas es motivo de multa para TODOS los vehiculos bajo la ley de transito de Jalisco, no solo para vehiculos publicos u oficiales. La ley requiere que todos los vehiculos tengan limpiabrisas funcionando en todo momento, sin importar la temporada. Esto tiene sentido porque la lluvia puede llegar inesperadamente, y necesitas limpiabrisas para mantener la visibilidad y conducir con seguridad.",
+    "explanation_es": "SI, la falta de limpiabrisas es motivo de multa para TODOS los vehículos bajo la ley de tránsito de Jalisco, no solo para vehículos públicos u oficiales. La ley requiere que todos los vehículos tengan limpiabrisas funcionando en todo momento, sin importar la temporada. Esto tiene sentido porque la lluvia puedes llegar inesperadamente, y necesitas limpiabrisas para mantener la visibilidad y conducir con seguridad.",
     "vocabulary": [
       {
         "es": "limpiabrisas",
@@ -780,7 +780,7 @@
       }
     ],
     "explanation_en": "Driving drunk or under the influence of drugs in Jalisco is both a traffic infraction AND an administrative offense (falta administrativa). This is a tricky question -- it's NOT classified as a criminal offense (delito) under the transit law; it's handled through administrative channels with fines and arrest. The distinction matters: \"infraction and crime\" (option A) sounds right but is legally incorrect under Jalisco's transit framework.",
-    "explanation_es": "Conducir ebrio o bajo la influencia de drogas en Jalisco es tanto una infraccion de transito COMO una falta administrativa. Esta es una pregunta capciosa -- NO se clasifica como un delito bajo la ley de transito; se maneja a traves de canales administrativos con multas y arresto. La distincion importa: \"infraccion y delito\" (opcion A) suena correcto pero es legalmente incorrecto bajo el marco de transito de Jalisco.",
+    "explanation_es": "Manejar ebrio o bajo la influencia de drogas en Jalisco es tanto una infracción de tránsito COMO una falta administrativa. Está es una pregunta capciosa -- NO se clasifica como un delito bajo la ley de tránsito; se maneja a traves de canales administrativos con multas y arresto. La distincion importa: \"infracción y delito\" (opcion A) suena correcto pero es legalmente incorrecto bajo el marco de tránsito de Jalisco.",
     "vocabulary": [
       {
         "es": "estado de ebriedad",
@@ -839,7 +839,7 @@
       }
     ],
     "explanation_en": "Driving with your plates hidden -- whether totally or partially obscured -- is a traffic infraction in Jalisco. This includes anything covering your plates like dirt, frames, or intentional obstruction. Having out-of-state plates or outdated holograms may cause other issues, but the specific infraction here is concealing your plates, because authorities need to be able to identify vehicles.",
-    "explanation_es": "Circular con tus placas ocultas -- ya sea total o parcialmente -- es una infraccion de transito en Jalisco. Esto incluye cualquier cosa que cubra tus placas como suciedad, marcos o obstruccion intencional. Tener placas de otro estado u hologramas vencidos puede causar otros problemas, pero la infraccion especifica aqui es ocultar tus placas, porque las autoridades necesitan poder identificar los vehiculos.",
+    "explanation_es": "Circular con tus placas ocultas -- ya sea total o parcialmente -- es una infracción de tránsito en Jalisco. Esto incluye cualquier cosa que cubra tus placas como suciedad, marcos o obstrucción intencional. Tener placas de otro estado u hologramas vencidos puedes causar otros problemas, pero la infracción específica aquí es ocultar tus placas, porque las autoridades necesitan poder identificar los vehículos.",
     "vocabulary": [
       {
         "es": "placas ocultas",
@@ -894,7 +894,7 @@
       }
     ],
     "explanation_en": "Cell phone use while driving is prohibited in Jalisco UNLESS you use a hands-free device (like Bluetooth, a headset, or a car mount with speakerphone). The answer is NOT a flat \"yes\" or \"no\" -- it's the nuanced option C. Holding the phone to your ear or texting is illegal, but hands-free calling is allowed.",
-    "explanation_es": "El uso del celular al conducir esta prohibido en Jalisco A MENOS que uses un dispositivo manos libres (como Bluetooth, audifonos o un soporte con altavoz). La respuesta NO es un simple \"si\" o \"no\" -- es la opcion matizada C. Sostener el telefono en la oreja o enviar mensajes de texto es ilegal, pero las llamadas con manos libres estan permitidas.",
+    "explanation_es": "El uso del celular al manejar está prohibido en Jalisco A MENOS que uses un dispositivo manos libres (como Bluetooth, audifonos o un soporte con altavoz). La respuesta NO es un simple \"si\" o \"no\" -- es la opcion matizada C. Sostener el telefono en la oreja o enviar mensajes de texto es ilegal, pero las llamadas con manos libres están permitidas.",
     "vocabulary": [
       {
         "es": "telefonia celular",
@@ -953,7 +953,7 @@
       }
     ],
     "explanation_en": "A child under 3 can ONLY ride in the front seat if two conditions are met: (1) the vehicle has no rear seats (like some pickup trucks or two-seater cars), AND (2) the child is secured in an appropriate car seat. Holding a child in your arms -- even while wearing a seatbelt -- is never acceptable. In a crash, the force would rip the child from your arms.",
-    "explanation_es": "Un menor de 3 anos SOLO puede ir en el asiento delantero si se cumplen dos condiciones: (1) el vehiculo no tiene asientos traseros (como algunas camionetas o autos de dos plazas), Y (2) el nino esta asegurado en un asiento de seguridad adecuado. Cargar a un nino en brazos -- incluso usando cinturon de seguridad -- nunca es aceptable. En un choque, la fuerza arrancaria al nino de tus brazos.",
+    "explanation_es": "Un menor de 3 anos SOLO puedes ir en el asiento delantero si se cumplen dos condiciones: (1) el vehículo no tiene asientos traseros (como algunas camionetas o autos de dos plazas), Y (2) el nino esta asegurado en un asiento de seguridad adecuado. Cargar a un nino en brazos -- incluso usando cinturon de seguridad -- nunca es aceptable. En un choque, la fuerza arrancaria al nino de tus brazos.",
     "vocabulary": [
       {
         "es": "menor de tres anos",
@@ -1012,7 +1012,7 @@
       }
     ],
     "explanation_en": "YES, you must wait for the green light even at midnight, even when no one is around. There is no nighttime exception for red lights in Jalisco. The law applies 24/7 regardless of the time, traffic conditions, or whether you think it's safe. This is one of those questions designed to test whether you'll rationalize breaking the law when it seems harmless.",
-    "explanation_es": "SI, debes esperar la luz verde incluso a medianoche, incluso cuando no hay nadie alrededor. No existe una excepcion nocturna para las luces rojas en Jalisco. La ley aplica las 24 horas del dia, los 7 dias de la semana, sin importar la hora, las condiciones de trafico o si crees que es seguro. Esta es una de esas preguntas disenadas para probar si racionalizarias romper la ley cuando parece inofensivo.",
+    "explanation_es": "SI, debes esperar la luz verde incluso a medianoche, incluso cuando no hay nadie alrededor. No existe una excepcion nocturna para las luces rojas en Jalisco. La ley aplica las 24 horas del día, los 7 días de la semana, sin importar la hora, las condiciones de tráfico o si crees que es seguro. Está es una de esas preguntas disenadas para probar si racionalizarias romper la ley cuando parece inofensivo.",
     "vocabulary": [
       {
         "es": "semaforo",
@@ -1071,7 +1071,7 @@
       }
     ],
     "explanation_en": "When an emergency vehicle with active lights and sirens approaches, you must do three things: yield the right of way, move to the far-right edge of the road, and come to a complete stop. Just slowing down is not enough -- you need to get out of the way completely and stop. This gives the emergency vehicle maximum space and a clear path to pass safely.",
-    "explanation_es": "Cuando un vehiculo de emergencia con luces y sirena activas se acerca, debes hacer tres cosas: ceder el paso, moverte al extremo derecho de la via y hacer alto completo. Solo bajar la velocidad no es suficiente -- necesitas quitarte del camino completamente y detenerte. Esto le da al vehiculo de emergencia el maximo espacio y un camino despejado para pasar con seguridad.",
+    "explanation_es": "Cuando un vehículo de emergencia con luces y sirena activas se acerca, debes hacer tres cosas: ceder el paso, moverte al extremo derecho de la via y hacer alto completo. Solo bajar la velocidad no es suficiente -- necesitas quitarte del camino completamente y detenerte. Esto le da al vehículo de emergencia el máximo espacio y un camino despejado para pasar con seguridad.",
     "vocabulary": [
       {
         "es": "vehiculo de emergencia",
@@ -1130,7 +1130,7 @@
       }
     ],
     "explanation_en": "When a traffic officer is facing you or has their back to you with arms down, this means STOP. Think of the officer's body as a wall blocking your path -- if you see their front or back, you cannot pass. The \"go\" signal is when the officer is sideways to you (showing their side profile). Arms down with the chest or back facing you = red light equivalent.",
-    "explanation_es": "Cuando un agente vial esta de frente a ti o de espaldas con los brazos abajo, esto significa ALTO. Piensa en el cuerpo del oficial como una pared bloqueando tu camino -- si ves su frente o espalda, no puedes pasar. La senal de \"siga\" es cuando el oficial esta de costado (mostrando su perfil lateral). Brazos abajo con el pecho o la espalda hacia ti = equivalente a luz roja.",
+    "explanation_es": "Cuando un agente vial está de frente a ti o de espaldas con los brazos abajo, esto significa ALTO. Piensa en el cuerpo del oficial como una pared bloqueando tu camino -- si ves su frente o espalda, no puedes pasar. La señal de \"siga\" es cuando el oficial está de costado (mostrando su perfil lateral). Brazos abajo con el pecho o la espalda hacia ti = equivalente a luz roja.",
     "vocabulary": [
       {
         "es": "agente vial",
@@ -1189,7 +1189,7 @@
       }
     ],
     "explanation_en": "In Jalisco, the \"Chofer\" license is required for driving cargo vehicles with a capacity up to 3,500 kg or public service automobiles. This is a step above the standard \"Automovilista\" (motorist) license that regular drivers have. The \"Conductor de Servicios de Transporte Publico\" license is for public transit like buses and taxis -- a different category. Think of \"Chofer\" as similar to a light commercial vehicle license.",
-    "explanation_es": "En Jalisco, la licencia de \"Chofer\" se requiere para conducir vehiculos de carga con capacidad de hasta 3,500 kg o automoviles de servicio publico. Esto es un nivel por encima de la licencia estandar de \"Automovilista\" que tienen los conductores regulares. La licencia de \"Conductor de Servicios de Transporte Publico\" es para transporte publico como autobuses y taxis -- una categoria diferente. Piensa en \"Chofer\" como algo similar a una licencia de vehiculo comercial ligero.",
+    "explanation_es": "En Jalisco, la licencia de \"Chofer\" se requiere para conducir vehículos de carga con capacidad de hasta 3,500 kg o automóviles de servicio público. Esto es un nivel por encima de la licencia estándar de \"Automovilista\" que tienen los conductores regulares. La licencia de \"Conductor de Servicios de Transporte Público\" es para transporte público como autobuses y taxis -- una categoria diferente. Piensa en \"Chofer\" como algo similar a una licencia de vehículo comercial ligero.",
     "vocabulary": [
       {
         "es": "licencia de chofer",
@@ -1248,7 +1248,7 @@
       }
     ],
     "explanation_en": "Left turns on red ARE allowed in Jalisco, but only under very specific conditions: BOTH streets must be one-way (you must be coming from a one-way and turning onto a one-way), you must make a complete stop first, pedestrians always have priority, there must be no sign prohibiting it, and public transit buses cannot do this. Option C is wrong because it allows coming from a two-way street, which is not permitted.",
-    "explanation_es": "Las vueltas a la izquierda en rojo SI estan permitidas en Jalisco, pero solo bajo condiciones muy especificas: AMBAS calles deben ser de un solo sentido (debes venir de una calle de un sentido y girar a otra de un sentido), debes hacer alto total primero, los peatones siempre tienen prioridad, no debe haber senal que lo prohiba, y los autobuses de transporte publico no pueden hacerlo. La opcion C es incorrecta porque permite venir de una calle de doble sentido, lo cual no esta permitido.",
+    "explanation_es": "Las vueltas a la izquierda en rojo SI están permitidas en Jalisco, pero solo bajo condiciones muy especificas: AMBAS calles deben ser de un solo sentido (debes venir de una calle de un sentido y dar vuelta a otra de un sentido), debes hacer alto total primero, los peatones siempre tienen prioridad, no debes haber señal que lo prohiba, y los autobuses de transporte público no pueden hacerlo. La opcion C es incorrecta porque permite venir de una calle de doble sentido, lo cual no está permitido.",
     "vocabulary": [
       {
         "es": "vuelta a la izquierda",
@@ -1307,7 +1307,7 @@
       }
     ],
     "explanation_en": "Plates, the registration sticker (engomado), and the circulation card (tarjeta de circulacion) are non-transferable vehicle identification documents. They belong to a specific vehicle and cannot be moved to another vehicle. This is why using someone else's plates (sobrepuestas) is such a serious offense -- these documents are the vehicle's legal identity, similar to a VIN number.",
-    "explanation_es": "Las placas, el engomado y la tarjeta de circulacion son documentos intransferibles de identificacion vehicular. Pertenecen a un vehiculo especifico y no pueden ser trasladados a otro vehiculo. Por esto es que usar placas de otra persona (sobrepuestas) es una infraccion tan grave -- estos documentos son la identidad legal del vehiculo, similar al numero de serie (VIN).",
+    "explanation_es": "Las placas, el engomado y la tarjeta de circulación son documentos intransferibles de identificación vehicular. Pertenecen a un vehículo específico y no pueden ser trasladados a otro vehículo. Por esto es que usar placas de otra persona (sobrepuestas) es una infracción tan grave -- estos documentos son la identidad legal del vehículo, similar al número de serie (VIN).",
     "vocabulary": [
       {
         "es": "intransferibles",
@@ -1366,7 +1366,7 @@
       }
     ],
     "explanation_en": "YES, you are legally required to obey a school patrol's stop signal. Even though school patrol members are not official traffic authorities, the law gives them authority to stop traffic for student safety near schools. You don't need a traffic officer present -- the school patrol's signal is binding on its own. This protects children during school arrival and dismissal times.",
-    "explanation_es": "SI, estas legalmente obligado a obedecer la senal de alto de una patrulla escolar. Aunque los miembros de la patrulla escolar no son autoridades de vialidad oficiales, la ley les otorga autoridad para detener el trafico por seguridad de los estudiantes cerca de las escuelas. No necesitas que un agente vial este presente -- la senal de la patrulla escolar es obligatoria por si misma. Esto protege a los ninos durante las horas de entrada y salida de la escuela.",
+    "explanation_es": "SI, estas legalmente obligado a obedecer la señal de alto de una patrulla escolar. Aunque los miembros de la patrulla escolar no son autoridades de vialidad oficiales, la ley les otorga autoridad para detener el tráfico por seguridad de los estudiantes cerca de las escuelas. No necesitas que un agente vial este presente -- la señal de la patrulla escolar es obligatoria por si misma. Esto protege a los ninos durante las horas de entrada y salida de la escuela.",
     "vocabulary": [
       {
         "es": "patrulla escolar",
@@ -1425,7 +1425,7 @@
       }
     ],
     "explanation_en": "Only emergency vehicles (ambulances, fire trucks, police) that are actively on duty with their lights and sirens on have right-of-way priority. Government vehicles, federal police (without active emergency signals), and armored transport vehicles do NOT have automatic right of way. The key detail is that the lights and sirens must be ON -- an off-duty ambulance without lights doesn't get priority.",
-    "explanation_es": "Solo los vehiculos de emergencia (ambulancias, bomberos, policia) que estan activamente en servicio con sus luces y sirena encendidos tienen prioridad de paso. Los vehiculos de gobierno, policia federal (sin senales de emergencia activas) y vehiculos de traslado de valores NO tienen derecho de paso automatico. El detalle clave es que las luces y sirena deben estar ENCENDIDAS -- una ambulancia fuera de servicio sin luces no tiene prioridad.",
+    "explanation_es": "Solo los vehículos de emergencia (ambulancias, bomberos, policía) que están activamente en servicio con sus luces y sirena encendidos tienen prioridad de paso. Los vehículos de gobierno, policía federal (sin señales de emergencia activas) y vehículos de traslado de valores NO tienen derecho de paso automático. El detalle clave es que las luces y sirena deben estar ENCENDIDAS -- una ambulancia fuera de servicio sin luces no tiene prioridad.",
     "vocabulary": [
       {
         "es": "prelacion de paso",
@@ -1484,7 +1484,7 @@
       }
     ],
     "explanation_en": "At an uncontrolled intersection where both streets are of equal importance (no signs, no traffic light), you must make a FULL stop and yield to the vehicle approaching from your right. This is the universal \"yield to the right\" rule. The direction of the street (north-south) is irrelevant, and you cannot just slow down -- a complete stop is required before proceeding.",
-    "explanation_es": "En una interseccion sin control donde ambas calles son de igual importancia (sin senales, sin semaforo), debes hacer un alto TOTAL y ceder el paso al vehiculo que se aproxima por tu derecha. Esta es la regla universal de \"ceder a la derecha\". La direccion de la calle (norte-sur) es irrelevante, y no puedes solo reducir la velocidad -- se requiere un alto completo antes de continuar.",
+    "explanation_es": "En una intersección sin control donde ambas calles son de igual importancia (sin señales, sin semáforo), debes hacer un alto TOTAL y ceder el paso al vehículo que se aproxima por tu derecha. Esta es la regla universal de \"ceder a la derecha\". La dirección de la calle (norte-sur) es irrelevante, y no puedes solo reducir la velocidad -- se requiere un alto completo antes de continuar.",
     "vocabulary": [
       {
         "es": "bocacalle",
@@ -1543,7 +1543,7 @@
       }
     ],
     "explanation_en": "When a traffic officer is in the preventive (cautionary) position and is waving their hands in a fanning motion at a double-lane intersection, they are signaling that left turns are permitted. This specific combination -- preventive stance plus hand-waving at a double-lane crossing -- is distinct from the simple preventive signal (no hand waving) and the \"go\" signal (sideways position). It's a specialized signal for managing left-turn traffic at wider intersections.",
-    "explanation_es": "Cuando un agente vial esta en posicion preventiva y abanica las manos en un crucero de arteria doble, esta senalando que las vueltas a la izquierda estan permitidas. Esta combinacion especifica -- postura preventiva mas abanico de manos en un crucero doble -- es distinta de la senal preventiva simple (sin abanico) y la senal de \"siga\" (posicion de costado). Es una senal especializada para gestionar el trafico de vuelta a la izquierda en intersecciones mas anchas.",
+    "explanation_es": "Cuando un agente vial está en posición preventiva y abanica las manos en un crucero de arteria doble, esta senalando que las vueltas a la izquierda están permitidas. Esta combinación específica -- postura preventiva más abanico de manos en un crucero doble -- es distinta de la señal preventiva simple (sin abanico) y la señal de \"siga\" (posición de costado). Es una señal especializada para gestionar el tráfico de vuelta a la izquierda en intersecciones más anchas.",
     "vocabulary": [
       {
         "es": "posicion preventiva",
@@ -1602,7 +1602,7 @@
       }
     ],
     "explanation_en": "In a property-damage-only accident (no injuries) in Jalisco, if both drivers have valid documents (license, insurance, registration), they can settle it themselves by signing a mutual agreement (convenio) and a waiver (desistimiento). Neither vehicle gets impounded. You don't need to wait for police -- this speeds up the process and clears the road faster. However, both parties must have complete documentation for this to work.",
-    "explanation_es": "En un accidente con solo danos materiales (sin lesiones) en Jalisco, si ambos conductores tienen documentos vigentes (licencia, seguro, registro), pueden resolverlo ellos mismos firmando un convenio mutuo y un desistimiento. Ningun vehiculo es retenido. No necesitas esperar a la policia -- esto agiliza el proceso y despeja la via mas rapido. Sin embargo, ambas partes deben tener documentacion completa para que esto funcione.",
+    "explanation_es": "En un accidente con solo danos materiales (sin lesiones) en Jalisco, si ambos conductores tienen documentos vigentes (licencia, seguro, registro), pueden resolverlo ellos mismos firmando un convenio mutuo y un desistimiento. Ningún vehículo es retenido. No necesitas esperar a la policía -- esto agiliza el proceso y despeja la via más rápido. Sin embargo, ambas partes deben tener documentación completa para que esto funcione.",
     "vocabulary": [
       {
         "es": "danos materiales",
@@ -1661,7 +1661,7 @@
       }
     ],
     "explanation_en": "You can only use a disabled parking space if you meet BOTH conditions: (1) you are a disabled person or you are transporting a disabled person, AND (2) your vehicle displays the official disability sticker (engomado). Neither convenience (\"it's the only spot\") nor brevity (\"just a few minutes\") is a valid excuse. The sticker requirement prevents abuse -- you need to have officially registered for disability parking.",
-    "explanation_es": "Solo puedes usar un estacionamiento para discapacitados si cumples AMBAS condiciones: (1) eres una persona discapacitada o transportas a una, Y (2) tu vehiculo muestra el engomado oficial de discapacidad. Ni la conveniencia (\"es el unico lugar\") ni la brevedad (\"solo unos minutos\") es una excusa valida. El requisito del engomado previene el abuso -- necesitas haberte registrado oficialmente para estacionamiento de discapacitados.",
+    "explanation_es": "Solo puedes usar un estacionamiento para discapacitados si cumples AMBAS condiciones: (1) eres una persona discapacitada o transportas a una, Y (2) tu vehículo muestra el engomado oficial de discapacidad. Ni la conveniencia (\"es el único lugar\") ni la brevedad (\"solo unos minutos\") es una excusa válida. El requisito del engomado previene el abuso -- necesitas haberte registrado oficialmente para estacionamiento de discapacitados.",
     "vocabulary": [
       {
         "es": "discapacitados",
@@ -1720,7 +1720,7 @@
       }
     ],
     "explanation_en": "Parking within 5 meters (about 16 feet) of an intersection is NEVER allowed, regardless of curb markings. Even if the curb isn't painted yellow, the 5-meter rule applies everywhere. This exists because parked cars near intersections block the view for other drivers and pedestrians, creating dangerous blind spots that could lead to collisions.",
-    "explanation_es": "Estacionarse a menos de 5 metros (aproximadamente 16 pies) de una bocacalle NUNCA esta permitido, sin importar las marcas en la banqueta. Incluso si la banqueta no esta pintada de amarillo, la regla de los 5 metros aplica en todas partes. Esto existe porque los autos estacionados cerca de las intersecciones bloquean la vista de otros conductores y peatones, creando puntos ciegos peligrosos que podrian causar colisiones.",
+    "explanation_es": "Estacionarse a menos de 5 metros (aproximadamente 16 pies) de una bocacalle NUNCA está permitido, sin importar las marcas en la banqueta. Incluso si la banqueta no esta pintada de amarillo, la regla de los 5 metros aplica en todas partes. Esto existe porque los autos estacionados cerca de las intersecciones bloquean la vista de otros conductores y peatones, creando puntos ciegos peligrosos que podrian causar colisiones.",
     "vocabulary": [
       {
         "es": "bocacalle",
@@ -1779,7 +1779,7 @@
       }
     ],
     "explanation_en": "The correct hand signal for a left turn is to extend your entire left arm, forearm, and hand straight out horizontally from the driver's window. This is the simplest of the hand signals: arm straight out = left turn. For comparison, arm up at a right angle means right turn, and arm down at a right angle means slowing down or stopping. This is the same standard used internationally.",
-    "explanation_es": "La senal manual correcta para una vuelta a la izquierda es extender todo el brazo izquierdo, antebrazo y mano horizontalmente por la ventana del conductor. Esta es la mas simple de las senales manuales: brazo recto hacia afuera = vuelta a la izquierda. Para comparacion, brazo hacia arriba en angulo recto significa vuelta a la derecha, y brazo hacia abajo en angulo recto significa reduccion de velocidad o alto. Este es el mismo estandar que se usa internacionalmente.",
+    "explanation_es": "La señal manual correcta para una vuelta a la izquierda es extender todo el brazo izquierdo, antebrazo y mano horizontalmente por la ventana del conductor. Esta es la más simple de las señales manuales: brazo recto hacia afuera = vuelta a la izquierda. Para comparacion, brazo hacia arriba en ángulo recto significa vuelta a la derecha, y brazo hacia abajo en ángulo recto significa reduccion de velocidad o alto. Este es el mismo estándar que se usa internacionalmente.",
     "vocabulary": [
       {
         "es": "senalamiento humano",
@@ -1838,7 +1838,7 @@
       }
     ],
     "explanation_en": "When exiting any private property (parking lots, malls, gas stations, driveways), you must yield to BOTH pedestrians AND vehicles already on the road. You do NOT have the right of way when entering a public road from private property. You must wait for a safe gap in traffic before merging. This is because vehicles already in the flow of traffic have established right of way.",
-    "explanation_es": "Al salir de cualquier propiedad privada (estacionamientos, centros comerciales, gasolineras, cocheras), debes ceder el paso TANTO a peatones COMO a vehiculos que ya circulan en la via. NO tienes la preferencia de paso cuando entras a una via publica desde propiedad privada. Debes esperar un espacio seguro en el trafico antes de incorporarte. Esto es porque los vehiculos que ya estan en el flujo de trafico tienen la preferencia de paso establecida.",
+    "explanation_es": "Al salir de cualquier propiedad privada (estacionamientos, centros comerciales, gasolineras, cocheras), debes ceder el paso TANTO a peatones COMO a vehículos que ya circulan en la via. NO tienes la preferencia de paso cuando entras a una via pública desde propiedad privada. Debes esperar un espacio seguro en el tráfico antes de incorporarte. Esto es porque los vehículos que ya están en el flujo de tráfico tienen la preferencia de paso establecida.",
     "vocabulary": [
       {
         "es": "estacionamiento",
@@ -1897,7 +1897,7 @@
       }
     ],
     "explanation_en": "On a two-way street without a traffic light, vehicles going straight ALWAYS have priority over vehicles turning left. This means you must wait for oncoming traffic to clear before making your left turn. The left-turning driver must yield because they are crossing the path of oncoming vehicles, which creates a conflict point. This is a universal traffic rule.",
-    "explanation_es": "En una calle de doble sentido sin semaforo, los vehiculos que van de frente SIEMPRE tienen prioridad sobre los vehiculos que dan vuelta a la izquierda. Esto significa que debes esperar a que el trafico que viene de frente se despeje antes de hacer tu vuelta a la izquierda. El conductor que da vuelta a la izquierda debe ceder porque esta cruzando la trayectoria de los vehiculos que vienen de frente, lo cual crea un punto de conflicto. Esta es una regla de transito universal.",
+    "explanation_es": "En una calle de doble sentido sin semáforo, los vehículos que van de frente SIEMPRE tienen prioridad sobre los vehículos que dan vuelta a la izquierda. Esto significa que debes esperar a que el tráfico que viene de frente se despeje antes de hacer tu vuelta a la izquierda. El conductor que da vuelta a la izquierda debes ceder porque esta cruzando la trayectoria de los vehículos que vienen de frente, lo cual crea un punto de conflicto. Está es una regla de tránsito universal.",
     "vocabulary": [
       {
         "es": "doble sentido",
@@ -1956,7 +1956,7 @@
       }
     ],
     "explanation_en": "When a traffic officer pulls you over in Jalisco, the OFFICER is the one who gets out -- not you. The officer must approach your vehicle from the driver's side and must be wearing their helmet and displaying their official ID badge. You should stay in your vehicle. This protocol protects both parties and helps you verify that it's a legitimate officer. If someone pulls you over without proper identification, that's a red flag.",
-    "explanation_es": "Cuando un agente vial te detiene en Jalisco, el OFICIAL es quien se baja -- no tu. El oficial debe acercarse a tu vehiculo por el lado del conductor y debe portar su casco y mostrar su gafete de identificacion oficial. Tu debes permanecer en tu vehiculo. Este protocolo protege a ambas partes y te ayuda a verificar que es un oficial legitimo. Si alguien te detiene sin identificacion adecuada, eso es una senal de alerta.",
+    "explanation_es": "Cuando un agente vial te detiene en Jalisco, el OFICIAL es quien se baja -- no tu. El oficial debes acercarse a tu vehículo por el lado del conductor y debes portar su casco y mostrar su gafete de identificación oficial. Tu debes permanecer en tu vehículo. Este protocolo protege a ambas partes y te ayuda a verificar que es un oficial legitimo. Si alguien te detiene sin identificación adecuada, eso es una señal de alerta.",
     "vocabulary": [
       {
         "es": "agente vial",
@@ -2015,7 +2015,7 @@
       }
     ],
     "explanation_en": "TRUE -- it is absolutely prohibited for non-emergency vehicles to use light bars (torretas), sirens, or any other accessories reserved for emergency vehicles. This applies everywhere in Jalisco, not just on federal highways. The restriction exists because unauthorized emergency signals would confuse other drivers, could be used for criminal activity (impersonating law enforcement), and would undermine the effectiveness of real emergency vehicles.",
-    "explanation_es": "CIERTO -- esta absolutamente prohibido que vehiculos no autorizados usen torretas, sirenas o cualquier otro accesorio reservado para vehiculos de emergencia. Esto aplica en todo Jalisco, no solo en carreteras federales. La restriccion existe porque las senales de emergencia no autorizadas confundirian a otros conductores, podrian usarse para actividad criminal (suplantacion de autoridades) y socavarian la efectividad de los vehiculos de emergencia reales.",
+    "explanation_es": "CIERTO -- esta absolutamente prohibido que vehículos no autorizados usen torretas, sirenas o cualquier otro accesorio reservado para vehículos de emergencia. Esto aplica en todo Jalisco, no solo en carreteras federales. La restricción existe porque las señales de emergencia no autorizadas confundirian a otros conductores, podrian usarse para actividad criminal (suplantacion de autoridades) y socavarian la efectividad de los vehículos de emergencia reales.",
     "vocabulary": [
       {
         "es": "torretas",
@@ -2074,7 +2074,7 @@
       }
     ],
     "explanation_en": "In Jalisco, the speed limit near schools drops to 25 km/h (about 15 mph) during student arrival and dismissal hours. This protects children who are crossing streets and congregating near school entrances. Remember: school zones = 25 km/h when kids are coming or going.",
-    "explanation_es": "En Jalisco, el limite de velocidad cerca de escuelas baja a 25 km/h durante las horas de entrada y salida de alumnos. Esto protege a los ninos que cruzan calles y se congregan cerca de las entradas escolares. Recuerda: zonas escolares = 25 km/h cuando los ninos llegan o salen.",
+    "explanation_es": "En Jalisco, el límite de velocidad cerca de escuelas baja a 25 km/h durante las horas de entrada y salida de alumnos. Esto protege a los ninos que cruzan calles y se congregan cerca de las entradas escolares. Recuerda: zonas escolares = 25 km/h cuando los ninos llegan o salen.",
     "vocabulary": [
       {
         "es": "centro escolar",
@@ -2129,7 +2129,7 @@
       }
     ],
     "explanation_en": "When there are no posted speed limit signs on a city street in Jalisco, the default speed limit is 50 km/h (about 31 mph). This is the assumed limit on any urban arterial road unless signs say otherwise. Think of it as the baseline city speed.",
-    "explanation_es": "Cuando no hay senales de limite de velocidad en una calle de la ciudad en Jalisco, el limite por defecto es 50 km/h. Este es el limite asumido en cualquier arteria urbana a menos que las senales indiquen lo contrario. Consideralo como la velocidad base en la ciudad.",
+    "explanation_es": "Cuando no hay señales de límite de velocidad en una calle de la ciudad en Jalisco, el límite por defecto es 50 km/h. Este es el límite asumido en cualquier arteria urbana a menos que las señales indiquen lo contrario. Consideralo como la velocidad base en la ciudad.",
     "vocabulary": [
       {
         "es": "arterias de la ciudad",
@@ -2184,7 +2184,7 @@
       }
     ],
     "explanation_en": "When a traffic officer stands with their side facing you (lateral position) and their arms are down at their sides, it means you may proceed. Think of it this way: the officer's body is not blocking your path -- you can see their profile, so traffic flows past them. If the officer were facing you head-on, that would mean stop.",
-    "explanation_es": "Cuando un agente vial esta de costado hacia usted (posicion lateral) con los brazos hacia abajo, significa que puede continuar. Pienselo asi: el cuerpo del agente no bloquea su camino -- usted ve su perfil, asi que el trafico fluye frente a el. Si el agente estuviera de frente hacia usted, eso significaria alto.",
+    "explanation_es": "Cuando un agente vial está de costado hacia ti (posición lateral) con los brazos hacia abajo, significa que puedes continuar. Pienselo así: el cuerpo del agente no bloquea su camino -- tú ve su perfil, así que el tráfico fluye frente a el. Si el agente estuviera de frente hacia ti, eso significaria alto.",
     "vocabulary": [
       {
         "es": "agente vial",
@@ -2243,7 +2243,7 @@
       }
     ],
     "explanation_en": "On one-way streets in Jalisco, the default parking side is the LEFT, and your vehicle must face the same direction as traffic flow. This differs from two-way streets where you always park on the right. Parking on both sides (parallel or angled) is only allowed when explicitly authorized.",
-    "explanation_es": "En calles de un solo sentido en Jalisco, el lado predeterminado para estacionarse es el IZQUIERDO, y su vehiculo debe estar orientado en la misma direccion del flujo de trafico. Esto difiere de las calles de doble sentido donde siempre se estaciona a la derecha. Estacionarse en ambos lados (en cordon o en bateria) solo se permite cuando esta expresamente autorizado.",
+    "explanation_es": "En calles de un solo sentido en Jalisco, el lado predeterminado para estacionarse es el IZQUIERDO, y tu vehículo debes estar orientado en la misma dirección del flujo de tráfico. Esto difiere de las calles de doble sentido donde siempre se estaciona a la derecha. Estacionarse en ambos lados (en cordon o en bateria) solo se permite cuando esta expresamente autorizado.",
     "vocabulary": [
       {
         "es": "calle de un solo sentido",
@@ -2302,7 +2302,7 @@
       }
     ],
     "explanation_en": "Black symbols on a yellow background indicate warning (preventive) signs. These signs alert you to upcoming hazards or changes in road conditions -- like curves, intersections, or construction ahead. In Mexico, the color coding is: yellow = warning, red/white = regulatory/restrictive, green/blue = informational.",
-    "explanation_es": "Simbolos negros sobre fondo amarillo indican senales preventivas (de advertencia). Estas senales le alertan sobre peligros o cambios en las condiciones del camino -- como curvas, intersecciones u obras adelante. En Mexico, el codigo de colores es: amarillo = preventiva, rojo/blanco = restrictiva, verde/azul = informativa.",
+    "explanation_es": "Símbolos negros sobre fondo amarillo indican señales preventivas (de advertencia). Estas señales te alertan sobre peligros o cambios en las condiciones del camino -- como curvas, intersecciones u obras adelante. En México, el código de colores es: amarillo = preventiva, rojo/blanco = restrictiva, verde/azul = informativa.",
     "vocabulary": [
       {
         "es": "senales preventivas",
@@ -2357,7 +2357,7 @@
       }
     ],
     "explanation_en": "Vehicles are impounded in three serious situations: (1) someone is injured, (2) a driver is under the influence of alcohol, or (3) government property is damaged. For minor fender-benders with only private property damage and no injuries, impoundment does not apply -- those are handled through insurance.",
-    "explanation_es": "Los vehiculos se aseguran (se llevan al deposito) en tres situaciones graves: (1) hay lesionados, (2) un conductor esta en estado de ebriedad, o (3) hay danos a propiedad del gobierno. Para choques menores con solo danos materiales a propiedad privada y sin lesionados, no procede el aseguramiento -- esos se manejan a traves del seguro.",
+    "explanation_es": "Los vehículos se aseguran (se llevan al deposito) en tres situaciones graves: (1) hay lesionados, (2) un conductor está en estado de ebriedad, o (3) hay danos a propiedad del gobierno. Para choques menores con solo danos materiales a propiedad privada y sin lesionados, no procede el aseguramiento -- esos se manejan a traves del seguro.",
     "vocabulary": [
       {
         "es": "aseguramiento de vehiculos",
@@ -2416,7 +2416,7 @@
       }
     ],
     "explanation_en": "All non-public-transit vehicles on Jalisco roads must carry liability insurance covering at least 6,000 days of minimum wage in third-party damages (both property and bodily injury). This is not optional -- it is a legal requirement. Full-coverage is not mandated by law; the minimum is third-party liability at the 6,000-day threshold.",
-    "explanation_es": "Todos los vehiculos que no sean de transporte publico en las vias de Jalisco deben tener un seguro de responsabilidad civil que cubra al menos 6,000 dias de salario minimo en danos a terceros (tanto en bienes como en personas). Esto no es opcional -- es un requisito legal. La ley no exige cobertura amplia; el minimo es responsabilidad civil con el umbral de 6,000 dias.",
+    "explanation_es": "Todos los vehículos que no sean de transporte público en las vias de Jalisco deben tener un seguro de responsabilidad civil que cubra al menos 6,000 días de salario mínimo en danos a terceros (tanto en bienes como en personas). Esto no es opcional -- es un requisito legal. La ley no exige cobertura amplia; el mínimo es responsabilidad civil con el umbral de 6,000 días.",
     "vocabulary": [
       {
         "es": "poliza de seguro",
@@ -2475,7 +2475,7 @@
       }
     ],
     "explanation_en": "In Jalisco, you must come to a FULL STOP before entering a roundabout and yield to all vehicles already circulating inside it. This is stricter than many countries where you only slow down and yield. The key rule: stop completely first, then merge when safe. Vehicles already in the roundabout always have the right of way.",
-    "explanation_es": "En Jalisco, debe hacer un ALTO TOTAL antes de entrar a una glorieta y ceder el paso a todos los vehiculos que ya circulan dentro de ella. Esto es mas estricto que en muchos paises donde solo se reduce la velocidad y se cede el paso. La regla clave: detenerse completamente primero, luego incorporarse cuando sea seguro. Los vehiculos que ya estan en la glorieta siempre tienen preferencia de paso.",
+    "explanation_es": "En Jalisco, debes hacer un ALTO TOTAL antes de entrar a una glorieta y ceder el paso a todos los vehículos que ya circulan dentro de ella. Esto es más estricto que en muchos paises donde solo se reduce la velocidad y se cede el paso. La regla clave: detenerse completamente primero, luego incorporarse cuando sea seguro. Los vehículos que ya están en la glorieta siempre tienen preferencia de paso.",
     "vocabulary": [
       {
         "es": "glorieta",
@@ -2534,7 +2534,7 @@
       }
     ],
     "explanation_en": "A flashing red light works exactly like a stop sign: you must come to a FULL STOP, look both ways, and then proceed only when it is safe. Do not confuse this with a flashing yellow light, which means slow down and use caution. Flashing red = stop sign behavior.",
-    "explanation_es": "Una luz roja intermitente funciona exactamente como una senal de alto: debe hacer un ALTO TOTAL, mirar en ambas direcciones, y luego continuar solo cuando sea seguro. No confunda esto con una luz amarilla intermitente, que significa reducir velocidad y proceder con precaucion. Roja intermitente = comportamiento de senal de alto.",
+    "explanation_es": "Una luz roja intermitente funciona exactamente como una señal de alto: debes hacer un ALTO TOTAL, mirar en ambas direcciones, y luego continuar solo cuando sea seguro. No confunda esto con una luz amarilla intermitente, que significa reducir velocidad y proceder con precaución. Roja intermitente = comportamiento de señal de alto.",
     "vocabulary": [
       {
         "es": "luz roja intermitente",
@@ -2593,7 +2593,7 @@
       }
     ],
     "explanation_en": "The yellow/amber light gives you time to safely clear the intersection if you have already entered it or are too close to stop without causing a rear-end collision. It does NOT mean \"speed up to beat the red.\" If you can safely stop before the intersection, you should. The yellow phase exists to prevent vehicles from being stranded mid-intersection when the light turns red.",
-    "explanation_es": "La luz amarilla/ambar le da tiempo para despejar la interseccion de manera segura si ya entro en ella o esta demasiado cerca para detenerse sin causar un choque por alcance. NO significa \"acelere para ganarle al rojo.\" Si puede detenerse de manera segura antes de la interseccion, deberia hacerlo. La fase amarilla existe para evitar que los vehiculos queden atrapados a mitad de la interseccion cuando cambia a rojo.",
+    "explanation_es": "La luz amarilla/ámbar te da tiempo para despejar la intersección de manera segura si ya entraste en ella o estás demasiado cerca para detenerte sin causar un choque por alcance. NO significa \"acelera para ganarle al rojo.\" Si puedes detenerte de manera segura antes de la intersección, deberías hacerlo. La fase amarilla existe para evitar que los vehículos queden atrapados a mitad de la intersección cuando cambia a rojo.",
     "vocabulary": [
       {
         "es": "luz ambar / amarilla",
@@ -2648,7 +2648,7 @@
       }
     ],
     "explanation_en": "A traffic officer ALWAYS overrides the traffic light. If there is a conflict between what the light shows and what the officer signals, you must obey the officer. Officers take manual control of intersections when there are emergencies, accidents, special events, or signal malfunctions. This is a universal rule in Mexico.",
-    "explanation_es": "Un agente vial SIEMPRE tiene prioridad sobre el semaforo. Si hay un conflicto entre lo que muestra la luz y lo que senala el agente, debe obedecer al agente. Los agentes toman control manual de las intersecciones cuando hay emergencias, accidentes, eventos especiales o fallas en los semaforos. Esta es una regla universal en Mexico.",
+    "explanation_es": "Un agente vial SIEMPRE tiene prioridad sobre el semáforo. Si hay un conflicto entre lo que muestra la luz y lo que senala el agente, debes obedecer al agente. Los agentes toman control manual de las intersecciones cuando hay emergencias, accidentes, eventos especiales o fallas en los semáforos. Está es una regla universal en Mexico.",
     "vocabulary": [
       {
         "es": "agente vial",
@@ -2703,7 +2703,7 @@
       }
     ],
     "explanation_en": "Regulatory (restrictive) signs tell you what you CANNOT or MUST do -- speed limits, no-parking zones, one-way restrictions. Warning (preventive) signs alert you to upcoming hazards or changes -- curves, intersections, construction. They also differ in color: regulatory signs are typically red/white/black, while warning signs are black on yellow. Option C gives wrong colors.",
-    "explanation_es": "Las senales restrictivas (reglamentarias) le indican lo que NO PUEDE o DEBE hacer -- limites de velocidad, zonas de no estacionarse, restricciones de sentido unico. Las senales preventivas (de advertencia) le alertan sobre peligros o cambios proximos -- curvas, intersecciones, obras. Tambien difieren en color: las restrictivas suelen ser rojo/blanco/negro, mientras que las preventivas son negro sobre amarillo. La opcion C da colores incorrectos.",
+    "explanation_es": "Las señales restrictivas (reglamentarias) te indican lo que NO puedes o debes hacer -- límites de velocidad, zonas de no estacionarse, restricciones de sentido único. Las señales preventivas (de advertencia) te alertan sobre peligros o cambios próximos -- curvas, intersecciones, obras. También difieren en color: las restrictivas suelen ser rojo/blanco/negro, mientras que las preventivas son negro sobre amarillo. La opción C da colores incorrectos.",
     "vocabulary": [
       {
         "es": "senales restrictivas",
@@ -2762,7 +2762,7 @@
       }
     ],
     "explanation_en": "Primary roads with right-of-way priority in Jalisco are: avenues (avenidas), causeways (calzadas), viaducts (viaductos), and major paired one-way roads (pares viales de primera magnitud). These take priority over all smaller streets. If you are on a regular side street approaching an avenue, the avenue traffic has the right of way.",
-    "explanation_es": "Las vialidades primarias con prelacion de paso en Jalisco son: avenidas, calzadas, viaductos y pares viales de primera magnitud. Estas tienen prioridad sobre todas las calles menores. Si usted esta en una calle secundaria acercandose a una avenida, el trafico de la avenida tiene la preferencia de paso.",
+    "explanation_es": "Las vialidades primarias con prelacion de paso en Jalisco son: avenidas, calzadas, viaductos y pares viales de primera magnitud. Estas tienen prioridad sobre todas las calles menores. Si tú está en una calle secundaria acercandose a una avenida, el tráfico de la avenida tiene la preferencia de paso.",
     "vocabulary": [
       {
         "es": "prelacion de paso",
@@ -2821,7 +2821,7 @@
       }
     ],
     "explanation_en": "This question references an image of a driver's hand signal. The correct answer is STOP. In Mexico (and internationally), when a driver extends their left arm out the window and bends it upward at the elbow with palm facing backward, or extends the arm straight out and angles it downward, it signals a stop or slow down to drivers behind.",
-    "explanation_es": "Esta pregunta hace referencia a una imagen de una senal manual del conductor. La respuesta correcta es ALTO. En Mexico (e internacionalmente), cuando un conductor extiende su brazo izquierdo por la ventana y lo dobla hacia arriba en el codo con la palma hacia atras, o extiende el brazo recto y lo inclina hacia abajo, senala alto o reduccion de velocidad a los conductores detras.",
+    "explanation_es": "Esta pregunta hace referencia a una imagen de una señal manual del conductor. La respuesta correcta es ALTO. En Mexico (e internacionalmente), cuando un conductor extiende su brazo izquierdo por la ventana y lo dobla hacia arriba en el codo con la palma hacia atras, o extiende el brazo recto y lo inclina hacia abajo, senala alto o reduccion de velocidad a los conductores detrás.",
     "vocabulary": [
       {
         "es": "senal humana",
@@ -2876,7 +2876,7 @@
       }
     ],
     "explanation_en": "Two short whistle blasts from a traffic officer mean PROCEED / GO. This is one of three standard whistle signals: one long blast = STOP, two short blasts = GO/PROCEED, and several short rapid blasts = CAUTION or attention. Memorize: 2 short = go.",
-    "explanation_es": "Dos silbatazos cortos de un agente vial significan SIGA / AVANCE. Esta es una de tres senales estandar con silbato: un silbatazo largo = ALTO, dos silbatazos cortos = SIGA, y varios silbatazos cortos y rapidos = PRECAUCION o atencion. Memorice: 2 cortos = avance.",
+    "explanation_es": "Dos silbatazos cortos de un agente vial significan SIGA / AVANCE. Está es una de tres señales estándar con silbato: un silbatazo largo = ALTO, dos silbatazos cortos = SIGA, y varios silbatazos cortos y rapidos = Precaución o atención. Memorice: 2 cortos = avance.",
     "vocabulary": [
       {
         "es": "silbatazo",
@@ -2935,7 +2935,7 @@
       }
     ],
     "explanation_en": "Yellow-painted curbs in Jalisco mean NO PARKING. This is a clear, universal-style rule: if the curb is yellow, do not park there. It does not mean \"reserved\" or \"government vehicles only\" -- it is a flat prohibition on parking for everyone. Look for yellow curbs especially near intersections, fire hydrants, and bus stops.",
-    "explanation_es": "Las guarniciones pintadas de amarillo en Jalisco significan PROHIBIDO ESTACIONARSE. Esta es una regla clara y de estilo universal: si la guarnicion es amarilla, no se estacione ahi. No significa \"reservado\" ni \"solo vehiculos oficiales\" -- es una prohibicion total de estacionamiento para todos. Busque guarniciones amarillas especialmente cerca de intersecciones, hidrantes y paradas de autobus.",
+    "explanation_es": "Las guarniciones pintadas de amarillo en Jalisco significan PROHIBIDO ESTACIONARSE. Está es una regla clara y de estilo universal: si la guarnicion es amarilla, no se estacione ahí. No significa \"reservado\" ni \"solo vehículos oficiales\" -- es una prohibicion total de estacionamiento para todos. Busque guarniciones amarillas especialmente cerca de intersecciones, hidrantes y paradas de autobus.",
     "vocabulary": [
       {
         "es": "guarnicion",
@@ -2994,7 +2994,7 @@
       }
     ],
     "explanation_en": "Two solid (continuous) center lines mean the road has multiple lanes per direction AND passing is prohibited in both directions. No vehicle may cross the double solid lines to overtake another. This is similar to double yellow lines in the US -- they are a hard no-pass zone. A single dashed line would allow passing.",
-    "explanation_es": "Dos lineas continuas (solidas) al centro significan que la via tiene multiples carriles por sentido Y se prohibe rebasar en ambas direcciones. Ningun vehiculo puede cruzar las lineas dobles continuas para adelantar a otro. Esto es similar a las lineas dobles amarillas en EE.UU. -- son una zona de no rebasar. Una linea discontinua permitiria rebasar.",
+    "explanation_es": "Dos lineas continuas (solidas) al centro significan que la via tiene multiples carriles por sentido Y se prohibe rebasar en ambas direcciones. Ningún vehículo puedes cruzar las lineas dobles continuas para adelantar a otro. Esto es similar a las lineas dobles amarillas en EE.UU. -- son una zona de no rebasar. Una linea discontinua permitiria rebasar.",
     "vocabulary": [
       {
         "es": "lineas continuas",
@@ -3053,7 +3053,7 @@
       }
     ],
     "explanation_en": "This sign shows an asymmetric narrowing, meaning the road narrows on one side only (not equally from both sides). It is a yellow warning sign that tells you the road ahead will get narrower on one side, so you may need to adjust your lane position. This differs from a symmetric narrowing where both sides narrow equally.",
-    "explanation_es": "Esta senal indica un estrechamiento asimetrico, lo que significa que el camino se angosta de un solo lado (no igual de ambos lados). Es una senal preventiva amarilla que le indica que el camino adelante se hara mas angosto de un lado, por lo que puede necesitar ajustar su posicion en el carril. Esto difiere de un estrechamiento simetrico donde ambos lados se angostan por igual.",
+    "explanation_es": "Esta señal indica un estrechamiento asimétrico, lo que significa que el camino se angosta de un solo lado (no igual de ambos lados). Es una señal preventiva amarilla que te indica que el camino adelante se hará más angosto de un lado, por lo que puedes necesitar ajustar tu posición en el carril. Esto difiere de un estrechamiento simétrico donde ambos lados se angostan por igual.",
     "vocabulary": [
       {
         "es": "estrechamiento asimetrico",
@@ -3108,7 +3108,7 @@
       }
     ],
     "explanation_en": "This is a restrictive (regulatory) sign that prohibits agricultural machinery (tractors, combines, etc.) from using this road. Restrictive signs show prohibitions and are typically red/white circles with a diagonal bar. If you see a tractor symbol with a red circle and slash, farm equipment cannot drive on that road.",
-    "explanation_es": "Esta es una senal restrictiva (reglamentaria) que prohibe la circulacion de maquinaria agricola (tractores, cosechadoras, etc.) en esta via. Las senales restrictivas muestran prohibiciones y tipicamente son circulos rojos/blancos con una barra diagonal. Si ve un simbolo de tractor con un circulo rojo y diagonal, el equipo agricola no puede circular en esa via.",
+    "explanation_es": "Está es una señal restrictiva (reglamentaria) que prohibe la circulación de maquinaria agricola (tractores, cosechadoras, etc.) en esta via. Las señales restrictivas muestran prohibiciones y tipicamente son circulos rojos/blancos con una barra diagonal. Si ve un simbolo de tractor con un circulo rojo y diagonal, el equipo agricola no puedes circular en esa via.",
     "vocabulary": [
       {
         "es": "maquinaria agricola",
@@ -3163,7 +3163,7 @@
       }
     ],
     "explanation_en": "This yellow warning sign indicates a curve ahead. It shows a single curve in the road, alerting drivers to reduce speed. This differs from a 'reverse curve' (curva inversa) which shows an S-shaped path, and from a 'continuous turn' which is a regulatory sign allowing a free right turn at a red light.",
-    "explanation_es": "Esta senal preventiva amarilla indica una curva adelante. Muestra una sola curva en el camino, alertando a los conductores a reducir la velocidad. Esto difiere de una 'curva inversa' que muestra un camino en forma de S, y de una 'vuelta continua' que es una senal reglamentaria que permite dar vuelta libre a la derecha con semaforo en rojo.",
+    "explanation_es": "Esta señal preventiva amarilla indica una curva adelante. Muestra una sola curva en el camino, alertando a los conductores a reducir la velocidad. Esto difiere de una 'curva inversa' que muestra un camino en forma de S, y de una 'vuelta continua' que es una señal reglamentaria que permite dar vuelta libre a la derecha con semáforo en rojo.",
     "vocabulary": [
       {
         "es": "curva",
@@ -3218,7 +3218,7 @@
       }
     ],
     "explanation_en": "You must stop BEFORE the white stop line, not on top of the ALTO marking or just anywhere near the intersection. Stopping before the line keeps your vehicle out of the crosswalk and intersection, giving you a clear view of cross traffic and protecting pedestrians. This is a strict rule -- your bumper should not cross the white line.",
-    "explanation_es": "Debe detenerse ANTES de la linea blanca de alto, no sobre la marca de ALTO ni en cualquier lugar cercano a la interseccion. Detenerse antes de la linea mantiene su vehiculo fuera del cruce peatonal y la interseccion, dandole una vista clara del trafico transversal y protegiendo a los peatones. Esta es una regla estricta -- su defensa no debe cruzar la linea blanca.",
+    "explanation_es": "Debes detenerte ANTES de la línea blanca de alto, no sobre la marca de ALTO ni en cualquier lugar cercano a la intersección. Detenerte antes de la línea mantiene tu vehículo fuera del cruce peatonal y la intersección, dándote una vista clara del tráfico transversal y protegiendo a los peatones. Esta es una regla estricta -- tu defensa no debe cruzar la línea blanca.",
     "vocabulary": [
       {
         "es": "alto",
@@ -3277,7 +3277,7 @@
       }
     ],
     "explanation_en": "When you see one solid line and one dashed line together at the road center, the rule depends on which side you are on. If the solid line is on YOUR side, you CANNOT pass. If the dashed line is on your side, you CAN pass when safe. Think of it as: dashed = permission to cross, solid = barrier you cannot cross.",
-    "explanation_es": "Cuando ve una linea continua y una discontinua juntas al centro del camino, la regla depende del lado en que usted se encuentre. Si la linea continua esta de SU lado, NO PUEDE rebasar. Si la linea discontinua esta de su lado, PUEDE rebasar cuando sea seguro. Pienselo asi: discontinua = permiso para cruzar, continua = barrera que no puede cruzar.",
+    "explanation_es": "Cuando ve una linea continua y una discontinua juntas al centro del camino, la regla depende del lado en que tú se encuentre. Si la linea continua esta de SU lado, NO PUEDE rebasar. Si la linea discontinua esta de su lado, PUEDE rebasar cuando sea seguro. Pienselo así: discontinua = permiso para cruzar, continua = barrera que no puedes cruzar.",
     "vocabulary": [
       {
         "es": "linea continua",
@@ -3332,7 +3332,7 @@
       }
     ],
     "explanation_en": "This sign warns of a restricted clearance height ahead -- meaning there is a bridge, overpass, or tunnel with limited vertical space. Tall vehicles (trucks, buses, RVs) must check their height against the posted limit. This is a restrictive sign showing the maximum height a vehicle can be to safely pass under the structure.",
-    "explanation_es": "Esta senal advierte sobre una altura libre restringida adelante -- lo que significa que hay un puente, paso a desnivel o tunel con espacio vertical limitado. Los vehiculos altos (camiones, autobuses, casas rodantes) deben verificar su altura contra el limite publicado. Esta es una senal restrictiva que muestra la altura maxima que un vehiculo puede tener para pasar de manera segura bajo la estructura.",
+    "explanation_es": "Esta señal advierte sobre una altura libre restringida adelante -- lo que significa que hay un puente, paso a desnivel o tunel con espacio vertical limitado. Los vehículos altos (camiones, autobuses, casas rodantes) deben verificar su altura contra el límite publicado. Está es una señal restrictiva que muestra la altura máxima que un vehículo puedes tener para pasar de manera segura bajo la estructura.",
     "vocabulary": [
       {
         "es": "altura libre restringida",
@@ -3387,7 +3387,7 @@
       }
     ],
     "explanation_en": "This sign indicates a continuous right turn (vuelta continua a la derecha), which means you are permitted to turn right even when the traffic light is red, after yielding to pedestrians and cross traffic. This is similar to the 'right on red' concept in the US, but in Mexico it must be explicitly posted with this sign -- it is not automatic at every intersection.",
-    "explanation_es": "Esta senal indica una vuelta continua a la derecha, lo que significa que se le permite dar vuelta a la derecha incluso cuando el semaforo esta en rojo, despues de ceder el paso a peatones y trafico transversal. Esto es similar al concepto de 'vuelta a la derecha con rojo' en EE.UU., pero en Mexico debe estar explicitamente senalizado con esta senal -- no es automatico en cada interseccion.",
+    "explanation_es": "Esta señal indica una vuelta continua a la derecha, lo que significa que se te permite dar vuelta a la derecha incluso cuando el semáforo está en rojo, después de ceder el paso a peatones y tráfico transversal. Esto es similar al concepto de 'vuelta a la derecha con rojo' en EE.UU., pero en México debe estar explícitamente señalizado con esta señal -- no es automático en cada intersección.",
     "vocabulary": [
       {
         "es": "vuelta continua a la derecha",
@@ -3442,7 +3442,7 @@
       }
     ],
     "explanation_en": "This yellow warning sign indicates a narrow bridge ahead. It warns drivers that the bridge ahead is narrower than the road, so you may need to slow down and be prepared for oncoming traffic in a tighter space. Only one vehicle at a time may be able to cross if the bridge is very narrow.",
-    "explanation_es": "Esta senal preventiva amarilla indica un puente angosto adelante. Advierte a los conductores que el puente es mas angosto que el camino, por lo que puede necesitar reducir la velocidad y estar preparado para el trafico en sentido contrario en un espacio mas estrecho. Solo un vehiculo a la vez podria cruzar si el puente es muy angosto.",
+    "explanation_es": "Esta señal preventiva amarilla indica un puente angosto adelante. Advierte a los conductores que el puente es más angosto que el camino, por lo que puedes necesitar reducir la velocidad y estar preparado para el tráfico en sentido contrario en un espacio más estrecho. Solo un vehículo a la vez podria cruzar si el puente es muy angosto.",
     "vocabulary": [
       {
         "es": "puente angosto",
@@ -3497,7 +3497,7 @@
       }
     ],
     "explanation_en": "Continuous (solid) lines at the road edge mark the boundary between the driving surface and the shoulder. They help you stay safely within the road, especially at night, in fog, or on curves. These edge lines are NOT lane separators or pedestrian crossings -- they simply tell you where the road ends and the shoulder begins.",
-    "explanation_es": "Las lineas continuas (solidas) a la orilla del camino marcan el limite entre la superficie de conduccion y el acotamiento. Le ayudan a mantenerse de manera segura dentro del camino, especialmente de noche, con niebla o en curvas. Estas lineas de borde NO son separadores de carril ni cruces peatonales -- simplemente le indican donde termina el camino y comienza el acotamiento.",
+    "explanation_es": "Las líneas continuas (sólidas) a la orilla del camino marcan el límite entre la superficie de conducción y el acotamiento. Te ayudan a mantenerte de manera segura dentro del camino, especialmente de noche, con niebla o en curvas. Estas líneas de borde NO son separadores de carril ni cruces peatonales -- simplemente te indican dónde termina el camino y comienza el acotamiento.",
     "vocabulary": [
       {
         "es": "acotamiento",
@@ -3552,7 +3552,7 @@
       }
     ],
     "explanation_en": "The alternator converts mechanical energy from the engine into electrical energy to charge the battery and power the vehicle's electrical system while driving. The headlights consume electricity (they do not produce it), and the ignition coil transforms battery voltage for the spark plugs but does not charge the battery.",
-    "explanation_es": "El alternador convierte energia mecanica del motor en energia electrica para cargar la bateria y alimentar el sistema electrico del vehiculo mientras se conduce. Los faros consumen electricidad (no la producen), y la bobina transforma el voltaje de la bateria para las bujias pero no carga la bateria.",
+    "explanation_es": "El alternador convierte energía mecánica del motor en energía eléctrica para cargar la bateria y alimentar el sistema eléctrico del vehículo mientras se conduce. Los faros consumen electricidad (no la producen), y la bobina transforma el voltaje de la bateria para las bujias pero no carga la bateria.",
     "vocabulary": [
       {
         "es": "alternador",
@@ -3611,7 +3611,7 @@
       }
     ],
     "explanation_en": "Engine overheating is caused by low coolant (water) in the radiator and/or a loose drive belt. The belt drives the water pump that circulates coolant through the engine. Without enough coolant or a properly tensioned belt, the engine cannot cool itself. A faulty odometer only measures distance and has nothing to do with cooling. Differential oil lubricates the rear axle gears, not the engine cooling system.",
-    "explanation_es": "El sobrecalentamiento del motor es causado por falta de agua (refrigerante) en el radiador y/o una banda floja. La banda impulsa la bomba de agua que circula el refrigerante a traves del motor. Sin suficiente refrigerante o una banda con la tension adecuada, el motor no puede enfriarse. Un odometro defectuoso solo mide distancia y no tiene nada que ver con el enfriamiento. El aceite del diferencial lubrica los engranes del eje trasero, no el sistema de enfriamiento del motor.",
+    "explanation_es": "El sobrecalentamiento del motor es causado por falta de agua (refrigerante) en el radiador y/o una banda floja. La banda impulsa la bomba de agua que circula el refrigerante a traves del motor. Sin suficiente refrigerante o una banda con la tension adecuada, el motor no puedes enfriarse. Un odometro defectuoso solo mide distancia y no tiene nada que ver con el enfriamiento. El aceite del diferencial lubrica los engranes del eje trasero, no el sistema de enfriamiento del motor.",
     "vocabulary": [
       {
         "es": "sobrecalentamiento",
@@ -3670,7 +3670,7 @@
       }
     ],
     "explanation_en": "This is the no-parking sign (prohibido estacionarse). It is a restrictive sign, typically shown as a red circle with a letter 'E' crossed out or with a diagonal bar. It means you cannot park your vehicle in this area at any time. This is different from a 'no stopping' sign, which prohibits even brief stops.",
-    "explanation_es": "Esta es la senal de prohibido estacionarse. Es una senal restrictiva, tipicamente mostrada como un circulo rojo con la letra 'E' tachada o con una barra diagonal. Significa que no puede estacionar su vehiculo en esta area en ningun momento. Esto es diferente de la senal de 'no parar', que prohibe incluso paradas breves.",
+    "explanation_es": "Esta es la señal de prohibido estacionarse. Es una señal restrictiva, tipicamente mostrada como un circulo rojo con la letra 'E' tachada o con una barra diagonal. Significa que no puedes estacionar tu vehículo en esta área en ningún momento. Esto es diferente de la señal de 'no parar', que prohibe incluso paradas breves.",
     "vocabulary": [
       {
         "es": "prohibido estacionarse",
@@ -3725,7 +3725,7 @@
       }
     ],
     "explanation_en": "This sign indicates a restricted width ahead -- meaning the road or passage is narrower than normal and has a specific maximum width limit. Wide vehicles must check their width against the posted limit. This is a restrictive sign, different from the warning sign for 'asymmetric narrowing' which warns you that the road narrows on one side.",
-    "explanation_es": "Esta senal indica anchura restringida adelante -- lo que significa que el camino o paso es mas angosto de lo normal y tiene un limite especifico de anchura maxima. Los vehiculos anchos deben verificar su anchura contra el limite publicado. Esta es una senal restrictiva, diferente de la senal preventiva de 'estrechamiento asimetrico' que le advierte que el camino se angosta de un lado.",
+    "explanation_es": "Esta señal indica anchura restringida adelante -- lo que significa que el camino o paso es más angosto de lo normal y tiene un límite específico de anchura máxima. Los vehículos anchos deben verificar su anchura contra el límite publicado. Esta es una señal restrictiva, diferente de la señal preventiva de 'estrechamiento asimétrico' que te advierte que el camino se angosta de un lado.",
     "vocabulary": [
       {
         "es": "anchura restringida",
@@ -3780,7 +3780,7 @@
       }
     ],
     "explanation_en": "The basic tools every vehicle should carry are: jumper cables (for dead batteries), a flashlight, a jack and lug wrench (for changing tires), pliers, a cloth/rag, Phillips and flathead screwdrivers, and a tire pressure gauge. Option A lists woodworking tools, and Option B lists spare parts -- neither are the standard emergency toolkit for a vehicle.",
-    "explanation_es": "Las herramientas basicas que todo vehiculo debe traer son: cables para pasar corriente (para baterias descargadas), una lampara, un gato y llave de cruz (para cambiar llantas), pinzas, una franela, desarmadores de cruz y planos, y un manometro para llantas. La opcion A lista herramientas de carpinteria, y la opcion B lista refacciones -- ninguna es el kit de emergencia estandar para un vehiculo.",
+    "explanation_es": "Las herramientas basicas que todo vehículo debes traer son: cables para pasar corriente (para baterias descargadas), una lampara, un gato y llave de cruz (para cambiar llantas), pinzas, una franela, desarmadores de cruz y planos, y un manometro para llantas. La opcion A lista herramientas de carpinteria, y la opcion B lista refacciones -- ninguna es el kit de emergencia estándar para un vehículo.",
     "vocabulary": [
       {
         "es": "gato",
@@ -3839,7 +3839,7 @@
       }
     ],
     "explanation_en": "This is the no-stopping sign (no parar), which is stricter than the no-parking sign. It means you cannot stop your vehicle at all -- not even briefly to pick up or drop off passengers. This sign is typically a restrictive sign with an 'X' pattern. Do not confuse it with 'no parking,' which allows brief stops.",
-    "explanation_es": "Esta es la senal de no parar, que es mas estricta que la senal de no estacionarse. Significa que no puede detener su vehiculo en absoluto -- ni siquiera brevemente para subir o bajar pasajeros. Esta senal es tipicamente una senal restrictiva con un patron en 'X'. No la confunda con 'prohibido estacionarse', que permite paradas breves.",
+    "explanation_es": "Esta es la señal de no parar, que es más estricta que la señal de no estacionarse. Significa que no puedes detener tu vehículo en absoluto -- ni siquiera brevemente para subir o bajar pasajeros. Esta señal es tipicamente una señal restrictiva con un patron en 'X'. No la confunda con 'prohibido estacionarse', que permite paradas breves.",
     "vocabulary": [
       {
         "es": "no parar",
@@ -3894,7 +3894,7 @@
       }
     ],
     "explanation_en": "This warning sign indicates a crossroads (cruce de caminos) -- an intersection where another road crosses your path. It is a yellow preventive sign that warns you to be alert for vehicles entering from side roads. This is different from a railroad crossing sign, which specifically warns about train tracks.",
-    "explanation_es": "Esta senal preventiva indica un cruce de caminos -- una interseccion donde otro camino cruza su trayectoria. Es una senal preventiva amarilla que le advierte estar alerta ante vehiculos que entran desde caminos laterales. Esto es diferente de la senal de cruce de ferrocarril, que advierte especificamente sobre vias de tren.",
+    "explanation_es": "Esta señal preventiva indica un cruce de caminos -- una intersección donde otro camino cruza tu trayectoria. Es una señal preventiva amarilla que te advierte estar alerta ante vehículos que entran desde caminos laterales. Esto es diferente de la señal de cruce de ferrocarril, que advierte específicamente sobre vías de tren.",
     "vocabulary": [
       {
         "es": "cruce de caminos",
@@ -3949,7 +3949,7 @@
       }
     ],
     "explanation_en": "This restrictive sign prohibits U-turns (retornos). It is different from a 'turn prohibited' sign, which blocks left or right turns, and different from a roundabout sign, which indicates a traffic circle ahead. The U-turn prohibition means you cannot reverse your direction of travel at this location -- you must find an alternative route.",
-    "explanation_es": "Esta senal restrictiva prohibe los retornos (vuelta en U). Es diferente de una senal de 'prohibida la vuelta', que bloquea vueltas a la izquierda o derecha, y diferente de una senal de glorieta, que indica una rotonda adelante. La prohibicion de retorno significa que no puede invertir su direccion de viaje en este lugar -- debe buscar una ruta alternativa.",
+    "explanation_es": "Esta señal restrictiva prohibe los retornos (vuelta en U). Es diferente de una señal de 'prohibida la vuelta', que bloquea vueltas a la izquierda o derecha, y diferente de una señal de glorieta, que indica una rotonda adelante. La prohibicion de retorno significa que no puedes invertir su dirección de viaje en este lugar -- debes buscar una ruta alternativa.",
     "vocabulary": [
       {
         "es": "retorno",
@@ -4008,7 +4008,7 @@
       }
     ],
     "explanation_en": "This is the yield sign (ceda el paso), typically an inverted triangle. It means YOU must yield -- let other traffic go first before proceeding. It does NOT mean others yield to you. When you see this sign, slow down and be prepared to stop if needed to give way to cross traffic or merging vehicles.",
-    "explanation_es": "Esta es la senal de ceda el paso, tipicamente un triangulo invertido. Significa que USTED debe ceder -- dejar pasar al otro trafico primero antes de continuar. NO significa que otros le ceden el paso a usted. Cuando vea esta senal, reduzca la velocidad y este preparado para detenerse si es necesario para dar paso al trafico transversal o vehiculos que se incorporan.",
+    "explanation_es": "Esta es la señal de ceda el paso, típicamente un triángulo invertido. Significa que tú debes ceder -- dejar pasar al otro tráfico primero antes de continuar. NO significa que otros te ceden el paso. Cuando veas esta señal, reduce la velocidad y estate preparado para detenerte si es necesario para dar paso al tráfico transversal o vehículos que se incorporan.",
     "vocabulary": [
       {
         "es": "ceda el paso",
@@ -4063,7 +4063,7 @@
       }
     ],
     "explanation_en": "This sign indicates an exit (salida) from a highway or major road. It warns drivers that a ramp or lane is available to leave the main roadway. Recognizing exit signs is essential for navigation and safe lane changes.",
-    "explanation_es": "Esta senal indica una salida de una autopista o carretera principal. Advierte a los conductores que hay una rampa o carril disponible para abandonar la via principal. Reconocer las senales de salida es esencial para la navegacion y los cambios de carril seguros.",
+    "explanation_es": "Esta señal indica una salida de una autopista o carretera principal. Advierte a los conductores que hay una rampa o carril disponible para abandonar la via principal. Reconocer las señales de salida es esencial para la navegacion y los cambios de carril seguros.",
     "vocabulary": [
       {
         "es": "salida",
@@ -4118,7 +4118,7 @@
       }
     ],
     "explanation_en": "This sign indicates the free width (anchura libre) -- the available clearance width of a road, bridge, or tunnel. It tells drivers the maximum width a vehicle can be to pass through safely. This is critical for trucks and wide vehicles.",
-    "explanation_es": "Esta senal indica la anchura libre -- el ancho de espacio disponible en una carretera, puente o tunel. Le dice a los conductores el ancho maximo que puede tener un vehiculo para pasar de manera segura. Esto es critico para camiones y vehiculos anchos.",
+    "explanation_es": "Esta señal indica la anchura libre -- el ancho de espacio disponible en una carretera, puente o túnel. Les dice a los conductores el ancho máximo que puede tener un vehículo para pasar de manera segura. Esto es crítico para camiones y vehículos anchos.",
     "vocabulary": [
       {
         "es": "anchura libre",
@@ -4173,7 +4173,7 @@
       }
     ],
     "explanation_en": "When your vehicle breaks down on the road, the priority is to make yourself visible and get out of the flow of traffic. Turn on your hazard lights immediately, then carefully move to the far right shoulder so you do not block other vehicles. Finally, place warning triangles or flares behind your vehicle to alert approaching drivers.",
-    "explanation_es": "Cuando su vehiculo se descompone en la carretera, la prioridad es hacerse visible y salir del flujo de trafico. Encienda las luces de emergencia de inmediato, luego muevase con cuidado al extremo derecho para no bloquear a otros vehiculos. Finalmente, coloque triangulos de advertencia o senales preventivas detras de su vehiculo para alertar a los conductores que se aproximan.",
+    "explanation_es": "Cuando tu vehículo se descompone en la carretera, la prioridad es hacerse visible y salir del flujo de tráfico. Encienda las luces de emergencia de inmediato, luego muevase con cuidado al extremo derecho para no bloquear a otros vehículos. Finalmente, coloque triangulos de advertencia o señales preventivas detrás de tu vehículo para alertar a los conductores que se aproximan.",
     "vocabulary": [
       {
         "es": "luces de emergencia",
@@ -4232,7 +4232,7 @@
       }
     ],
     "explanation_en": "You should glance at your rearview mirrors every 2 to 5 seconds. This keeps you constantly aware of vehicles behind and beside you, which is essential for safe lane changes, braking, and reacting to emergencies. Checking less frequently creates dangerous blind spots in your awareness.",
-    "explanation_es": "Debe revisar sus espejos retrovisores cada 2 a 5 segundos. Esto lo mantiene constantemente al tanto de los vehiculos detras y a su lado, lo cual es esencial para cambios de carril seguros, frenado y reaccion ante emergencias. Revisarlos con menos frecuencia crea puntos ciegos peligrosos en su percepcion.",
+    "explanation_es": "Debes revisar tus espejos retrovisores cada 2 a 5 segundos. Esto te mantiene constantemente al tanto de los vehículos detrás y a tu lado, lo cual es esencial para cambios de carril seguros, frenado y reacción ante emergencias. Revisarlos con menos frecuencia crea puntos ciegos peligrosos en tu percepción.",
     "vocabulary": [
       {
         "es": "espejos retrovisores",
@@ -4287,7 +4287,7 @@
       }
     ],
     "explanation_en": "Before every drive, you should check six key items: oil level, coolant/water, tire condition and pressure, all lights, mirror adjustment, and fuel level. This comprehensive pre-drive check ensures your vehicle is mechanically safe and reduces the risk of breakdowns or accidents caused by preventable failures.",
-    "explanation_es": "Antes de cada viaje, debe revisar seis elementos clave: nivel de aceite, refrigerante/agua, estado y presion de llantas, todas las luces, ajuste de espejos y nivel de combustible. Esta revision previa integral asegura que su vehiculo este mecanicamente seguro y reduce el riesgo de descomposturas o accidentes causados por fallas prevenibles.",
+    "explanation_es": "Antes de cada viaje, debes revisar seis elementos clave: nivel de aceite, refrigerante/agua, estado y presion de llantas, todas las luces, ajuste de espejos y nivel de combustible. Esta revisión previa integral asegura que tu vehículo este mecanicamente seguro y reduce el riesgo de descomposturas o accidentes causados por fallas prevenibles.",
     "vocabulary": [
       {
         "es": "aceite",
@@ -4346,7 +4346,7 @@
       }
     ],
     "explanation_en": "When another vehicle is passing you, you should slow down to make the maneuver safer and faster. Speeding up while being overtaken forces the passing vehicle to stay in the oncoming lane longer, which dramatically increases the risk of a head-on collision.",
-    "explanation_es": "Cuando otro vehiculo lo esta rebasando, debe disminuir la velocidad para hacer la maniobra mas segura y rapida. Acelerar mientras lo rebasan obliga al vehiculo que pasa a permanecer mas tiempo en el carril contrario, lo que aumenta dramaticamente el riesgo de una colision frontal.",
+    "explanation_es": "Cuando otro vehículo lo esta rebasando, debes disminuir la velocidad para hacer la maniobra más segura y rápida. Acelerar mientras lo rebasan obliga al vehículo que pasa a permanecer más tiempo en el carril contrario, lo que aumenta dramaticamente el riesgo de una colisión frontal.",
     "vocabulary": [
       {
         "es": "rebasar",
@@ -4401,7 +4401,7 @@
       }
     ],
     "explanation_en": "During a tire blowout, slamming the brakes or jerking the steering wheel can cause you to lose control. The correct response is to grip the wheel firmly to maintain control, release the accelerator to let the car slow down gradually, and only then gently steer toward the right shoulder once the vehicle is at a manageable speed.",
-    "explanation_es": "Durante un reventon de llanta, frenar bruscamente o girar el volante de golpe puede hacerle perder el control. La respuesta correcta es sujetar el volante con firmeza para mantener el control, soltar el acelerador para que el auto desacelere gradualmente, y solo entonces dirigirse suavemente hacia el acotamiento derecho una vez que el vehiculo este a una velocidad manejable.",
+    "explanation_es": "Durante un reventon de llanta, frenar bruscamente o girar el volante de golpe puedes hacerle perder el control. La respuesta correcta es sujetar el volante con firmeza para mantener el control, soltar el acelerador para que el auto desacelere gradualmente, y solo entonces dirigirse suavemente hacia el acotamiento derecho una vez que el vehículo este a una velocidad manejable.",
     "vocabulary": [
       {
         "es": "llanta revienta",
@@ -4460,7 +4460,7 @@
       }
     ],
     "explanation_en": "A head-on collision is the most dangerous type because the speeds of both vehicles combine on impact. If two cars traveling at 60 km/h collide head-on, the impact force is equivalent to hitting a wall at 120 km/h. In rear-end collisions at similar speeds, the speed difference is much smaller, resulting in less force.",
-    "explanation_es": "Una colision frontal es el tipo mas peligroso porque las velocidades de ambos vehiculos se combinan en el impacto. Si dos autos que viajan a 60 km/h chocan de frente, la fuerza del impacto es equivalente a chocar contra un muro a 120 km/h. En colisiones por alcance a velocidades similares, la diferencia de velocidad es mucho menor, resultando en menos fuerza.",
+    "explanation_es": "Una colisión frontal es el tipo más peligroso porque las velocidades de ambos vehículos se combinan en el impacto. Si dos autos que viajan a 60 km/h chocan de frente, la fuerza del impacto es equivalente a chocar contra un muro a 120 km/h. En colisiones por alcance a velocidades similares, la diferencia de velocidad es mucho menor, resultando en menos fuerza.",
     "vocabulary": [
       {
         "es": "choque de frente",
@@ -4515,7 +4515,7 @@
       }
     ],
     "explanation_en": "If your hood flies up and blocks your windshield, do NOT slam the brakes or swerve blindly. Instead, look out the side window to see the road, gradually slow down, and carefully pull over to the right shoulder. This controlled approach prevents panic-driven accidents while you safely get off the road.",
-    "explanation_es": "Si el cofre se levanta y bloquea su parabrisas, NO frene bruscamente ni gire a ciegas. En su lugar, mire por la ventanilla lateral para ver el camino, disminuya la velocidad gradualmente y orillese con cuidado hacia el acotamiento derecho. Este enfoque controlado previene accidentes por panico mientras se sale de la carretera de manera segura.",
+    "explanation_es": "Si el cofre se levanta y bloquea tu parabrisas, NO frenes bruscamente ni gires a ciegas. En su lugar, mira por la ventanilla lateral para ver el camino, disminuye la velocidad gradualmente y oríllate con cuidado hacia el acotamiento derecho. Este enfoque controlado previene accidentes por pánico mientras sales de la carretera de manera segura.",
     "vocabulary": [
       {
         "es": "cofre / tapa del cofre",
@@ -4570,7 +4570,7 @@
       }
     ],
     "explanation_en": "To protect pedestrians, you must slow down when you see the traffic light turn yellow and come to a complete stop before the white crosswalk line. Stopping beyond the white line puts your vehicle in the pedestrian crossing area, endangering people on foot. The yellow light is your warning to prepare to stop, not to speed through.",
-    "explanation_es": "Para proteger a los peatones, debe disminuir la velocidad cuando vea que el semaforo cambia a amarillo y detenerse completamente antes de la linea blanca del cruce peatonal. Detenerse mas alla de la linea blanca pone su vehiculo en el area de cruce peatonal, poniendo en peligro a las personas a pie. La luz amarilla es su advertencia para prepararse a detenerse, no para acelerar.",
+    "explanation_es": "Para proteger a los peatones, debes disminuir la velocidad cuando vea que el semáforo cambia a amarillo y detenerse completamente antes de la linea blanca del cruce peatonal. Detenerse más alla de la linea blanca pone tu vehículo en el área de cruce peatonal, poniendo en peligro a las personas a pie. La luz amarilla es su advertencia para prepararse a detenerse, no para acelerar.",
     "vocabulary": [
       {
         "es": "zona peatonal",
@@ -4625,7 +4625,7 @@
       }
     ],
     "explanation_en": "When an aggressive driver is tailgating you, the safest response is to signal and carefully change lanes to let them pass. Speeding up escalates the situation, and simply staying put keeps you in danger from a rear-end collision. By actively and safely moving out of their way, you de-escalate the situation and protect yourself.",
-    "explanation_es": "Cuando un conductor agresivo lo sigue de cerca, la respuesta mas segura es senalizar y cambiar de carril con cuidado para dejarlos pasar. Acelerar escala la situacion, y simplemente quedarse en su lugar lo mantiene en peligro de un choque por alcance. Al moverse activa y seguramente fuera de su camino, desescala la situacion y se protege.",
+    "explanation_es": "Cuando un conductor agresivo lo sigue de cerca, la respuesta más segura es senalizar y cambiar de carril con cuidado para dejarlos pasar. Acelerar escala la situación, y simplemente quedarse en su lugar lo mantiene en peligro de un choque por alcance. Al moverse activa y seguramente fuera de su camino, desescala la situación y se protege.",
     "vocabulary": [
       {
         "es": "presionar con luces o claxon",
@@ -4680,7 +4680,7 @@
       }
     ],
     "explanation_en": "At an uncontrolled intersection where roads have equal priority, you must slow down, stop completely, and look both ways before proceeding cautiously. Without signals or signs, no one has automatic right of way, so assuming you can speed through is extremely dangerous. This methodical approach prevents collisions with vehicles you may not see.",
-    "explanation_es": "En un cruce sin control donde las vias tienen igual prioridad, debe disminuir la velocidad, detenerse completamente y mirar a ambos lados antes de avanzar con precaucion. Sin semaforos ni senales, nadie tiene derecho de paso automatico, por lo que asumir que puede pasar a velocidad es extremadamente peligroso. Este enfoque metodico previene colisiones con vehiculos que podria no ver.",
+    "explanation_es": "En un cruce sin control donde las vias tienen igual prioridad, debes disminuir la velocidad, detenerse completamente y mirar a ambos lados antes de avanzar con precaución. Sin semáforos ni señales, nadie tiene derecho de paso automático, por lo que asumir que puedes pasar a velocidad es extremadamente peligroso. Este enfoque metodico previene colisiones con vehículos que podria no ver.",
     "vocabulary": [
       {
         "es": "crucero",
@@ -4739,7 +4739,7 @@
       }
     ],
     "explanation_en": "Road safety experts identify three dangerous driver personality types: aggressive drivers (who drive with hostility), offensive drivers (who intentionally violate rules), and defensive drivers (who drive overly cautiously, disrupting traffic flow). Note that in this Mexican classification, 'defensive' drivers are considered problematic because excessive hesitation can be as dangerous as aggression.",
-    "explanation_es": "Los expertos en seguridad vial identifican tres tipos de personalidad peligrosa al volante: conductores agresivos (que manejan con hostilidad), ofensivos (que violan las reglas intencionalmente) y defensivos (que manejan con excesiva precaucion, interrumpiendo el flujo del trafico). En esta clasificacion mexicana, los conductores 'defensivos' se consideran problematicos porque la vacilacion excesiva puede ser tan peligrosa como la agresion.",
+    "explanation_es": "Los expertos en seguridad vial identifican tres tipos de personalidad peligrosa al volante: conductores agresivos (que manejan con hostilidad), ofensivos (que violan las reglas intencionalmente) y defensivos (que manejan con excesiva precaución, interrumpiendo el flujo del tráfico). En esta clasificación mexicana, los conductores 'defensivos' se consideran problematicos porque la vacilacion excesiva puedes ser tan peligrosa como la agresion.",
     "vocabulary": [
       {
         "es": "agresivo",
@@ -4798,7 +4798,7 @@
       }
     ],
     "explanation_en": "The only effective remedy for driving fatigue is to stop and rest. Coffee, fresh air, and loud music are temporary stimulants that do not address the underlying exhaustion. Stopping for at least 20 minutes and doing light physical exercises restores alertness and significantly reduces your accident risk.",
-    "explanation_es": "El unico remedio efectivo para la fatiga al conducir es detenerse y descansar. El cafe, el aire fresco y la musica fuerte son estimulantes temporales que no abordan el cansancio subyacente. Detenerse al menos 20 minutos y hacer ejercicios fisicos ligeros restaura el estado de alerta y reduce significativamente el riesgo de accidente.",
+    "explanation_es": "El único remedio efectivo para la fatiga al manejar es detenerse y descansar. El cafe, el aire fresco y la musica fuerte son estimulantes temporales que no abordan el cansancio subyacente. Detenerse al menos 20 minutos y hacer ejercicios físicos ligeros restaura el estado de alerta y reduce significativamente el riesgo de accidente.",
     "vocabulary": [
       {
         "es": "cansado",
@@ -4853,7 +4853,7 @@
       }
     ],
     "explanation_en": "The five potentially adverse driving conditions are: weather (rain, fog, wind), traffic (volume, congestion), vehicle condition (mechanical issues), road condition (potholes, construction), and lighting (darkness, glare). Recognizing these factors helps you adjust your driving behavior proactively to stay safe.",
-    "explanation_es": "Las cinco condiciones potencialmente adversas al conducir son: el clima (lluvia, niebla, viento), el trafico (volumen, congestion), el estado del vehiculo (problemas mecanicos), el estado del camino (baches, construccion) y la iluminacion (oscuridad, deslumbramiento). Reconocer estos factores le ayuda a ajustar su conduccion proactivamente para mantenerse seguro.",
+    "explanation_es": "Las cinco condiciones potencialmente adversas al manejar son: el clima (lluvia, niebla, viento), el tráfico (volumen, congestión), el estado del vehículo (problemas mecánicos), el estado del camino (baches, construcción) y la iluminación (oscuridad, deslumbramiento). Reconocer estos factores te ayuda a ajustar tu conducción proactivamente para mantenerte seguro.",
     "vocabulary": [
       {
         "es": "condiciones adversas",
@@ -4912,7 +4912,7 @@
       }
     ],
     "explanation_en": "The safest technique is to reduce your speed BEFORE entering the curve, then gradually accelerate through it. Braking inside a curve reduces tire grip and can cause skidding or loss of control. Gentle acceleration through the curve transfers weight to the rear tires, actually improving traction and stability.",
-    "explanation_es": "La tecnica mas segura es reducir la velocidad ANTES de entrar a la curva, y luego acelerar gradualmente a traves de ella. Frenar dentro de una curva reduce la adherencia de las llantas y puede causar derrapes o perdida de control. La aceleracion suave a traves de la curva transfiere peso a las llantas traseras, mejorando la traccion y estabilidad.",
+    "explanation_es": "La técnica más segura es reducir la velocidad ANTES de entrar a la curva, y luego acelerar gradualmente a traves de ella. Frenar dentro de una curva reduce la adherencia de las llantas y puedes causar derrapes o perdida de control. La aceleracion suave a traves de la curva transfiere peso a las llantas traseras, mejorando la tracción y estabilidad.",
     "vocabulary": [
       {
         "es": "curva",
@@ -4967,7 +4967,7 @@
       }
     ],
     "explanation_en": "Your first action should be to use your vehicle's fire extinguisher, which is required equipment in Mexico. Vehicle fires can spread rapidly, so immediate action is critical. Waiting for firefighters wastes precious time, and throwing water on an engine fire (which may involve oil or electrical components) can actually make it worse.",
-    "explanation_es": "Su primera accion debe ser usar el extintor de incendios de su vehiculo, que es equipo obligatorio en Mexico. Los incendios vehiculares pueden propagarse rapidamente, por lo que la accion inmediata es critica. Esperar a los bomberos desperdicia tiempo valioso, y echar agua en un incendio del motor (que puede involucrar aceite o componentes electricos) puede empeorarlo.",
+    "explanation_es": "Su primera accion debes ser usar el extintor de incendios de tu vehículo, que es equipo obligatorio en Mexico. Los incendios vehiculares pueden propagarse rápidamente, por lo que la accion inmediata es critica. Esperar a los bomberos desperdicia tiempo valioso, y echar agua en un incendio del motor (que puedes involucrar aceite o componentes eléctricos) puedes empeorarlo.",
     "vocabulary": [
       {
         "es": "extinguidor de incendios",
@@ -5022,7 +5022,7 @@
       }
     ],
     "explanation_en": "On wet roads, you need to do TWO things: reduce your speed and increase your following distance. Water on the road reduces tire grip significantly, meaning your stopping distance increases. Even with good brakes and tires, the road surface itself becomes slippery, so maintaining normal speed is never safe on wet pavement.",
-    "explanation_es": "En carreteras mojadas, debe hacer DOS cosas: reducir la velocidad y aumentar la distancia de seguimiento. El agua en el camino reduce significativamente la adherencia de las llantas, lo que significa que la distancia de frenado aumenta. Incluso con buenos frenos y llantas, la superficie del camino se vuelve resbalosa, por lo que mantener la velocidad normal nunca es seguro en pavimento mojado.",
+    "explanation_es": "En carreteras mojadas, debes hacer DOS cosas: reducir la velocidad y aumentar la distancia de seguimiento. El agua en el camino reduce significativamente la adherencia de las llantas, lo que significa que la distancia de frenado aumenta. Incluso con buenos frenos y llantas, la superficie del camino se vuelve resbalosa, por lo que mantener la velocidad normal nunca es seguro en pavimento mojado.",
     "vocabulary": [
       {
         "es": "piso mojado",
@@ -5077,7 +5077,7 @@
       }
     ],
     "explanation_en": "When you encounter a reckless driver, your priority is your own safety. Stay calm, give them space, and distance yourself from the danger. Trying to confront or educate them while driving only escalates the situation and puts you at greater risk. Let them pass and focus on protecting yourself and your passengers.",
-    "explanation_es": "Cuando se encuentra con un conductor imprudente, su prioridad es su propia seguridad. Mantenga la calma, dele espacio y alejese del peligro. Intentar confrontarlos o educarlos mientras conduce solo escala la situacion y lo pone en mayor riesgo. Dejelos pasar y enfoquese en protegerse a usted y a sus pasajeros.",
+    "explanation_es": "Cuando se encuentra con un conductor imprudente, su prioridad es su propia seguridad. Mantenga la calma, dele espacio y alejese del peligro. Intentar confrontarlos o educarlos mientras conduce solo escala la situación y lo pone en mayor riesgo. Dejelos pasar y enfoquese en protegerse a ti y a tus pasajeros.",
     "vocabulary": [
       {
         "es": "guardar la calma",
@@ -5132,7 +5132,7 @@
       }
     ],
     "explanation_en": "When a traffic light turns yellow, you should brake moderately -- not slam on the brakes. Slamming the brakes at a yellow light can cause the vehicle behind you to rear-end you, especially if they were not expecting a sudden stop. Gradual, moderate braking gives everyone time to react safely.",
-    "explanation_es": "Cuando el semaforo cambia a amarillo, debe frenar moderadamente -- no frenar de golpe. Frenar bruscamente en una luz amarilla puede causar que el vehiculo detras de usted lo choque por alcance, especialmente si no esperaban una parada subita. El frenado gradual y moderado da tiempo a todos para reaccionar de manera segura.",
+    "explanation_es": "Cuando el semáforo cambia a amarillo, debes frenar moderadamente -- no frenar de golpe. Frenar bruscamente en una luz amarilla puedes causar que el vehículo detrás de ti lo choque por alcance, especialmente si no esperaban una parada subita. El frenado gradual y moderado da tiempo a todos para reaccionar de manera segura.",
     "vocabulary": [
       {
         "es": "luz ambar",
@@ -5187,7 +5187,7 @@
       }
     ],
     "explanation_en": "A professional driver stays patient in traffic jams. They wait their turn at traffic lights, avoid frustration, and calmly seek alternate routes if available. Weaving between vehicles or honking aggressively increases accident risk and road rage. Patience and composure are the marks of a skilled, responsible driver.",
-    "explanation_es": "Un conductor profesional mantiene la paciencia en los congestionamientos viales. Espera su turno en los semaforos, evita la frustracion y busca rutas alternas con calma si estan disponibles. Zigzaguear entre vehiculos o tocar el claxon agresivamente aumenta el riesgo de accidentes y la ira al volante. La paciencia y la compostura son las marcas de un conductor habil y responsable.",
+    "explanation_es": "Un conductor profesional mantiene la paciencia en los congestionamientos viales. Espera su turno en los semáforos, evita la frustracion y busca rutas alternas con calma si están disponibles. Zigzaguear entre vehículos o tocar el claxon agresivamente aumenta el riesgo de accidentes y la ira al volante. La paciencia y la compostura son las marcas de un conductor hábil y responsable.",
     "vocabulary": [
       {
         "es": "congestionamiento vial",
@@ -5242,7 +5242,7 @@
       }
     ],
     "explanation_en": "Tires are considered unsafe when the tread depth falls below 1mm. Tread grooves are designed to channel water away and provide grip; when they wear down below 1mm, the tire loses its ability to grip the road, especially on wet surfaces. This dramatically increases stopping distance and the risk of hydroplaning.",
-    "explanation_es": "Las llantas se consideran inseguras cuando la profundidad del dibujo cae por debajo de 1mm. Los surcos del dibujo estan disenados para canalizar el agua y proporcionar adherencia; cuando se desgastan por debajo de 1mm, la llanta pierde su capacidad de agarre al camino, especialmente en superficies mojadas. Esto aumenta dramaticamente la distancia de frenado y el riesgo de aquaplaning.",
+    "explanation_es": "Las llantas se consideran inseguras cuando la profundidad del dibujo cae por debajo de 1mm. Los surcos del dibujo están disenados para canalizar el agua y proporcionar adherencia; cuando se desgastan por debajo de 1mm, la llanta pierde su capacidad de agarre al camino, especialmente en superficies mojadas. Esto aumenta dramaticamente la distancia de frenado y el riesgo de aquaplaning.",
     "vocabulary": [
       {
         "es": "dibujo de las llantas",
@@ -5297,7 +5297,7 @@
       }
     ],
     "explanation_en": "If your tire leaves the pavement, the key is to stay calm and maintain control. Grip the steering wheel firmly to prevent it from jerking, release the accelerator to slow down gradually, and then gently steer back onto the pavement. Braking suddenly or jerking the wheel at highway speed can cause you to overcorrect and lose control.",
-    "explanation_es": "Si su llanta sale del pavimento, la clave es mantener la calma y el control. Sujete el volante con firmeza para evitar que gire bruscamente, suelte el acelerador para desacelerar gradualmente, y luego regrese suavemente al pavimento. Frenar repentinamente o girar el volante a velocidad de carretera puede causar una sobrecorreccion y perdida de control.",
+    "explanation_es": "Si tu llanta sale del pavimento, la clave es mantener la calma y el control. Sujeta el volante con firmeza para evitar que gire bruscamente, suelta el acelerador para desacelerar gradualmente, y luego regresa suavemente al pavimento. Frenar repentinamente o girar el volante a velocidad de carretera puede causar una sobrecorrección y pérdida de control.",
     "vocabulary": [
       {
         "es": "pavimento",
@@ -5352,7 +5352,7 @@
       }
     ],
     "explanation_en": "Defensive driving means operating your vehicle while following all traffic laws AND anticipating the mistakes of other drivers. It is NOT simply driving slowly. A defensive driver stays alert, maintains safe following distances, and is prepared to react to the unpredictable actions of others to prevent accidents.",
-    "explanation_es": "La conduccion defensiva significa operar su vehiculo siguiendo todas las leyes de transito Y anticipando los errores de otros conductores. NO es simplemente conducir lento. Un conductor defensivo se mantiene alerta, mantiene distancias de seguimiento seguras y esta preparado para reaccionar ante las acciones impredecibles de otros para prevenir accidentes.",
+    "explanation_es": "El manejo defensivo significa operar tu vehículo siguiendo todas las leyes de tránsito Y anticipando los errores de otros conductores. NO es simplemente conducir lento. Un conductor defensivo se mantiene alerta, mantiene distancias de seguimiento seguras y esta preparado para reaccionar ante las acciones impredecibles de otros para prevenir accidentes.",
     "vocabulary": [
       {
         "es": "manejo defensivo",
@@ -5407,7 +5407,7 @@
       }
     ],
     "explanation_en": "When sun glare makes your traffic light hard to see, slow down and look at the cross street's traffic behavior and their signal instead. If they are stopped (meaning their light is red), your light is likely green, and you can proceed with caution. This indirect method of confirming your signal is much safer than guessing or speeding through.",
-    "explanation_es": "Cuando el resplandor del sol dificulta ver su semaforo, reduzca la velocidad y observe el comportamiento del trafico de la calle transversal y su senal. Si estan detenidos (lo que significa que su luz es roja), su luz probablemente es verde y puede proceder con precaucion. Este metodo indirecto de confirmar su senal es mucho mas seguro que adivinar o pasar a velocidad.",
+    "explanation_es": "Cuando el resplandor del sol dificulta ver su semáforo, reduzca la velocidad y observe el comportamiento del tráfico de la calle transversal y su señal. Si están detenidos (lo que significa que su luz es roja), su luz probablemente es verde y puedes proceder con precaución. Este metodo indirecto de confirmar su señal es mucho más seguro que adivinar o pasar a velocidad.",
     "vocabulary": [
       {
         "es": "iluminacion del sol",
@@ -5466,7 +5466,7 @@
       }
     ],
     "explanation_en": "Regular maintenance checks help you catch problems before they become emergencies. Checking tires, belts, lights, and fluid levels as the manufacturer recommends prevents engine overheating, mechanical failures, and breakdowns that could lead to accidents. Preventive maintenance is always cheaper and safer than emergency repairs on the road.",
-    "explanation_es": "Las revisiones regulares de mantenimiento le ayudan a detectar problemas antes de que se conviertan en emergencias. Revisar llantas, bandas, luces y niveles de fluidos como recomienda el fabricante previene el sobrecalentamiento del motor, fallas mecanicas y descomposturas que podrian provocar accidentes. El mantenimiento preventivo siempre es mas economico y seguro que las reparaciones de emergencia en el camino.",
+    "explanation_es": "Las revisiones regulares de mantenimiento te ayudan a detectar problemas antes de que se conviertan en emergencias. Revisar llantas, bandas, luces y niveles de fluidos como recomienda el fabricante previene el sobrecalentamiento del motor, fallas mecánicas y descomposturas que podrían provocar accidentes. El mantenimiento preventivo siempre es más económico y seguro que las reparaciones de emergencia en el camino.",
     "vocabulary": [
       {
         "es": "bandas",
@@ -5525,7 +5525,7 @@
       }
     ],
     "explanation_en": "A responsible driver must respect ALL traffic laws at ALL times -- there are no exceptions for personal convenience. This means obeying every traffic sign, following officer instructions, and respecting the rights of all road users including pedestrians, cyclists, and other drivers. Selective compliance is not an option.",
-    "explanation_es": "Un conductor responsable debe respetar TODAS las leyes de transito en TODO momento -- no hay excepciones por conveniencia personal. Esto significa obedecer cada senal de transito, seguir las instrucciones de los agentes viales y respetar los derechos de todos los usuarios de la via publica, incluyendo peatones, ciclistas y otros conductores. El cumplimiento selectivo no es una opcion.",
+    "explanation_es": "Un conductor responsable debes respetar TODAS las leyes de tránsito en TODO momento -- no hay excepciones por conveniencia personal. Esto significa obedecer cada señal de tránsito, seguir las instrucciones de los agentes viales y respetar los derechos de todos los usuarios de la via pública, incluyendo peatones, ciclistas y otros conductores. El cumplimiento selectivo no es una opcion.",
     "vocabulary": [
       {
         "es": "conductor responsable",
@@ -5580,7 +5580,7 @@
       }
     ],
     "explanation_en": "The correct procedure follows a specific safety sequence: first move the car out of traffic, engage the parking brake, and block the tires. Then place the jack at the proper reinforced point, loosen nuts only half a turn BEFORE lifting, raise just 3cm (enough to change the tire without instability), swap the tire, lower the jack, then fully tighten the nuts. Each step prevents a specific danger.",
-    "explanation_es": "El procedimiento correcto sigue una secuencia de seguridad especifica: primero mueva el auto fuera del trafico, ponga el freno de mano y bloquee las llantas. Luego coloque el gato en el punto reforzado correcto, afloje las tuercas solo media vuelta ANTES de levantar, eleve solo 3cm (suficiente para cambiar la llanta sin inestabilidad), cambie la llanta, baje el gato y luego apriete completamente las tuercas. Cada paso previene un peligro especifico.",
+    "explanation_es": "El procedimiento correcto sigue una secuencia de seguridad específica: primero mueva el auto fuera del tráfico, ponga el freno de mano y bloquee las llantas. Luego coloque el gato en el punto reforzado correcto, afloje las tuercas solo media vuelta ANTES de levantar, eleve solo 3cm (suficiente para cambiar la llanta sin inestabilidad), cambie la llanta, baje el gato y luego apriete completamente las tuercas. Cada paso previene un peligro específico.",
     "vocabulary": [
       {
         "es": "llanta ponchada",
@@ -5639,7 +5639,7 @@
       }
     ],
     "explanation_en": "A dirty windshield should be cleaned with running water and soap before driving. Using dry wipers on a dusty windshield creates a muddy smear that makes visibility even worse and can scratch the glass. Driving at high speed hoping the wind will clean it is reckless and keeps you driving blind in the meantime.",
-    "explanation_es": "Un parabrisas sucio debe limpiarse con agua corriente y jabon antes de conducir. Usar los limpiabrisas en seco sobre un parabrisas polvoriento crea una mancha lodosa que empeora la visibilidad y puede rayar el vidrio. Conducir a alta velocidad esperando que el viento lo limpie es imprudente y lo mantiene conduciendo a ciegas mientras tanto.",
+    "explanation_es": "Un parabrisas sucio se debe limpiar con agua corriente y jabón antes de manejar. Usar los limpiabrisas en seco sobre un parabrisas polvoriento crea una mancha lodosa que empeora la visibilidad y puede rayar el vidrio. Manejar a alta velocidad esperando que el viento lo limpie es imprudente y te mantiene manejando a ciegas mientras tanto.",
     "vocabulary": [
       {
         "es": "parabrisas",
@@ -5694,7 +5694,7 @@
       }
     ],
     "explanation_en": "You must ALWAYS adjust your mirrors before driving, no matter how short the trip. Accidents can happen at any distance -- even within 1 km of your starting point. Properly adjusted mirrors eliminate blind spots and give you full awareness of your surroundings, which is essential for every single drive.",
-    "explanation_es": "Debe SIEMPRE ajustar sus espejos antes de conducir, sin importar que tan corto sea el trayecto. Los accidentes pueden ocurrir a cualquier distancia -- incluso dentro de 1 km de su punto de partida. Los espejos correctamente ajustados eliminan los puntos ciegos y le dan plena conciencia de su entorno, lo cual es esencial para cada viaje.",
+    "explanation_es": "Debes SIEMPRE ajustar tus espejos antes de manejar, sin importar qué tan corto sea el trayecto. Los accidentes pueden ocurrir a cualquier distancia -- incluso dentro de 1 km de tu punto de partida. Los espejos correctamente ajustados eliminan los puntos ciegos y te dan plena conciencia de tu entorno, lo cual es esencial para cada viaje.",
     "vocabulary": [
       {
         "es": "espejos retrovisores",
@@ -5749,7 +5749,7 @@
       }
     ],
     "explanation_en": "When your view of the traffic light is blocked, you must slow down and approach cautiously. Try to see the signal from a closer vantage point, and look both ways to check for cross traffic. Simply coasting through slowly is not enough -- you need to actively verify the signal state and check for hazards before proceeding.",
-    "explanation_es": "Cuando su vista del semaforo esta bloqueada, debe disminuir la velocidad y acercarse con precaucion. Intente ver la senal desde un punto mas cercano y mire a ambos lados para verificar el trafico transversal. Simplemente pasar lentamente no es suficiente -- necesita verificar activamente el estado de la senal y revisar si hay peligros antes de proceder.",
+    "explanation_es": "Cuando su vista del semáforo esta bloqueada, debes disminuir la velocidad y acercarse con precaución. Intente ver la señal desde un punto más cercano y mire a ambos lados para verificar el tráfico transversal. Simplemente pasar lentamente no es suficiente -- necesita verificar activamente el estado de la señal y revisar si hay peligros antes de proceder.",
     "vocabulary": [
       {
         "es": "semaforo obstruido",
@@ -5808,7 +5808,7 @@
       }
     ],
     "explanation_en": "Even under optimal weather conditions at night, it is extremely difficult to see pedestrians beyond 20 meters. Headlights have limited range and pedestrians in dark clothing are nearly invisible. This is why you must exercise extra caution in urban areas and anywhere pedestrians may be present, especially near crosswalks and bus stops.",
-    "explanation_es": "Incluso en condiciones optimas de clima durante la noche, es extremadamente dificil ver a los peatones a mas de 20 metros. Las luces delanteras tienen alcance limitado y los peatones con ropa oscura son casi invisibles. Por eso debe tener precaucion adicional en zonas urbanas y donde haya peatones presentes, especialmente cerca de cruces peatonales y paradas de autobus.",
+    "explanation_es": "Incluso en condiciones optimas de clima durante la noche, es extremadamente difícil ver a los peatones a más de 20 metros. Las luces delanteras tienen alcance limitado y los peatones con ropa oscura son casi invisibles. Por eso debes tener precaución adicional en zonas urbanas y donde haya peatones presentes, especialmente cerca de cruces peatonales y paradas de autobus.",
     "vocabulary": [
       {
         "es": "conducir de noche",
@@ -5867,7 +5867,7 @@
       }
     ],
     "explanation_en": "Wearing earphones while driving is dangerous for EVERYONE nearby -- not just the driver or just pedestrians. Earphones block critical auditory cues like horns, sirens, and the sounds of approaching vehicles. This impairs the driver's ability to react to emergencies, putting all surrounding road users at risk including passengers, pedestrians, cyclists, and other drivers.",
-    "explanation_es": "Usar audifonos mientras conduce es peligroso para TODOS los que estan cerca -- no solo para el conductor o solo para los peatones. Los audifonos bloquean senales auditivas criticas como bocinas, sirenas y los sonidos de vehiculos que se aproximan. Esto deteriora la capacidad del conductor para reaccionar ante emergencias, poniendo en riesgo a todos los usuarios de la via cercanos, incluyendo pasajeros, peatones, ciclistas y otros conductores.",
+    "explanation_es": "Usar audifonos mientras conduce es peligroso para TODOS los que están cerca -- no solo para el conductor o solo para los peatones. Los audifonos bloquean señales auditivas criticas como bocinas, sirenas y los sonidos de vehículos que se aproximan. Esto deteriora la capacidad del conductor para reaccionar ante emergencias, poniendo en riesgo a todos los usuarios de la via cercanos, incluyendo pasajeros, peatones, ciclistas y otros conductores.",
     "vocabulary": [
       {
         "es": "audifonos",
