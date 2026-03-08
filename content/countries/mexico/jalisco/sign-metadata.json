@@ -194,12 +194,12 @@
     "id": "SP-30",
     "signFile": "signs/SP-30.png",
     "questionId": null,
-    "nameEs": "Cruce de ganado",
-    "nameEn": "Cattle crossing",
+    "nameEs": "Derrumbes",
+    "nameEn": "Falling rocks",
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "Livestock may cross the road in this area. Common on rural Mexican highways."
+    "description": "Danger of falling rocks ahead. Drive cautiously and watch for rocks or debris on the roadway. Common on mountain highways and roads cut through hillsides."
   },
   {
     "id": "SP-33",

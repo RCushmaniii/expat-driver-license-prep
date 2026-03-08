@@ -91,11 +91,11 @@
     "examRelevant": false
   },
   "SP-30": {
-    "nameEs": "",
-    "nameEn": "",
-    "descriptionEn": "",
-    "descriptionEs": "",
-    "examRelevant": false
+    "nameEs": "Derrumbes",
+    "nameEn": "Falling rocks",
+    "descriptionEn": "Danger of falling rocks ahead. Drive cautiously and watch for rocks or debris on the roadway. Common on mountain highways and roads cut through hillsides in Jalisco.",
+    "descriptionEs": "Peligro de derrumbes adelante. Conduzca con precaución y esté atento a rocas o escombros en el camino. Común en carreteras de montaña y caminos cortados en laderas.",
+    "examRelevant": true
   },
   "SP-33": {
     "nameEs": "",
