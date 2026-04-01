@@ -3,7 +3,7 @@
 # PORTFOLIO.MD — ExpatDrive
 # =============================================================================
 portfolio_enabled: true
-portfolio_priority: 4
+portfolio_priority: 18
 portfolio_featured: false
 portfolio_last_reviewed: "2026-03-03"
 
