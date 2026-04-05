@@ -14,7 +14,7 @@
     "@astrojs/react": "^4.2.0",
     "@astrojs/sitemap": "^3.3.0",
     "@astrojs/vercel": "^8.1.0",
-    "astro": "^5.5.0",
+    "astro": "^5.18.1",
     "marked": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
