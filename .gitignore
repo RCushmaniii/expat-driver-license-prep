@@ -41,3 +41,4 @@ source/
 *.tsbuildinfo
 .vercel
 .turbo
+.env*.local

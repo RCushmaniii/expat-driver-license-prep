@@ -1,7 +1,10 @@
 import type { APIRoute } from "astro";
 import Anthropic from "@anthropic-ai/sdk";
+import { createLogger } from "@lib/logger";
 
 export const prerender = false;
+
+const log = createLogger("/api/ai/explain");
 
 interface ExplainRequest {
   questionText: string;
@@ -14,6 +17,7 @@ interface ExplainRequest {
 export const POST: APIRoute = async ({ request }) => {
   const apiKey = import.meta.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
+    log.error("ANTHROPIC_API_KEY is not set");
     return new Response(
       JSON.stringify({ error: "AI features are not configured." }),
       { status: 503, headers: { "Content-Type": "application/json" } }
@@ -24,6 +28,7 @@ export const POST: APIRoute = async ({ request }) => {
   try {
     body = await request.json();
   } catch {
+    log.warn("Invalid request body");
     return new Response(
       JSON.stringify({ error: "Invalid request body." }),
       { status: 400, headers: { "Content-Type": "application/json" } }
@@ -60,12 +65,14 @@ Explain conversationally why the student's answer is wrong and why the correct a
 
     const text = message.content[0].type === "text" ? message.content[0].text : "";
 
+    log.info("Explanation generated", { questionId: body.userAnswer, tokensUsed: message.usage?.output_tokens });
+
     return new Response(
       JSON.stringify({ explanation: text }),
       { status: 200, headers: { "Content-Type": "application/json" } }
     );
   } catch (err) {
-    console.error("AI explain error:", err);
+    log.error("Claude API call failed", { error: err instanceof Error ? err.message : String(err) });
     return new Response(
       JSON.stringify({ error: "AI explanation temporarily unavailable." }),
       { status: 500, headers: { "Content-Type": "application/json" } }
