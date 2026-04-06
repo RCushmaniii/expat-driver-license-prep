@@ -18,5 +18,7 @@ jobs:
         with:
           node-version: 22
       - run: pnpm install --frozen-lockfile
+      - name: Test
+        run: pnpm test
       - name: Build
         run: pnpm build
