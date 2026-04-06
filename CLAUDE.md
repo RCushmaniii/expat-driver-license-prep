@@ -6,10 +6,12 @@ ExpatDrive is a bilingual study companion for English-speaking expats preparing 
 
 ## Tech Stack
 
-- Astro (static site framework with islands architecture)
-- React (interactive components — quiz, flashcards, progress tracking)
-- TypeScript
-- Tailwind CSS
+- Astro 6 (static site framework with islands architecture)
+- React 19 (interactive components — quiz, flashcards, progress tracking)
+- TypeScript 5.9
+- Tailwind CSS 4
+- Vitest (testing — 54 tests covering core business logic)
+- Sentry (error monitoring via @sentry/astro)
 - SM-2 spaced repetition algorithm (client-side)
 - Claude API (Haiku) for AI study coaching (readiness analysis, question explanations)
 - localStorage (Phase 1 persistence) → Supabase (Phase 2)
@@ -51,6 +53,15 @@ pnpm install
 
 # Run development server
 pnpm dev
+
+# Run tests
+pnpm test
+
+# Run tests in watch mode
+pnpm test:watch
+
+# Type check Astro components
+pnpm check
 
 # Build for production
 pnpm build
@@ -98,7 +109,7 @@ Region metadata in `meta.json` captures exam parameters (questions per exam, pas
 
 ## Current Focus
 
-Sprint 3 complete — Self-hosted fonts, new favicon/OG image, BreadcrumbList JSON-LD, 15 road sign SVGs, insurance + rental guides, and Claude AI integration all deployed. Next: QA, PWA offline mode.
+Sprint 4 complete — Astro 6 upgrade, Vitest testing infrastructure (54 tests), Sentry error monitoring, all dependencies upgraded, CI pipeline updated (Node 22, tests + build). Next: PWA offline mode, env validation, security headers audit.
 
 ## Reference Links
 
