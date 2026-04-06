@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import type { VocabTerm } from "@lib/types";
-import { saveVocabProgress, getVocabProgress } from "@lib/progress-store";
+import { saveVocabProgress } from "@lib/progress-store";
 import { usePronounce } from "@lib/use-pronounce";
 import SpeakerButton from "./SpeakerButton";
 
@@ -55,7 +55,6 @@ export default function VocabDrill() {
   const generateMCOptions = (terms: VocabTerm[], idx: number, mode: DrillMode) => {
     if (mode !== "multiple-choice" || terms.length === 0) return;
     const current = terms[idx];
-    const isEsToEn = true; // MC always shows ES prompt, pick EN answer
     const correctAnswer = current.term_en;
     const others = terms
       .filter((t) => t.term_es !== current.term_es)
@@ -123,7 +122,6 @@ export default function VocabDrill() {
   }
 
   if (state === "ready") {
-    const categories = [...new Set(vocab.map((v) => v.category))];
     return (
       <div className="card text-center py-10">
         <h2 className="text-2xl font-bold text-navy mb-2">Vocabulary Drill</h2>

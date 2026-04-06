@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import type { DisplayMode } from "@lib/types";
 
 interface Props {

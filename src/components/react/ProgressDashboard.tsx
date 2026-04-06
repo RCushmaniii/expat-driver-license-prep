@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import type { StudyProgress, ExamAttempt, Question } from "@lib/types";
+import type { StudyProgress, ExamAttempt } from "@lib/types";
 import { getProgress, getStats, clearProgress } from "@lib/progress-store";
 import { loadQuestions } from "@lib/question-bank";
 import { computeReadiness } from "@lib/readiness";
@@ -7,7 +7,6 @@ import type { ReadinessAssessment, ConfidenceLevel } from "@lib/readiness";
 
 export default function ProgressDashboard() {
   const [progress, setProgress] = useState<StudyProgress | null>(null);
-  const [questions, setQuestions] = useState<Question[]>([]);
   const [totalVocab, setTotalVocab] = useState(0);
   const [readiness, setReadiness] = useState<ReadinessAssessment | null>(null);
   const [showClearConfirm, setShowClearConfirm] = useState(false);
@@ -27,7 +26,6 @@ export default function ProgressDashboard() {
         .then((data: unknown[]) => data.length)
         .catch(() => 0),
     ]).then(([qs, vocabCount]) => {
-      setQuestions(qs);
       setTotalVocab(vocabCount);
       setReadiness(computeReadiness(prog, qs, vocabCount));
     });
@@ -293,7 +291,7 @@ function ReadinessCard({
   aiError: string | null;
   onRequestAi: () => void;
 }) {
-  const { overallScore, confidenceLevel, confidenceLabel, confidenceDetail, factors, weakestCategory, recommendation } =
+  const { overallScore, confidenceLevel, confidenceLabel, confidenceDetail, factors, recommendation } =
     assessment;
 
   const ringColor = levelColor(confidenceLevel);

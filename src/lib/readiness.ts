@@ -2,7 +2,6 @@ import type {
   Question,
   QuestionCategory,
   StudyProgress,
-  SRCard,
 } from "./types";
 import { categoryDisplayName } from "./question-bank";
 

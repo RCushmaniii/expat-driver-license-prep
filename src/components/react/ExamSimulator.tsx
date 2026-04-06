@@ -43,7 +43,7 @@ export default function ExamSimulator({
         setAllQuestions(q);
         setLoading(false);
       })
-      .catch((e) => {
+      .catch(() => {
         setError("Failed to load questions. Please refresh the page.");
         setLoading(false);
       });

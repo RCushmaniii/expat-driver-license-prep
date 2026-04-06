@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import type { SignMetadata, NomSignCategory, Question } from "@lib/types";
-import { loadSignMetadata, filterSignsByCategory, signCategoryInfo, signCategoryOrder } from "@lib/sign-data";
+import { loadSignMetadata, signCategoryInfo, signCategoryOrder } from "@lib/sign-data";
 import { loadQuestions } from "@lib/question-bank";
 import { usePronounce } from "@lib/use-pronounce";
 import SpeakerButton from "./SpeakerButton";

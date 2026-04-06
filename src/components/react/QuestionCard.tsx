@@ -46,7 +46,6 @@ export default function QuestionCard({
   questionNumber,
   totalQuestions,
 }: Props) {
-  const correctKey = question.options.find((o) => o.is_correct)?.key;
   const { speak, isSpeaking, isSupported } = usePronounce();
 
   return (
