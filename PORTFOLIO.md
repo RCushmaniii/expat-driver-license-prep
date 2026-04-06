@@ -5,7 +5,7 @@
 portfolio_enabled: true
 portfolio_priority: 18
 portfolio_featured: false
-portfolio_last_reviewed: "2026-03-03"
+portfolio_last_reviewed: "2026-04-06"
 
 title: "ExpatDrive — Bilingual Driver's License Exam Prep"
 tagline: "Pass your driver's license exam in any country — even if you don't speak the language yet."
@@ -77,29 +77,16 @@ tech_stack:
 complexity: "MVP"
 
 # === REPO HEALTH STATUS ===
-# Last audited: 2026-04-05
+# Last audited: 2026-04-06
 # Standards defined in: operating-system/delivery/repo-health-baseline.md
 health_status:
-  sentry: "-"
-  testing: "-"
-  ci_cd: "Y"
-  health_endpoint: "n/a"
-  security_headers: "Y"
-  rate_limiting: "n/a"
-  env_validation: "-"
-  analytics: "DEFERRED"
-  structured_logging: "-"
-  dependabot: "Y"
-  secret_scanning: "Y"
-  db_backup: "-"
-health_status:
-  sentry: "-"
-  testing: "-"
+  sentry: "Y"
+  testing: "Y"
   ci_cd: "Y"
   health_endpoint: "n/a"
   security_headers: "-"
   rate_limiting: "n/a"
-  env_validation: "n/a"
+  env_validation: "-"
   analytics: "DEFERRED"
   structured_logging: "-"
   dependabot: "Y"
