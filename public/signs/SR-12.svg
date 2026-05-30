@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="480" height="480" rx="30" ry="30" fill="#ffffff" stroke="#000" stroke-width="12"/>
+  <circle cx="250" cy="250" r="192" fill="#0055aa" stroke="none"/>
+  <circle cx="250" cy="250" r="158" fill="#ffffff" stroke="none"/>
+  <!-- Turn-left arrow: up then left -->
+  <path d="M268 360 L268 250 L196 250" fill="none" stroke="#000" stroke-width="34" stroke-linecap="butt" stroke-linejoin="miter"/>
+  <!-- Arrowhead pointing left -->
+  <polygon points="205,205 205,295 135,250" fill="#000"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Driver hand signal: arm bent upward">
+  <rect x="4" y="4" width="232" height="232" rx="20" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+  <!-- Car door panel (driver side) -->
+  <rect x="168" y="60" width="80" height="146" rx="12" fill="#1F3A5F"/>
+  <rect x="180" y="78" width="60" height="60" rx="8" fill="#9CC3E6"/>
+  <!-- Sleeve at shoulder -->
+  <path d="M178 152 L150 152" stroke="#1F3A5F" stroke-width="30" stroke-linecap="round"/>
+  <!-- Arm: out the window then bent straight up -->
+  <path d="M160 152 L112 152 L112 86" fill="none" stroke="#E0A977" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Hand -->
+  <circle cx="112" cy="80" r="15" fill="#E0A977"/>
+  <!-- Upward emphasis chevron -->
+  <path d="M70 104 L82 92 L94 104" fill="none" stroke="#1F3A5F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M70 126 L82 114 L94 126" fill="none" stroke="#1F3A5F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+</svg>
