@@ -8,7 +8,8 @@ let cachedQuestions: Question[] | null = null;
 export async function loadQuestions(): Promise<Question[]> {
   if (cachedQuestions) return cachedQuestions;
   const response = await fetch(DATA_PATH);
-  if (!response.ok) throw new Error(`Failed to load questions: ${response.status}`);
+  if (!response.ok)
+    throw new Error(`Failed to load questions: ${response.status}`);
   cachedQuestions = (await response.json()) as Question[];
   return cachedQuestions;
 }
@@ -23,15 +24,29 @@ function shuffle<T>(array: T[]): T[] {
   return arr;
 }
 
-/** Get a random exam of N questions */
+/**
+ * A sign-recognition question ("¿qué nos indica esta señal?") cannot be answered
+ * without its image. jalisco-059 references a sign but has no image, and its
+ * correct answer is unverified — three official Jalisco sources disagree
+ * (vuelta continua / codo inverso / entronque lateral) because the answer depends
+ * on the missing image. Exclude such questions from the exam until a verified
+ * image and answer are restored. See docs/SESSION_LOG.md (2026-05-30).
+ */
+function isAnswerable(q: Question): boolean {
+  const referencesShownSign =
+    /esta señal|este señalamiento|siguiente señal/i.test(q.question_original);
+  return !referencesShownSign || Boolean(q.has_image && q.image_ref);
+}
+
+/** Get a random exam of N questions (excludes unanswerable image-less sign questions) */
 export function generateExam(questions: Question[], count: number): Question[] {
-  return shuffle(questions).slice(0, count);
+  return shuffle(questions.filter(isAnswerable)).slice(0, count);
 }
 
 /** Filter questions by category */
 export function filterByCategory(
   questions: Question[],
-  category: QuestionCategory
+  category: QuestionCategory,
 ): Question[] {
   return questions.filter((q) => q.category === category);
 }
@@ -39,7 +54,7 @@ export function filterByCategory(
 /** Filter questions by difficulty */
 export function filterByDifficulty(
   questions: Question[],
-  difficulty: Question["difficulty"]
+  difficulty: Question["difficulty"],
 ): Question[] {
   return questions.filter((q) => q.difficulty === difficulty);
 }
@@ -58,15 +73,15 @@ export function categoryDisplayName(category: QuestionCategory): string {
     "driving-technique": "Driving Technique",
     "defensive-driving": "Defensive Driving",
     "right-of-way": "Right of Way",
-    "safety": "Safety",
+    safety: "Safety",
     "vehicle-maintenance": "Vehicle Maintenance",
     "sanctions-procedures": "Sanctions & Procedures",
     "speed-limits": "Speed Limits",
-    "environmental": "Environmental",
+    environmental: "Environmental",
     "pedestrians-cyclists": "Pedestrians & Cyclists",
     "pedestrian-safety": "Pedestrian Safety",
     "officer-signals": "Officer Signals",
-    "parking": "Parking",
+    parking: "Parking",
   };
   return names[category] || category;
 }
@@ -74,7 +89,7 @@ export function categoryDisplayName(category: QuestionCategory): string {
 /** Get a question by ID */
 export function getQuestionById(
   questions: Question[],
-  id: string
+  id: string,
 ): Question | undefined {
   return questions.find((q) => q.id === id);
 }
