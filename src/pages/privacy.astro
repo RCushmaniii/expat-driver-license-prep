@@ -8,14 +8,15 @@ import MainLayout from "@layouts/MainLayout.astro";
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <h1 class="text-3xl sm:text-4xl font-bold text-navy mb-6">Privacy Policy</h1>
-    <p class="text-sm text-text-muted mb-8">Last updated: March 3, 2026</p>
+    <p class="text-sm text-text-muted mb-8">Last updated: May 30, 2026</p>
 
     <div class="space-y-6 text-text-primary leading-relaxed">
       <h2 class="text-xl font-bold text-navy">Summary</h2>
       <p>
         ExpatDrive does not collect, store, or transmit any personal data. All study progress is stored
         locally in your browser using localStorage. We don't use cookies for tracking, don't require
-        accounts, and don't share data with third parties.
+        accounts, and don't sell or share your personal data. We do collect anonymous, aggregated usage
+        analytics (no cookies, no individual-user tracking) to understand which pages are most useful.
       </p>
 
       <h2 class="text-xl font-bold text-navy mt-8">What data is stored</h2>
@@ -34,9 +35,11 @@ import MainLayout from "@layouts/MainLayout.astro";
 
       <h2 class="text-xl font-bold text-navy mt-8">Analytics and tracking</h2>
       <p>
-        We do not use Google Analytics, Facebook Pixel, or any third-party tracking tools.
-        We may use privacy-respecting, cookie-free analytics in the future (such as Plausible or
-        Fathom), which do not track individual users.
+        We do not use Google Analytics, Facebook Pixel, or any tracking tool that profiles individual
+        users. We use Vercel Web Analytics, a privacy-respecting, cookie-free analytics service that
+        records anonymous, aggregated page views and visitor counts. It does not use cookies, does not
+        track you across sites, and does not build a profile of you as an individual. See
+        <a href="https://vercel.com/docs/analytics/privacy-policy" class="text-navy-light underline hover:text-navy" target="_blank" rel="noopener noreferrer">Vercel Web Analytics privacy</a>.
       </p>
 
       <h2 class="text-xl font-bold text-navy mt-8">Third-party services</h2>
@@ -44,8 +47,8 @@ import MainLayout from "@layouts/MainLayout.astro";
         ExpatDrive uses the following third-party services:
       </p>
       <ul class="list-disc pl-6 space-y-2">
-        <li><strong>Google Fonts</strong> — to load the Inter typeface. Google may log font requests (IP address, user agent). See <a href="https://policies.google.com/privacy" class="text-navy-light underline hover:text-navy" target="_blank" rel="noopener noreferrer">Google's privacy policy</a>.</li>
         <li><strong>Vercel</strong> — for hosting. Vercel processes standard HTTP request data (IP address, user agent) as part of serving the website. See <a href="https://vercel.com/legal/privacy-policy" class="text-navy-light underline hover:text-navy" target="_blank" rel="noopener noreferrer">Vercel's privacy policy</a>.</li>
+        <li><strong>Vercel Web Analytics</strong> — for anonymous, aggregated usage statistics (page views, visitor counts). Cookie-free and does not track or profile individual users. See <a href="https://vercel.com/docs/analytics/privacy-policy" class="text-navy-light underline hover:text-navy" target="_blank" rel="noopener noreferrer">Vercel Web Analytics privacy</a>.</li>
       </ul>
 
       <h2 class="text-xl font-bold text-navy mt-8">Children's privacy</h2>
