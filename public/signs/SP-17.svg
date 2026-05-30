@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="_x30_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	   viewBox="0 0 48.633 48.634" style="enable-background:new 0 0 48.633 48.634;"
+	 width="48.633px" height="48.634px" viewBox="0 0 48.633 48.634" style="enable-background:new 0 0 48.633 48.634;"
 	 xml:space="preserve">
 <g id="HATCH">
 	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFF00;" d="M47.945,22.655L25.948,0.688c-0.916-0.917-2.404-0.917-3.322,0
@@ -19,7 +19,8 @@
 		c0.458,0.457,1.201,0.457,1.659,0l21.982-21.983C47.58,24.688,47.58,23.945,47.121,23.487z"/>
 </g>
 <g id="HATCH_2_">
-	<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M27.427,10.557h3.081v9.876l3.081,3.864V35.41h-3.081v-9.873l-3.081-3.867
-		V10.557L27.427,10.557z M21.267,10.557h-3.141v9.876l-3.08,3.864V35.41h3.08v-9.873l3.141-3.867V10.557L21.267,10.557z"/>
+	<polygon style="fill-rule:evenodd;clip-rule:evenodd;" points="26.992,39.36 20.802,39.36 20.802,17.304 17.375,20.76 
+		12.988,16.402 23.866,5.524 34.744,16.402 30.417,20.76 26.992,17.304 26.992,23.975 35.646,32.689 33.481,34.853 26.992,28.332 
+		26.992,39.36 	"/>
 </g>
 </svg>

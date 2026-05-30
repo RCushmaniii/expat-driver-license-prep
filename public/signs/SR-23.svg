@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="drawing.svg">
+   sodipodi:docname="Mexico_road_sign_SR-20.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.25"
-     inkscape:cx="2097.7362"
-     inkscape:cy="972.05507"
+     inkscape:cx="2016.407"
+     inkscape:cy="865.93231"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -101,21 +101,19 @@
        id="circle43"
        style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.67431927;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        r="200" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.42776728;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 197.5,-110.49995 145.1472,-1e-5 -40.71085,-40.71068 L 344.36271,-193.637 457.50003,-80.499725 344.3627,32.637055 301.93634,-9.7892952 342.647,-50.499635 257.5,-50.499875 V 129.5 h -60 z"
+       id="rect24"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc" />
     <rect
-       y="-29.989283"
-       x="199.85995"
-       height="480"
-       width="50"
-       id="rect854"
+       transform="rotate(-45)"
        style="opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.84623194;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="rotate(-45)" />
-    <rect
-       y="-464.85992"
-       x="185.01071"
-       height="480"
+       id="rect838"
        width="50"
-       id="rect867"
-       style="opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.84623194;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="rotate(45)" />
+       height="480"
+       x="199.85989"
+       y="-29.98929" />
   </g>
 </svg>
