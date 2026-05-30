@@ -8,7 +8,8 @@ let cachedSigns: SignMetadata[] | null = null;
 export async function loadSignMetadata(): Promise<SignMetadata[]> {
   if (cachedSigns) return cachedSigns;
   const response = await fetch(`${DATA_PATH}?v=${Date.now()}`);
-  if (!response.ok) throw new Error(`Failed to load sign metadata: ${response.status}`);
+  if (!response.ok)
+    throw new Error(`Failed to load sign metadata: ${response.status}`);
   cachedSigns = (await response.json()) as SignMetadata[];
   return cachedSigns;
 }
@@ -16,7 +17,7 @@ export async function loadSignMetadata(): Promise<SignMetadata[]> {
 /** Filter signs by NOM category */
 export function filterSignsByCategory(
   signs: SignMetadata[],
-  category: NomSignCategory
+  category: NomSignCategory,
 ): SignMetadata[] {
   return signs.filter((s) => s.nomCategory === category);
 }
@@ -24,47 +25,59 @@ export function filterSignsByCategory(
 /** Category display info for the guide section */
 export const signCategoryInfo: Record<
   NomSignCategory,
-  { name: string; nameEs: string; description: string; color: string; bgColor: string }
+  {
+    name: string;
+    nameEs: string;
+    description: string;
+    color: string;
+    bgColor: string;
+  }
 > = {
   restrictive: {
     name: "Restrictive / Regulatory",
     nameEs: "Restrictivas",
-    description: "Red circle — sets limits and requirements (height, width, yield, turn rules)",
+    description:
+      "Red circle — sets limits and requirements (height, width, yield, turn rules)",
     color: "text-error",
     bgColor: "bg-red-50",
   },
   prohibitive: {
     name: "Prohibitive",
     nameEs: "Prohibitivas",
-    description: "Red circle with diagonal bar — actions that are completely forbidden",
+    description:
+      "Red circle with diagonal bar — actions that are completely forbidden",
     color: "text-error",
     bgColor: "bg-red-50",
   },
   warning: {
     name: "Warning / Preventive",
     nameEs: "Preventivas",
-    description: "Yellow diamond — hazards ahead (curves, narrowing, crossroads)",
+    description:
+      "Yellow diamond — hazards ahead (curves, narrowing, crossroads)",
     color: "text-amber-600",
     bgColor: "bg-amber-50",
   },
   informational: {
     name: "Informational",
     nameEs: "Informativas",
-    description: "Blue or green rectangle — directions, distances, and clearance info",
+    description:
+      "Blue or green rectangle — directions, distances, and clearance info",
     color: "text-blue-600",
     bgColor: "bg-blue-50",
   },
   "officer-signals": {
     name: "Officer / Hand Signals",
     nameEs: "Señales del Agente",
-    description: "Hand and whistle signals used by traffic officers and drivers",
+    description:
+      "Hand and whistle signals used by traffic officers and drivers",
     color: "text-navy",
     bgColor: "bg-navy/5",
   },
   "construction-warning": {
     name: "Construction / Work Zone",
     nameEs: "Protección en Obras",
-    description: "Orange diamond — road construction and maintenance zones ahead",
+    description:
+      "Orange diamond — road construction and maintenance zones ahead",
     color: "text-orange-600",
     bgColor: "bg-orange-50",
   },
@@ -76,6 +89,5 @@ export const signCategoryOrder: NomSignCategory[] = [
   "prohibitive",
   "warning",
   "construction-warning",
-  "informational",
   "officer-signals",
 ];
