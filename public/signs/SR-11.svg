@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="Mexico_road_sign_SR-20.svg">
+   sodipodi:docname="9999988.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.25"
-     inkscape:cx="1736.0783"
-     inkscape:cy="923.49725"
+     inkscape:cx="2001.0841"
+     inkscape:cy="1300.3057"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,8 +35,7 @@
      inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:snap-global="false" />
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -77,7 +76,7 @@
        id="rect19"
        width="590"
        height="590"
-       x="12.5"
+       x="12.500031"
        y="-305.5"
        rx="30"
        ry="30" />
@@ -86,33 +85,27 @@
        id="rect21"
        width="570"
        height="570"
-       x="22.5"
+       x="22.500031"
        y="-295.5"
        rx="20"
        ry="20" />
     <circle
        style="opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.84289932;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path41"
-       cx="307.5"
+       cx="307.50003"
        cy="-10.5"
        r="250" />
     <circle
        cy="-10.5"
-       cx="307.5"
+       cx="307.50003"
        id="circle43"
        style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.67431927;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        r="200" />
     <path
-       sodipodi:nodetypes="cssccsscc"
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.25547957;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 347.49994,149.49984 -4e-5,-166.86309 44.85397,44.85375 56.56828,-56.56828 -141.42185,-141.42237 -141.42238,141.42238 56.56864,56.56863 44.85357,-44.8542 2.3e-4,166.86326 z"
+       id="rect25"
        inkscape:connector-curvature="0"
-       id="path45"
-       d="M 217.5,149.5 V 49.499971 c 0,-83.1 66.90013,-150.000101 150.00013,-150.000101 h 53.5523 v 50.000001 h -53.5523 c -55.4,0 -100.00009,44.6001002 -100.00009,100.0001 V 149.5 Z"
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.62728357;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       sodipodi:nodetypes="cccccccc"
-       inkscape:connector-curvature="0"
-       id="path96"
-       d="m 371.78863,-100.49963 -31.5686,-31.5686 35.3554,-35.3555 91.92407,91.924101 -91.92407,91.9236 -35.3554,-35.3549 31.5686,-31.5686 z"
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.05289745;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       sodipodi:nodetypes="cccccccccc" />
   </g>
 </svg>

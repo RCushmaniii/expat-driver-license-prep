@@ -106,13 +106,13 @@
        sodipodi:nodetypes="cssccsscc"
        inkscape:connector-curvature="0"
        id="path45"
-       d="M 217.5,149.5 V 49.499971 c 0,-83.1 66.90013,-150.000101 150.00013,-150.000101 h 53.5523 v 50.000001 h -53.5523 c -55.4,0 -100.00009,44.6001002 -100.00009,100.0001 V 149.5 Z"
+       d="M 397.5,149.5 V 49.499971 c 0,-83.1 -66.90013,-150.000101 -150.00013,-150.000101 h -53.5523 v 50.000001 h 53.5523 c 55.4,0 100.00009,44.6001002 100.00009,100.0001 V 149.5 Z"
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.62728357;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
        id="path96"
-       d="m 371.78863,-100.49963 -31.5686,-31.5686 35.3554,-35.3555 91.92407,91.924101 -91.92407,91.9236 -35.3554,-35.3549 31.5686,-31.5686 z"
+       d="m 243.21137,-100.49963 31.5686,-31.5686 -35.3554,-35.3555 -91.92407,91.924101 91.92407,91.9236 35.3554,-35.3549 -31.5686,-31.5686 z"
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.05289745;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>

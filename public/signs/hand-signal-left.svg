@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Driver hand signal: arm extended straight out">
+  <rect x="4" y="4" width="232" height="232" rx="20" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+  <!-- Car door panel (driver side) -->
+  <rect x="168" y="34" width="80" height="172" rx="12" fill="#1F3A5F"/>
+  <rect x="180" y="52" width="60" height="66" rx="8" fill="#9CC3E6"/>
+  <!-- Sleeve at shoulder -->
+  <path d="M178 130 L150 130" stroke="#1F3A5F" stroke-width="30" stroke-linecap="round"/>
+  <!-- Arm: extended straight out horizontally -->
+  <path d="M160 130 L66 130" fill="none" stroke="#E0A977" stroke-width="22" stroke-linecap="round"/>
+  <!-- Hand -->
+  <circle cx="60" cy="130" r="15" fill="#E0A977"/>
+  <!-- Direction emphasis: pointing left -->
+  <path d="M52 168 L34 180 L52 192" fill="none" stroke="#1F3A5F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 180 L74 180" stroke="#1F3A5F" stroke-width="6" stroke-linecap="round"/>
+</svg>
