@@ -21,16 +21,18 @@ Entries are newest-first. Each entry documents one Claude Code working session.
 
 ### Immediate Next Steps
 
-- [ ] Native/local click-through of the live quiz on production to confirm in-browser rendering + behavior of all 14 sign questions.
-- [ ] Sanity-check the exam answer key in questions.json itself (images were matched TO the answers; answers taken as given).
+- [x] Live Playwright click-through on production: gallery 67/67 images load, quiz 14/14 render — clean.
+- [x] Answer-key audit of all 103: answers correct except jalisco-059. Fixed stale "15 signs" header copy (PR #30, merged 8e1404d).
+- [ ] Resolve jalisco-059 against the OFFICIAL Jalisco answer key, then restore it with verified image + answer and remove the generateExam exclusion.
 
 ### Technical Debt
 
 - The displayed sign `id` codes are now real SICT codes, but a future SICT manual edition could renumber a few; not exam-impacting.
+- jalisco-059 excluded from the practice exam via a `generateExam` filter (src/lib/question-bank.ts) — temporary until its image/answer is verified.
 
 ### Open Questions / Blockers
 
-- None.
+- **jalisco-059 answer is unverifiable from public sources.** No image, and three Jalisco sources give three different answers for the same options (app: "Vuelta continua a la derecha"; licencia-conducir.com: "Codo inverso"; escuelasdemanejovertiz.com Gobierno-de-Jalisco PDF: "Entronque lateral derecho") because the answer depends on the missing image. Needs official answer key. Likely the app's answer is wrong (image probably a "codo inverso") — ~70% confidence, not changed on a guess.
 
 ---
 
