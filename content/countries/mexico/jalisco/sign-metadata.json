@@ -451,13 +451,14 @@
   {
     "id": "SP-19",
     "signFile": "signs/SP-19.svg",
-    "questionId": null,
+    "questionId": "jalisco-071",
     "nameEs": "Salida",
     "nameEn": "Exit ahead",
     "nomCategory": "warning",
     "shape": "diamond",
     "primaryColor": "yellow",
-    "description": "An exit or off-ramp ahead in the direction shown."
+    "description": "An exit or off-ramp ahead in the direction shown.",
+    "examSign": true
   },
   {
     "id": "SP-20",
@@ -503,6 +504,18 @@
     "shape": "diamond",
     "primaryColor": "yellow",
     "description": "The bridge ahead is narrower than the road. Watch for oncoming traffic.",
+    "examSign": true
+  },
+  {
+    "id": "SP-24",
+    "signFile": "signs/SP-24.svg",
+    "questionId": "jalisco-072",
+    "nameEs": "Anchura libre",
+    "nameEn": "Free width (clearance)",
+    "nomCategory": "warning",
+    "shape": "diamond",
+    "primaryColor": "yellow",
+    "description": "Indicates the available clearance width (in meters) of the road, bridge, or passage ahead.",
     "examSign": true
   },
   {
@@ -725,29 +738,5 @@
     "shape": "other",
     "primaryColor": "white",
     "description": "Driver hand signal: the left arm bent upward (L-shape) means a right turn."
-  },
-  {
-    "id": "jalisco-071",
-    "signFile": "signs/jalisco-071.svg",
-    "questionId": "jalisco-071",
-    "nameEs": "Salida",
-    "nameEn": "Exit",
-    "nomCategory": "informational",
-    "shape": "rectangle",
-    "primaryColor": "blue",
-    "description": "Highway exit or junction ahead. Prepare to change lanes if you are exiting.",
-    "examSign": true
-  },
-  {
-    "id": "jalisco-072",
-    "signFile": "signs/jalisco-072.svg",
-    "questionId": "jalisco-072",
-    "nameEs": "Ancho libre",
-    "nameEn": "Free width (clearance)",
-    "nomCategory": "informational",
-    "shape": "rectangle",
-    "primaryColor": "blue",
-    "description": "Indicates the available clearance width of a road, bridge, or tunnel.",
-    "examSign": true
   }
 ]
