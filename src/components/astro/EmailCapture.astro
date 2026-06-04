@@ -1,0 +1,101 @@
+---
+import Icon from "@components/astro/Icon.astro";
+---
+
+<div class="email-capture card max-w-xl mx-auto">
+  <div class="flex items-start gap-4">
+    <div class="w-10 h-10 rounded-lg bg-navy/5 flex items-center justify-center shrink-0">
+      <Icon name="bell" size="w-5 h-5" class="text-navy" />
+    </div>
+    <div class="flex-1">
+      <h3 class="font-bold text-navy">Don't see your region yet?</h3>
+      <p class="text-sm text-text-secondary mt-1 mb-4">
+        We're adding CDMX and Costa Rica next. Leave your email and we'll let you
+        know the moment your region goes live. No spam — one email, ever.
+      </p>
+
+      <form
+        class="waitlist-form"
+        action="https://formspree.io/f/mlgwnqky"
+        method="POST"
+      >
+        <input type="hidden" name="_subject" value="ExpatDrive — Region Waitlist Signup" />
+        <input type="hidden" name="form_type" value="region_waitlist" />
+
+        <div class="flex flex-col sm:flex-row gap-3">
+          <label class="sr-only" for="waitlist-email">Email</label>
+          <input
+            type="email"
+            id="waitlist-email"
+            name="email"
+            required
+            placeholder="you@example.com"
+            class="flex-1 rounded-lg border border-border px-4 py-3 text-text-primary bg-surface-white focus:border-navy focus:ring-1 focus:ring-navy outline-none transition-colors"
+          />
+          <label class="sr-only" for="waitlist-region">Region</label>
+          <select
+            id="waitlist-region"
+            name="region"
+            class="rounded-lg border border-border px-4 py-3 text-text-primary bg-surface-white focus:border-navy focus:ring-1 focus:ring-navy outline-none transition-colors"
+          >
+            <option value="CDMX, Mexico">CDMX, Mexico</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="Other">Other region</option>
+          </select>
+          <button type="submit" class="btn-primary whitespace-nowrap">
+            Notify Me
+          </button>
+        </div>
+      </form>
+
+      <!-- Success message (hidden by default) -->
+      <div class="waitlist-success hidden">
+        <p class="text-sm font-medium text-success flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+          </svg>
+          You're on the list — we'll email you when your region launches.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // AJAX submit with inline success state — one handler per component instance
+  document.querySelectorAll<HTMLElement>(".email-capture").forEach((root) => {
+    const form = root.querySelector<HTMLFormElement>(".waitlist-form");
+    const success = root.querySelector<HTMLDivElement>(".waitlist-success");
+    if (!form || !success) return;
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector<HTMLButtonElement>("button[type=submit]");
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Saving...";
+      }
+
+      try {
+        const res = await fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: { Accept: "application/json" },
+        });
+
+        if (res.ok) {
+          form.classList.add("hidden");
+          success.classList.remove("hidden");
+        } else {
+          throw new Error("submit failed");
+        }
+      } catch {
+        if (btn) {
+          btn.disabled = false;
+          btn.textContent = "Notify Me";
+        }
+        alert("Something went wrong — please try again or reach us via the contact page.");
+      }
+    });
+  });
+</script>

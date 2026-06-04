@@ -1,0 +1,50 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import ProcessGuide from "@components/astro/ProcessGuide.astro";
+import GuideCrossLinks from "@components/astro/GuideCrossLinks.astro";
+
+import processMarkdown from "../../../../../content/countries/mexico/jalisco/process.md?raw";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "How to Get a Driver's License in Jalisco, Mexico — Expat Guide",
+  description:
+    "Step-by-step guide for English-speaking expats getting a driver's license in Jalisco, Mexico: required documents, costs, the written exam, and the 2025 driving simulator test.",
+  inLanguage: "en",
+  author: {
+    "@type": "Organization",
+    name: "ExpatDrive",
+    url: "https://getexpatdrive.com",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "CushLabs AI Services",
+    url: "https://cushlabs.ai",
+  },
+  mainEntityOfPage: "https://getexpatdrive.com/countries/mexico/jalisco/process",
+};
+
+const breadcrumbs = [
+  { label: "Mexico", href: "#" },
+  { label: "Jalisco", href: "/countries/mexico/jalisco/" },
+  { label: "License Process" },
+];
+---
+
+<MainLayout
+  title="How to Get a Driver's License in Jalisco, Mexico — Expat Guide | ExpatDrive"
+  description="Step-by-step guide for expats getting a driver's license in Jalisco, Mexico: required documents (CURP, blood type certificate, proof of address), costs, the written exam, and the driving simulator test."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumb items={breadcrumbs} />
+
+    <div class="card">
+      <ProcessGuide markdown={processMarkdown} />
+    </div>
+
+    <GuideCrossLinks current="process" />
+  </div>
+</MainLayout>
