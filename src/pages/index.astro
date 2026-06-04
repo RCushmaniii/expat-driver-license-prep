@@ -3,6 +3,7 @@ import MainLayout from "@layouts/MainLayout.astro";
 import Hero from "@components/astro/Hero.astro";
 import FeatureCard from "@components/astro/FeatureCard.astro";
 import CountryCard from "@components/astro/CountryCard.astro";
+import EmailCapture from "@components/astro/EmailCapture.astro";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -102,6 +103,10 @@ const features = [
         questionCount={0}
         active={false}
       />
+    </div>
+
+    <div class="mt-8">
+      <EmailCapture />
     </div>
   </section>
 

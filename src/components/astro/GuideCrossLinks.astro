@@ -1,0 +1,68 @@
+---
+import Icon from "@components/astro/Icon.astro";
+
+interface Props {
+  /** Key of the guide being viewed — excluded from the related list */
+  current: "process" | "insurance" | "rental";
+}
+
+const { current } = Astro.props;
+
+const guides = [
+  {
+    key: "process",
+    icon: "map",
+    title: "License Process Guide",
+    description: "Documents, costs, and step-by-step instructions for exam day.",
+    href: "/countries/mexico/jalisco/process",
+  },
+  {
+    key: "insurance",
+    icon: "shield",
+    title: "Auto Insurance Guide",
+    description: "Mandatory coverage, policy types, and what to do after an accident.",
+    href: "/countries/mexico/jalisco/insurance",
+  },
+  {
+    key: "rental",
+    icon: "key",
+    title: "Car Rental Guide",
+    description: "Renting as a foreigner — insurance types, deposits, and pitfalls.",
+    href: "/countries/mexico/jalisco/rental",
+  },
+];
+
+const related = guides.filter((g) => g.key !== current);
+---
+
+<div class="mt-10">
+  <h2 class="text-xl font-bold text-navy mb-4">Keep reading</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+    {related.map((g) => (
+      <a
+        href={g.href}
+        class="card hover:border-navy hover:shadow-md transition-all group"
+      >
+        <div class="mb-2 inline-flex items-center justify-center w-10 h-10 rounded-lg bg-navy/5 group-hover:bg-navy/10 transition-colors">
+          <Icon name={g.icon} size="w-5 h-5" class="text-navy" />
+        </div>
+        <h3 class="font-semibold text-navy group-hover:text-navy-light">{g.title}</h3>
+        <p class="text-sm text-text-muted mt-1">{g.description}</p>
+      </a>
+    ))}
+  </div>
+
+  <!-- Exam CTA -->
+  <div class="card bg-navy text-white text-center py-8">
+    <h2 class="text-xl sm:text-2xl font-bold mb-2">Ready to study for the written exam?</h2>
+    <p class="text-white/80 mb-6 max-w-xl mx-auto">
+      Practice with all 103 official Jalisco questions — bilingual translations, explanations, and spaced repetition flashcards. Free.
+    </p>
+    <a
+      href="/countries/mexico/jalisco/exam"
+      class="inline-flex items-center justify-center rounded-lg bg-white text-navy font-semibold px-6 py-3 hover:bg-surface hover:shadow-lg transition-all duration-200 touch-target"
+    >
+      Take a Practice Exam
+    </a>
+  </div>
+</div>

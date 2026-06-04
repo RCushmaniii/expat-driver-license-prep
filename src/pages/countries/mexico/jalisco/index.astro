@@ -3,16 +3,36 @@ import MainLayout from "@layouts/MainLayout.astro";
 import Breadcrumb from "@components/astro/Breadcrumb.astro";
 import ExamInfo from "@components/astro/ExamInfo.astro";
 import DocumentChecklist from "@components/astro/DocumentChecklist.astro";
-import ProcessGuide from "@components/astro/ProcessGuide.astro";
 import Icon from "@components/astro/Icon.astro";
 import type { RegionMeta } from "@lib/types";
 
 import meta from "../../../../../content/countries/mexico/jalisco/meta.json";
-import processMarkdown from "../../../../../content/countries/mexico/jalisco/process.md?raw";
-import insuranceMarkdown from "../../../../../content/countries/mexico/jalisco/insurance-guide.md?raw";
-import rentalMarkdown from "../../../../../content/countries/mexico/jalisco/rental-guide.md?raw";
 
 const regionMeta = meta as RegionMeta;
+
+const guides = [
+  {
+    icon: "map",
+    title: "License Process Guide",
+    description:
+      "Required documents, costs, what happens on exam day, and the 2025 driving simulator — step by step.",
+    href: "/countries/mexico/jalisco/process",
+  },
+  {
+    icon: "shield",
+    title: "Auto Insurance Guide",
+    description:
+      "Insurance is mandatory in Mexico — and your US/Canadian policy doesn't cover you. Coverage types, costs, and accident protocol.",
+    href: "/countries/mexico/jalisco/insurance",
+  },
+  {
+    icon: "key",
+    title: "Car Rental Guide",
+    description:
+      "Renting as a foreigner: CDW vs. SLI vs. PAI insurance, deposits, license requirements, and common pitfalls.",
+    href: "/countries/mexico/jalisco/rental",
+  },
+];
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -201,22 +221,30 @@ const breadcrumbs = [
       <DocumentChecklist documents={regionMeta.required_documents} />
     </div>
 
-    <!-- Process Guide -->
-    <div class="card mb-8">
-      <ProcessGuide markdown={processMarkdown} />
-    </div>
-
-    <!-- Insurance Guide -->
-    <div class="card mb-8">
-      <ProcessGuide markdown={insuranceMarkdown} />
-    </div>
-
-    <!-- Car Rental Guide -->
-    <div class="card">
-      <ProcessGuide markdown={rentalMarkdown} />
+    <!-- Guides -->
+    <div>
+      <h2 class="text-xl sm:text-2xl font-bold text-navy mb-4">Guides</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {guides.map((g) => (
+          <a
+            href={g.href}
+            class="card hover:border-navy hover:shadow-md transition-all group"
+          >
+            <div class="mb-2 inline-flex items-center justify-center w-10 h-10 rounded-lg bg-navy/5 group-hover:bg-navy/10 transition-colors">
+              <Icon name={g.icon} size="w-5 h-5" class="text-navy" />
+            </div>
+            <h3 class="font-semibold text-navy group-hover:text-navy-light">{g.title}</h3>
+            <p class="text-sm text-text-muted mt-1">{g.description}</p>
+            <span class="inline-flex items-center gap-1 text-sm font-medium text-navy-light mt-3 group-hover:text-navy">
+              Read the guide
+              <Icon name="chevron-right" size="w-4 h-4" />
+            </span>
+          </a>
+        ))}
+      </div>
     </div>
   </div>
 
   <!-- FAQPage JSON-LD for AI search -->
-  <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqLd)} />
 </MainLayout>

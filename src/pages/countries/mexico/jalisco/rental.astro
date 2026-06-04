@@ -1,0 +1,50 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import ProcessGuide from "@components/astro/ProcessGuide.astro";
+import GuideCrossLinks from "@components/astro/GuideCrossLinks.astro";
+
+import rentalMarkdown from "../../../../../content/countries/mexico/jalisco/rental-guide.md?raw";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Renting a Car in Jalisco, Mexico as a Foreigner",
+  description:
+    "Car rental guide for expats and visitors in Jalisco, Mexico: insurance types (CDW, SLI, PAI), deposits and credit card holds, license requirements, and common pitfalls.",
+  inLanguage: "en",
+  author: {
+    "@type": "Organization",
+    name: "ExpatDrive",
+    url: "https://getexpatdrive.com",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "CushLabs AI Services",
+    url: "https://cushlabs.ai",
+  },
+  mainEntityOfPage: "https://getexpatdrive.com/countries/mexico/jalisco/rental",
+};
+
+const breadcrumbs = [
+  { label: "Mexico", href: "#" },
+  { label: "Jalisco", href: "/countries/mexico/jalisco/" },
+  { label: "Car Rental" },
+];
+---
+
+<MainLayout
+  title="Renting a Car in Jalisco, Mexico as a Foreigner | ExpatDrive"
+  description="Everything foreigners need to rent a car in Jalisco, Mexico: which insurance to take (CDW, SLI, PAI), deposit and credit card requirements, whether your foreign license works, and rent-vs-buy math for expats."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumb items={breadcrumbs} />
+
+    <div class="card">
+      <ProcessGuide markdown={rentalMarkdown} />
+    </div>
+
+    <GuideCrossLinks current="rental" />
+  </div>
+</MainLayout>

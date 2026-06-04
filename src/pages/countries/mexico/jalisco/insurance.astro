@@ -1,0 +1,50 @@
+---
+import MainLayout from "@layouts/MainLayout.astro";
+import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import ProcessGuide from "@components/astro/ProcessGuide.astro";
+import GuideCrossLinks from "@components/astro/GuideCrossLinks.astro";
+
+import insuranceMarkdown from "../../../../../content/countries/mexico/jalisco/insurance-guide.md?raw";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Auto Insurance in Mexico for Expats — Jalisco Guide",
+  description:
+    "What expats need to know about car insurance in Jalisco, Mexico: mandatory liability coverage, why US/Canadian policies don't apply, coverage types, costs, and accident protocol.",
+  inLanguage: "en",
+  author: {
+    "@type": "Organization",
+    name: "ExpatDrive",
+    url: "https://getexpatdrive.com",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "CushLabs AI Services",
+    url: "https://cushlabs.ai",
+  },
+  mainEntityOfPage: "https://getexpatdrive.com/countries/mexico/jalisco/insurance",
+};
+
+const breadcrumbs = [
+  { label: "Mexico", href: "#" },
+  { label: "Jalisco", href: "/countries/mexico/jalisco/" },
+  { label: "Auto Insurance" },
+];
+---
+
+<MainLayout
+  title="Auto Insurance in Mexico for Expats — Jalisco Guide | ExpatDrive"
+  description="Car insurance is mandatory in Mexico — and your US or Canadian policy doesn't cover you. Coverage types, costs (liability from ~2,000 MXN/year), and exactly what to do after an accident in Jalisco."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <Breadcrumb items={breadcrumbs} />
+
+    <div class="card">
+      <ProcessGuide markdown={insuranceMarkdown} />
+    </div>
+
+    <GuideCrossLinks current="insurance" />
+  </div>
+</MainLayout>
