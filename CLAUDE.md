@@ -134,3 +134,10 @@ For local development with AI features, create `.env` from `.env.example`:
 ```
 ANTHROPIC_API_KEY=sk-ant-api03-your-key-here
 ```
+
+
+## Session Log
+
+A running log of all working sessions is maintained at `docs/SESSION_LOG.md`.
+Always append a new entry at the top of this file before closing a session.
+Use the `session-logger` skill to generate the entry.
