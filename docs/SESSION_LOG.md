@@ -4,6 +4,41 @@ Entries are newest-first. Each entry documents one Claude Code working session.
 
 ---
 
+## Session: 2026-06-04
+
+### Accomplished
+
+- Strategic review of repo (new four-layer `strategic-review` skill, created this session at ~/.claude/skills/strategic-review/); compared against Codex review of same repo, merged best findings.
+- PR #34: standalone SEO guide pages (/countries/mexico/jalisco/{process,insurance,rental}) + region waitlist EmailCapture on homepage (Formspree). Merged, verified live.
+- PR #35 (P0): Upstash sliding-window rate limiting (per-min + per-hour, per IP) + input bounds on all 3 paid routes (explain/readiness/synthesize). Fail-open until Upstash env vars exist. New @lib/server/{rate-limit,api-validation} + 15 tests (74 total). Verified 400s in prod.
+- PR #36: ContentProvenance trust signals (hub/exam/guides), README truth pass (env-vars falsehood, storage claim, region roadmap), CLAUDE.md updates, `pnpm check` added to CI gate.
+- PR #37: batched 7 stale Dependabot PRs into one deploy (marked 18 major verified, react 19.2.5, sentry 10.48, vitest 4.1.4, pnpm/action-setup v6); closed #19-24, #26. Dependabot alerts: 0 open.
+- docs/VENUE_POSTS.md: ready-to-paste distribution copy per venue (Chapala board, FB groups, Reddit ES/EN comments, MND/PVDN pitches, broken-link outreach).
+
+### Decisions Made
+
+- Rate limiter fails open (missing env vars or Redis outage → allow + warn): feature availability over strictness; lets code merge before Upstash is connected.
+- Dependency bumps batched, not merged per-PR: Vercel Hobby deploy quota (1 deploy vs 7).
+- Deferred: activation analytics events (Vercel custom events likely paid-tier — verify before building), programmatic sign SEO pages (next session), region data loader (trigger: CDMX content scheduled).
+
+### Immediate Next Steps
+
+- [ ] Robert: connect Upstash via Vercel marketplace (env vars auto-inject; limiter activates next deploy — spec provided in chat 2026-06-04).
+- [ ] Robert: post Tier 1 venues (Chapala webboard + 2 Lakeside FB groups) using docs/VENUE_POSTS.md.
+- [ ] Build programmatic road-sign SEO pages (67 indexable pages from sign-metadata.json).
+- [ ] Verify whether @vercel/analytics custom events work on Hobby; if not, decide on alternative before instrumenting activation.
+
+### Technical Debt
+
+- content/ vs public/data/ dual copies still hand-synced (fix-spanish.py double-writes); add validation/sync script before any new region content.
+- Mid-exam state not persisted (refresh loses a 20-question run) — ExamSimulator.tsx.
+
+### Open Questions / Blockers
+
+- jalisco-059 still unresolved (three official sources disagree; needs verified image + answer key) — now documented in CLAUDE.md Known Issues.
+
+---
+
 ## Session: 2026-05-30
 
 ### Accomplished
