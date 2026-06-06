@@ -17,15 +17,15 @@
     "@astrojs/react": "^5.0.3",
     "@astrojs/sitemap": "^3.7.2",
     "@astrojs/vercel": "^10.0.4",
-    "@sentry/astro": "^10.47.0",
-    "@sentry/node": "^10.47.0",
+    "@sentry/astro": "^10.56.0",
+    "@sentry/node": "^10.56.0",
     "@upstash/ratelimit": "^2.0.8",
     "@upstash/redis": "^1.38.0",
     "@vercel/analytics": "^2.0.1",
     "astro": "^6.1.10",
-    "marked": "^17.0.6",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "marked": "^18.0.5",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "pnpm": {
     "overrides": {
@@ -51,6 +51,6 @@
     "sharp": "^0.34.5",
     "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3",
-    "vitest": "^4.1.2"
+    "vitest": "^4.1.8"
   }
 }
