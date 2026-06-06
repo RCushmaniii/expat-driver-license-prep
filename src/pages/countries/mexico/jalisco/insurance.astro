@@ -1,6 +1,7 @@
 ---
 import MainLayout from "@layouts/MainLayout.astro";
 import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import ContentProvenance from "@components/astro/ContentProvenance.astro";
 import ProcessGuide from "@components/astro/ProcessGuide.astro";
 import GuideCrossLinks from "@components/astro/GuideCrossLinks.astro";
 
@@ -43,6 +44,15 @@ const breadcrumbs = [
 
     <div class="card">
       <ProcessGuide markdown={insuranceMarkdown} />
+    </div>
+
+    <div class="mt-6">
+      <ContentProvenance
+        label="Guide last reviewed"
+        date="2026-03-03"
+        sourceName="Secretaría de Transporte Jalisco"
+        sourceUrl="https://www.jalisco.gob.mx/es/gobierno/funcionarios/secretaria-de-transporte"
+      />
     </div>
 
     <GuideCrossLinks current="insurance" />

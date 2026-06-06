@@ -10,10 +10,11 @@ ExpatDrive is a bilingual study companion for English-speaking expats preparing 
 - React 19 (interactive components — quiz, flashcards, progress tracking)
 - TypeScript 5.9
 - Tailwind CSS 4
-- Vitest (testing — 54 tests covering core business logic)
+- Vitest (testing — 74 tests covering core business logic and API input validation)
 - Sentry (error monitoring via @sentry/astro)
 - SM-2 spaced repetition algorithm (client-side)
 - Claude API (Haiku) for AI study coaching (readiness analysis, question explanations)
+- Upstash Redis rate limiting on all paid API routes (sliding window, fail-open)
 - localStorage (Phase 1 persistence) → Supabase (Phase 2)
 - Vercel (deployment — static output with server-rendered API routes via @astrojs/vercel adapter)
 
@@ -25,7 +26,8 @@ expatdrive/
 │   ├── layouts/              # Astro layouts
 │   ├── pages/                # Astro pages (country/region routing)
 │   │   ├── countries/mexico/jalisco/
-│   │   └── api/ai/           # Server-rendered API routes (readiness, explain)
+│   │   ├── api/ai/           # Server-rendered API routes (readiness, explain)
+│   │   └── api/tts/          # Azure Neural TTS proxy (synthesize)
 │   ├── components/
 │   │   ├── astro/            # Static Astro components
 │   │   └── react/            # Interactive React islands
@@ -109,7 +111,7 @@ Region metadata in `meta.json` captures exam parameters (questions per exam, pas
 
 ## Current Focus
 
-Sprint 4 complete — Astro 6 upgrade, Vitest testing infrastructure (54 tests), Sentry error monitoring, all dependencies upgraded, CI pipeline updated (Node 22, tests + build). Next: PWA offline mode, env validation, security headers audit.
+Sprint 5 complete — standalone SEO guide pages (process/insurance/rental), region waitlist email capture, rate limiting + input bounds on all paid API routes (74 tests), content provenance lines on study pages, docs truth pass. Next: distribution posts (venues list in docs/DISTRIBUTION_VENUES.md), programmatic road-sign SEO pages, PWA offline mode.
 
 ## Reference Links
 
@@ -118,6 +120,8 @@ Sprint 4 complete — Astro 6 upgrade, Vitest testing infrastructure (54 tests),
 - **Wikimedia categories**: `Category:SVG_regulatory_road_signs_of_Mexico` (SR), `Category:SVG_warning_road_signs_of_Mexico` (SP)
 
 ## Known Issues
+
+- jalisco-059 is excluded from exams (question-bank.ts isAnswerable): it references a sign image that is missing, and three official sources disagree on the answer. Unresolved until a verified image + answer key is found. See docs/SESSION_LOG.md (2026-05-30).
 
 - Vercel production branch is `main`
 - Local `pnpm build` may fail on Windows at Vercel adapter symlink step (EPERM) — this is a Windows+pnpm issue only; Vercel CI builds successfully on Linux
@@ -128,6 +132,8 @@ Sprint 4 complete — Astro 6 upgrade, Vitest testing infrastructure (54 tests),
 Required environment variables (set in Vercel dashboard):
 
 - `ANTHROPIC_API_KEY` — Claude API key for AI study features (set in production + preview)
+- `AZURE_TTS_KEY` / `AZURE_TTS_REGION` — Azure Neural TTS for pronunciation audio
+- `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` — rate limiting (auto-injected by the Vercel Upstash integration; limiter fails open if absent)
 
 For local development with AI features, create `.env` from `.env.example`:
 

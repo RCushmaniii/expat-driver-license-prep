@@ -6,7 +6,7 @@
   "region_name": "Jalisco",
   "language": "es",
   "language_name": "Spanish",
-  "flag_emoji": "\ud83c\uddf2\ud83c\uddfd",
+  "flag_emoji": "🇲🇽",
   "exam_format": {
     "total_questions_in_bank": 103,
     "questions_per_exam": 20,
@@ -66,6 +66,6 @@
   ],
   "official_source_url": "https://www.jalisco.gob.mx/es/gobierno/funcionarios/secretaria-de-transporte",
   "appointment_url": "https://www.jalisco.gob.mx/es/tramites/18166",
-  "last_content_update": "2026-03-03",
-  "content_version": "1.0.0"
+  "last_content_update": "2026-05-30",
+  "content_version": "1.1.0"
 }

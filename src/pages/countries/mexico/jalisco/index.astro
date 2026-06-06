@@ -1,6 +1,7 @@
 ---
 import MainLayout from "@layouts/MainLayout.astro";
 import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import ContentProvenance from "@components/astro/ContentProvenance.astro";
 import ExamInfo from "@components/astro/ExamInfo.astro";
 import DocumentChecklist from "@components/astro/DocumentChecklist.astro";
 import Icon from "@components/astro/Icon.astro";
@@ -165,6 +166,15 @@ const breadcrumbs = [
           Everything you need to know to get your license in Jalisco, Mexico
         </p>
       </div>
+    </div>
+
+    <div class="mb-8 -mt-4">
+      <ContentProvenance
+        label="All 103 questions audited against official answer keys"
+        date={regionMeta.last_content_update}
+        sourceName="Secretaría de Transporte Jalisco"
+        sourceUrl={regionMeta.official_source_url}
+      />
     </div>
 
     <!-- Study CTAs -->

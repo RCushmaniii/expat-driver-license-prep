@@ -1,0 +1,46 @@
+---
+import Icon from "@components/astro/Icon.astro";
+
+interface Props {
+  /** What was verified/reviewed, e.g. "Question bank verified against the official 103-question bank" */
+  label: string;
+  /** ISO date of last verification/review, e.g. "2026-05-30" */
+  date: string;
+  sourceName?: string;
+  sourceUrl?: string;
+}
+
+const { label, date, sourceName, sourceUrl } = Astro.props;
+
+const formatted = new Date(`${date}T12:00:00`).toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+---
+
+<div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-text-muted">
+  <Icon name="shield" size="w-3.5 h-3.5" class="text-navy/60 shrink-0" />
+  <span>{label} — <time datetime={date}>{formatted}</time></span>
+  {
+    sourceName && sourceUrl && (
+      <span>
+        · Source:{" "}
+        <a
+          href={sourceUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="underline underline-offset-2 hover:text-navy"
+        >
+          {sourceName}
+        </a>
+      </span>
+    )
+  }
+  <span>
+    · Noticed a change?{" "}
+    <a href="/contact" class="underline underline-offset-2 hover:text-navy">
+      Report it
+    </a>
+  </span>
+</div>
