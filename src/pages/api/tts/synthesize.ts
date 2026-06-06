@@ -1,5 +1,6 @@
 import type { APIRoute } from "astro";
 import { createLogger } from "@lib/logger";
+import { enforceRateLimit } from "@lib/server/rate-limit";
 
 export const prerender = false;
 
@@ -70,6 +71,14 @@ export const OPTIONS: APIRoute = ({ request }) =>
   });
 
 export const POST: APIRoute = async ({ request }) => {
+  // Generous limits — the speaker button fires per vocabulary word during
+  // normal study — but bounded so a script can't loop the Azure spend.
+  const limited = await enforceRateLimit(request, "tts", {
+    perMinute: 30,
+    perHour: 300,
+  });
+  if (limited) return limited;
+
   const origin = request.headers.get("origin") || "";
   const baseHeaders = corsHeaders(origin);
   const json = (body: unknown, status: number) =>
