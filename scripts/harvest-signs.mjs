@@ -17,7 +17,7 @@
  *   content/.../signs-content.json              # Content stubs (editable, never overwritten)
  */
 
-import { writeFile, mkdir, readFile, access, stat } from "fs/promises";
+import { writeFile, mkdir, readFile, stat } from "fs/promises";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 

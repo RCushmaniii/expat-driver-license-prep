@@ -1,6 +1,7 @@
 ---
 import MainLayout from "@layouts/MainLayout.astro";
 import Breadcrumb from "@components/astro/Breadcrumb.astro";
+import ContentProvenance from "@components/astro/ContentProvenance.astro";
 import ExamSimulator from "@components/react/ExamSimulator";
 import type { RegionMeta } from "@lib/types";
 
@@ -33,6 +34,15 @@ const breadcrumbs = [
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <Breadcrumb items={breadcrumbs} />
+
+    <div class="mb-6">
+      <ContentProvenance
+        label="Question bank audited against official answer keys"
+        date={regionMeta.last_content_update}
+        sourceName="Secretaría de Transporte Jalisco"
+        sourceUrl={regionMeta.official_source_url}
+      />
+    </div>
 
     <ExamSimulator
       client:load

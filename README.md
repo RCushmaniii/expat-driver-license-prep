@@ -44,7 +44,8 @@ The multi-region content architecture means adding a new country or state is a c
 - **SM-2 spaced repetition** — Modified SuperMemo 2 algorithm with a simplified 3-tier rating system, running entirely client-side with localStorage persistence
 - **Content-as-data pattern** — Question banks, vocabulary, and region metadata stored as typed JSON files, enabling content scaling without code changes
 - **Bilingual-first design** — Every content interface supports toggling between original language and English translation, with distinct visual treatment for each language
-- **Progressive architecture** — Phase 1 runs fully static with localStorage; the storage layer abstracts behind an interface for Phase 2 migration to Supabase with auth and cross-device sync
+- **Progressive architecture** — study progress lives in localStorage, with all storage access contained in a single module (`progress-store.ts`) so the Phase 2 migration to Supabase (auth + cross-device sync) stays localized
+- **Protected AI endpoints** — server routes for AI coaching (Claude) and pronunciation audio (Azure Neural TTS) with input validation and Upstash sliding-window rate limiting
 
 ## Live Demo
 
@@ -53,13 +54,14 @@ The multi-region content architecture means adding a new country or state is a c
 - Take a [practice exam](https://getexpatdrive.com/countries/mexico/jalisco/exam) with 20 randomized questions
 - Study with [spaced repetition flashcards](https://getexpatdrive.com/countries/mexico/jalisco/study) that adapt to your knowledge
 - Drill [driving vocabulary](https://getexpatdrive.com/countries/mexico/jalisco/vocabulary) in Spanish and English
+- Read the guides: [license process](https://getexpatdrive.com/countries/mexico/jalisco/process), [auto insurance](https://getexpatdrive.com/countries/mexico/jalisco/insurance), [car rental](https://getexpatdrive.com/countries/mexico/jalisco/rental)
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js >= 18
-- pnpm >= 8
+- Node.js >= 20 (CI runs Node 22)
+- pnpm >= 10
 
 ### Installation
 
@@ -74,9 +76,15 @@ The development server starts at `http://localhost:4321`.
 
 ### Environment Variables
 
-No environment variables required for Phase 1. The app runs entirely client-side with localStorage.
+The core study features (exam, flashcards, vocabulary, signs, progress) run client-side with localStorage and need no environment variables. The AI and audio features use server routes that require keys (see `.env.example`):
 
-Phase 2 will require Supabase credentials (documented when that migration happens).
+| Variable                                              | Feature                                                       |
+| ----------------------------------------------------- | ------------------------------------------------------------- |
+| `ANTHROPIC_API_KEY`                                   | AI study coaching (readiness analysis, question explanations) |
+| `AZURE_TTS_KEY` / `AZURE_TTS_REGION`                  | Pronunciation audio (Azure Neural TTS)                        |
+| `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` | API rate limiting (fail-open if unset)                        |
+
+Without keys, those features degrade gracefully — the rest of the app works normally. Phase 2 will add Supabase credentials (documented when that migration happens).
 
 ## Project Structure
 
@@ -98,13 +106,15 @@ Phase 2 will require Supabase credentials (documented when that migration happen
 ## Results
 
 **Phase 1 Target (Personal Use):**
+
 - All 103 Jalisco questions translated, explained, and verified by bilingual review
 - Consistent 18+/20 scores on practice exams
 - Pass the actual Jalisco driving exam on first attempt
 
 **Phase 2 Target (Public Launch):**
+
 - 500 unique visitors/month within 3 months of launch
-- Content coverage for 3+ Mexican states (CDMX, Nuevo Leon, Quintana Roo)
+- Expansion to the next regions: CDMX, then Costa Rica (waitlist live on the homepage)
 - At least one user-reported exam pass using the tool
 
 ## Contact
@@ -121,4 +131,4 @@ Guadalajara, Mexico
 
 ---
 
-*Last Updated: 2026-03-03*
+_Last Updated: 2026-06-04_
