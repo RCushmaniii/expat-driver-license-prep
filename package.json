@@ -19,6 +19,8 @@
     "@astrojs/vercel": "^10.0.4",
     "@sentry/astro": "^10.47.0",
     "@sentry/node": "^10.47.0",
+    "@upstash/ratelimit": "^2.0.8",
+    "@upstash/redis": "^1.38.0",
     "@vercel/analytics": "^2.0.1",
     "astro": "^6.1.10",
     "marked": "^17.0.6",
