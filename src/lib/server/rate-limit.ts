@@ -1,6 +1,7 @@
 import { Ratelimit } from "@upstash/ratelimit";
 import { Redis } from "@upstash/redis";
 import { createLogger } from "@lib/logger";
+import { readEnv } from "@lib/server/env";
 
 const log = createLogger("rate-limit");
 
@@ -37,22 +38,6 @@ const ephemeralCache = new Map<string, number>();
 
 const limiterCache = new Map<string, LimiterPair | null>();
 let warnedDisabled = false;
-
-/**
- * Read an env var at RUNTIME.
- *
- * Vite statically inlines `import.meta.env.X` at build time — so a secret added
- * to Vercel *after* a build (or reused via build cache) gets baked in as
- * `undefined` and the limiter silently fails open. On Vercel's Node serverless
- * runtime, `process.env` holds the deployment's live env vars and is never
- * inlined for server routes, so it is the reliable source. `import.meta.env`
- * (dynamic key → not inlined) stays as a local-dev fallback.
- */
-function readEnv(name: string): string | undefined {
-  const fromProcess =
-    typeof process !== "undefined" ? process.env?.[name] : undefined;
-  return fromProcess ?? (import.meta.env[name] as string | undefined);
-}
 
 function getRedis(): Redis | null {
   const url = readEnv("UPSTASH_REDIS_REST_URL") ?? readEnv("KV_REST_API_URL");
