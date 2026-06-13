@@ -4,6 +4,40 @@ Entries are newest-first. Each entry documents one Claude Code working session.
 
 ---
 
+## Session: 2026-06-13
+
+### Accomplished
+
+- Connected Upstash Redis (Vercel marketplace, iad1, Pay-As-You-Go) and verified the rate limiter is enforcing in production: /api/ai/readiness returns 429 on the 6th request/min with a Retry-After header. Zero Claude spend during testing (limiter runs before body parsing, so malformed payloads exercise it free).
+- PR #43: fixed limiter failing open — Vite inlines `import.meta.env.X` at build time, so the KV\_\* vars added after PR #35's build baked in as undefined. Switched rate-limit.ts to read process.env at runtime.
+- Cross-repo `import.meta.env` sweep across all 6 Astro repos. Found the same trap in 3 more expat routes + ny-eng's neon.ts.
+- PR #44: extracted shared `readEnv` helper (src/lib/server/env.ts); explain.ts, readiness.ts, synthesize.ts, rate-limit.ts all use it. No import.meta.env secret reads remain in src/pages/api or src/lib/server.
+- PR #45: esbuild override >=0.28.1 (Dependabot #31, low, dev-server-only). Dependabot alerts back to 0.
+- ny-eng PR #193: same neon.ts POSTGRES_URL fix (separate repo, merged).
+
+### Decisions Made
+
+- Read all server-side secrets via process.env, never import.meta.env: the build-inlining trap fails silently on env add/rotate. Now a documented rule in env.ts.
+- Upstash Pay-As-You-Go over a fixed plan: ~$0.20/mo at our volume; no $0 Free tier offered in the Vercel flow.
+- Fixed ny-eng neon.ts despite being dead code: removes the landmine before the quiz-submission feature is built on it.
+
+### Immediate Next Steps
+
+- [ ] Decide on 5 routine Dependabot PRs (#38-#42); review @anthropic-ai/sdk 0.91.1→0.102.0 changelog before batching the set.
+- [ ] Build programmatic road-sign SEO pages (67 pages from sign-metadata.json).
+- [ ] Post Tier 1 distribution venues (docs/VENUE_POSTS.md).
+
+### Technical Debt
+
+- content/ vs public/data/ still hand-synced (fix-spanish.py double-writes); needs a validation/sync script before new regions.
+- Mid-exam state not persisted (refresh loses a run) — ExamSimulator.tsx.
+
+### Open Questions / Blockers
+
+- Whether @vercel/analytics custom events work on Hobby tier — blocks activation instrumentation; verify before building.
+
+---
+
 ## Session: 2026-06-04
 
 ### Accomplished
