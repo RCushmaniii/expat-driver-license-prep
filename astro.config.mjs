@@ -11,12 +11,10 @@ export default defineConfig({
   adapter: vercel(),
   integrations: [
     react(),
+    // Runtime SDK options (dsn, environment, sample rates) live in
+    // sentry.client.config.ts / sentry.server.config.ts. Only build-time
+    // source-map upload config belongs here.
     sentry({
-      dsn: process.env.SENTRY_DSN,
-      environment: process.env.VERCEL_ENV || "development",
-      tracesSampleRate: 0.2,
-      replaysSessionSampleRate: 0,
-      replaysOnErrorSampleRate: 1.0,
       sourceMapsUploadOptions: {
         enabled: !!process.env.SENTRY_AUTH_TOKEN,
         org: "cushlabsai",
@@ -30,5 +28,15 @@ export default defineConfig({
   ],
   vite: {
     plugins: [tailwindcss()],
+    // Inline the (public-by-design) Sentry DSN and deploy environment into the
+    // client bundle at build time. The browser cannot read the non-public
+    // SENTRY_DSN / VERCEL_ENV at runtime, so they are baked in here and
+    // consumed by sentry.client.config.ts.
+    define: {
+      __SENTRY_DSN__: JSON.stringify(process.env.SENTRY_DSN ?? ""),
+      __SENTRY_ENVIRONMENT__: JSON.stringify(
+        process.env.VERCEL_ENV || "development",
+      ),
+    },
   },
 });
