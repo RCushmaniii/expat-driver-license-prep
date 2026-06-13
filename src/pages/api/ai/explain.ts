@@ -2,6 +2,7 @@ import type { APIRoute } from "astro";
 import Anthropic from "@anthropic-ai/sdk";
 import { createLogger } from "@lib/logger";
 import { enforceRateLimit } from "@lib/server/rate-limit";
+import { readEnv } from "@lib/server/env";
 import { boundedArray, boundedString } from "@lib/server/api-validation";
 
 export const prerender = false;
@@ -21,7 +22,7 @@ export const POST: APIRoute = async ({ request }) => {
   });
   if (limited) return limited;
 
-  const apiKey = import.meta.env.ANTHROPIC_API_KEY;
+  const apiKey = readEnv("ANTHROPIC_API_KEY");
   if (!apiKey) {
     log.error("ANTHROPIC_API_KEY is not set");
     return new Response(

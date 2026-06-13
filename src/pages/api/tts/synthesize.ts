@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 import { createLogger } from "@lib/logger";
 import { enforceRateLimit } from "@lib/server/rate-limit";
+import { readEnv } from "@lib/server/env";
 
 export const prerender = false;
 
@@ -87,8 +88,8 @@ export const POST: APIRoute = async ({ request }) => {
       headers: { ...baseHeaders, "Content-Type": "application/json" },
     });
 
-  const apiKey = import.meta.env.AZURE_TTS_KEY;
-  const region = import.meta.env.AZURE_TTS_REGION || "eastus";
+  const apiKey = readEnv("AZURE_TTS_KEY");
+  const region = readEnv("AZURE_TTS_REGION") || "eastus";
   if (!apiKey) {
     log.error("AZURE_TTS_KEY is not configured");
     return json({ error: "TTS service not configured" }, 500);
