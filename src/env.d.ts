@@ -10,3 +10,8 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
+
+// Injected at build time via Vite `define` in astro.config.mjs and consumed by
+// sentry.client.config.ts.
+declare const __SENTRY_DSN__: string;
+declare const __SENTRY_ENVIRONMENT__: string;
