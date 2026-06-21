@@ -57,6 +57,21 @@ problem_solved: |
   state-specific question banks with quality translations, spaced repetition
   study tools, and step-by-step process guides.
 
+solution: |
+  ExpatDrive presents all 103 official Jalisco questions with polished bilingual translations,
+  explanations in both languages, and extracted vocabulary that teaches the answer and the
+  language at the same time. An SM-2 spaced-repetition system tracks mastery per question and
+  schedules reviews at optimal intervals, while a progress dashboard highlights weak categories
+  for targeted study. State-specific process guides cover documents, fees, office procedures, and
+  exam-day details, and a standardized content schema lets new regions be added as a content task
+  with no code changes.
+
+metrics:
+  - "Single destination replacing study scattered across forums, PDFs, and videos"
+  - "Spaced repetition focuses study time on weak areas instead of mastered content"
+  - "Bilingual presentation teaches both the correct answer and exam-day vocabulary"
+  - "Process guides remove the 'what do I even bring?' uncertainty before the exam"
+
 key_outcomes:
   - "103 official Jalisco questions translated, explained, and verified bilingually"
   - "Multiple study modes: practice exams, flashcards with SM-2 spaced repetition, vocabulary drills"
@@ -134,12 +149,14 @@ JSON question banks and Markdown process guides follow a standardized schema. Ad
 ## Results
 
 **For the End User:**
+
 - Single destination replacing fragmented study across forums, PDFs, and videos
 - Spaced repetition targets study time at weak areas instead of re-reviewing mastered content
 - Bilingual presentation teaches both the answer and the vocabulary needed on exam day
 - Process guides eliminate the "what do I even bring?" uncertainty
 
 **Technical Demonstration:**
+
 - Content architecture that scales internationally without code changes
 - Clean separation between static content delivery and interactive study features via islands
 - Storage abstraction pattern enabling smooth migration from localStorage to cloud database
