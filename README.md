@@ -123,7 +123,7 @@ Without keys, those features degrade gracefully — the rest of the app works no
 Business Solution Architect & Full-Stack Developer
 Guadalajara, Mexico
 
-🔗 [GitHub](https://github.com/RCushmaniii) • [LinkedIn](https://linkedin.com/in/robertcushman) • [Portfolio](https://cushlabs.ai) • [Contact](https://getexpatdrive.com/contact)
+🔗 [GitHub](https://github.com/RCushmaniii) • [LinkedIn](https://linkedin.com/in/robert-cushman3) • [Portfolio](https://cushlabs.ai) • [Contact](https://getexpatdrive.com/contact)
 
 ## License
 
