@@ -11,6 +11,20 @@ Sentry.init({
   tracesSampleRate: 0.2,
   replaysSessionSampleRate: 0,
   replaysOnErrorSampleRate: 1.0,
+  // Errors thrown by scripts the browser injects into our pages. These are not
+  // reachable from our bundle and nothing user-facing breaks, but they arrive
+  // as unhandled rejections on the page and each one otherwise burns a session
+  // replay against the quota.
+  ignoreErrors: [
+    // DuckDuckGo's iOS/macOS browser injects user scripts that call its native
+    // message broker. When the page origin isn't allowlisted for the feature
+    // being invoked, the broker rejects with BrokerError.policyRestriction,
+    // whose errorDescription is the literal string "invalid origin".
+    // See duckduckgo/apple-browsers UserScriptMessaging.swift.
+    "invalid origin",
+    // Benign layout notification the spec requires browsers to fire; not a fault.
+    "ResizeObserver loop",
+  ],
   integrations: [
     Sentry.browserTracingIntegration(),
     Sentry.replayIntegration(),
