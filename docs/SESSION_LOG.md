@@ -10,6 +10,9 @@ Entries are newest-first. Each entry documents one Claude Code working session.
 
 - Triaged production Sentry issue `invalid origin` on /countries/mexico/jalisco (ID ff2aafe0abfa4535b57f1739c5cb9110, DuckDuckGo Mobile 7 / iPhone / iOS 18.5). **Not our bug** — the string exists nowhere in src/, we have no postMessage/iframe/message-listener surface, and it arrived via onunhandledrejection. Root cause confirmed in DuckDuckGo's own Swift: `BrokerError.policyRestriction` returns errorDescription `"invalid origin"` in duckduckgo/apple-browsers `SharedPackages/BrowserServicesKit/Sources/UserScript/UserScriptMessaging.swift`. DDG's injected user scripts call its native message broker; an origin not allowlisted for the invoked feature rejects the promise into our page's JS context, where Sentry's global handler attributes it to our transaction.
 - PR #49 (merged, squash): added narrow `ignoreErrors` to sentry.client.config.ts for `"invalid origin"` and `"ResizeObserver loop"`, with provenance comments so this isn't re-litigated later. Verified `pnpm check` 0 errors (70 files), `pnpm test` 74/74.
+- Resolved the replay-quota question from Sentry v10 source: `ignoreErrors` DOES prevent the replay flush. `eventFilters` is a **client** event processor (integration `processEvent` → `client.addEventProcessor`); replay is a **global scope** processor (`addEventProcessor`); `prepareEvent` runs `[...clientEventProcessors, ...scopeEventProcessors]` ("Run scope event processors _after_ all other processors"); `_notifyEventProcessors` halts on first null. Filtered event never reaches replay's listener → no `flush()`.
+- Cross-repo audit: 8 of 10 CushLabs repos with Sentry had NO `ignoreErrors`/`beforeSend`, 7 of them with `replaysOnErrorSampleRate: 1.0` — all burning session replays on injected-script noise. Rolled the same filter to all 8, each squash-merged: ai-chatbot-saas #79, ai-filesense-website #33, cushlabs #189, cushlabs-image-portfolio #12, cushlabs-marketsignal #255, cushlabs-opportunity-engine #12, cushlabs-OS-dashboard #36, ny-english-coach #9. All 10 repos now filtered. Each config parse-checked (esbuild) before commit; only sentry.client.config.ts staged so pre-existing WIP (modified CLAUDE.md, untracked docs/) was left alone. Folded the staged vercel.json rollout into ai-filesense-website's commit per standing instruction.
+- Global CLAUDE.md, Sentry section: added "an error attributed to our page is not proof it's our error" (4-step triage order) and "every client-side Sentry config needs noise filtering" (audit check, ignoreErrors vs denyUrls, keep lists tight, escalate to beforeSend).
 
 ### Decisions Made
 
@@ -19,16 +22,16 @@ Entries are newest-first. Each entry documents one Claude Code working session.
 
 ### Immediate Next Steps
 
-- [ ] After the #49 deploy lands, confirm in Sentry that `invalid origin` events stop arriving AND that they no longer consume session replays — open question below.
 - [ ] Resume Sprint 5 follow-ons: distribution posts (docs/DISTRIBUTION_VENUES.md), programmatic road-sign SEO pages, PWA offline mode.
 
 ### Technical Debt
 
-- sentry.client.config.ts has `replaysOnErrorSampleRate: 1.0` with no `beforeSend`. Any future unfiltered third-party noise burns session replays 1:1 against the scarcest Sentry quota. If more injected-script noise appears, consider a `beforeSend` that drops events with no in-app stack frames instead of growing `ignoreErrors` pattern-by-pattern.
+- `ignoreErrors` is now duplicated across 10 repos. If the list grows past these 2 patterns, don't add patterns repo-by-repo — switch to a shared `beforeSend` that drops events with no in-app stack frames.
+- ai-chatbot-saas/sentry.client.config.ts was reformatted by the repo's formatter on save (tabs → spaces, 21 insertions / 9 deletions vs 12 insertions elsewhere). Diff is larger than the logical change; harmless, but noted so it isn't mistaken for a bigger edit.
 
 ### Open Questions / Blockers
 
-- Unverified whether Sentry's `ignoreErrors` drops an event early enough in the pipeline to prevent the buffered replay from flushing. Alert-noise reduction is certain; the replay-quota saving is not confirmed. Check against live Sentry post-deploy.
+- None. The replay-flush question is resolved from source (see Accomplished).
 
 ---
 
