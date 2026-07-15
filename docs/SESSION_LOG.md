@@ -4,6 +4,34 @@ Entries are newest-first. Each entry documents one Claude Code working session.
 
 ---
 
+## Session: 2026-07-15
+
+### Accomplished
+
+- Triaged production Sentry issue `invalid origin` on /countries/mexico/jalisco (ID ff2aafe0abfa4535b57f1739c5cb9110, DuckDuckGo Mobile 7 / iPhone / iOS 18.5). **Not our bug** — the string exists nowhere in src/, we have no postMessage/iframe/message-listener surface, and it arrived via onunhandledrejection. Root cause confirmed in DuckDuckGo's own Swift: `BrokerError.policyRestriction` returns errorDescription `"invalid origin"` in duckduckgo/apple-browsers `SharedPackages/BrowserServicesKit/Sources/UserScript/UserScriptMessaging.swift`. DDG's injected user scripts call its native message broker; an origin not allowlisted for the invoked feature rejects the promise into our page's JS context, where Sentry's global handler attributes it to our transaction.
+- PR #49 (merged, squash): added narrow `ignoreErrors` to sentry.client.config.ts for `"invalid origin"` and `"ResizeObserver loop"`, with provenance comments so this isn't re-litigated later. Verified `pnpm check` 0 errors (70 files), `pnpm test` 74/74.
+
+### Decisions Made
+
+- Filter via `ignoreErrors`, not `denyUrls`: the rejection originates natively and carries no filterable stack frames from a script URL.
+- Kept the filter list deliberately tight (2 patterns) rather than adding a broad third-party-noise blocklist — over-filtering would mask real errors, which is the exact problem being solved.
+- Ruled out the TTS route (src/pages/api/tts/synthesize.ts) as the source: it never throws that string, only omits the CORS header for disallowed origins, and a real CORS failure surfaces as `Failed to fetch`.
+
+### Immediate Next Steps
+
+- [ ] After the #49 deploy lands, confirm in Sentry that `invalid origin` events stop arriving AND that they no longer consume session replays — open question below.
+- [ ] Resume Sprint 5 follow-ons: distribution posts (docs/DISTRIBUTION_VENUES.md), programmatic road-sign SEO pages, PWA offline mode.
+
+### Technical Debt
+
+- sentry.client.config.ts has `replaysOnErrorSampleRate: 1.0` with no `beforeSend`. Any future unfiltered third-party noise burns session replays 1:1 against the scarcest Sentry quota. If more injected-script noise appears, consider a `beforeSend` that drops events with no in-app stack frames instead of growing `ignoreErrors` pattern-by-pattern.
+
+### Open Questions / Blockers
+
+- Unverified whether Sentry's `ignoreErrors` drops an event early enough in the pipeline to prevent the buffered replay from flushing. Alert-noise reduction is certain; the replay-quota saving is not confirmed. Check against live Sentry post-deploy.
+
+---
+
 ## Session: 2026-06-13
 
 ### Accomplished
