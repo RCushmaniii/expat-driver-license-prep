@@ -13,19 +13,19 @@
     "check": "astro check"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.91.1",
+    "@anthropic-ai/sdk": "^0.122.0",
     "@astrojs/react": "^5.0.3",
-    "@astrojs/sitemap": "^3.7.2",
+    "@astrojs/sitemap": "^3.7.3",
     "@astrojs/vercel": "^10.0.4",
-    "@sentry/astro": "^10.56.0",
-    "@sentry/node": "^10.56.0",
+    "@sentry/astro": "^10.72.0",
+    "@sentry/node": "^10.72.0",
     "@upstash/ratelimit": "^2.0.8",
-    "@upstash/redis": "^1.38.0",
+    "@upstash/redis": "^1.38.3",
     "@vercel/analytics": "^2.0.1",
     "astro": "^6.1.10",
-    "marked": "^18.0.5",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "marked": "^18.0.11",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "pnpm": {
     "overrides": {
@@ -45,13 +45,13 @@
     }
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.8",
-    "@tailwindcss/vite": "^4.2.2",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "sharp": "^0.35.0",
-    "tailwindcss": "^4.2.2",
+    "@astrojs/check": "^0.9.10",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3",
-    "vitest": "^4.1.8"
+    "vitest": "^4.1.11"
   }
 }
