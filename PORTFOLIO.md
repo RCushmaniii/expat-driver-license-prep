@@ -5,7 +5,7 @@
 portfolio_enabled: true
 portfolio_priority: 18
 portfolio_featured: false
-portfolio_last_reviewed: "2026-04-06"
+portfolio_last_reviewed: "2026-09-13"
 
 title: "ExpatDrive — Bilingual Driver's License Exam Prep"
 tagline: "Pass your driver's license exam in any country — even if you don't speak the language yet."
